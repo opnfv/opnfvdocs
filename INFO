@@ -1,0 +1,23 @@
+Project: OPNFV documentation project (opnfvdocs)
+Project Creation Date: March 31, 2015
+Project Category: Documentation
+Lifecycle State: Incubation
+Primary Contact: Christopher Price (christopher.price@ericsson.com)
+Project Lead: Christopher Price (christopher.price@ericsson.com)
+Jira Project Name: OPNFV documentation project
+Jira Project Prefix: DOCS
+Mailing list tag: [docs]
+IRC: Server:freenode.net Channel:#opnfv
+Repository: opnfvdocs
+
+Committers:
+christopher.price@ericsson.com
+wenjing_chu@dell.com
+khan@nttdocomo.com
+fatih.degirmenci@ericsson.com
+Iben.Rodriguez@spirent.com
+sama@docomolab-euro.com
+
+
+Link to TSC approval of the project: http://ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-03-31-13.56.html
+Link(s) to approval of additional committers:
