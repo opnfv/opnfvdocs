@@ -1,18 +1,16 @@
-:Authors:
-    Jonas Bjurel (Ericsson)
-    :Version: 0.1
+:Authors: Jonas Bjurel (Ericsson)
+:Version: 0.1
 
-==================================================================
-Release Note for OPNFV "Arno release" - < Component denomination >
-==================================================================
+======================================================================
+OPNFV Release Note for "Arno-SRx release" - < Component denomination >
+======================================================================
 
 Abstract
 ========
 
-This document describes delivery revision information from the CEE 15A
-project.
+This document provides the release notes for <RELEASE> of <COMPONENT>.
 
-Licence
+License
 =======
 <WORK'S NAME> (c) by <AUTHOR'S NAME>
 
@@ -42,7 +40,7 @@ Licence
 | **Date**           | **Ver.**           | **Author**         | **Comment**        |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| 2015-04-14         | 0.1.0              | UABJONB            | First draft        |
+| 2015-04-14         | 0.1.0              | Jonas Bjurel       | First draft        |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 |                    | 0.1.1              |                    |                    |
@@ -50,13 +48,12 @@ Licence
 +--------------------+--------------------+--------------------+--------------------+
 |                    | 1.0                |                    |                    |
 |                    |                    |                    |                    |
-|                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 
 2   Important notes
 ===================
 
-<STATE IMPORTANT NOTES/DEVIATIONS SINCE PREVIOUS ITTERATIVE RELEASE AND OTHER IMPORTANT NOTES FOR THIS RELEASE>
+<STATE IMPORTANT NOTES/DEVIATIONS SINCE PREVIOUS ITERATIVE RELEASE AND OTHER IMPORTANT NOTES FOR THIS RELEASE>
 
 <EXAMPLE>:
 
@@ -69,11 +66,11 @@ Licence
 
 <EXAMPLE>:
 
-Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but adds OPNFV unique components such as OpenDaylight version: Helium as well as other OPNFV unique configurations......
+Arno Fuel@OPNFV is based the OpenStack Fuel upstream project version 6.0.1, but adds OPNFV unique components such as OpenDaylight version: Helium as well as other OPNFV unique configurations......
 
 4   Release Data
 ================
-<STATE RELEVANT RELEASE DATA/RECCORDS>
+<STATE RELEVANT RELEASE DATA/RECORDS>
 
 <EXAMPLE>:
 
@@ -81,7 +78,7 @@ Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but a
 | **Project**                          | E.g. Arno/genesis/fuel@opnfv         |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Repo/commitID**                    | E.g. genesis/adf634a0d4.....         |
+| **Repo/commit-ID**                   | E.g. genesis/adf634a0d4.....         |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 | **Release designation**              | E.g. Arno RC2                        |
@@ -113,8 +110,7 @@ Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but a
 
 <EXAMPLE>:
 
-- The Fuel@OPNFV installation guide version has cheanged from version 0.1 to to 0.2
-
+- The Fuel@OPNFV installation guide version has changed from version 0.1 to to 0.2
 
 4.2 Reason for version
 ----------------------
@@ -130,10 +126,10 @@ Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but a
 | **JIRA REFERENCE**                   | **SLOGAN**                           |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| BGS-123                              | ADD OpenDaylight ML2 integration     |
+| BGS-123                              | ADD OpenDaylight ml2 integration     |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| BGS-456                              | Add autodeployment of Fuel@OPNFV     |
+| BGS-456                              | Add auto-deployment of Fuel@OPNFV    |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -153,21 +149,20 @@ Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but a
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
-
 4.3 Deliverables
 ----------------
 
 4.3.1   Software deliverables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<STATE WHAT SOFTWARE DELIVERABLES THAT ARE RELATED TO THIS VERSION, AND WHERE THOSE CAN BE RETREIVED>
+<STATE WHAT SOFTWARE DELIVERABLES THAT ARE RELATED TO THIS VERSION, AND WHERE THOSE CAN BE RETRIEVED>
 
 <EXAMPLE>:
 
 4.3.2   Documentation deliverables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<STATE WHAT DOCUMENTATION DELIVERABLES THAT ARE RELATED TO THIS VERSION, AND WHERE THOSE CAN BE RETREIVED>
+<STATE WHAT DOCUMENTATION DELIVERABLES THAT ARE RELATED TO THIS VERSION, AND WHERE THOSE CAN BE RETRIEVED>
 
 <EXAMPLE>:
 
@@ -176,7 +171,7 @@ Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but a
 
 5.1    System Limitations
 -------------------------
-<STATE ALL RELLEVANT SYSTEM LIMITATIONS>
+<STATE ALL RELEVANT SYSTEM LIMITATIONS>
 
 <EXAMPLE>:
 
@@ -186,7 +181,7 @@ Arno Fuel@OPNFV is based the OpenStack Fuel upstrem project version 6.0.1, but a
 
 **Storage:**    Ceph is the only supported storage configuration.
 
-**Max number of networks:**   3800 (Needs special switch config)
+**Max number of networks:**   3800 (Needs special switch config.)
 
 **L3Agent:**   L3 agent and floating IPs is not supported.
 
@@ -239,7 +234,7 @@ Fuel@OPNFV Arno RC2 has undergone QA test runs with the following results:
 |                                      |                                      |
 |                                      | 2. Heat deploy....                   |
 +--------------------------------------+--------------------------------------+
-| Robot sest suite 456                 | Following tests failed:              |
+| Robot test suite 456                 | Following tests failed:              |
 |                                      |                                      |
 |                                      | 1.......                             |
 |                                      |                                      |
@@ -253,4 +248,5 @@ Fuel@OPNFV Arno RC2 has undergone QA test runs with the following results:
 <EXAMPLE>:
 
 For more information on the OPNFV Arno release, please see:
+
 http://wiki.opnfv.org/release/arno
