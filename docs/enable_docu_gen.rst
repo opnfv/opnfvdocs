@@ -19,68 +19,199 @@ How to setup the workflow of documentation build for your project
   a quick guide: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 
-**Clone the releng repository so you can created jobs for JJB**
+**Clone the releng repository so you can created jobs for JJB**::
 
 git clone ssh://<username>@gerrit.opnfv.org:29418/releng
 
+Enter the project settings::
+
 cd releng/jjb/<project>/
 
-Create build-docu.sh with the following content:
--------------------------------------------------
 
-``#!/bin/bash
+**Create build-docu.sh**
+
+The script is the same for most of the projects and you can just copy it under your project in releng/jjb/<project>/
+
+example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
+
+#!/bin/bash
 set -xv
 for file in $(find . -type f -iname '*.rst'); do
- file_cut="${{file%.*}}"
- html_file=$file_cut".html"
- pdf_file=$file_cut".pdf"
- rst2html $file > $html_file
- rst2pdf $file -o $pdf_file
-done``
+        file_cut="${{file%.*}}"
+        html_file=$file_cut".html"
+        pdf_file=$file_cut".pdf"
+        rst2html $file > $html_file
+        rst2pdf $file -o $pdf_file
+done
 
 
 
-Edit <project>.yml and make sure you have the job-templates set as in the example below:
+**Edit <your-project>.yml**::
+
+vi releng/jjb/<your-project>/<your-project>.yml
 
 
-``- job-template:
+Make sure you have the job-templates set right
+
+example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" section)::
+
+- job-template:
     name: 'opnfvdocs-daily-{stream}'
-    <more code present>
+
+    # Job template for daily builders
+    #
+    # Required Variables:
+    #     stream:    branch with - in place of / (eg. stable)
+    #     branch:    branch (eg. stable)
+
+    project-type: freestyle
+
+    logrotate:
+        daysToKeep: '{build-days-to-keep}'
+        numToKeep: '{build-num-to-keep}'
+        artifactDaysToKeep: '{build-artifact-days-to-keep}'
+        artifactNumToKeep: '{build-artifact-num-to-keep}'
+
+    parameters:
+        - project-parameter:
+            project: '{project}'
+
+    scm:
+        - git-scm:
+            credentials-id: '{ssh-credentials}'
+            refspec: ''
+            branch: '{branch}'
+
+    wrappers:
+        - ssh-agent-credentials:
+            user: '{ssh-credentials}'
+
+    triggers:
+        - timed: 'H H * * *'
+
     builders:
         - shell:
             !include-raw build-docu.sh
         - shell: |
-           gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-           gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
-
-
+            echo $PATH
+            /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
+            /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
 
 - job-template:
     name: 'opnfvdocs-verify'
-    <more code present>
+
+    project-type: freestyle
+
+    logrotate:
+        daysToKeep: 30
+        numToKeep: 10
+        artifactDaysToKeep: -1
+        artifactNumToKeep: -1
+
+    parameters:
+        - project-parameter:
+            project: '{project}'
+        - gerrit-parameter:
+            branch: 'master'
+    scm:
+        - gerrit-trigger-scm:
+            credentials-id: '{ssh-credentials}'
+            refspec: '$GERRIT_REFSPEC'
+            choosing-strategy: 'gerrit'
+
+    wrappers:
+        - ssh-agent-credentials:
+            user: '{ssh-credentials}'
+
+    triggers:
+        - gerrit:
+            trigger-on:
+                - patchset-created-event:
+                    exclude-drafts: 'false'
+                    exclude-trivial-rebase: 'false'
+                    exclude-no-code-change: 'false'
+                - draft-published-event
+                - comment-added-contains-event:
+                    comment-contains-value: 'recheck'
+                - comment-added-contains-event:
+                    comment-contains-value: 'reverify'
+            projects:
+              - project-compare-type: 'ANT'
+                project-pattern: 'opnfvdocs'
+                branches:
+                  - branch-compare-type: 'ANT'
+                    branch-pattern: '**/master'
+
     builders:
         - shell:
             !include-raw build-docu.sh
 
-
-
 - job-template:
     name: 'opnfvdocs-merge'
-    <more code present>
+
+    # builder-merge job to run JJB update
+    #
+    # This job's purpose is to update all the JJB
+
+    project-type: freestyle
+
+    logrotate:
+        daysToKeep: 30
+        numToKeep: 40
+        artifactDaysToKeep: -1
+        artifactNumToKeep: 5
+
+    parameters:
+        - project-parameter:
+            project: '{project}'
+        - gerrit-parameter:
+            branch: 'master'
+
+    scm:
+        - gerrit-trigger-scm:
+            credentials-id: '{ssh-credentials}'
+            refspec: ''
+            choosing-strategy: 'default'
+
+    wrappers:
+        - ssh-agent-credentials:
+            user: '{ssh-credentials}'
+
+    triggers:
+        - gerrit:
+            trigger-on:
+                - change-merged-event
+                - comment-added-contains-event:
+                    comment-contains-value: 'remerge'
+            projects:
+              - project-compare-type: 'ANT'
+                project-pattern: 'opnfvdocs'
+                branches:
+                    - branch-compare-type: 'ANT'
+                      branch-pattern: '**/master'
+
     builders:
         - shell:
             !include-raw build-docu.sh
         - shell: |
-           gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-           gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/``
+           /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
+           /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
 
 
 
-git add  build-docu.sh <project>.yml
+Stage files::
 
-git commit --signoff                              #add the proper message to commit
+ git add  build-docu.sh <project>.yml
 
-git review -v
+Commit change with --signoff::
+
+ git commit --signoff
+
+
+Send code for review in Gerrit::
+
+ git review -v
+
 
 
 
@@ -129,15 +260,14 @@ if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cl
       - takes some time to customize the output in matters of template, requires custom html header/footer
       - latex suite is quite substantial in amount of packages and consumed space (around 1.2 GB)
 
- Tested: roughly, functional tbeeingests only
+ Tested: roughly, functional tests only
 
 
 
 2. Maven & clouddocs-maven-plugin (actually used to generate openstack-manuals)
 --------------------------------------------------------------------------------
 
- Description: It represents the standard tool to generate Openstack documentation manuals, uses maven, maven plugins, clouddocs-maven-plugins; location of finally generated files is the object of a small
-Bash script that will reside as Post-actions
+ Description: It represents the standard tool to generate Openstack documentation manuals, uses maven, maven plugins, clouddocs-maven-plugins; location of finally generated files is the object of a small Bash script that will reside as Post-actions
 
  Input files: .xml
 
