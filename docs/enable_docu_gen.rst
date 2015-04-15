@@ -19,68 +19,84 @@ How to setup the workflow of documentation build for your project
   a quick guide: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 
 
-**Clone the releng repository so you can created jobs for JJB**
+**Clone the releng repository so you can created jobs for JJB**::
 
-git clone ssh://<username>@gerrit.opnfv.org:29418/releng
+ git clone ssh://<username>@gerrit.opnfv.org:29418/releng
 
-cd releng/jjb/<project>/
+Enter the project settings::
 
-Create build-docu.sh with the following content:
--------------------------------------------------
-
-``#!/bin/bash
-set -xv
-for file in $(find . -type f -iname '*.rst'); do
- file_cut="${{file%.*}}"
- html_file=$file_cut".html"
- pdf_file=$file_cut".pdf"
- rst2html $file > $html_file
- rst2pdf $file -o $pdf_file
-done``
+ cd releng/jjb/<project>/
 
 
+**Create build-docu.sh**
 
-Edit <project>.yml and make sure you have the job-templates set as in the example below:
+The script is the same for most of the projects and you can just copy it under your project in releng/jjb/<project>/
 
+example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
 
-``- job-template:
-    name: 'opnfvdocs-daily-{stream}'
-    <more code present>
-    builders:
-        - shell:
-            !include-raw build-docu.sh
-        - shell: |
-           gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-           gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
+ #!/bin/bash
+ set -xv
+ for file in $(find . -type f -iname '*.rst'); do
+  file_cut="${{file%.*}}"
+  html_file=$file_cut".html"
+  pdf_file=$file_cut".pdf"
+  rst2html $file > $html_file
+  rst2pdf $file -o $pdf_file
+ done
 
 
 
-- job-template:
-    name: 'opnfvdocs-verify'
-    <more code present>
-    builders:
-        - shell:
-            !include-raw build-docu.sh
+**Edit <your-project>.yml**::
+
+ vi releng/jjb/<your-project>/<your-project>.yml
 
 
+Make sure you have the job-templates set right
 
-- job-template:
-    name: 'opnfvdocs-merge'
-    <more code present>
-    builders:
-        - shell:
-            !include-raw build-docu.sh
-        - shell: |
-           gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-           gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/``
+example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" section)::
+
+ - job-template:
+        name: 'opnfvdocs-daily-{stream}'
+        ...
+        builders:
+                - shell:
+                        !include-raw build-docu.sh
+                - shell: |
+                        echo $PATH
+                        /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
+                        /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
+
+ - job-template:
+        name: 'opnfvdocs-verify'
+        ...
+        builders:
+                - shell:
+                        !include-raw build-docu.sh
+
+ - job-template:
+        name: 'opnfvdocs-merge'
+        ...
+        builders:
+                - shell:
+                        !include-raw build-docu.sh
+                - shell: |
+                        /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
+                /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
 
 
+Stage files::
 
-git add  build-docu.sh <project>.yml
+ git add  build-docu.sh <project>.yml
 
-git commit --signoff                              #add the proper message to commit
+Commit change with --signoff::
 
-git review -v
+ git commit --signoff
+
+
+Send code for review in Gerrit::
+
+ git review -v
+
 
 
 
@@ -129,15 +145,14 @@ if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cl
       - takes some time to customize the output in matters of template, requires custom html header/footer
       - latex suite is quite substantial in amount of packages and consumed space (around 1.2 GB)
 
- Tested: roughly, functional tbeeingests only
+ Tested: roughly, functional tests only
 
 
 
 2. Maven & clouddocs-maven-plugin (actually used to generate openstack-manuals)
 --------------------------------------------------------------------------------
 
- Description: It represents the standard tool to generate Openstack documentation manuals, uses maven, maven plugins, clouddocs-maven-plugins; location of finally generated files is the object of a small
-Bash script that will reside as Post-actions
+ Description: It represents the standard tool to generate Openstack documentation manuals, uses maven, maven plugins, clouddocs-maven-plugins; location of finally generated files is the object of a small Bash script that will reside as Post-actions
 
  Input files: .xml
 
