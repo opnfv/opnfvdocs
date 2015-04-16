@@ -127,6 +127,8 @@ http://artifacts.opnfv.org/
 
 example: http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.pdf
 
+Here you can download the PDF version of this guide.
+
 
 **Scrape content from html artifacts on wiki**
 
@@ -141,9 +143,6 @@ example::
 Please try to write documentation as accurate and clear as possible as once reviewed and merged it will be automatically built and displayed on Wiki and everyone would apreciate a good written/nice looking guide.
 
 
-**Download the PDF version of this documentation**
-
-`enable_docu_gen.pdf <http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.pdf >`
 
 NOTE:
 ------
