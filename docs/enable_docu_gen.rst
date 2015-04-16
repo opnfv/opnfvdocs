@@ -65,35 +65,36 @@ Make sure you have the job-templates set right
 example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" sections)::
 
  - job-template:
-        name: 'opnfvdocs-daily-{stream}'
-        ...
-        builders:
-                - shell:
-                        !include-raw build-docu.sh
-                - shell: |
-                        echo $PATH
-                        /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-                        /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
-
-
- - job-template:
-        name: 'opnfvdocs-verify'
-        ...
-        builders:
-                - shell:
-                        !include-raw build-docu.sh
-
+    name: 'opnfvdocs-daily-{stream}'
+    ...
+    builders:
+        - shell:
+            !include-raw build-docu.sh
+        - shell: |
+            echo $PATH
+            /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
+            /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
 
  - job-template:
-        name: 'opnfvdocs-merge'
-        ...
-        builders:
-                - shell:
-                        !include-raw build-docu.sh
-                - shell: |
-                        /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-                /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
+    name: 'opnfvdocs-verify'
+    ...
+    builders:
+        - shell:
+            !include-raw build-docu.sh
 
+ - job-template:
+    name: 'opnfvdocs-merge'
+    ...
+    builders:
+        - shell:
+            !include-raw build-docu.sh
+        - shell: |
+           /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
+           /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
+
+
+Please reffer to the releng repository for the correct indentation as JJB is very picky with those and also for the rest of the code that is missing in the example code and replaced by "...".
+Also you must have your documentation under docs/ in the repository or gsutil will fail to copy them; for customizations you might need to addapt build-docu.sh as we did for genesis project as different documents need to go into different places.
 
 
 Stage files::
@@ -129,100 +130,26 @@ example: http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.pdf
 
 **Scrape content from html artifacts on wiki**
 
-example of what you sould write on wiki, below::
+This section describes how the html build artifacts can be made visible on Wiki using he scrape method.
+In order to have you documentation on Wiki you need to create a wiki page and include an adaption of the code below:
+
+example::
 
  {{scrape>http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.html}}
 
 
+Please try to write documentation as accurate and clear as possible as once reviewed and merged it will be automatically built and displayed on Wiki and everyone would apreciate a good written/nice looking guide.
+
+
+**Download the PDF version of this documentation**
+
+`enable_docu_gen.pdf <http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.pdf >`
+
 NOTE:
 ------
 
-In order to generate html & pdf documentation the needed packages are rst2pdf & python-docutils if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cleanest as a solution.
+In order to generate html & pdf documentation the needed packages are rst2pdf & python-docutils if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cleanest solution found.
+For html generation it also supports css styles if needed.
 
-
-
-
-**Other options to generate documentation that we tested:**
-
-
-**Doxygen plugin -> HTML published plugin (html)/ LaTeX (pdf)**
-
-
-Description: This was the first discovered method
-
-- html: using Doxygen plugin + HTML publisher
-  It involves some customization at doxygen level + custom html header/footer
-
-- pdf: it generates a .pdf using latex
-
-- Input files: .md , .rst
-
-- Output: .html & .pdf
-
-- Pros:
-
-      - standard tools: doxygen, html publisher, LaTeX suite
-      - doxygen plugin available in Jenkins, you just need to install it; html publisher plugin available in Jenkins, you just need to install it
-      - destination files are generated fast
-      - standard reStructuredText or Markdown
-
-- Cons:
-
-      - takes some time to customize the output in matters of template, requires custom html header/footer
-      - latex suite is quite substantial in amount of packages and consumed space (around 1.2 GB)
-
-- Tested: roughly, functional tests only
-
-
-
-**Maven & clouddocs-maven-plugin (actually used to generate openstack-manuals)**
-
-
-Description: It represents the standard tool to generate Openstack documentation manuals, uses maven, maven plugins, clouddocs-maven-plugins; location of finally generated files is the object of a small Bash script that will reside as Post-actions
-
-- Input files: .xml
-
-- Output: .html & .pdf
-
-- Pros:
-
-      - quite easy for initial setup
-      - uses openstack documentation generation flows as for openstack-manuals (clouddocs-maven-plugin), maven installs all you need generate the documentation
-
-- Cons:
-
-      - could be tricky to generate a custom layout, knowledge about Maven plugins required, .pom editing
-      - dependent of multiple maven plugins
-      - input files are .xml and xml editing knowledge is required
-
-- Tested: roughly, functional tests only
-
-
-
-**Sphinx & LaTeX suite**
-
-
-Description: The easiest to install, the cleanest in matter of folder & files structure, uses standard tools available in repositories; location of finally generated files is the object of a small Bash script that will reside as Post-actions
-
-- Input files: .rst as default
-
-- Output: .html & .pdf
-
-- Pros:
-
-      - standard tools: Python Sphinx, LaTeX suite
-      - destination files are generated fast
-      - standard reStructuredText as default; other inputs can be configured
-      - Sphinx's installation is very clean in matters of folder structure; the cleanest from all tested variants
-      - latex suite is also easy to install via yum/apt and available in general repos
-      - everyone is migration from other tools to Spinx lately; it provides more control and better looking documentation
-      - can be used also for source-code documentation, specially if you use Python
-
-- Cons:
-
-      - takes some time to customize the output in matters of template, requires custom html header/footer
-      - latex suite is quite substantial in amount of packages and consumed space (around 1.2 GB)
-
-- Tested: roughly, functional tests only
 
 
