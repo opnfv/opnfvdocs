@@ -177,7 +177,7 @@ Etc.
 --------------------------------
 
 7   Installation health-check
-============================
+=============================
 <DESCRIBE ANY MEANS TO DO VERIFY THE INTEGRITY AND HEALTHYNESS OF THE INSTALL>
 
 <EXAMPLE>:
