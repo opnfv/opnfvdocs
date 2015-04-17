@@ -92,4 +92,9 @@ Proposed Release Schedule:
   - Iterative improvements to the processes and toolchains are expected on a release by release basis.
 
 
+**Documentation tracking**
+
++-----------------+---------------------------------------------------------+
+| Revision        | ${GIT_REVISION}                                         |
++-----------------+---------------------------------------------------------+
 
