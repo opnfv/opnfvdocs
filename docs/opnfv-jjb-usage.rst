@@ -29,6 +29,7 @@ Job Types
  * Trigger: **recheck** or **reverify**
 
 * Merge Job
+
  * Trigger: **remerge**
 
 The verify and merge jobs are retriggerable in Gerrit by simply leaving a comment with one of the keywords listed above. This is useful in case you need to re-run one of those jobs in case if build issues or something changed with the environment.
