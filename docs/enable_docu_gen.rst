@@ -1,7 +1,6 @@
 How to setup the workflow of automatic documentation build for your project
 ----------------------------------------------------------------------------
 
-
 **Setup you repository and then clone locally**::
 
  ssh-add your-ssh.key
@@ -18,10 +17,17 @@ How to setup the workflow of automatic documentation build for your project
                                     /other-docus.rst
                                     /images/*.png|*.jpg
 
+More details about the default structure you can find `here <https://wiki.opnfv.org/documentation>`_ at paragraph "How and where to store the document content files in your repository".
 
 **In order to obtain a nice .html & .pdf at then end you must write you documentation using reSt markup**
 
-quick guide: http://docutils.sourceforge.net/docs/user/rst/quickref.html
+quick guides: 
+
+* http://docutils.sourceforge.net/docs/user/rst/quickref.html
+* http://rest-sphinx-memo.readthedocs.org/en/latest/ReST.html
+* http://www.math.uiuc.edu/~gfrancis/illimath/windows/aszgard_mini/movpy-2.0.0-py2.4.4/manuals/docutils/ref/rst/directives.html
+
+An `nice online editor <http://rst.ninjs.org/>`_ that will help you write reSt and see your changes live. After done editing you can copy the source document in the repository and follow the workflow.
 
 
 **Clone the releng repository so you can created jobs for JJB**::
@@ -54,13 +60,12 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
  #the double {{ in file_cut="${{file%.*}}" is to escape jjb's yaml
 
 
-
 **Edit <your-project>.yml**::
 
  vi releng/jjb/<your-project>/<your-project>.yml
 
 
-Make sure you have the job-templates set right
+Make sure you have the job-templates set correctly as below.
 
 example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" sections)::
 
@@ -101,6 +106,7 @@ Stage files::
 
  git add  build-docu.sh <project>.yml
 
+
 Commit change with --signoff::
 
  git commit --signoff
@@ -111,9 +117,7 @@ Send code for review in Gerrit::
  git review -v
 
 
-
-
-**Create the documentation using the recommended structure in your repository and submit to gerrit for review**
+Create the documentation using the recommended structure in your repository and submit to gerrit for review
 
 
 **Jenkins will take over and produce artifacts in the form of .html & .pdf**
@@ -125,9 +129,8 @@ Jenkins has the proper packages installed in order to produce the artifacts.
 
 http://artifacts.opnfv.org/
 
-example: http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.pdf
 
-Here you can download the PDF version of this guide.
+`Here you can download the PDF version <http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.pdf>`_ of this guide.
 
 
 **Scrape content from html artifacts on wiki**
