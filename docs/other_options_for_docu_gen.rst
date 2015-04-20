@@ -74,3 +74,10 @@ Description: The easiest to install, the cleanest in matter of folder & files st
 
 - Tested: roughly, functional tests only
 
+
+
+**Documentation tracking**
+
+Revision: _sha1_
+
+Build date:  _date_
