@@ -94,7 +94,8 @@ Proposed Release Schedule:
 
 **Documentation tracking**
 
- Revision: _sha1_
- Build date:  _date_
+Revision: _sha1_
+
+Build date:  _date_
 
 

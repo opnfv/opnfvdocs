@@ -1,6 +1,11 @@
 :Authors: Jonas Bjurel (Ericsson)
 :Version: 0.1
 
+Revision: _sha1_
+
+Build date:  _date_
+
+
 ======================================================================
 OPNFV Release Note for "Arno-SRx release" - < Component denomination >
 ======================================================================

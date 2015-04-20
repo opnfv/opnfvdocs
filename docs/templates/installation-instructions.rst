@@ -1,6 +1,11 @@
 :Authors: Jonas Bjurel (Ericsson)
 :Version: 0.1
 
+Revision: _sha1_
+
+Build date:  _date_
+
+
 ================================================================
 OPNFV Installation instructions for - < Component denomination >
 ================================================================
@@ -217,3 +222,5 @@ Change the Host OS password by......
 
 9.4    Fuel
 ------------
+
+
