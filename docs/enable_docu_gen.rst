@@ -12,16 +12,22 @@ How to setup the workflow of automatic documentation build for your project
 
 **Inside the repository create the following structure:**::
 
-   gerrit.opnfv.org/<project> - docs/
-                                    /main.rst
-                                    /other-docus.rst
-                                    /images/*.png|*.jpg
+   gerrit.opnfv.org/<project>/docs/some-project-description.rst
+                                  /other-doc-1.rst
+                                  /images/*.png|*.jpg
+
+                              docs/release/some-release-doc.rst
+
+                              requirements/requirements.rst
+
+                              design_docs/some-design-doc.rst
+
 
 More details about the default structure you can find `here <https://wiki.opnfv.org/documentation>`_ at paragraph "How and where to store the document content files in your repository".
 
 **In order to obtain a nice .html & .pdf at then end you must write you documentation using reSt markup**
 
-quick guides: 
+quick guides:
 
 * http://docutils.sourceforge.net/docs/user/rst/quickref.html
 * http://rest-sphinx-memo.readthedocs.org/en/latest/ReST.html
@@ -47,16 +53,47 @@ The script is the same for most of the projects and you can just copy it under y
 example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
 
  #!/bin/bash
- set -xv
- for file in $(find . -type f -iname '*.rst'); do
-        file_cut="${{file%.*}}"
-        html_file=$file_cut".html"
-        pdf_file=$file_cut".pdf"
-        rst2html $file > $html_file
-        rst2pdf $file -o $pdf_file
+ project="functest"
+ export PATH=$PATH:/usr/local/bin/
+
+ git_sha1="$(git rev-parse HEAD)"
+ docu_build_date="$(date)"
+
+ files=()
+ while read -r -d ''; do
+         files+=("$REPLY")
+ done < <(find * -type f -iname '*.rst' -print0)
+
+ for file in "${{files[@]}}"; do
+
+         file_cut="${{file%.*}}"
+         gs_cp_folder="${{file_cut}}"
+
+         # sed part
+         sed -i "s/_sha1_/$git_sha1/g" $file
+         sed -i "s/_date_/$docu_build_date/g" $file
+
+         # rst2html part
+         echo "rst2html $file"
+         rst2html $file | gsutil cp -L gsoutput.txt - \
+         gs://artifacts.opnfv.org/"$project"/"$gs_cp_folder".html
+         gsutil setmeta -h "Content-Type:text/html" \
+                        -h "Cache-Control:private, max-age=0, no-transform" \
+                        gs://artifacts.opnfv.org/"$project"/"$gs_cp_folder".html
+         cat gsoutput.txt
+         rm -f gsoutput.txt
+
+         echo "rst2pdf $file"
+         rst2pdf $file -o - | gsutil cp -L gsoutput.txt - \
+         gs://artifacts.opnfv.org/"$project"/"$gs_cp_folder".pdf
+         gsutil setmeta -h "Content-Type:application/pdf" \
+                        -h "Cache-Control:private, max-age=0, no-transform" \
+                        gs://artifacts.opnfv.org/"$project"/"$gs_cp_folder".pdf
+         cat gsoutput.txt
+         rm -f gsoutput.txt
+
  done
 
- 
  #the double {{ in file_cut="${{file%.*}}" is to escape jjb's yaml
 
 
@@ -75,10 +112,6 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
     builders:
         - shell:
             !include-raw build-docu.sh
-        - shell: |
-            echo $PATH
-            /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-            /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
 
  - job-template:
     name: 'opnfvdocs-verify'
@@ -93,9 +126,6 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
     builders:
         - shell:
             !include-raw build-docu.sh
-        - shell: |
-           /usr/local/bin/gsutil cp docs/*.pdf gs://artifacts.opnfv.org/opnfvdocs/docs/
-           /usr/local/bin/gsutil cp docs/*.html gs://artifacts.opnfv.org/opnfvdocs/docs/
 
 
 Please reffer to the releng repository for the correct indentation as JJB is very picky with those and also for the rest of the code that is missing in the example code and replaced by "...".
@@ -148,6 +178,19 @@ Please try to write documentation as accurate and clear as possible as once revi
 If you want to see on wiki what code is scraped from the built artifacts click "Show pagesource" in the right (it will appear if you hover over the magnifier icon); this way you know what is written straight on wiki and what is embedded with "scrape". By knowing these details you will be able to prevent damages by manually updating wiki.
 
 
+**How to track documentation**
+
+You must include at the bottom of every document that you want to track the following::
+
+ **Documentation tracking**
+
+ Revision: _sha1
+
+ Build date:  _date
+
+ # add one "_" at the end of each trigger variable (they have also a prefix "_") when inserting them into documents to enable auto-replacement
+
+
 
 NOTE:
 ------
@@ -155,5 +198,11 @@ NOTE:
 In order to generate html & pdf documentation the needed packages are rst2pdf & python-docutils if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cleanest solution found.
 For html generation it also supports css styles if needed.
 
+
+**Documentation tracking**
+
+Revision: _sha1_
+
+Build date:  _date_
 
 
