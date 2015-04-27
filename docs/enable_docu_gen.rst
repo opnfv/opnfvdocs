@@ -143,6 +143,8 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
 
  - job-template:
     name: 'opnfvdocs-daily-{stream}'
+
+    node: master
     ...
     builders:
         - shell:
@@ -150,6 +152,8 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
 
  - job-template:
     name: 'opnfvdocs-verify'
+
+    node: master
     ...
     builders:
         - shell:
@@ -157,6 +161,8 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
 
  - job-template:
     name: 'opnfvdocs-merge'
+
+    node: master
     ...
     builders:
         - shell:
