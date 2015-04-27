@@ -73,3 +73,13 @@ Description: The easiest to install, the cleanest in matter of folder & files st
 Revision: _sha1_
 
 Build date:  _date_
+
+**Test image inclusion for html**
+
+.. image:: images/smiley.png
+   :height: 200
+   :width: 200
+   :alt: Just a smiley face!
+   :align: left
+
+
