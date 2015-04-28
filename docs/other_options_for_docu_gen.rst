@@ -76,7 +76,7 @@ Build date:  _date_
 
 **Test image inclusion for html**
 
-.. image:: images/smiley.png
+.. image:: images/smiley-1.png
    :height: 200
    :width: 200
    :alt: Just a smiley face!
