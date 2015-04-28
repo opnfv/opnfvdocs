@@ -129,6 +129,27 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
 
  done
 
+ images=()
+ while read -r -d ''; do
+         images+=("$REPLY")
+ done < <(find * -type f \( -iname \*.jpg -o -iname \*.png \) -print0)
+
+ for img in "${{images[@]}}"; do
+
+         # uploading found images
+         echo "uploading $img"
+         cat "$img" | gsutil cp -L gsoutput.txt - \
+         gs://artifacts.opnfv.org/"$project"/"$img"
+         gsutil setmeta -h "Content-Type:image/jpeg" \
+                         -h "Cache-Control:private, max-age=0, no-transform" \
+                         gs://artifacts.opnfv.org/"$project"/"$img"
+         cat gsoutput.txt
+         rm -f gsoutput.txt
+
+ done
+
+
+
  #the double {{ in file_cut="${{file%.*}}" is to escape jjb's yaml
 
 
@@ -231,6 +252,20 @@ You must include at the bottom of every document that you want to track the foll
 
  # add one "_" at the end of each trigger variable (they have also a prefix "_") when inserting them into documents to enable auto-replacement
 
+
+**Image inclusion for artifacts**
+
+Create a folder called images in the same folder where you documentation resides and copy .jpg or .png files there, according to the guide here: https://wiki.opnfv.org/documentation
+
+Here is an example of what you need to include in the .rst files to include an image::
+
+ .. image:: images/smiley.png
+    :height: 200
+    :width: 200
+    :alt: Just a smiley face!
+    :align: left
+
+The image will be shown in both .html and .pdf resulting artifacts.
 
 
 NOTE:
