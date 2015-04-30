@@ -46,14 +46,19 @@ Enter the project settings::
  cd releng/jjb/<project>/
 
 
-**Create build-upload-docu.sh**
+**Create the verify & build scripts**
 
 The script is the same for most of the projects and you can just copy it under your project in releng/jjb/<project>/
 
-example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
+example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
+
+**docu-build.sh**::
 
  #!/bin/bash
- project="functest"
+ set -e
+ set -o pipefail
+
+ project="$(git remote -v | head -n1 | awk '{{print $2}}' | sed -e 's,.*:\(.*/\)\?,,' -e 's/\.git$//')"
  export PATH=$PATH:/usr/local/bin/
 
  git_sha1="$(git rev-parse HEAD)"
@@ -116,10 +121,13 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
  #the double {{ in file_cut="${{file%.*}}" is to escape jjb's yaml
 
 
-**Create build-docu-verify.sh**::
+**docu-verify.sh**::
 
  #!/bin/bash
- project="opnfvdocs"
+ set -e
+ set -o pipefail
+
+ project="$(git remote -v | head -n1 | awk '{{print $2}}' | sed -e 's,.*:\(.*/\)\?,,' -e 's/\.git$//')"
  export PATH=$PATH:/usr/local/bin/
 
  git_sha1="$(git rev-parse HEAD)"
@@ -158,7 +166,9 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/::
 
 Make sure you have the job-templates set correctly as below.
 
-example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" sections)::
+example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" sections)
+
+**opnfvdocs.yml**::
 
  - job-template:
     name: 'opnfvdocs-daily-{stream}'
@@ -167,7 +177,7 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
     ...
     builders:
         - shell:
-            !include-raw build-upload-docu.sh
+            !include-raw docu-build.sh
 
  - job-template:
     name: 'opnfvdocs-verify'
@@ -176,7 +186,7 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
     ...
     builders:
         - shell:
-            !include-raw build-docu-verify.sh
+            !include-raw docu-verify.sh
 
  - job-template:
     name: 'opnfvdocs-merge'
@@ -185,8 +195,10 @@ example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "bu
     ...
     builders:
         - shell:
-            !include-raw build-upload-docu.sh
+            !include-raw docu-build.sh
 
+
+"node: master" is important here as all documentations are built on Jenkins master node for now.
 
 Please reffer to the releng repository for the correct indentation as JJB is very picky with those and also for the rest of the code that is missing in the example code and replaced by "...".
 Also you must have your documentation under docs/ in the repository or gsutil will fail to copy them; for customizations you might need to addapt build-docu.sh as we did for genesis project as different documents need to go into different places.
