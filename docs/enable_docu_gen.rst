@@ -250,6 +250,12 @@ Please try to write documentation as accurate and clear as possible as once revi
 If you want to see on wiki what code is scraped from the built artifacts click "Show pagesource" in the right (it will appear if you hover over the magnifier icon); this way you know what is written straight on wiki and what is embedded with "scrape". By knowing these details you will be able to prevent damages by manually updating wiki.
 
 
+**Wiki update - how it works**
+
+Edit Wiki page https://wiki.opnfv.org/<page> and look for {{scrape>http://artifacts.opnfv.org/<project>/<folder>/<doc-file>.html}}
+Click "Preview" and see if your submitted to Git change is present in the documentation (contains your added/changed text) and if you are sure that your approved/merged change is present add a short description in "Edit summary" field, then click "Save" to update the page. This extra step is needed as Wiki does not auto update content for now.
+
+
 **How to track documentation**
 
 You must include at the bottom of every document that you want to track the following::
