@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_28f639d8",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2015-05-05T12:51:54Z",
+      "side": 1,
+      "message": "could be written like\n\nClick \"Preview\" and see if the change you submitted to Git is present",
+      "revId": "789fec8654296ceb9a2e6b6154a43f873c61083c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
