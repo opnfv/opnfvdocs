@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_68cfa1b1",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2015-05-05T12:35:12Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "fe1f3026d58afa88a4118735cab77bba58a9a2d9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_48c4e591",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2015-05-05T12:35:12Z",
+      "side": 1,
+      "message": "This part is not so clear\n\n- if shown: what is shown? user\u0027s change?\n- add a short \"Edit summary\": what this means? click edit summary?",
+      "revId": "fe1f3026d58afa88a4118735cab77bba58a9a2d9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
