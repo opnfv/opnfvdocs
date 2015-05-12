@@ -80,7 +80,7 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
 
          # rst2html part
          echo "rst2html $file"
-         rst2html $file | gsutil cp -L gsoutput.txt - \
+         rst2html --halt=warning $file | gsutil cp -L gsoutput.txt - \
          gs://artifacts.opnfv.org/"$project"/"$gs_cp_folder".html
          gsutil setmeta -h "Content-Type:text/html" \
                         -h "Cache-Control:private, max-age=0, no-transform" \
@@ -149,7 +149,7 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
 
          # rst2html part
          echo "rst2html $file"
-         rst2html $file > $file_cut".html"
+         rst2html --halt=warning $file > $file_cut".html"
 
          echo "rst2pdf $file"
          rst2pdf $file -o $file_cut".pdf"
