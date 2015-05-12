@@ -48,9 +48,13 @@ Enter the project settings::
 
 **Create the verify & build scripts**
 
-The script is the same for most of the projects and you can just copy it under your project in releng/jjb/<project>/
+The scripts are the same for most projects and if you need customizations copy them under your project in releng/jjb/<project>/::
 
-example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
+ cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
+
+and change according to you needs.
+
+If standard will suffice for you skip this step and jump to **Edit <your-project>.yml**, **Variant 1 - standard**
 
 **docu-build.sh**::
 
@@ -80,7 +84,7 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
 
          # rst2html part
          echo "rst2html $file"
-         rst2html $file | gsutil cp -L gsoutput.txt - \
+         rst2html --halt=2 $file | gsutil cp -L gsoutput.txt - \
          gs://artifacts.opnfv.org/"$project"/"$gs_cp_folder".html
          gsutil setmeta -h "Content-Type:text/html" \
                         -h "Cache-Control:private, max-age=0, no-transform" \
@@ -149,7 +153,7 @@ example: cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
 
          # rst2html part
          echo "rst2html $file"
-         rst2html $file > $file_cut".html"
+         rst2html --exit-status=2 $file > $file_cut".html"
 
          echo "rst2pdf $file"
          rst2pdf $file -o $file_cut".pdf"
@@ -168,7 +172,45 @@ Make sure you have the job-templates set correctly as below.
 
 example: less releng/jjb/opnfvdocs/opnfvdocs.yml (pay extra attention at the "builder" sections)
 
-**opnfvdocs.yml**::
+Variant 1 - standard
+---------------------
+
+By chosing **Variant 1** you will use the scripts from opnfvdocs project.
+
+**<your-project>.yml**::
+
+ - job-template:
+    name: 'opnfvdocs-daily-{stream}'
+
+    node: master
+    ...
+    builders:
+        - shell:
+            !include-raw ../opnfvdocs/docu-build.sh
+
+ - job-template:
+    name: 'opnfvdocs-verify'
+
+    node: master
+    ...
+    builders:
+        - shell:
+            !include-raw ../opnfvdocs/docu-verify.sh
+
+ - job-template:
+    name: 'opnfvdocs-merge'
+
+    node: master
+    ...
+    builders:
+        - shell:
+            !include-raw ../opnfvdocs/docu-build.sh
+
+
+Variant 2 - custom
+-------------------
+
+**<your-project>.yml**::
 
  - job-template:
     name: 'opnfvdocs-daily-{stream}'
@@ -204,9 +246,9 @@ Please reffer to the releng repository for the correct indentation as JJB is ver
 Also you must have your documentation under docs/ in the repository or gsutil will fail to copy them; for customizations you might need to addapt build-docu.sh as we did for genesis project as different documents need to go into different places.
 
 
-Stage files::
+Stage files example::
 
- git add  build-docu.sh <project>.yml
+ git add docu-build.sh docu-verify.sh <project>.yml
 
 
 Commit change with --signoff::
