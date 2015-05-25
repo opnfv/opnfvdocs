@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_9a990871",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2015-05-25T12:30:48Z",
+      "side": 1,
+      "message": "can you explain why have you removed appended underscores? Do they cause issues or just cosmetic change? Or have I missed anything?\n\nThe rst files we have already contain _sha1_ and _date_ in them and this change will cause us having date and sha1s followed by underscore.\n\n\u003cdate\u003e_\n\n\u003csha1\u003e_",
+      "revId": "bbff2c1983a8dd9473a448c76f911709dd5b7c18",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a045101_7a9e3c58",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2015-05-25T12:30:48Z",
+      "side": 1,
+      "message": "can you explain why have you removed appended underscores? Do they cause issues or just cosmetic change? Or have I missed anything?\n\nThe rst files we have already contain _sha1_ and _date_ in them and this change will cause us having date and sha1s followed by underscore.\n\n\u003cdate\u003e_\n\n\u003csha1\u003e_",
+      "revId": "bbff2c1983a8dd9473a448c76f911709dd5b7c18",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
