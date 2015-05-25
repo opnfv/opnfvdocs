@@ -92,8 +92,10 @@ If standard will suffice for you skip this step and jump to **Edit <your-project
          gs_cp_folder="${{file_cut}}"
 
          # sed part
-         sed -i "s/_sha1_/$git_sha1/g" $file
-         sed -i "s/_date_/$docu_build_date/g" $file
+         # add one '_' at the end of each trigger variable; ex: _sha1 +'_' & _date + '_' on both of the lines below
+         # they were added here without the '_'suffix to avoid sed replacement
+         sed -i "s/_sha1/$git_sha1/g" $file
+         sed -i "s/_date/$docu_build_date/g" $file
 
          # rst2html part
          echo "rst2html $file"
@@ -161,8 +163,10 @@ If standard will suffice for you skip this step and jump to **Edit <your-project
          gs_cp_folder="${{file_cut}}"
 
          # sed part
-         sed -i "s/_sha1_/$git_sha1/g" $file
-         sed -i "s/_date_/$docu_build_date/g" $file
+         # add one '_' at the end of each trigger variable; ex: _sha1 +'_' & _date + '_' on both of the lines below
+         # they were added here without the '_'suffix to avoid sed replacement
+         sed -i "s/_sha1/$git_sha1/g" $file
+         sed -i "s/_date/$docu_build_date/g" $file
 
          # rst2html part
          echo "rst2html $file"
@@ -294,10 +298,17 @@ http://artifacts.opnfv.org/
 
 **Scrape content from html artifacts on wiki**
 
-This section describes how the html build artifacts can be made visible on Wiki using he scrape method.
+This section describes how the html build artifacts can be made visible on Wiki using he scrape method. DokuWiki speeds up browsing through the wiki by caching parsed files1). If a currently cached version of a document exists, this cached copy is delivered instead of parsing the data again. On editing and previewing no cache is used.
+
+To prevent a page from ever being cached, use the NOCACHE tag anywhere in the document. This is useful if the page contains dynamic content, e.g. PHP code that pulls in outside information, where the caching would prevent the most recent information from being displayed. Same applies if documentation artifacts are rebuilt the cached version is shown if the NOCACHE tag is not used.
+
+https://www.dokuwiki.org/caching
+
 In order to have you documentation on Wiki you need to create a wiki page and include an adaption of the code below:
 
 example::
+
+ ~~NOCACHE~~
 
  {{scrape>http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.html}}
 
