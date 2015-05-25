@@ -92,8 +92,10 @@ If standard will suffice for you skip this step and jump to **Edit <your-project
          gs_cp_folder="${{file_cut}}"
 
          # sed part
-         sed -i "s/_sha1_/$git_sha1/g" $file
-         sed -i "s/_date_/$docu_build_date/g" $file
+         # add one '_' at the end of each trigger variable; ex: _sha1 +'_' & _date + '_' on both of the lines below
+         # they were added here without the '_'suffix to avoid sed replacement
+         sed -i "s/_sha1/$git_sha1/g" $file
+         sed -i "s/_date/$docu_build_date/g" $file
 
          # rst2html part
          echo "rst2html $file"
@@ -161,8 +163,10 @@ If standard will suffice for you skip this step and jump to **Edit <your-project
          gs_cp_folder="${{file_cut}}"
 
          # sed part
-         sed -i "s/_sha1_/$git_sha1/g" $file
-         sed -i "s/_date_/$docu_build_date/g" $file
+         # add one '_' at the end of each trigger variable; ex: _sha1 +'_' & _date + '_' on both of the lines below
+         # they were added here without the '_'suffix to avoid sed replacement
+         sed -i "s/_sha1/$git_sha1/g" $file
+         sed -i "s/_date/$docu_build_date/g" $file
 
          # rst2html part
          echo "rst2html $file"
