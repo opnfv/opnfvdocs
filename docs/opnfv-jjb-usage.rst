@@ -2,7 +2,7 @@ Creating/Configuring/Verifying Jenkins Jobs
 ============================================
 
 Clone the repo::
- 
+
  git clone ssh://YOU@gerrit.opnfv.org:29418/releng
 
 make changes::
