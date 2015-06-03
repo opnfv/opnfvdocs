@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_b5772ed4",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2015-06-03T21:02:23Z",
+      "side": 1,
+      "message": "If we _always_ use these for auto replacement, then this comment should be either deleted or just modified to describe that this text will be replaced automatically.",
+      "range": {
+        "startLine": 337,
+        "startChar": 1,
+        "endLine": 337,
+        "endChar": 2
+      },
+      "revId": "bacd7a676dafc391ab8218adffd928bc26fda548",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
