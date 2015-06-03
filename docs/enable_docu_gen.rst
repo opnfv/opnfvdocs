@@ -330,12 +330,9 @@ You must include at the bottom of every document that you want to track the foll
 
  **Documentation tracking**
 
- Revision: _sha1
+ Revision: _sha1_
 
- Build date:  _date
-
- # add one "_" at the end of each trigger variable (they have also a prefix "_") when inserting them into documents to enable auto-replacement
-
+ Build date:  _date_
 
 **Image inclusion for artifacts**
 
