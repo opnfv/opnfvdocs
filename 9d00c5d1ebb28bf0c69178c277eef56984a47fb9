@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_d5499a8c",
+        "filename": "docs/enable_docu_gen.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2015-06-03T21:05:17Z",
+      "side": 0,
+      "message": "agree with Ildiko. Especially at this hour and state of brain, it confused/s me.\nWhat needs to be done is quite clear with above lines so the sentence is totall unnecessary if you ask me.\n\nApart from documentation update, Victor did some updates to some docu-gen scripts which will require going over them again.",
+      "revId": "9d00c5d1ebb28bf0c69178c277eef56984a47fb9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
