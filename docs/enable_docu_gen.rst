@@ -69,7 +69,9 @@ and change according to you needs.
 
 If standard will suffice for you skip this step and jump to **Edit <your-project>.yml**, **Variant 1 - standard**
 
-**docu-build.sh**::
+**docu-build.sh**:
+
+.. code-block:: bash
 
  #!/bin/bash
  set -e
@@ -140,7 +142,9 @@ If standard will suffice for you skip this step and jump to **Edit <your-project
  #the double {{ in file_cut="${{file%.*}}" is to escape jjb's yaml
 
 
-**docu-verify.sh**::
+**docu-verify.sh**:
+
+.. code-block:: bash
 
  #!/bin/bash
  set -e

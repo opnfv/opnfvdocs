@@ -121,7 +121,7 @@ Then restart docker:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Now it is time to clone the code repository:
 
-<git clone ssh://[Linux foundation user]@gerrit.opnfv.org:29418/genesis>
+<git clone ssh://Linux foundation user@gerrit.opnfv.org:29418/genesis>
 
 Now you should have the OPNFV genesis repository with Fuel@OPNFV stored locally on your build host.
 
