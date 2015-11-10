@@ -17,6 +17,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 pygments_style = 'sphinx'
 html_use_index = False
+html_theme = 'sphinx_rtd_theme'
 
 pdf_documents = [('index', u'OPNFV', u'OPNFV Project', u'OPNFV')]
 pdf_fit_mode = "shrink"
