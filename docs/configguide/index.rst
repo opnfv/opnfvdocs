@@ -3,18 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OPNFV Configuration Guide
+OPNFV Configuration Guide
 ================================================
 
-This guide seeks to inform operators how to configure the OPNFV Platform and its components to enable platform features provided in the Brahmaputra release.
+    abstract.rst
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   configguide.rst
+
+   introduction.rst
+   configoptions.rst
+
+Installation Description
+========================
+
+
+Feature Description
+===================
    ../../sdnvpn/docs/configguide/configguide.rst
+
+
+Post Configuration Activities
+=============================
 
 
 Indices and tables
