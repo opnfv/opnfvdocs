@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_72c78a46",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 203
+      },
+      "writtenOn": "2015-12-09T13:53:44Z",
+      "side": 1,
+      "message": "Please add an empty line after this heading line.",
+      "revId": "630ac62546b6cd8facc793e595f647b5a5d8c45f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_f2e25ad4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 203
+      },
+      "writtenOn": "2015-12-09T13:53:44Z",
+      "side": 1,
+      "message": "Please make the text lines a bit shorter (no longer than 72 characters).",
+      "revId": "630ac62546b6cd8facc793e595f647b5a5d8c45f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
