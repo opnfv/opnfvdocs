@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_bb995670",
+        "filename": "docs/configguide/installerconfig.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 203
+      },
+      "writtenOn": "2015-12-14T19:56:00Z",
+      "side": 1,
+      "message": "Minor: Whitespace at end of line on line 6, 10 and 14.",
+      "revId": "77586bc68a1db883766542a991aa45083b71ca97",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
