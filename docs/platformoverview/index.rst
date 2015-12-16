@@ -6,15 +6,14 @@
 Welcome to OPNFV Platform Overview document
 ================================================
 
-This document seeks to inform operators how to configure the OPNFV Platform and its components to enable platform features provided in the Brahmaputra release.
+This document provides a high level overview on OPNFV Brahmaputra release.
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
-   configguide.rst
-   ../../sdnvpn/docs/platformoverview/platformoverview.rst
+   platformoverview.rst
 
 
 Indices and tables
