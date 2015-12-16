@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a5c5d37_5e836356",
+        "filename": "docs/platformoverview/platformoverview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2015-12-16T15:27:46Z",
+      "side": 1,
+      "message": "Not sure what you mean. OpenStack alone provides many functional components and I think we should list which ones are used in Brahmaputra.",
+      "parentUuid": "9a5c5d37_be101f4f",
+      "revId": "cf65a0a77260bd52fc1bbf8e887f9e97e1b64888",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a5c5d37_1e216b9f",
         "filename": "docs/platformoverview/platformoverview.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-12-16T15:02:02Z",
       "side": 1,
       "message": "I assume this is the data plane section.  Maybe set a better title.",
+      "revId": "cf65a0a77260bd52fc1bbf8e887f9e97e1b64888",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_3e88af70",
+        "filename": "docs/platformoverview/platformoverview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2015-12-16T15:27:46Z",
+      "side": 1,
+      "message": "Agree.\nIs title \"data plane\" ok?",
+      "parentUuid": "9a5c5d37_1e216b9f",
       "revId": "cf65a0a77260bd52fc1bbf8e887f9e97e1b64888",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
