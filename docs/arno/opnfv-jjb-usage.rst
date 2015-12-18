@@ -32,7 +32,10 @@ Job Types
 
  * Trigger: **remerge**
 
-The verify and merge jobs are retriggerable in Gerrit by simply leaving a comment with one of the keywords listed above. This is useful in case you need to re-run one of those jobs in case if build issues or something changed with the environment.
+The verify and merge jobs are retriggerable in Gerrit by simply leaving a comment
+with one of the keywords listed above.
+This is useful in case you need to re-run one of those jobs in case if build issues or
+something changed with the environment.
 
 You can add below persons as reviewers to your patch in order to get it reviewed and submitted.
 

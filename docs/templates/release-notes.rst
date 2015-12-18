@@ -19,7 +19,9 @@ License
 =======
 <WORK'S NAME> (c) by <AUTHOR'S NAME>
 
-<WORK'S NAME> is licensed under a Creative Commons Attribution 4.0 International License. You should have received a copy of the license along with this. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+<WORK'S NAME> is licensed under a Creative Commons Attribution 4.0 International License.
+You should have received a copy of the license along with this. If not,
+see <http://creativecommons.org/licenses/by/4.0/>.
 
 
 **Contents**
@@ -62,7 +64,8 @@ License
 
 <EXAMPLE>:
 
-**Attention:** Please be aware that since LSV3 a pre-deploy script must be ran on the Fuel master – see the OPNFV@Fuel SW installation instructions
+**Attention:** Please be aware that since LSV3 a pre-deploy script must be ran on the Fuel master -
+see the OPNFV@Fuel SW installation instructions
 
 3   Summary
 ===========
@@ -71,7 +74,8 @@ License
 
 <EXAMPLE>:
 
-Arno Fuel@OPNFV is based the OpenStack Fuel upstream project version 6.0.1, but adds OPNFV unique components such as OpenDaylight version: Helium as well as other OPNFV unique configurations......
+Arno Fuel@OPNFV is based the OpenStack Fuel upstream project version 6.0.1,
+but adds OPNFV unique components such as OpenDaylight version: Helium as well as other OPNFV unique configurations......
 
 4   Release Data
 ================
