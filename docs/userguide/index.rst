@@ -6,7 +6,8 @@
 Welcome to OPNFV User Guide
 ================================================
 
-This guide seeks to inform operators how to use the OPNFV Platform and its components to enable platform features provided in the Brahmaputra release.
+This guide seeks to inform operators how to use the OPNFV Platform and its components to enable platform
+features provided in the Brahmaputra release.
 
 Contents:
 

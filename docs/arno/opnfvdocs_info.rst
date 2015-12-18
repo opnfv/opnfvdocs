@@ -22,7 +22,8 @@ Project description:
 Scope:
 -------
 
-- Set up a structure, and a template, for document development with source control (same as source code). Leveraging upstream documentation structure and tools.
+- Set up a structure, and a template, for document development with source control
+  (same as source code). Leveraging upstream documentation structure and tools.
 - Following as close as possible the same contribution process & tools as our source code
 - Structure OPNFV documentation logically
 - Develop initial set of release documents:
@@ -33,7 +34,8 @@ Scope:
   - API reference (if there is content in release 1)
   - Interface specification  (if there is content in release 1)
 
-- Provide language options for documentation where applicable: In first release English only, Wiki (via HTML scraping from Gerrit), and PDF.
+- Provide language options for documentation where applicable: In first release English only,
+  Wiki (via HTML scraping from Gerrit), and PDF.
 - Provide tooling and processes for OPNFV projects to implement and follow for consistency
 
 Dependencies:
@@ -41,7 +43,8 @@ Dependencies:
 
 - All OPNFV projects participating in a release.
 - Upstream project documentation to be referenced
-- Where there are external fora or standard development organization dependencies, list informative and normative references & specifications.
+- Where there are external fora or standard development organization dependencies,
+  list informative and normative references & specifications.
 
 
 Committers and Contributors:
@@ -69,7 +72,8 @@ Committers and Contributors:
 Description of roles in the documentation project:
 
 - Committers (Editors): has overall responsibility of document structure, editing, style and toolchains
-- opnfvdocs contributors: individual section will have contributors who are domain experts in those areas, other contributors may simply help out working on the documentation and tools as needed.
+- opnfvdocs contributors: individual section will have contributors who are domain experts in those areas,
+  other contributors may simply help out working on the documentation and tools as needed.
 - other projects: Committers will be responsible for maintaining documentation artifacts in project repositories.
 
 Planned deliverables

@@ -14,7 +14,9 @@ License
 =======
 <WORK'S NAME> (c) by <AUTHOR'S NAME>
 
-<WORK'S NAME> is licensed under a Creative Commons Attribution 4.0 International License. You should have received a copy of the license along with this. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+<WORK'S NAME> is licensed under a Creative Commons Attribution 4.0 International License.
+You should have received a copy of the license along with this.
+If not, see <http://creativecommons.org/licenses/by/4.0/>.
 
 
 **Contents**
@@ -54,9 +56,12 @@ License
 
 <EXAMPLE>:
 
-This document describes build system used to build Fuel@OPNFV, required dependencies and minimum requirements on the host to be used for the buildsystem.
+This document describes build system used to build Fuel@OPNFV,
+required dependencies and minimum requirements on the host to be used for the buildsystem.
 
-The Fuel build system is desigened around Docker containers such that dependencies outside of the build system can be kept to a minimum. It also shields the host from any potential dangerous operations performed by the build system.
+The Fuel build system is desigened around Docker containers such that dependencies
+outside of the build system can be kept to a minimum.
+It also shields the host from any potential dangerous operations performed by the build system.
 
 The audience of this document is assumed to have good knowledge in network and Unix/Linux administration.
 
@@ -81,7 +86,8 @@ The build host should run Ubuntu 14.04 operating system.
 
 On the host, the following packages must be installed:
 
-- docker - see https://docs.docker.com/installation/ubuntulinux/ for installation notes for Ubuntu 14.04. Note: only use the Ubuntu stock distro of Docker (docker.io)
+- docker - see https://docs.docker.com/installation/ubuntulinux/ for installation notes for Ubuntu 14.04.
+  Note: only use the Ubuntu stock distro of Docker (docker.io)
 
 - git (simply available through sudo apt-get install git)
 
@@ -110,7 +116,9 @@ Then restart docker:
 
 3.3.2 Setting up OPNFV Gerrit in order to being able to clone the code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Start setting up OPNFV gerrit by creating a SSH key (unless you don't already have one), create one with ssh-keygen
+
+- Start setting up OPNFV gerrit by creating a SSH key (unless you don't already have one),
+  create one with ssh-keygen
 
 - Add your generated public key in OPNFV Gerrit <https://gerrit.opnfv.org/>
   (this requires a linuxfoundation account, create one if you do not already have one)
@@ -189,7 +197,8 @@ For more info type <fuel/ci/build.sh -h>.
 
 The artifacts produced are:
 
-- <OPNFV_XXXX.iso> - Which represents the bootable Fuel@OPNFV image, XXXX is replaced with the build identity provided to the build system
+- <OPNFV_XXXX.iso> - Which represents the bootable Fuel@OPNFV image,
+  XXXX is replaced with the build identity provided to the build system
 
 - <OPNFV_XXXX.iso.txt> - Which holds version metadata.
 
