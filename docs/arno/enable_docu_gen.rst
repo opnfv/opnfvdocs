@@ -61,7 +61,8 @@ Enter the project settings::
 
 **Create the verify & build scripts**
 
-The scripts are the same for most projects and if you need customizations copy them under your project in releng/jjb/<project>/::
+The scripts are the same for most projects and if you need customizations copy them
+under your project in releng/jjb/<project>/::
 
  cp releng/jjb/opnfvdocs/build-docu.sh releng/jjb/<your-project>/
 
@@ -265,8 +266,11 @@ Variant 2 - custom
 
 "node: master" is important here as all documentations are built on Jenkins master node for now.
 
-Please reffer to the releng repository for the correct indentation as JJB is very picky with those and also for the rest of the code that is missing in the example code and replaced by "...".
-Also you must have your documentation under docs/ in the repository or gsutil will fail to copy them; for customizations you might need to addapt build-docu.sh as we did for genesis project as different documents need to go into different places.
+Please reffer to the releng repository for the correct indentation as JJB is very picky
+with those and also for the rest of the code that is missing in the example code and replaced by "...".
+Also you must have your documentation under docs/ in the repository or gsutil will fail to copy them;
+for customizations you might need to addapt build-docu.sh as we did for genesis project
+as different documents need to go into different places.
 
 
 Stage files example::
@@ -302,9 +306,16 @@ http://artifacts.opnfv.org/
 
 **Scrape content from html artifacts on wiki**
 
-This section describes how the html build artifacts can be made visible on Wiki using he scrape method. DokuWiki speeds up browsing through the wiki by caching parsed files1). If a currently cached version of a document exists, this cached copy is delivered instead of parsing the data again. On editing and previewing no cache is used.
+This section describes how the html build artifacts can be made visible on Wiki using he scrape method.
+DokuWiki speeds up browsing through the wiki by caching parsed files1).
+If a currently cached version of a document exists, this cached copy is delivered
+instead of parsing the data again. On editing and previewing no cache is used.
 
-To prevent a page from ever being cached, use the NOCACHE tag anywhere in the document. This is useful if the page contains dynamic content, e.g. PHP code that pulls in outside information, where the caching would prevent the most recent information from being displayed. Same applies if documentation artifacts are rebuilt the cached version is shown if the NOCACHE tag is not used.
+To prevent a page from ever being cached, use the NOCACHE tag anywhere in the document.
+This is useful if the page contains dynamic content, e.g. PHP code that pulls in outside information,
+where the caching would prevent the most recent information from being displayed.
+Same applies if documentation artifacts are rebuilt the cached version is shown
+if the NOCACHE tag is not used.
 
 https://www.dokuwiki.org/caching
 
@@ -317,15 +328,22 @@ example::
  {{scrape>http://artifacts.opnfv.org/opnfvdocs/docs/enable_docu_gen.html}}
 
 
-Please try to write documentation as accurate and clear as possible as once reviewed and merged it will be automatically built and displayed on Wiki and everyone would apreciate a good written/nice looking guide.
+Please try to write documentation as accurate and clear as possible as once reviewed and
+merged it will be automatically built and displayed on Wiki and
+everyone would apreciate a good written/nice looking guide.
 
-If you want to see on wiki what code is scraped from the built artifacts click "Show pagesource" in the right (it will appear if you hover over the magnifier icon); this way you know what is written straight on wiki and what is embedded with "scrape". By knowing these details you will be able to prevent damages by manually updating wiki.
+If you want to see on wiki what code is scraped from the built artifacts click "Show pagesource" in the right
+(it will appear if you hover over the magnifier icon);
+this way you know what is written straight on wiki and what is embedded with "scrape".
+By knowing these details you will be able to prevent damages by manually updating wiki.
 
 
 **Wiki update - how it works**
 
 Edit Wiki page https://wiki.opnfv.org/<page> and look for {{scrape>http://artifacts.opnfv.org/<project>/<folder>/<doc-file>.html}}
-Click "Preview" and see if the change you submitted to Git is present; add a short description in "Edit summary" field, then click "Save" to update the page. This extra step is needed as Wiki does not auto update content for now.
+Click "Preview" and see if the change you submitted to Git is present;
+add a short description in "Edit summary" field, then click "Save" to update the page.
+This extra step is needed as Wiki does not auto update content for now.
 
 
 **How to track documentation**
@@ -356,7 +374,8 @@ The image will be shown in both .html and .pdf resulting artifacts.
 NOTE:
 ------
 
-In order to generate html & pdf documentation the needed packages are rst2pdf & python-docutils if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cleanest solution found.
+In order to generate html & pdf documentation the needed packages are rst2pdf & python-docutils
+if the Jenkins is CentOS/RHEL; many variants have been tested but this is the cleanest solution found.
 For html generation it also supports css styles if needed.
 
 

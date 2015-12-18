@@ -19,7 +19,9 @@ License
 =======
 <WORK'S NAME> (c) by <AUTHOR'S NAME>
 
-<WORK'S NAME> is licensed under a Creative Commons Attribution 4.0 International License. You should have received a copy of the license along with this. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+<WORK'S NAME> is licensed under a Creative Commons Attribution 4.0 International License.
+You should have received a copy of the license along with this.
+If not, see <http://creativecommons.org/licenses/by/4.0/>.
 
 
 **Contents**
@@ -66,10 +68,13 @@ License
 
 <EXAMPLE>:
 
-This document describes the supported software and hardware configurations for the Fuel OPNFV reference platform as well as providing guidelines on how to install and
+This document describes the supported software and hardware configurations for the
+Fuel OPNFV reference platform as well as providing guidelines on how to install and
 configure such reference system.
 
-Although the available installation options gives a high degree of freedom in how the system is set-up, with what architecture, services and features, etc., not nearly all of those permutations provides a OPNFV compliant reference architecture. Following the guidelines in this document ensures
+Although the available installation options gives a high degree of freedom in how the system is set-up,
+with what architecture, services and features, etc., not nearly all of those permutations provides
+a OPNFV compliant reference architecture. Following the guidelines in this document ensures
 a result that is OPNFV compliant.
 
 The audience of this document is assumed to have good knowledge in network and Unix/Linux administration.
@@ -82,7 +87,8 @@ The audience of this document is assumed to have good knowledge in network and U
 
 Before starting the installation of Fuel@OPNFV, some planning must preceed.
 
-First of all, the Fuel@OPNFV .iso image needs to be retrieved, the Latest stable Arno release of Fuel@OPNFV can be found here: <www.opnfv.org/abc/def>
+First of all, the Fuel@OPNFV .iso image needs to be retrieved,
+the Latest stable Arno release of Fuel@OPNFV can be found here: <www.opnfv.org/abc/def>
 
 Alternatively, you may build the .iso from source by cloning the opnfv/genesis git repository:
 <git clone https://<linux foundation uid>@gerrit.opnf.org/gerrit/genesis>
@@ -148,9 +154,15 @@ Following minimum hardware requirements must be met for installation of Fuel@OPN
 
 <EXAMPLE>:
 
-The switching infrastructure provides connectivity for the OPNFV infra-structure operations as well as for the tenant networks (East/West) and provider connectivity (North/South bound connectivity). The switching connectivity can (but does not need to) be fully redundant, in case it and comprises a redundant 10GE switch pair for “Traffic/Payload/SAN” purposes as well as a 1GE switch pair for “infrastructure control-, management and administration”
+The switching infrastructure provides connectivity for the OPNFV infra-structure operations as well as
+for the tenant networks (East/West) and provider connectivity (North/South bound connectivity).
+The switching connectivity can (but does not need to) be fully redundant,
+in case it and comprises a redundant 10GE switch pair for "Traffic/Payload/SAN" purposes as well as
+a 1GE switch pair for "infrastructure control-, management and administration"
 
-The switches are **not** automatically configured from the OPNFV reference platform. All the networks involved in the OPNFV infra-structure as well as the provider networks and the private tenant VLANs needs to be manually configured.
+The switches are **not** automatically configured from the OPNFV reference platform.
+All the networks involved in the OPNFV infra-structure as well as the provider networks
+and the private tenant VLANs needs to be manually configured.
 
 This following sections guides through required black-box switch configurations.
 
@@ -166,7 +178,8 @@ This following sections guides through required black-box switch configurations.
 
 <EXAMPLE>:
 
-This section describes the installation of the Fuel@OPNFV installation server (Fuel master) as well as the deployment of the full OPNFV reference platform stack across a server cluster.
+This section describes the installation of the Fuel@OPNFV installation server (Fuel master)
+as well as the deployment of the full OPNFV reference platform stack across a server cluster.
 Etc.
 
 6.1 Install Fuel master
@@ -187,11 +200,12 @@ Etc.
 
 <EXAMPLE>:
 
-Now that the OPNFV environment has been created, and before the post installation configurations is started, perform a system health check from the Fuel GUI:
+Now that the OPNFV environment has been created, and before the post installation configurations is started,
+perform a system health check from the Fuel GUI:
 
-- Select the “Health check” TAB.
+- Select the "Health check" TAB.
 - Select all test-cases
-- And click “Run tests”
+- And click "Run tests"
 
 All test cases except the following should pass:
 
@@ -200,7 +214,8 @@ All test cases except the following should pass:
 <DESCRIBE ANY POST INSTALLATION ACTIONS/CONFIGURATIONS NEEDED>
 
 <EXAMPLE>:
-After the OPNFV deployment is completed, the following manual changes needs to be performed in order for the system to work according OPNFV standards.
+After the OPNFV deployment is completed, the following manual changes needs to be performed in order
+for the system to work according OPNFV standards.
 
 **Change host OS password:**
 Change the Host OS password by......
