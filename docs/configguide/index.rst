@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 OPNFV Configuration Guide
-================================================
+=========================
 
     abstract.rst
 
@@ -17,12 +17,14 @@ Contents:
    introduction.rst
    configoptions.rst
 
-Installation Description
-========================
+Installer Configuration
+=======================
+
+   installerconfig.rst
 
 
-Feature Description
-===================
+Feature Configuration
+=====================
    ../../sdnvpn/docs/configguide/configguide.rst
 
 
