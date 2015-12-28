@@ -2,6 +2,7 @@
 Scope
 =====
 
+
 Using this guide
 ----------------
 
@@ -9,6 +10,6 @@ Using this guide
 Pre-requisites
 --------------
 
-The OPNFV Config Guide needs work...
+
 
 
