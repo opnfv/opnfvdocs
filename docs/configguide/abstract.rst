@@ -1,11 +1,13 @@
-
-
 Abstract
 --------
 
-This document desribes how to configure the Brahmaputra release of OPNFV.
-The release includes four installers Apex, Compass4nfv, Fuel and JOID.
+This document provides guidance and instructions for the configuration
+of the Brahmaputra release of OPNFV.
 
-Intended for *******
+The release includes four installer tools leveraging different
+technologies; Apex, Compass4nfv, Fuel and JOID, which deploy
+components of the platform.
 
-We write something about the doc for the title page.
+This document provides a guide for the selection of tools and
+components including guidelines for how to deploy and configure
+the platform to an operational state.

@@ -6,7 +6,7 @@
 OPNFV Configuration Guide
 =========================
 
-    abstract.rst
+   ./abstract.rst
 
 Contents:
 
@@ -14,13 +14,12 @@ Contents:
    :maxdepth: 2
 
 
-   introduction.rst
-   configoptions.rst
+   ./introduction.rst
+   ./configoptions.rst
 
 Installer Configuration
 =======================
-
-   installerconfig.rst
+   ./installerconfig.rst
 
 
 Feature Configuration
@@ -30,7 +29,7 @@ Feature Configuration
 
 Post Configuration Activities
 =============================
-
+   ./postinstall.rst
 
 Indices and tables
 ==================
