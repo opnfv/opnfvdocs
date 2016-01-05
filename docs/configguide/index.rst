@@ -20,12 +20,19 @@ Contents:
 Installer Configuration
 =======================
 
+.. toctree::
+   :maxdepth: 2
+
    installerconfig.rst
 
 
 Feature Configuration
 =====================
-   ../../sdnvpn/docs/configguide/configguide.rst
+
+.. toctree::
+   :maxdepth: 2
+
+   ../sdnvpn/docs/configguide/configguide.rst
 
 
 Post Configuration Activities
