@@ -15,7 +15,7 @@ Contents:
    :maxdepth: 2
 
    userguide.rst
-   ../../sdnvpn/docs/userguide/userguide.rst
+   ../sdnvpn/docs/userguide/userguide.rst
 
 
 Indices and tables
