@@ -23,15 +23,10 @@ Installer Configuration
 
    ./installerconfig
 
-
 Feature Configuration
 =====================
 
-.. toctree::
-   :maxdepth: 2
-
-   ../../sdnvpn/docs/configguide/configguide.rst
-
+.. include:: ../sdnvpn/docs/configguide/configguide.rst
 
 Post Configuration Activities
 =============================
