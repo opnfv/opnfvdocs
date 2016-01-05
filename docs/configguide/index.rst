@@ -20,12 +20,13 @@ Contents:
 Installer Configuration
 =======================
 
+.. toctree::
    installerconfig.rst
 
 
 Feature Configuration
 =====================
-   ../../sdnvpn/docs/configguide/configguide.rst
+   ../sdnvpn/docs/configguide/configguide.rst
 
 
 Post Configuration Activities
