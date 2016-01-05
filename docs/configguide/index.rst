@@ -6,21 +6,18 @@
 OPNFV Configuration Guide
 =========================
 
-    abstract.rst
-
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-
-   introduction.rst
-   configoptions.rst
+   ./abstract
+   ./introduction
+   ./configoptions
 
 Installer Configuration
 =======================
-
-   installerconfig.rst
+   ./installerconfig
 
 
 Feature Configuration
@@ -30,7 +27,7 @@ Feature Configuration
 
 Post Configuration Activities
 =============================
-
+   ./postinstall.rst
 
 Indices and tables
 ==================
