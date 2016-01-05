@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_47c0217c",
+        "filename": "docs/configguide/featureconfig.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-05T10:11:19Z",
+      "side": 1,
+      "message": "trailing whitespaces.",
+      "revId": "0941619b564b243101537af95f02b319e300d1d3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a5c5d37_27bf6dfd",
+        "filename": "docs/configguide/postinstall.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-05T10:11:19Z",
+      "side": 1,
+      "message": "trailing whitespaces.",
+      "revId": "0941619b564b243101537af95f02b319e300d1d3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
