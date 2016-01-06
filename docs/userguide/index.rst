@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to OPNFV User Guide
-================================================
+===========================
 
 This guide seeks to inform operators how to use the OPNFV Platform and its components to enable platform
 features provided in the Brahmaputra release.
@@ -15,8 +15,13 @@ Contents:
    :maxdepth: 2
 
    userguide.rst
-   ../../sdnvpn/docs/userguide/userguide.rst
 
+Using Brahmaputra Features
+==========================
+
+SDNVPN:
+
+.. include:: ../sdnvpn/docs/userguide/userguide.rst
 
 Indices and tables
 ==================
