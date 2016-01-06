@@ -19,9 +19,7 @@ Contents:
 Using Brahmaputra Features
 ==========================
 
-SDNVPN:
-
-.. include:: ../sdnvpn/docs/userguide/userguide.rst
+.. include:: ./projects-userguide.rst
 
 Indices and tables
 ==================

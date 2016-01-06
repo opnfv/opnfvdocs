@@ -26,9 +26,7 @@ Installer Configuration
 Feature Configuration
 =====================
 
-SDNVPN:
-
-.. include:: ../sdnvpn/docs/configguide/configguide.rst
+.. include:: ./projects-configguide.rst
 
 Post Configuration Activities
 =============================
