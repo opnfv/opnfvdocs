@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_0a42293e",
+        "filename": "docs/configguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-01-07T10:16:53Z",
+      "side": 1,
+      "message": "I would prefer if we didn\u0027t add this type of text into the RST file.  The idea is that the descriptive material is included from the project.rst files.",
+      "revId": "01882ab6f77b0c526e7fc5eb0a6c076e65fa1378",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
