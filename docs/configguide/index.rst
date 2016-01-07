@@ -18,25 +18,19 @@ Contents:
 Installer Configuration
 =======================
 
-.. toctree::
-   :maxdepth: 2
-
-   ./installerconfig
+Waiting for the structue in the installer repo's to
+add the include references.
 
 Feature Configuration
 =====================
-
-SDNVPN:
 
 .. include:: ../sdnvpn/docs/configguide/configguide.rst
 
 Post Configuration Activities
 =============================
 
-.. toctree::
-   :maxdepth: 2
-
-   ./postinstall.rst
+Waiting for the structue in the remote repo's to
+add the include references.
 
 Indices and tables
 ==================
