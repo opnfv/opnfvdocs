@@ -24,7 +24,7 @@ add the include references.
 Feature Configuration
 =====================
 
-.. include:: ./projects-configguide.rst
+.. include:: ../sdnvpn/docs/configguide/configguide.rst
 
 Post Configuration Activities
 =============================
