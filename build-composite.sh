@@ -32,6 +32,7 @@ pushd docs_build/projects
 for repo in $repos; do
     echo "    $repo ($GERRIT_BRANCH)"
     git_clone $repo
+    [[ -e $repo/docs ]] || continue
     cp -r $repo/docs ../../docs/projects/$repo
 done
 popd
