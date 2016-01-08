@@ -3,6 +3,7 @@
 set -o errexit
 set -o nounset
 set -o pipefail
+set -o xtrace
 
 GIT_CLONE_BASE=${GIT_CLONE_BASE:-ssh://gerrit.opnfv.org:29418}
 GERRIT_BRANCH=${GERRIT_BRANCH:-master}
@@ -12,7 +13,7 @@ git_clone() {
     _repo="$1"
 
     [[ -d "$_repo" ]] && return 0
-    git clone --depth 1 --quiet $GIT_CLONE_BASE/$_repo $GERRIT_BRANCH
+    git clone -b $GERRIT_BRANCH --depth 1 --quiet $GIT_CLONE_BASE/$_repo
 }
 
 
