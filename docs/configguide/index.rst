@@ -24,7 +24,10 @@ add the include references.
 Feature Configuration
 =====================
 
-.. include:: ./projects-configguide.rst
+.. toctree::
+   :maxdepth: 2
+
+.. include:: ../sdnvpn/docs/configguide/configguide.rst
 
 Post Configuration Activities
 =============================
