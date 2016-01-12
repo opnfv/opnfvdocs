@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_6bbabd0b",
+        "filename": "docs/configguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-12T07:05:11Z",
+      "side": 1,
+      "message": "this should be \u0027../projects/sdnvpn/configguide/configguide.rst\u0027",
+      "range": {
+        "startLine": 30,
+        "startChar": 12,
+        "endLine": 30,
+        "endChar": 55
+      },
+      "revId": "4dfe18abc832642486478b554623cbfa2768e53a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
