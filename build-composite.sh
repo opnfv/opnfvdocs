@@ -8,6 +8,13 @@ set -o xtrace
 GIT_CLONE_BASE=${GIT_CLONE_BASE:-ssh://gerrit.opnfv.org:29418}
 GERRIT_BRANCH=${GERRIT_BRANCH:-master}
 
+get_repo_names() {
+    # Note: Not all repositories are ready for the composite docs,
+    #       so we have the repo name list here to add project docs
+    #       one by one. This will be replaced by the list in project.cfg .
+    # grep -v '^#' releng/jjb/opnfvdocs/project.cfg | sort
+    echo "sdnvpn"
+}
 
 git_clone() {
     _repo="$1"
@@ -16,10 +23,9 @@ git_clone() {
     git clone -b $GERRIT_BRANCH --depth 1 --quiet $GIT_CLONE_BASE/$_repo
 }
 
-
 git_clone releng
 
-repos=$(grep -v '^#' releng/jjb/opnfvdocs/project.cfg | sort)
+repos=$(get_repo_names)
 
 [[ -e docs/projects ]] && rm -rf docs/projects
 mkdir -p docs/projects
