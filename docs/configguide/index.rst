@@ -13,8 +13,11 @@ Contents:
 Installer Configuration
 =======================
 
-Waiting for the structue in the installer repo's to
-add the include references.
+.. toctree::
+   :maxdepth: 2
+
+.. include:: ../projects/fuel/configguide/installerconfig.rst
+.. include:: ../projects/joid/configguide/installerconfig.rst
 
 Feature Configuration
 =====================
@@ -27,8 +30,7 @@ Feature Configuration
 Post Configuration Activities
 =============================
 
-Waiting for the structue in the remote repo's to
-add the include references.
+.. include:: ../projects/joid/configguide/postinstall.rst
 
 Indices and tables
 ==================
