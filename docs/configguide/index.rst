@@ -10,25 +10,15 @@ Contents:
    ./introduction
    ./configoptions
 
-Installer Configuration
-=======================
+   ./installerconfigintro.rst
+.. include:: ../projects/fuel/configguide/installerconfig.rst
+.. include:: ../projects/joid/configguide/installerconfig.rst
 
-Waiting for the structue in the installer repo's to
-add the include references.
-
-Feature Configuration
-=====================
-
-.. toctree::
-   :maxdepth: 2
-
+   ./featureconfigintro.rst
 .. include:: ../projects/sdnvpn/configguide/configguide.rst
 
-Post Configuration Activities
-=============================
-
-Waiting for the structue in the remote repo's to
-add the include references.
+   ./postconfigintro.rst
+.. include:: ../projects/joid/configguide/postinstall.rst
 
 Indices and tables
 ==================
