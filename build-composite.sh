@@ -14,6 +14,8 @@ get_repo_names() {
     #       one by one. This will be replaced by the list in project.cfg .
     # grep -v '^#' releng/jjb/opnfvdocs/project.cfg | sort
     echo "sdnvpn"
+    echo "fuel"
+    echo "joid"
 }
 
 git_clone() {
