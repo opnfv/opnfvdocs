@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a5c5d37_0031cea1",
+        "filename": "docs/configguide/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-18T10:11:23Z",
+      "side": 1,
+      "message": "this include line breaks toc tree directive (line 6).\n\nI suggest you to the followings:\n\n1. rename \u0027installerconfigintro.rst\u0027 to \u0027installer_config.rst\u0027\n\n2. move \u0027include\u0027 lines into \u0027installer_config.rst\u0027",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 61
+      },
+      "revId": "ef62c6b553cd89679629d8b5cc218ced3dd74545",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
