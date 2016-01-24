@@ -11,13 +11,21 @@ This guide seeks to inform operators who to secure and maintain the security of 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
 
    introduction
    compute
    network
+   access_identity
+   key_management
+   messaging
+   storage
+   tenant
+   ci
+   host_os
+   inspector
+   code
+   osvm
    contribution
-
 
 
 Indices and tables
@@ -26,4 +34,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
