@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_eb8845c8",
+        "filename": "docs/opnfvsecguide/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-01-24T16:57:12Z",
+      "side": 0,
+      "message": "No longer need these refs",
+      "revId": "b42da50a1662f2424aa9e6593d7283e735b64c93",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_cb8589ae",
+        "filename": "docs/opnfvsecguide/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-01-24T16:57:12Z",
+      "side": 0,
+      "message": "as above, no longer needed.  (just the search if you want one)",
+      "revId": "b42da50a1662f2424aa9e6593d7283e735b64c93",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
