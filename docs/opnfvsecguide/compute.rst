@@ -1,8 +1,11 @@
+================
 Compute Security
-----------------
+================
 
 .. toctree::
-   :maxdepth: 2
 
-   compute/dacmaccontrols.rst
-   compute/trust.rst
+   compute/hypervisor_security
+   compute/trusted_compute
+   compute/image
+   compute/direct_peripheral
+   compute/libvirt_grants
