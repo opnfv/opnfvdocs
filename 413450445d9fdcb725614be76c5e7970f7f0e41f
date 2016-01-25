@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_cefeb738",
+        "filename": "docs/opnfvsecguide/compute.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-25T09:16:51Z",
+      "side": 1,
+      "message": "Is there specific reason to split the following contents from this file? Merging them into this file should be nice to see and edit sections.\n\nFYI: you can use \u0027compute/*\u0027 when you add \u0027:glob:\u0027 after line 5.\n\nhttp://www.sphinx-doc.org/en/stable/markup/toctree.html",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 12
+      },
+      "revId": "413450445d9fdcb725614be76c5e7970f7f0e41f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_ee7bb327",
+        "filename": "docs/opnfvsecguide/compute.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-25T09:16:51Z",
+      "side": 1,
+      "message": "i can\u0027t see this file",
+      "range": {
+        "startLine": 11,
+        "startChar": 11,
+        "endLine": 11,
+        "endChar": 25
+      },
+      "revId": "413450445d9fdcb725614be76c5e7970f7f0e41f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_8e9b1f72",
+        "filename": "docs/opnfvsecguide/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-25T09:16:51Z",
+      "side": 1,
+      "message": "you can delete this comment.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 40
+      },
+      "revId": "413450445d9fdcb725614be76c5e7970f7f0e41f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_6e88e322",
+        "filename": "docs/opnfvsecguide/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-25T09:16:51Z",
+      "side": 1,
+      "message": "since this is not section, can you add a overline as well?\n\nYou can improve view by using \u0027*\u0027 instead of \u0027\u003d\u0027 and keeping the length of lines in the same length of tile.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 48
+      },
+      "revId": "413450445d9fdcb725614be76c5e7970f7f0e41f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_ae9edb61",
+        "filename": "docs/opnfvsecguide/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-01-25T09:16:51Z",
+      "side": 1,
+      "message": "yep, we can delete this section",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 15
+      },
+      "revId": "413450445d9fdcb725614be76c5e7970f7f0e41f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
