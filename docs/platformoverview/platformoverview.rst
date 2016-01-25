@@ -45,7 +45,14 @@ OPNFV bundles the target software, installers, documentation, test cases and lab
 description to releases and provides documentation describing the scope and features
 provided.
 
-This overview document introduces these components on a high level and points you to more
+Since OPNFV releases contain different options (e.g. for installers, SDN controllers, etc.)
+We define a set of scenarios, that is a set of components, combinations 
+and associated configuration.
+This set of scenarios shows which combinations of components and features are tested as
+part of the OPNFV release.
+
+This overview document introduces these components and scenarios on a high level and 
+points you to more
 detailed documentation.
 It describes the OPNFV Brahmaputra release.
 
@@ -70,24 +77,13 @@ integrated in the Brahmaputra release
 OpenStack
 ---------
 
-OPNFV uses OpenStack as cloud management system.
-Brahmaputra is based on OpenStack Liberty Release. It comprises the following sub-projects
-and modules:
+.. include:: openstack.rst
 
-* Nova
-* Neutron
-* Cinder
-* Ceilometer
-* etc.
 
 Operating System
 ----------------
 
-OPNFV uses Linux on all target machines. Depending on the installers, different
-distributions are supported.
-
-Editors note:
-Add a table showing which installer supports which operating system for controller nodes and for compute nodes.
+.. include:: linux.rst
 
 
 SDN Controllers
@@ -104,22 +100,17 @@ Depending on the SDN controller you are using, the featureset will vary.
 OpenDaylight
 ++++++++++++
 
-Editor's note:
-We need a high level paragraph here and a description of how we use ODL.
+.. include:: odl.rst
 
 ONOS
 ++++
 
-Editors note:
-We need a high level paragraph here and a description of how we use ONOS, especially the
-relation of ONOS and ONOSFW project's integration and features.
+.. include:: onos.rst
 
 OpenContrail
 ++++++++++++
 
-Editors note:
-We need a high level paragraph here and a description of how we use OpenContrail, including
-its vRouter capabilities.
+.. include:: opencontrail.rst
 
 Data Plane
 ----------
@@ -130,14 +121,9 @@ Other Components
 Deployment Architecture
 =======================
 
-Editors note:
-Short description that we use a typical configuration with 3 controller nodes running
-OpenStack, SDN, etc. and a minimum of 2 compute nodes for deployment of the VNFs.
-Also mention that we use a "jumphost" for the initial bring-up, and the deployment of the
-test framework.
+.. include:: deploy-arch.rst
 
-In a second level of detail, describe how software is distributed over the 3 controller
-nodes, compute nodes and other hardware.
+
 
 Dynamic View
 ============
@@ -155,19 +141,45 @@ software is involved in which way during:
 Deployment Tools
 ----------------
 
-Brahmaputra provides 4 different installers
+Brahmaputra provides 4 different installers:
+
+* Apex
+* Compass
+* Fuel
+* Joid
 
 Editors note:
 A table to summarize main characteristics would be nice
 
-We also need to list restrictions or dependencies like which installer can install which SDN......
+Please find the information about combining installers, SDN controllers and other optional components
+by visiting the scenario list.
+
+Apex
+====
+
+.. include:: apex.rst
+
+Compass
+=======
+
+.. include:: compass.rst
+
+Fuel
+====
+
+.. include:: fuel.rst
+
+Joid
+====
+
+.. include:: joid.rst
+
 
 -----------------------
 Testcases and Framework
 -----------------------
 
-Editors note:
-Just a high level description about the different types of tests and the role of yardstick as central framework.
+.. include:: testframework.rst
 
 
 
