@@ -1,5 +1,5 @@
 OpenDaylight User Guide
-=======================
+-----------------------
 
 Add opendaylight specific user guide information here.
 Needs to include OPNFV default ports and addresses and
