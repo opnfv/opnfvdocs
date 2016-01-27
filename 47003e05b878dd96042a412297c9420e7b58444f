@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_71ee8324",
+        "filename": "docs/userguide/abstract.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-01-27T09:11:01Z",
+      "side": 1,
+      "message": "networking?",
+      "range": {
+        "startLine": 5,
+        "startChar": 54,
+        "endLine": 5,
+        "endChar": 65
+      },
+      "revId": "47003e05b878dd96042a412297c9420e7b58444f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_91745f9d",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-01-27T09:11:01Z",
+      "side": 1,
+      "message": "and?",
+      "range": {
+        "startLine": 8,
+        "startChar": 49,
+        "endLine": 8,
+        "endChar": 51
+      },
+      "revId": "47003e05b878dd96042a412297c9420e7b58444f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_b18cfb80",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-01-27T09:11:01Z",
+      "side": 1,
+      "message": "instruction?",
+      "range": {
+        "startLine": 44,
+        "startChar": 72,
+        "endLine": 44,
+        "endChar": 83
+      },
+      "revId": "47003e05b878dd96042a412297c9420e7b58444f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
