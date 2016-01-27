@@ -1,0 +1,613 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_440f43e2",
+        "filename": "docs/configguide/configoptions.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "VNFs ?",
+      "range": {
+        "startLine": 5,
+        "startChar": 36,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_241447f4",
+        "filename": "docs/configguide/configoptions.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "VNFs ?",
+      "range": {
+        "startLine": 6,
+        "startChar": 66,
+        "endLine": 6,
+        "endChar": 71
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_04f94bc8",
+        "filename": "docs/scenario/featurematrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "In OPNFV, scenarios",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 19
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_e4f50fcc",
+        "filename": "docs/scenario/featurematrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "missing dot",
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_c40213b4",
+        "filename": "docs/scenario/featurematrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 23,
+        "startChar": 58,
+        "endLine": 23,
+        "endChar": 68
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_a4ff17aa",
+        "filename": "docs/scenario/scenariointro.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "Scenarios",
+      "range": {
+        "startLine": 1,
+        "startChar": 6,
+        "endLine": 1,
+        "endChar": 16
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_842c1b4c",
+        "filename": "docs/scenario/scenariointro.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 26
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_4426236a",
+        "filename": "docs/scenario/scenariointro.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "targeted",
+      "range": {
+        "startLine": 10,
+        "startChar": 81,
+        "endLine": 10,
+        "endChar": 90
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_242b2732",
+        "filename": "docs/scenario/scenariointro.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "prior",
+      "range": {
+        "startLine": 12,
+        "startChar": 65,
+        "endLine": 12,
+        "endChar": 69
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_04202b48",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "Scenarios",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 10
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_e41cef15",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 10
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_c419f323",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 10,
+        "startChar": 9,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_24e20704",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "some scenarios are possible to deploy virtually. not sure if it should be mentioned here though.",
+      "range": {
+        "startLine": 59,
+        "startChar": 45,
+        "endLine": 59,
+        "endChar": 58
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_04e70b14",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "I think this should point to location where we will store released documents. My guess based on arno release documentation is\n\n   http://artifacts.opnfv.org/brahmaputra.1.0/docs/opnfv-jenkins-slave-connection.brahmaputra.1.0.html",
+      "range": {
+        "startLine": 64,
+        "startChar": 1,
+        "endLine": 64,
+        "endChar": 81
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_e4e3cf03",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "overview",
+      "range": {
+        "startLine": 66,
+        "startChar": 21,
+        "endLine": 66,
+        "endChar": 30
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_c4f0d3cb",
+        "filename": "docs/scenario/scenariomatrix.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 69,
+        "startChar": 81,
+        "endLine": 69,
+        "endChar": 91
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_a4edd7f1",
+        "filename": "docs/userguide/abstract.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "networking",
+      "range": {
+        "startLine": 5,
+        "startChar": 54,
+        "endLine": 5,
+        "endChar": 65
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_84badbdf",
+        "filename": "docs/userguide/abstract.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "applications",
+      "range": {
+        "startLine": 7,
+        "startChar": 17,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_64bfdfd1",
+        "filename": "docs/userguide/abstract.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "upstream projects\n\nor\n\nother open source projects",
+      "range": {
+        "startLine": 9,
+        "startChar": 73,
+        "endLine": 9,
+        "endChar": 79
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_44b4e3f1",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "VNFs",
+      "range": {
+        "startLine": 5,
+        "startChar": 36,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_04ceeb83",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "we can just say\n\nOPNFV Continuous Integration builds, deploys, and tests\n\nand ignore pipeline",
+      "range": {
+        "startLine": 8,
+        "startChar": 4,
+        "endLine": 8,
+        "endChar": 41
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_c4c7b363",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "Scenarios",
+      "range": {
+        "startLine": 11,
+        "startChar": 56,
+        "endLine": 11,
+        "endChar": 66
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_64a6bfc3",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "Scenarios",
+      "range": {
+        "startLine": 15,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 16
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_24b0c7f3",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "blank line?",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 4
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_44abc389",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 27,
+        "startChar": 21,
+        "endLine": 27,
+        "endChar": 31
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_0495cb3f",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "comma?",
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_e4918f53",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-01-27T14:20:11Z",
+      "side": 1,
+      "message": "its own",
+      "range": {
+        "startLine": 45,
+        "startChar": 94,
+        "endLine": 45,
+        "endChar": 102
+      },
+      "revId": "2ab675f5425bc71ca4ab0d83ddfc620843cda814",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
