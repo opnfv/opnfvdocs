@@ -10,15 +10,14 @@ OPNFV Platform Overview document
 Contents:
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
-   platformoverview.rst
-
-
+   ./introduction.rst
+   ./softwarearchitecture.rst
+   ./deploymenttools.rst
+   ./testcasesframework.rst
 
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
