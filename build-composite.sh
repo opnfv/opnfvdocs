@@ -16,6 +16,7 @@ get_repo_names() {
     echo "sdnvpn"
     echo "fuel"
     echo "joid"
+    echo "functest"
 }
 
 git_clone() {
