@@ -1,2 +1,2 @@
-..
-    This file will have links to other projects docs in composite doc build.
+.. include:: ../projects/promise/userguide/userguide.rst
+
