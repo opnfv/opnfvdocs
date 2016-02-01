@@ -11,5 +11,3 @@ need to perform operations, depending on the scenario deployed and types of acti
 .. include:: ./onos.rst
 .. include:: ./ovs.rst
 
-.. include:: ../projects/functest/userguide/description.rst
-.. include:: ../projects/functest/userguide/runfunctest.rst

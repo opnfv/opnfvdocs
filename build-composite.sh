@@ -18,6 +18,8 @@ get_repo_names() {
     echo "fuel"
     echo "joid"
     echo "functest"
+    echo "apex"
+    echo "promise"
 }
 
 git_clone() {
