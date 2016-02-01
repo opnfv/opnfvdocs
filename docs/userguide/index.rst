@@ -1,5 +1,6 @@
+****************
 OPNFV User Guide
-================
+****************
 
 .. toctree::
    :maxdepth: 2
@@ -8,8 +9,3 @@ OPNFV User Guide
    ./introduction
    ./general-system
    ./feature-usage
-
-Indices and tables
-==================
-
-* :ref:`search`

@@ -1,6 +1,6 @@
-----------------
+================
 Deployment Tools
-----------------
+================
 
 Brahmaputra provides 4 different installers.
 
@@ -41,6 +41,3 @@ Joid
 
 Editors note:
 Just a high level intro and link to the main joid documents.
-
-
-
