@@ -1,5 +1,6 @@
 *~
 .*.sw?
 /docs_build/
+/docs/projects/
 /docs_output/
 /releng/

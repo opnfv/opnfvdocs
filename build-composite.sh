@@ -7,6 +7,7 @@ set -o xtrace
 
 GIT_CLONE_BASE=${GIT_CLONE_BASE:-ssh://gerrit.opnfv.org:29418}
 GERRIT_BRANCH=${GERRIT_BRANCH:-master}
+WORKSPACE=${WORKSPACE:-/tmp}
 
 get_repo_names() {
     # NOTE: Not all repositories are ready for the composite docs,
@@ -21,8 +22,10 @@ get_repo_names() {
 git_clone() {
     _repo="$1"
 
-    [[ -d "$_repo" ]] && return 0
+    [[ -d "$WORKSPACE/$_repo" ]] && return 0
+    pushd $WORKSPACE
     git clone -b $GERRIT_BRANCH --depth 1 --quiet $GIT_CLONE_BASE/$_repo
+    popd
 }
 
 git_clone releng
@@ -36,17 +39,16 @@ echo
 echo "Cloning repos of participating OPNFV Projects and copying docs"
 echo
 mkdir -p docs_build/projects
-pushd docs_build/projects
 for repo in $repos; do
     echo "    $repo ($GERRIT_BRANCH)"
     git_clone $repo
-    [[ -e $repo/docs ]] || continue
-    cp -r $repo/docs ../../docs/projects/$repo
+    [[ -e $WORKSPACE/$repo/docs ]] || continue
+    [[ -e docs/projects/$repo ]] && rm -rf docs/projects/$repo
+    cp -r $WORKSPACE/$repo/docs docs/projects/$repo
 done
-popd
 
 # NOTE: Removing index.rst in project repos to reduce number of docs.
-find docs_build/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
+find docs/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
 
 # NOTE: automated link generation is not ready...
 #echo
@@ -65,6 +67,6 @@ find docs_build/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
 #    done
 #done
 
-./releng/utils/docs-build.sh
+$WORKSPACE/releng/utils/docs-build.sh
 
 echo "Done"
