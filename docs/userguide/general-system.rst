@@ -1,15 +1,16 @@
-============================
-Usage of platform components
-============================
+================================
+Using common platform components
+================================
 
-This section of the user guide provides general system component user guides and references.
-This provides user information for common components of the platform where as a user you may
-need to perform operations, depending on the scenario deployed and types of activities you are doing.
+This section outlines basic usage principans and methods for some of the commonly deployed
+components of suported OPNFV scenario's in Brahmaputra.
+The subsections provide an outline of how these components are commonly used and how to address them
+in an OPNFV deployment.  The components derive from autonomous upstream communities and where possible
+this guide will provide direction ot the relevant documentation made available by those communities
+to better help you navigate the OPNFV deployment.
 
 .. include:: ./openstack.rst
 .. include:: ./opendaylight.rst
 .. include:: ./onos.rst
 .. include:: ./ovs.rst
 
-.. include:: ../projects/functest/userguide/description.rst
-.. include:: ../projects/functest/userguide/runfunctest.rst
