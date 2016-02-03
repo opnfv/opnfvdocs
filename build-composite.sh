@@ -1,4 +1,12 @@
 #!/bin/bash
+# SPDX-license-identifier: Apache-2.0
+##############################################################################
+# Copyright (c) 2016 NEC and others.
+# All rights reserved. This program and the accompanying materials
+# are made available under the terms of the Apache License, Version 2.0
+# which accompanies this distribution, and is available at
+# http://www.apache.org/licenses/LICENSE-2.0
+##############################################################################
 
 set -o errexit
 set -o nounset
@@ -28,6 +36,21 @@ git_clone() {
     git clone -b $GERRIT_BRANCH --depth 1 --quiet $GIT_CLONE_BASE/$_repo
     popd
 }
+
+#NOTE: workaound for missing packages in the jenkins node
+echo
+echo "python package list in jenkins node:"
+pip freeze
+echo
+virtualenv a
+set +o nounset
+source a/bin/activate
+set -o nounset
+pip install setuptools docutils six sphinxcontrib-httpdomain Sphinx==1.3.1
+echo
+echo "python package list in venv:"
+pip freeze
+echo
 
 git_clone releng
 
@@ -69,4 +92,7 @@ find docs/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
 
 $WORKSPACE/releng/utils/docs-build.sh
 
+set +o nounset
+deactivate
+set -o nounset
 echo "Done"

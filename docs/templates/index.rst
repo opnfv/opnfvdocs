@@ -23,7 +23,6 @@ Contents:
    LICENSE.rst
    release-notes.rst
 
-
 Indices and tables
 ==================
 
