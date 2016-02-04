@@ -13,6 +13,7 @@ The following guides provide information on how to validate the installation of 
 based on the tools and test suites available for the installation tool you have selected:
 
 .. include:: ../projects/functest/configguide/configguide.rst
+.. include:: ../projects/ipv6/configguide/postinstall.rst
 .. include:: ../projects/joid/configguide/postinstall.rst
 
 The following sections provide information on how to validate the features you have
