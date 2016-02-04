@@ -24,6 +24,7 @@ get_repo_names() {
     # grep -v '^#' releng/jjb/opnfvdocs/project.cfg | sort
     echo "sdnvpn"
     echo "fuel"
+    echo "ipv6"
     echo "joid"
     echo "functest"
     echo "apex"
