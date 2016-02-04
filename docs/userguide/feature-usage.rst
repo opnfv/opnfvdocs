@@ -12,4 +12,5 @@ some operation in this section may refer back to the guides in the general syste
 
 .. include:: ../projects/promise/userguide/userguide.rst
 .. include:: ../projects/copper/userguide/userguide.rst
+.. include:: ../projects/ipv6/userguide/userguide.rst
 
