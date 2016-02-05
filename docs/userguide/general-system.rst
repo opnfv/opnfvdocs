@@ -14,7 +14,10 @@ this guide will provide direction ot the relevant documentation made available b
 to better help you navigate the OPNFV deployment.
 
 .. include:: ./openstack.rst
+
+Common SDN components
+---------------------
+
 .. include:: ./opendaylight.rst
 .. include:: ./onos.rst
-.. include:: ./ovs.rst
 
