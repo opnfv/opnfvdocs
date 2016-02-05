@@ -30,6 +30,7 @@ get_repo_names() {
     echo "apex"
     echo "promise"
     echo "copper"
+    echo "doctor"
 }
 
 git_clone() {
