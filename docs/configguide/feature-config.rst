@@ -10,6 +10,7 @@ The following sections describe the configuration options for specific platform 
 Further details for each feature are captured in the referred project documentation.
 
 .. include:: ../projects/copper/configguide/configguide.rst
+.. include:: ../projects/doctor/configguide/configguide.rst
 .. include:: ../projects/ipv6/configguide/featureconfig.rst
 .. include:: ../projects/promise/configguide/featureconfig.rst
 .. include:: ../projects/sdnvpn/configguide/configguide.rst
