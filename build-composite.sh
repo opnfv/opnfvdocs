@@ -31,6 +31,7 @@ get_repo_names() {
     echo "promise"
     echo "copper"
     echo "vswitchperf"
+    echo "fastpathmetrics"
 }
 
 git_clone() {
