@@ -14,4 +14,5 @@ test suites and frameworks in the in the Brahmaputra release of OPNFV.
 
 .. include:: ../projects/functest/userguide/description.rst
 .. include:: ../projects/functest/userguide/runfunctest.rst
+.. include:: ../projects/vswitchperf/userguide/quickstart.rst
 
