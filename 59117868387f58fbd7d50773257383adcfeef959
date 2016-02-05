@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_bdedd38d",
+        "filename": "docs/configguide/post-install.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 204
+      },
+      "writtenOn": "2016-02-05T20:45:10Z",
+      "side": 1,
+      "message": "Is this how it spells?",
+      "revId": "59117868387f58fbd7d50773257383adcfeef959",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_9d02173d",
+        "filename": "docs/userguide/onos.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 204
+      },
+      "writtenOn": "2016-02-05T20:45:10Z",
+      "side": 1,
+      "message": "potentially causing unrecoverable inconsistency.",
+      "revId": "59117868387f58fbd7d50773257383adcfeef959",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_7dff5b35",
+        "filename": "docs/userguide/opendaylight.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 204
+      },
+      "writtenOn": "2016-02-05T20:45:10Z",
+      "side": 1,
+      "message": "potentially causing unrecoverable inconsistency.",
+      "revId": "59117868387f58fbd7d50773257383adcfeef959",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
