@@ -15,8 +15,13 @@ Scenario validation activities
 The following guides provide information on how to validate the installation of you scenario
 based on the tools and test suites available for the installation tool you have selected:
 
-.. include:: ../projects/ipv6/configguide/postinstall.rst
-.. include:: ../projects/joid/configguide/postinstall.rst
+.. toctree::
+
+    postinstall-ipv6
+
+.. toctree::
+
+    postinstall-joid
 
 Feature validation activities
 =============================
@@ -24,7 +29,9 @@ Feature validation activities
 The following sections provide information on how to validate the features you have
 installed in your scenario:
 
-.. include:: ../projects/copper/configguide/postinstall.rst
+.. toctree::
+
+    postinstall-copper
 
 Additional testing and validation activities
 ============================================
@@ -33,6 +40,10 @@ Many of our testing tools can be manually installed to facilitate targeted testi
 of features and capabilities of your scenario.  The following guides provide instruction on
 setting up these testing suites:
 
-.. include:: ../projects/functest/configguide/configguide.rst
-.. include:: ../projects/vswitchperf/configguide/installation.rst
+.. toctree::
 
+    postinstall-functest
+
+.. toctree::
+
+    postinstall-vswitchperf
