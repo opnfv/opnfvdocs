@@ -65,6 +65,10 @@ done
 # NOTE: Removing index.rst in project repos to reduce number of docs.
 find docs/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
 
+# Correct Image file path (workaround)
+sed -i -e '/^.. figure::/s|images|../projects/peomise/configguide/images|' \
+    docs/projects/promise/configguide/featureconfig.rst
+
 # NOTE: automated link generation is not ready...
 #echo
 #echo "Creating document links"
