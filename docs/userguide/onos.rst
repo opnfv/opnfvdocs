@@ -8,19 +8,19 @@ ONOS User Guide
 ONOS is an SDN controller platform developed and released by the
 `ONOS project <https://www.onosproject.org>`_.
 The ONOS controller is installed and configured in OPNFV as the networking
-component of a variety of OPNFV VNFi scenarios.
+component of a variety of OPNFV NFVI scenarios.
 
-ONOS runs within a JVM that is installed in OPNFV within a container and
-integrated with OpenStack.  The ONOS instance can be configured through the
-OpenStack Horizon interface, or accessed directly from the OPNFV Jumphost.  The
-Brahmaputra release of OPNFV integrates the latest
+ONOS runs within a JVM instance and is integrated with OpenStack via a Neutron ML2 
+plugin.  The ONOS instance can be configured through the OpenStack Neutron interface, 
+or through native ONOS tools, from the OPNFV jumphost.  The Brahmaputra release of 
+OPNFV integrates the latest
 `ONOS 1.4 (EMU) <https://wiki.onosproject.org/display/ONOS/Download+packages+and+tutorial+VMs>`_
 release version.
 
 ONOS references
 ---------------
 
-For an overview of the ONOS controller a good reference is the
+For an overview of the ONOS controller, please see
 `User Guide <https://wiki.onosproject.org/display/ONOS/User's+Guide>`_.  For more detailed information
 about the EMU version of ONOS, documentation is available on the
 `ONOS download page <https://wiki.onosproject.org/display/ONOS/Download+packages+and+tutorial+VMs>`_.
@@ -28,7 +28,7 @@ about the EMU version of ONOS, documentation is available on the
 Connecting to the ONOS instance
 -------------------------------
 
-Once you are familiar with the ONOS controller and it's configuration
+Once you are familiar with the ONOS controller and its configuration
 you will want to connect to the ONOS instance from the Jumphost.
 To do this you should open a browser on the JumpHost to the following address
 and enter the username and password:
@@ -45,3 +45,6 @@ for more information on using those interfaces.
 It is important to be aware that when working directly on the ONOS controller
 the OpenStack instance will not always be aware of the changes you are making to the
 networking controller.  This may result in unrecoverable inconsistencies in your deployment.
+
+If you have any questions or need further assistance, you may also direct your queries to 
+`ONOSFW Forum <http://forum.onosfw.com>`
