@@ -70,21 +70,32 @@ sed -i -e '/^.. figure::/s|images|../projects/promise/configguide/images|' \
     docs/projects/promise/configguide/featureconfig.rst
 
 # NOTE: automated link generation is not ready...
-#echo
-#echo "Creating document links"
-#echo
-#for guide in configguide userguide
-#do
-#    link_list=$WORKSPACE/docs/$guide/projects-$guide.rst
-#    for repo in $repos
-#    do
-#        file=projects/$repo/$guide/$guide.rst
-#        [[ -e $WORKSPACE/docs/$file ]] || continue
-#        echo "" >> $link_list
-#        echo "$repo:" >> $link_list
-#        echo ".. include:: ../$file" >> $link_list
-#    done
-#done
+echo
+echo "Creating document links"
+echo
+#for guide in configguide/installer-config.rst configguide/feature-config.rst \
+#             configguide/postinatall.rst \
+#             userguide/feature-usage.rst userguide/test-usage.rst
+for guide in configguide/feature-config.rst
+do
+    mainfile="$WORKSPACE/docs/$guide"
+    for repo in $repos
+    do
+        projectfile="projects/$repo/${guide//-/}"
+        projectlink="featureconfig-$repo.rst"
+        [[ -e "$WORKSPACE/docs/$projectfile" ]] || continue
+        echo "Adding $repo to $guide ..."
+        echo "" >> $mainfile
+        echo ".. toctree::" >> $mainfile
+        echo "" >> $mainfile
+        echo "    $projectlink" >> $mainfile
+        echo ".. include:: ../$projectfile" >> $projectlink
+    done
+    echo
+    echo "Generated $guide:"
+    cat $mainfile
+    echo
+done
 
 $WORKSPACE/releng/utils/docs-build.sh
 

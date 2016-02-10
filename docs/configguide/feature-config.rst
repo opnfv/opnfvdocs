@@ -8,23 +8,3 @@ Feature Configuration
 
 The following sections describe the configuration options for specific platform features provided in Brahmaputra.
 Further details for each feature are captured in the referred project documentation.
-
-.. toctree::
-
-    featureconfig-copper
-
-.. toctree::
-
-    featureconfig-doctor
-
-.. toctree::
-
-    featureconfig-ipv6
-
-.. toctree::
-
-    featureconfig-promise
-
-.. toctree::
-
-    featureconfig-sdnvpn
