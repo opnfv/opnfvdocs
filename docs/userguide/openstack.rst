@@ -2,8 +2,9 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Christopher Price (Ericsson AB)
 
+--------------------------------
 Brahmaputra OpenStack User Guide
-================================
+--------------------------------
 
 OpenStack is a cloud operating system developed and released by the
 `OpenStack project <https://www.openstack.org>`_.  OpenStack is used in OPNFV for
