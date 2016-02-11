@@ -7,10 +7,10 @@ OPNFV User Guide
 ****************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    ./abstract
    ./introduction
    ./general-system
-   ./test-usage
    ./feature-usage
+   ./test-usage
