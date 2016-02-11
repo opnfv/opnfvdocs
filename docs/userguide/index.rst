@@ -12,5 +12,6 @@ OPNFV User Guide
    ./abstract
    ./introduction
    ./general-system
-   ./test-usage
    ./feature-usage
+   ./test-usage
+
