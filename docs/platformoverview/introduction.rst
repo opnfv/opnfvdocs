@@ -1,3 +1,7 @@
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. (c) OPNFV, Huawei
+
 ============
 Introduction
 ============
@@ -9,6 +13,9 @@ The OPNFV project provides different kinds of output to its users:
    This provides the software which will run as NFVI and VIM in an actual NFV deployment
    It is an integrated solution of several other open source projects, e.g. OpenStack,
    Linux, ODL.
+
+   The target software platform is provided in several variants, called scenarios.
+   This allows to use different SDN controllers or include optional features.
 
 2. **Deployment Tools**
 
@@ -46,7 +53,7 @@ description to releases and provides documentation describing the scope and feat
 provided.
 
 Since OPNFV releases contain different options (e.g. for installers, SDN controllers, etc.)
-We define a set of scenarios, that is a set of components, combinations
+We define a set of **scenarios**, that is a set of components, combinations
 and associated configuration.
 This set of scenarios shows which combinations of components and features are tested as
 part of the OPNFV release.

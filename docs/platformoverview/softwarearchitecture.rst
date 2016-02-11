@@ -1,3 +1,7 @@
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. (c) OPNFV, Huawei
+
 ========================
 Target software platform
 ========================
@@ -45,11 +49,12 @@ SDN Controllers
 
 OPNFV Brahmaputra release supports three different SDN controllers:
 
-* OpenDaylight
-* ONOS
-* OpenContrail
+* OpenDaylight (ODL, Beryllium release)
+* ONOS (Emu release)
+* OpenContrail (?)
 
 Depending on the SDN controller you are using, the featureset will vary.
+Brahmaputra also provides scenarios without an SDN controller, just using OpenStack Neutron.
 
 OpenDaylight
 ++++++++++++
@@ -61,9 +66,69 @@ We need a high level paragraph here and a description of how we use ODL.
 ONOS
 ++++
 
+.. ONOS intro taken from https://wiki.onosproject.org/pages/viewpage.action?pageId=2851517
+
+ONOS stands for **O** pen **N** etwork **O** perating **S** ystem. ONOS provides the control plane
+for a software-defined network (SDN), managing network components, such as switches and links,
+and running software programs or modules to provide communication services to end hosts and
+neighboring networks.
+
+* If you are familiar with server operating systems, you will find that ONOS provides some
+  analogous types of functionality, including APIs and abstractions, resource allocation, and
+  permissions, as well as user-facing software such as a CLI, a GUI, and system applications.
+
+* If you are familiar with traditional "inside the box" switch operating systems, you will find
+  that ONOS manages your entire network rather than a single device, which can dramatically
+  simplify management, configuration, and deployment of new software, hardware and services.
+
+* If you are familiar with SDN controllers, you should feel right at home because the ONOS
+  platform and applications act as an extensible, modular, distributed SDN controller.
+
+The most important benefit of an operating system is that it provides a useful and usable
+platform for software programs designed for a particular application or use case. ONOS
+applications and use cases often consist of customized communication routing, management, or
+monitoring services for software-defined networks. Some examples of things which you can do with
+ONOS, and software written to run on ONOS, may be found in Applications and Use Cases.
+
+ONOS can run as a distributed system across multiple servers, allowing it to use the CPU and
+memory resources of multiple servers while providing fault tolerance in the face of server
+failure and potentially supporting live/rolling upgrades of hardware and software without
+interrupting network traffic.
+
+The ONOS kernel and core services, as well as ONOS applications, are written in Java as bundles
+that are loaded into the Karaf OSGi container. OSGi is a component system for Java that allows
+modules to be installed and run dynamically in a single JVM. Since ONOS runs in the JVM, it can
+run on several underlying OS platforms such as Ubuntu or OS X.
+
+More information on the internal design of ONOS may be found in Architecture Guide, and
+information on developing ONOS applications may be found in the Developer's Guide.
+
+ONOS is an open source project backed by an expanding community of developers and users, and you
+are invited and encouraged to join in discussion, development, documentation, and improvement of
+the ONOS system. This document itself is part of the ONOS wiki, so please feel free to fix any
+errors, add clarifying comments, and improve it as you see fit.
+
+.. end of text from wiki.onosproject.org
+
+(introduction taken from
+`wiki.onosproject.org <https://wiki.onosproject.org/display/ONOS/User's+Guide>`_
+
+Please find more details on ONOS architecture at
+https://wiki.onosproject.org/display/ONOS/Architecture+Guide
+
+In OPNFV, the ONOS is deployed on the controller nodes. ONOS scenarios focus on but not limited to edge and transport network focused use cases.
+
+The following diagram illustrates how ONOS is integrated into OPNFV.
+
 Editors note:
-We need a high level paragraph here and a description of how we use ONOS, especially the
-relation of ONOS and ONOSFW project's integration and features.
+Diagram may need to be updated and explained.
+
+.. image:: ../images/onos-integration.png
+   :scale: 50%
+   :alt: ONOS Integration
+
+
+
 
 OpenContrail
 ++++++++++++
