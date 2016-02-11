@@ -1,3 +1,7 @@
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. (c) OPNFV, Huawei
+
 ========================
 Target software platform
 ========================
@@ -45,11 +49,12 @@ SDN Controllers
 
 OPNFV Brahmaputra release supports three different SDN controllers:
 
-* OpenDaylight
-* ONOS
-* OpenContrail
+* OpenDaylight (ODL, Beryllium release)
+* ONOS (Emu release)
+* OpenContrail (?)
 
 Depending on the SDN controller you are using, the featureset will vary.
+Brahmaputra also provides scenarios without an SDN controller, just using OpenStack Neutron.
 
 OpenDaylight
 ++++++++++++
@@ -61,9 +66,35 @@ We need a high level paragraph here and a description of how we use ODL.
 ONOS
 ++++
 
-Editors note:
-We need a high level paragraph here and a description of how we use ONOS, especially the
-relation of ONOS and ONOSFW project's integration and features.
+.. ONOS intro shortened from https://wiki.onosproject.org/pages/viewpage.action?pageId=2851517
+
+ONOS stands for **O** pen **N** etwork **O** perating **S** ystem. ONOS provides the control plane
+for a software-defined network (SDN), managing network components, such as switches and links,
+and running software programs or modules to provide communication services to end hosts and
+neighboring networks.
+
+ONOS provides a platform for SDN applications and use cases for routing, management, or
+monitoring services for software-defined networks.
+
+ONOS can run as a distributed system across multiple servers, allowing it to use the CPU and
+memory resources of multiple servers while providing fault tolerance in the face of server
+failure and potentially supporting live/rolling upgrades of hardware and software without
+interrupting network traffic.
+
+The ONOS kernel and core services, as well as ONOS applications, are written in Java as bundles
+that are loaded into the Karaf OSGi container. OSGi is a component system for Java that allows
+modules to be installed and run dynamically in a single JVM.
+
+More information on the internal design of ONOS may be found in
+`User's Guide <https://wiki.onosproject.org/display/ONOS/User's+Guide>`_ and
+`Architecture+Guide <https://wiki.onosproject.org/display/ONOS/Architecture+Guide>`_ on the
+`wiki of the ONOS project <https://wiki.onosproject.org>`_.
+
+ONOS is integrated to OPNFV using a framework ONOSFW and Neutron plugins. Details can be found in the
+ONOS specific OPNFV documents:
+
+.. Link to be added.
+
 
 OpenContrail
 ++++++++++++
