@@ -12,7 +12,24 @@ system testing, automated deployment validation and performance charecteristics 
 The following sections outline how to use the test projects delivering automated
 test suites and frameworks in the in the Brahmaputra release of OPNFV.
 
-.. include:: ../projects/functest/userguide/description.rst
-.. include:: ../projects/functest/userguide/runfunctest.rst
-.. include:: ../projects/vswitchperf/userguide/quickstart.rst
+Functest framework
+==================
+
+.. toctree::
+
+   functest-usage
+
+vSwitchPerf framework
+=====================
+
+.. toctree::
+
+   vswitchperf-usage
+
+YardStick framework
+===================
+
+.. toctree::
+
+   yardstick-usage
 

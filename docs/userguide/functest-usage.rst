@@ -2,15 +2,5 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Christopher Price (Ericsson AB)
 
-****************
-OPNFV User Guide
-****************
-
-.. toctree::
-   :maxdepth: 3
-
-   ./abstract
-   ./introduction
-   ./general-system
-   ./test-usage
-   ./feature-usage
+.. include:: ../projects/functest/userguide/description.rst
+.. include:: ../projects/functest/userguide/runfunctest.rst
