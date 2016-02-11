@@ -2,8 +2,9 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Christopher Price (Ericsson AB)
 
+---------------
 ONOS User Guide
-===============
+---------------
 
 ONOS is an SDN controller platform developed and released by the
 `ONOS project <https://www.onosproject.org>`_.
@@ -12,7 +13,7 @@ component of a variety of OPNFV NFVI scenarios.
 
 ONOS runs within a JVM instance and is integrated with OpenStack via a Neutron ML2 
 plugin.  The ONOS instance can be configured through the OpenStack Neutron interface, 
-or through native ONOS tools, from the OPNFV jumphost.  The Brahmaputra release of 
+or through native ONOS tools from the OPNFV jumphost.  The Brahmaputra release of 
 OPNFV integrates the latest
 `ONOS 1.4 (EMU) <https://wiki.onosproject.org/display/ONOS/Download+packages+and+tutorial+VMs>`_
 release version.
