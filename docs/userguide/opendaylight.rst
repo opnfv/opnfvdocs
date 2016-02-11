@@ -2,21 +2,21 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Christopher Price (Ericsson AB)
 
+-----------------------
 OpenDaylight User Guide
-=======================
+-----------------------
 
 OpenDaylight is an SDN controller platform developed and released by the
 `OpenDaylight project <https://www.opendaylight.org/>`_.
 The OpenDaylight controller is installed and configured in OPNFV as the networking
-component of a variety of OPNFV VNFi scenarios using the neutron ODL device driver
+component of a variety of OPNFV NVFi scenarios using the neutron ODL device driver
 as an integration point toward OpenStack.
 
-OpenDaylight runs within a JVM that is installed in OPNFV within a container and
+OpenDaylight runs within a JVM and is installed in OPNFV within a container and
 integrated with OpenStack.  The OpenDaylight instance can be configured through the
 OpenStack Horizon interface, or accessed directly from the OPNFV Jumphost.  The
 Brahmaputra release of OPNFV integrates the latest
-`Lithium stable release <https://www.opendaylight.org/downloads/>`_ or when deploying
-an SFC or SDNVPN scenario will integrate a Beryllium release version.
+`Beryllium release <https://www.opendaylight.org/downloads/>`_.
 
 OpenDaylight references
 -----------------------
@@ -36,7 +36,7 @@ of the deployed system.
 Connecting to the OpenDaylight instance
 ---------------------------------------
 
-Once you are familiar with the OpenDaylight controller and it's configuration
+Once you are familiar with the OpenDaylight controller and its configuration
 you will want to connect to the OpenDaylight instance from the Jumphost.
 To do this you should open a browser on the JumpHost to the following address
 and enter the username and password:
