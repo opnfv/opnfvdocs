@@ -10,8 +10,8 @@ The following sections of the user guide provide feature specific usage guidelin
 Providing users the necessary information to leveraging the features in the platform,
 some operation in this section may refer back to the guides in the general system usage section.
 
-.. include:: ../projects/copper/userguide/userguide.rst
-.. include:: ../projects/doctor/userguide/userguide.rst
-.. include:: ../projects/ipv6/userguide/userguide.rst
-.. include:: ../projects/promise/userguide/userguide.rst
+.. include:: ../projects/copper/userguide/featureusage.rst
+.. include:: ../projects/doctor/userguide/featureusage.rst
+.. include:: ../projects/ipv6/userguide/featureusage.rst
+.. include:: ../projects/promise/userguide/featureusage.rst
 
