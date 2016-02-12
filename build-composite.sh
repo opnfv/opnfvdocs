@@ -22,17 +22,17 @@ get_repo_names() {
     #       so we have the repo name list here to add project docs
     #       one by one. This will be replaced by the list in project.cfg .
     # grep -v '^#' releng/jjb/opnfvdocs/project.cfg | sort
-    echo "sdnvpn"
-    echo "fuel"
-    echo "ipv6"
-    echo "joid"
-    echo "functest"
     echo "apex"
-    echo "promise"
     echo "copper"
     echo "doctor"
-    echo "vswitchperf"
     echo "fastpathmetrics"
+    echo "fuel"
+    echo "functest"
+    echo "ipv6"
+    echo "joid"
+    echo "promise"
+    echo "sdnvpn"
+    echo "vswitchperf"
 }
 
 git_clone() {
@@ -79,17 +79,20 @@ echo
 for guide in configguide/feature-config.rst
 do
     mainfile="$WORKSPACE/docs/$guide"
+    basefilename=$(basename ${guide/-/})
     for repo in $repos
     do
-        projectfile="projects/$repo/${guide//-/}"
-        projectlink="${mainfile%/*}/featureconfig-$repo.rst"
-        [[ -e "$WORKSPACE/docs/$projectfile" ]] || continue
+        targetfile="$WORKSPACE/docs/projects/$repo/${guide/-/}"
+        targetlink="../projects/$repo/${guide/-/}"
+        projectfilename="${basefilename/.rst/-$repo.rst}"
+        projectfile="$(dirname $mainfile)/$projectfilename"
+        [[ -e "$targetfile" ]] || continue
         echo "Adding $repo to $guide ..."
         echo "" >> $mainfile
         echo ".. toctree::" >> $mainfile
         echo "" >> $mainfile
-        echo "    $projectlink" >> $mainfile
-        echo ".. include:: ../$projectfile" >> $projectlink
+        echo "    $projectfilename" >> $mainfile
+        echo ".. include:: $targetlink" > $projectfile
     done
     echo
     echo "Generated $guide:"
