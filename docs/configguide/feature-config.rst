@@ -8,3 +8,5 @@ Feature Configuration
 
 The following sections describe the configuration options for specific platform features provided in Brahmaputra.
 Further details for each feature are captured in the referred project documentation.
+
+.. build-composite.sh will add links to <project>/docs/configguide/featureconfig.rst in each repo.
