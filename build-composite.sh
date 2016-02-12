@@ -79,17 +79,20 @@ echo
 for guide in configguide/feature-config.rst
 do
     mainfile="$WORKSPACE/docs/$guide"
+    mainfilename=$(basename $guide)
     for repo in $repos
     do
-        projectfile="projects/$repo/${guide//-/}"
-        projectlink="${mainfile%/*}/featureconfig-$repo.rst"
+        projectfilename="${mainfilename/.rst/-$repo.rst}"
+        projectfile="$(dirname $mainfile)/$projectfilename"
+        targetfile="$WORKSPACE/docs/projects/$repo/${guide/-/}"
+        targetlink="../projects/$repo/${guide/-/}"
         [[ -e "$WORKSPACE/docs/$projectfile" ]] || continue
         echo "Adding $repo to $guide ..."
         echo "" >> $mainfile
         echo ".. toctree::" >> $mainfile
         echo "" >> $mainfile
-        echo "    $projectlink" >> $mainfile
-        echo ".. include:: ../$projectfile" >> $projectlink
+        echo "    $projectfilename" >> $mainfile
+        echo ".. include:: $targetlink" > $projectfile
     done
     echo
     echo "Generated $guide:"
