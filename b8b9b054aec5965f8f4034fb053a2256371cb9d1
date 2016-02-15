@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_da41a73a",
+        "filename": "build-composite.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-02-15T08:45:28Z",
+      "side": 1,
+      "message": "typo. \n\n    post-inatall -\u003e post-install\n\nI know this is commented out so this is just to make sure it is not missed in case if it is uncommented.",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 30
+      },
+      "revId": "b8b9b054aec5965f8f4034fb053a2256371cb9d1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_ba3eebb6",
+        "filename": "docs/userguide/feature-usage.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-02-15T08:45:28Z",
+      "side": 1,
+      "message": "shouldn\u0027t this match to the file name expected by the script build-composite.sh?\n\n    userguide/feature-usage.rst",
+      "range": {
+        "startLine": 13,
+        "startChar": 28,
+        "endLine": 13,
+        "endChar": 44
+      },
+      "revId": "b8b9b054aec5965f8f4034fb053a2256371cb9d1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_9a4b2f59",
+        "filename": "docs/userguide/test-usage.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-02-15T08:45:28Z",
+      "side": 1,
+      "message": "shouldn\u0027t this match to the file name expected by the script build-composite.sh?\n\n    userguide/test-usage.rst",
+      "range": {
+        "startLine": 15,
+        "startChar": 28,
+        "endLine": 15,
+        "endChar": 41
+      },
+      "revId": "b8b9b054aec5965f8f4034fb053a2256371cb9d1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
