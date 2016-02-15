@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5a4e6583_9a620fd7",
+        "filename": "build-composite.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-15T08:53:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a4e6583_da41a73a",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 30
+      },
+      "revId": "b8b9b054aec5965f8f4034fb053a2256371cb9d1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a4e6583_ba3eebb6",
         "filename": "docs/userguide/feature-usage.rst",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "5a4e6583_1aa61f11",
+        "filename": "docs/userguide/feature-usage.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-15T08:53:35Z",
+      "side": 1,
+      "message": "\u0027userguide/featureusage.rst\u0027 is expected for project document file. We are using \u0027userguide/feature-usage.rst\u0027 for the main document file to avoid confusion/conflict.\n\nhttps://wiki.opnfv.org/documentation/userguide",
+      "parentUuid": "5a4e6583_ba3eebb6",
+      "range": {
+        "startLine": 13,
+        "startChar": 28,
+        "endLine": 13,
+        "endChar": 44
+      },
+      "revId": "b8b9b054aec5965f8f4034fb053a2256371cb9d1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a4e6583_9a4b2f59",
         "filename": "docs/userguide/test-usage.rst",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2016-02-15T08:45:28Z",
       "side": 1,
       "message": "shouldn\u0027t this match to the file name expected by the script build-composite.sh?\n\n    userguide/test-usage.rst",
+      "range": {
+        "startLine": 15,
+        "startChar": 28,
+        "endLine": 15,
+        "endChar": 41
+      },
+      "revId": "b8b9b054aec5965f8f4034fb053a2256371cb9d1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_faaa23d3",
+        "filename": "docs/userguide/test-usage.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-15T08:53:35Z",
+      "side": 1,
+      "message": "same as \u0027featureusage.rst\u0027. please check https://wiki.opnfv.org/documentation/userguide .",
+      "parentUuid": "5a4e6583_9a4b2f59",
       "range": {
         "startLine": 15,
         "startChar": 28,
