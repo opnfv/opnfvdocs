@@ -12,7 +12,4 @@ system testing, automated deployment validation and performance charecteristics 
 The following sections outline how to use the test projects delivering automated
 test suites and frameworks in the in the Brahmaputra release of OPNFV.
 
-.. include:: ../projects/functest/userguide/description.rst
-.. include:: ../projects/functest/userguide/runfunctest.rst
-.. include:: ../projects/vswitchperf/userguide/quickstart.rst
-
+.. <project>/docs/userguide/testusage.rst files will be imported below by the build script.
