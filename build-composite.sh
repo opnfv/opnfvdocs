@@ -76,10 +76,10 @@ echo
 targets="
 configguide/installer-config.rst
 configguide/feature-config.rst
+userguide/test-usage.rst
+userguide/feature-usage.rst
 "
-# configguide/postinatall.rst
-# userguide/feature-usage.rst
-# userguide/test-usage.rst
+# configguide/post-install.rst
 for guide in $targets
 do
     mainfile="$WORKSPACE/docs/$guide"
