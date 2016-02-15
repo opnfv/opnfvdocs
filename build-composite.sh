@@ -65,9 +65,13 @@ done
 # NOTE: Removing index.rst in project repos to reduce number of docs.
 find docs/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
 
-# Correct Image file path (workaround)
-sed -i -e '/^.. figure::/s|images|../projects/promise/configguide/images|' \
-    docs/projects/promise/configguide/featureconfig.rst
+# fix relative file paths
+base_path="/$(cd $WORKSPACE && pwd)/docs_build/_src"
+for f in $(find docs/projects/$repo -type f -name '*.rst' -print)
+do
+    _path="$base_path/$(dirname $f)"
+    sed -i -e -e "/.. \(include\|figure\):: *[^\/]/s|:: *|:: $_path/|" $f
+done
 
 # NOTE: automated link generation is not ready...
 echo
