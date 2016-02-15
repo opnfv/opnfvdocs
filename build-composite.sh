@@ -54,6 +54,7 @@ mkdir -p docs/projects
 echo
 echo "Cloning repos of participating OPNFV Projects and copying docs"
 echo
+base_path="/$(cd $WORKSPACE && pwd)/docs_build/_src"
 for repo in $repos; do
     echo "    $repo ($GERRIT_BRANCH)"
     git_clone $repo
@@ -69,9 +70,9 @@ for repo in $repos; do
     # Note: 'docs_build/_src' is the folder in which all document contents
     #       will be copied during docs build process.
     find docs/projects/$repo -type f -name '*.rst' -print | \
-    xargs -I f sed -i \
-    -e "s|@PROJECT_PATH@|docs_build/_src/projects/$repo|" \
-    -e "s|@OPNFVDOCS_PATH@|docs_build/_src|" f
+    xargs sed -i \
+    -e "s|@PROJECT_PATH@|$base_path/projects/$repo|" \
+    -e "s|@OPNFVDOCS_PATH@|$base_path|"
 done
 
 # NOTE: Removing index.rst in project repos to reduce number of docs.
