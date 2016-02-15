@@ -73,10 +73,14 @@ sed -i -e '/^.. figure::/s|images|../projects/promise/configguide/images|' \
 echo
 echo "Creating document links"
 echo
-#for guide in configguide/installer-config.rst configguide/feature-config.rst \
-#             configguide/postinatall.rst \
-#             userguide/feature-usage.rst userguide/test-usage.rst
-for guide in configguide/feature-config.rst
+targets="
+configguide/installer-config.rst
+configguide/feature-config.rst
+"
+# configguide/postinatall.rst
+# userguide/feature-usage.rst
+# userguide/test-usage.rst
+for guide in $targets
 do
     mainfile="$WORKSPACE/docs/$guide"
     basefilename=$(basename ${guide/-/})
