@@ -60,22 +60,14 @@ for repo in $repos; do
     [[ -e $WORKSPACE/$repo/docs ]] || continue
     [[ -e docs/projects/$repo ]] && rm -rf docs/projects/$repo
     cp -r $WORKSPACE/$repo/docs docs/projects/$repo
-
-    # Replace PATH variables by source file folder paths.
-    # Note: Editors can recognize as follows:
-    #   * @PROJECT_PATH@ is pointer to the project folder
-    #     'opnfvdocs/docs/projects/<project name>'.
-    #   * @OPNFVDOCS_PATH@ is pointer to the main folder 'opnfvdocs/docs'.
-    # Note: 'docs_build/_src' is the folder in which all document contents
-    #       will be copied during docs build process.
-    find docs/projects/$repo -type f -name '*.rst' -print | \
-    xargs -I f sed -i \
-    -e "s|@PROJECT_PATH@|docs_build/_src/projects/$repo|" \
-    -e "s|@OPNFVDOCS_PATH@|docs_build/_src|" f
 done
 
 # NOTE: Removing index.rst in project repos to reduce number of docs.
 find docs/projects -type f -name 'index.rst' -print | xargs -I i rm -f i
+
+# Correct Image file path (workaround)
+sed -i -e '/^.. figure::/s|images|../projects/promise/configguide/images|' \
+    docs/projects/promise/configguide/featureconfig.rst
 
 # NOTE: automated link generation is not ready...
 echo
