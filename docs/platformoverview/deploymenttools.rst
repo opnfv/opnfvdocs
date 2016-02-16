@@ -23,6 +23,7 @@ Triple-O is an image based life cycle deployment tool that is a member of the Op
 
 Apex uses Centos on all target platforms and can deploy all SDN controllers.
 
+
 Compass
 =======
 
@@ -37,8 +38,9 @@ It can deploy Ubuntu or Centos as target operating system and ODL and ONOS as SD
 Fuel
 ====
 
-Editors note:
-Just a high level intro and link to the main fuel documents.
+Fuel is an installer project based on the Fuel OpenStack open source project providing automated deployment and management of OpenStack and other distributed systems. 
+It is based on puppet and deploys the Ubuntu Linux operating system; the OpenStack virtual Infra-structure manager, and OpenDaylight or ONOS SDN controllers.
+
 
 Joid
 ====
