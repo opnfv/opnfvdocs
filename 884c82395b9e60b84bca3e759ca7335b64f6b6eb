@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_60832257",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-16T04:46:53Z",
+      "side": 1,
+      "message": "i suppose you intend line 9-11 are in the same paragraph, so you should delete spaces at the beginning of the lines.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 1
+      },
+      "revId": "884c82395b9e60b84bca3e759ca7335b64f6b6eb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_80b61e3c",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-16T04:46:53Z",
+      "side": 1,
+      "message": "the second line should be started after 5 spaces to make this two lines as one bullet. You also need to fix line 16, 66-74.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 30
+      },
+      "revId": "884c82395b9e60b84bca3e759ca7335b64f6b6eb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
