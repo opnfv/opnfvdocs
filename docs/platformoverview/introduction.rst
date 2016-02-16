@@ -62,4 +62,6 @@ provided.
 This overview document introduces these components and scenarios on a high level and
 points you to more detailed documentation.
 
-
+Also community labs are independent of releases. Only the lab description is included in
+the release and describes the requirements of a lab to successfully run Brahmaputra
+deployments.
