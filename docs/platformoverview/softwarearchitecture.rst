@@ -146,7 +146,7 @@ software is involved in which way during:
 
 * VNF Life Cycle (onboarding, instantiate, scaling): we can reference to other documents
 * Hardware Life Cycle (mainly how to add compute nodes, but also other cases)
-* ...
+* ...  
 
 
 
