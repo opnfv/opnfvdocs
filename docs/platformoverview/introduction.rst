@@ -61,4 +61,4 @@ later releases of OPNFV. Thus they are not part of a release package.
 
 Also community labs are independent of releases. Only the lab description is included in
 the release and describes the requirements of a lab to successfully run Brahmaputra
-deployments.
+deployments.  
