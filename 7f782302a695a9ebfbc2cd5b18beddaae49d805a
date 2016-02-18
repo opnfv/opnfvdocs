@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_abc1fb81",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "deployment.",
+      "range": {
+        "startLine": 9,
+        "startChar": 87,
+        "endLine": 9,
+        "endChar": 88
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_8bbe3ffe",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "test cases",
+      "range": {
+        "startLine": 26,
+        "startChar": 10,
+        "endLine": 26,
+        "endChar": 15
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_6bbb030f",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "repeating word?",
+      "range": {
+        "startLine": 44,
+        "startChar": 47,
+        "endLine": 44,
+        "endChar": 60
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_2b3d0b90",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "small letter?",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 1
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_cb72f77b",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "This sentence is to me a bit misplaced, or is it the wording?",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 43
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_6b69c38a",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "release.",
+      "range": {
+        "startLine": 9,
+        "startChar": 30,
+        "endLine": 9,
+        "endChar": 37
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_cbf9d7c9",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-18T15:03:20Z",
+      "side": 1,
+      "message": "Rally).",
+      "range": {
+        "startLine": 30,
+        "startChar": 16,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
