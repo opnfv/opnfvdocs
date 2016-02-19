@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "5a4e6583_60ef9db1",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-19T00:47:48Z",
+      "side": 1,
+      "message": "yeah, we can delete this. If you delete this rather then deleting \u0027documentation\u0027 in line 45, it should be nice to move line 62-64 into line 53 for keep the order of description here.",
+      "parentUuid": "5a4e6583_6bbb030f",
+      "range": {
+        "startLine": 44,
+        "startChar": 47,
+        "endLine": 44,
+        "endChar": 60
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a4e6583_2b3d0b90",
         "filename": "docs/platformoverview/introduction.rst",
         "patchSetId": 1
@@ -105,6 +129,30 @@
       "writtenOn": "2016-02-18T15:03:20Z",
       "side": 1,
       "message": "This sentence is to me a bit misplaced, or is it the wording?",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 43
+      },
+      "revId": "7f782302a695a9ebfbc2cd5b18beddaae49d805a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_402ca102",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-19T00:47:48Z",
+      "side": 1,
+      "message": "i cannot see a problem here, but is there any good place to move this sentence?",
+      "parentUuid": "5a4e6583_cb72f77b",
       "range": {
         "startLine": 54,
         "startChar": 0,
