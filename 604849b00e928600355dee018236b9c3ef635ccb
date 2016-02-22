@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_2609f82c",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-22T14:23:57Z",
+      "side": 0,
+      "message": "Please be more specific.",
+      "parentUuid": "1a486d77_83a65e52",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_63bc826d",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 2
@@ -121,6 +139,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_060efc34",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-22T14:23:57Z",
+      "side": 0,
+      "message": "I don\u0027t find the information at the linked document. It talks about how to name scenarios etc.\nIf there is another document with the right level, we can link to it.",
+      "parentUuid": "1a486d77_03bb8e73",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_e3af522a",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 2
@@ -132,6 +168,24 @@
       "writtenOn": "2016-02-22T13:13:36Z",
       "side": 0,
       "message": "This would be exxcellent to have as a high level description.  Can we get this done in time?",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_e612c057",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-22T14:23:57Z",
+      "side": 0,
+      "message": "I don\u0027t think we have enough time.",
+      "parentUuid": "1a486d77_e3af522a",
       "revId": "604849b00e928600355dee018236b9c3ef635ccb",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
