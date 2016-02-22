@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_03a4ae55",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "We either need this in ASAP or we should remove the \"one liners about the installers\n(same for JOID)",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_83a65e52",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "this could be brken up for readability.  Also needs some editorial work on language but that\u0027s OK at this stage.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_63bc826d",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "can this be more informative?\nWe have http://artifacts.opnfv.org/genesisreq/review/10345/requirements/index.html which provides information on what is in the platforms.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_c3ac5638",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "TLDR;  maybe we don\u0027t need to list this here, we have a document specifically aimed at decsribing this let\u0027s just refer to it.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_43c186e3",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "I personally think we should remove this from the overview.  Let\u0027s not do component by component descriptions here.  Either we do them all, or we \"select worthy components\" which is not what we want to do as a community.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_23b68a8b",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "This is good and at the right level.  +1",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_03bb8e73",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "This should reference to the http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide/configoptions.html#opnfv-scenario-s document.  Let\u0027s not replicate it here.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_e3af522a",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "This would be exxcellent to have as a high level description.  Can we get this done in time?",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_a3a95a26",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T13:13:36Z",
+      "side": 0,
+      "message": "+1 agree.  Let\u0027s just describe in holistic terms the available and used testing frameworks.  If we are keen we link to the project pages.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
