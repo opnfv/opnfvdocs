@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_e6408037",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T14:49:52Z",
+      "side": 1,
+      "message": "In the OPNFV community  (no comma)",
+      "revId": "e2e044bf47f4d2c8e8680c79a037d54119c0f3e1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_c63d84bd",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T14:49:52Z",
+      "side": 1,
+      "message": "this should be more like \"several testing projects exist that provide validation frameworks, tools and test cases used in the Brahmaputra release.\"",
+      "revId": "e2e044bf47f4d2c8e8680c79a037d54119c0f3e1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_a64a8853",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T14:49:52Z",
+      "side": 1,
+      "message": "More informative \"These test projects each have individual focus areas such as component validation, use case verification, and performance testing.",
+      "revId": "e2e044bf47f4d2c8e8680c79a037d54119c0f3e1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_86478c4b",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T14:49:52Z",
+      "side": 1,
+      "message": "We should be reporting on the achievements and outcome of Brahmaputra, not \"will build\".",
+      "revId": "e2e044bf47f4d2c8e8680c79a037d54119c0f3e1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_266e98ca",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T14:49:52Z",
+      "side": 1,
+      "message": "would be good to start this section with a statement on our release criteria.  Then move to the specifics of deploy and test suite execution.",
+      "revId": "e2e044bf47f4d2c8e8680c79a037d54119c0f3e1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_6674909c",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-22T14:49:52Z",
+      "side": 1,
+      "message": "\"a suite of test cases are\"",
+      "revId": "e2e044bf47f4d2c8e8680c79a037d54119c0f3e1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
