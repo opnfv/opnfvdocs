@@ -47,3 +47,8 @@ setting up these testing suites:
 .. toctree::
 
     postinstall-vswitchperf
+
+.. toctree::
+
+    postinstall-yardstick
+
