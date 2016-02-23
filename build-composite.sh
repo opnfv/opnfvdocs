@@ -35,6 +35,7 @@ get_repo_names() {
     echo "vswitchperf"
     echo "ovsnfv"
     echo "compass4nfv"
+    echo "yardstick"
 }
 
 git_clone() {
