@@ -13,6 +13,28 @@ in the Brahmaputra release of OPNFV.
 .. image:: ../images/brahmaputrascenariomatrix.jpg
    :alt: OPNFV Brahmaputra Scenario Matrix
 
+Scenario status is indicated by a weather pattern icon.  All scenario's listed with
+a weather pattern are possible to deploy and run in your environment or a Pharos lab,
+however they may have known limitations or issues as indicated by the icon.
+
+Weather pattern icon legend:
+
++-------------------+----------------------------------------------------------+
+| Weather Icon      | Scenario Status                                          |
++===================+==========================================================+
+| .. image:: ../images/weather-clear.jpg      |	Stable, no known issues                      |
++-------------------+----------------------------------------------------------+
+| .. image:: ../images/weather-few-clouds.jpg | Stable, documented limitations               |
++-------------------+----------------------------------------------------------+
+| .. image:: ../images/weather-overcast.jpg   | Deployable, stability or feature limitations |
++-------------------+----------------------------------------------------------+
+| .. image:: ../images/weather-dash.jpg       | Not deployed with this installer             |
++-------------------+----------------------------------------------------------+
+
+Scenarios that are not yet in a state of "Stable, no known issues" will continue to be stabilised
+and updates will be made on the stable/brahmaputra branch.  While we intend that all Brahmaputra
+scenarios should be stable it is worth checking regularly to see the current status.  Due to
+our dependency on upstream community and code some issues may not be resolved prior to the C release.
 
 Scenario Naming
 ^^^^^^^^^^^^^^^
@@ -36,7 +58,7 @@ Details of the fields are
   * [feature]: mandatory
 
     * Refers to the feature projects supported by the scenario
-    * example values: nofeature, kvm, ovs
+    * example values: nofeature, kvm, ovs, sfc
 
   * [mode]: mandatory
 
@@ -54,13 +76,13 @@ Some examples of supported scenario names are:
 
     * This is an OpenStack based deployment using neutron including the OPNFV enhanced KVM hypervisor
 
-  * os-odl_l2-nofeature-ha
+  * os-onos-nofeature-ha
 
-    * This is an OpenStack deployment in high availability mode including OpenDaylight layer2 networking
+    * This is an OpenStack deployment in high availability mode including ONOS as the SDN controller
 
-  * os-onos-kvm_ovs-noha
+  * os-odl_l2-sfc
 
-    * This is an OpenStack deployment using ONOS including OPNFV enhanced KVM and OVS versions
+    * This is an OpenStack deployment using OpenDaylight and OVS enabled with SFC features
 
 Installing your scenario
 ^^^^^^^^^^^^^^^^^^^^^^^^

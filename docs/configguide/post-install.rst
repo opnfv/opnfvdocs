@@ -17,7 +17,11 @@ based on the tools and test suites available for the installation tool you have 
 
 .. toctree::
 
-    postinstall-ipv6
+    postinstall-compass4nfv
+
+.. toctree::
+
+    postinstall-fuel
 
 .. toctree::
 
@@ -33,6 +37,11 @@ installed in your scenario:
 
     postinstall-copper
 
+.. toctree::
+
+    postinstall-ipv6
+
+
 Additional testing and validation activities
 ============================================
 
@@ -47,3 +56,8 @@ setting up these testing suites:
 .. toctree::
 
     postinstall-vswitchperf
+
+.. toctree::
+
+    postinstall-yardstick
+
