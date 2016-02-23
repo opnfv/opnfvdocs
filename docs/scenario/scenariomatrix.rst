@@ -4,6 +4,16 @@ scenarios.  While our target is to establish parity across the installation tool
 can provide all scenarios, the practical challenge of achieving that goal for any given feature and
 release results in some disparity.
 
+Brahmaputra scenario overeview
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following table provides an overview of the installation tools and available scenario's
+in the Brahmaputra release of OPNFV.
+
+.. image:: ../images/brahmaputrascenariomatrix.jpg
+   :alt: OPNFV Brahmaputra Scenario Matrix
+
+
 Scenario Naming
 ^^^^^^^^^^^^^^^
 
@@ -65,13 +75,4 @@ virtual deployments can be found in the installer specific installation instruct
 
 To set up a Jenkins slave for automated deployment to your lab, refer to the `Jenkins slave connect guide.
 <http://artifacts.opnfv.org/brahmaputra.1.0/docs/opnfv-jenkins-slave-connection.brahmaputra.1.0.html>`_
-
-Brahmaputra scenario overeview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The following table provides an overview of the installation tools and available scenario's
-in the Brahmaputra release of OPNFV.
-
-.. image:: ../images/brahmaputrascenariomatrix.jpg
-   :alt: OPNFV Brahmaputra Scenario Matrix
 
