@@ -12,7 +12,7 @@ components aimed to solve specific problems for the deployment of VNF's.  A scen
 components such as OpenStack, OpenDaylight, OVS, KVM etc. where each scenario will
 include different source components or configurations.
 
-OPNFV Scenario's
+OPNFV Scenarios
 ================
 
 Each OPNFV scenario provides unique features and capabilities, it is important to understand
