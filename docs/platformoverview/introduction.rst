@@ -2,13 +2,17 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV, Huawei
 
+.. ==> All actions still to be resolved during the review are marked "==>" in comments.
+
 ============
 Introduction
 ============
 
+.. ==> take some more inputs from the marketing message
+
 OPNFV is an integration effort that takes outputs from several open source communities to build a NFV platform. This task of integration leads to providing different kinds of output to its users.
 
-First of all there is of course the **target software platform**, which is a integrated solution
+The primary goal of the OPNFV project is the **target software platform**, which is a integrated solution
 of a set of components/building blocks of the ETSI ISG NFV reference architecture.
 In the Brahmaputra release, this is limited to the NFVI and VIM blocks.
 OPNFV users will be able to deploy their VNFs there using some MANO solution.
@@ -40,7 +44,7 @@ It will execute and test major functions of the platform relevant to NFV applica
 the user can be confident that VNFs can successfully run.
 
 Of course, the OPNFV releases come with the necessary **documentation**, describing
-target software platform, deployment tools, tests, etc. in their architecture and usage.
+target software platform, deployment tools, tests, etc. in their architecture, configuration and usage.
 The most important documents here are configuration guides and user guides that help to set up
 a OPNFV deployment and use it.
 
@@ -48,6 +52,8 @@ The OPNFV project takes major effort to provide **lab environments** to the comm
 The OPNFV community labs of course need to be Pharos-compliant. They are used for OPNFV development
 tasks and release creation, but should also provide users with the opportunity to run their own
 OPNFV tests. OPNFV community labs are not part of a OPNFV release.
+Please find more information on the labs in the
+`Pharos project documentation <http://artifacts.opnfv.org/pharos/docs/index.html>`_.
 
 We should also mention that OPNFV works on **requirements** of open source projects used in OPNFV to
 make these projects better suitable for NFV telco carrier use cases.
@@ -56,8 +62,7 @@ to the "upstream" projects in the format required by these projects.
 These requirement documents are not bound to OPNFV releases.
 
 OPNFV bundles the target software, installers, documentation, test cases and lab
-description to **releases** and provides documentation describing the scope and features
-provided.
+description to **releases**.
 
 This overview document introduces these components and scenarios on a high level and
 points you to more detailed documentation.
