@@ -1,6 +1,6 @@
 Scenarios are implemented as deployable compositions through integration with an installation tool.
 OPNFV supports multiple installation tools and for any given release not all tools will support all
-scenarios.  While our target is to establish parity across the installation tools to ensure they
+scenarios. While our target is to establish parity across the installation tools to ensure they
 can provide all scenarios, the practical challenge of achieving that goal for any given feature and
 release results in some disparity.
 
@@ -13,12 +13,34 @@ in the Brahmaputra release of OPNFV.
 .. image:: ../images/brahmaputrascenariomatrix.jpg
    :alt: OPNFV Brahmaputra Scenario Matrix
 
+Scenario status is indicated by a weather pattern icon. All scenarios listed with
+a weather pattern are possible to deploy and run in your environment or a Pharos lab,
+however they may have known limitations or issues as indicated by the icon.
+
+Weather pattern icon legend:
+
++---------------------------------------------+----------------------------------------------------------+
+| Weather Icon                                | Scenario Status                                          |
++=============================================+==========================================================+
+| .. image:: ../images/weather-clear.jpg      | Stable, no known issues                                  |
++---------------------------------------------+----------------------------------------------------------+
+| .. image:: ../images/weather-few-clouds.jpg | Stable, documented limitations                           |
++---------------------------------------------+----------------------------------------------------------+
+| .. image:: ../images/weather-overcast.jpg   | Deployable, stability or feature limitations             |
++---------------------------------------------+----------------------------------------------------------+
+| .. image:: ../images/weather-dash.jpg       | Not deployed with this installer                         |
++---------------------------------------------+----------------------------------------------------------+
+
+Scenarios that are not yet in a state of "Stable, no known issues" will continue to be stabilised
+and updates will be made on the stable/brahmaputra branch. While we intend that all Brahmaputra
+scenarios should be stable it is worth checking regularly to see the current status.  Due to
+our dependency on upstream communities and code some issues may not be resolved prior to the C release.
 
 Scenario Naming
 ^^^^^^^^^^^^^^^
 
 In OPNFV scenarios are identified by short scenario names, these names follow a scheme that
-identifies the key components and behaviours of the scenario.  The rules for scenario naming are as follows:
+identifies the key components and behaviours of the scenario. The rules for scenario naming are as follows:
 
   os-[controller]-[feature]-[mode]-[option]
 
@@ -36,7 +58,7 @@ Details of the fields are
   * [feature]: mandatory
 
     * Refers to the feature projects supported by the scenario
-    * example values: nofeature, kvm, ovs
+    * example values: nofeature, kvm, ovs, sfc
 
   * [mode]: mandatory
 
@@ -54,13 +76,13 @@ Some examples of supported scenario names are:
 
     * This is an OpenStack based deployment using neutron including the OPNFV enhanced KVM hypervisor
 
-  * os-odl_l2-nofeature-ha
+  * os-onos-nofeature-ha
 
-    * This is an OpenStack deployment in high availability mode including OpenDaylight layer2 networking
+    * This is an OpenStack deployment in high availability mode including ONOS as the SDN controller
 
-  * os-onos-kvm_ovs-noha
+  * os-odl_l2-sfc
 
-    * This is an OpenStack deployment using ONOS including OPNFV enhanced KVM and OVS versions
+    * This is an OpenStack deployment using OpenDaylight and OVS enabled with SFC features
 
 Installing your scenario
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,7 +92,7 @@ walk you through the process of deploying to your hardware using scripts or ISO 
 to set up a Jenkins slave and connect your infrastructure to the OPNFV Jenkins master.
 
 For the purposes of evaluation and development a number of Brahmaputra scenarios are able to be deployed
-virtually to mitigate the requirements on physical infrastructure.  Details and instructions on performing
+virtually to mitigate the requirements on physical infrastructure. Details and instructions on performing
 virtual deployments can be found in the installer specific installation instructions.
 
 To set up a Jenkins slave for automated deployment to your lab, refer to the `Jenkins slave connect guide.
