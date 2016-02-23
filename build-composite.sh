@@ -33,6 +33,8 @@ get_repo_names() {
     echo "promise"
     echo "sdnvpn"
     echo "vswitchperf"
+    echo "ovsnfv"
+    echo "compass4nfv"
 }
 
 git_clone() {
