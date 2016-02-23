@@ -13,6 +13,20 @@ in the Brahmaputra release of OPNFV.
 .. image:: ../images/brahmaputrascenariomatrix.jpg
    :alt: OPNFV Brahmaputra Scenario Matrix
 
+Scenario status is indicated by a weather pattern icon.  All scenario's listed with
+a weather pattern are possible to deploy and run in your enironment or a Pharos lab,
+however they may have known limitations or issues as indicated by the icon.
+
+Weather pattern icon legend:
+
++---------------------------------------------+----------------------------------+
+| Weather Icon                                | Scenario Status                  |
++=============================================+==================================+
+| .. image:: ../images/weather-clear.png      |	Stable, no known issues          |
+| .. image:: ../images/weather-few-clouds.png | Stable, documented limitations   |
+| .. image:: ../images/weather-overcast.png   | Stable, feature limitations      |
+| .. image:: ../images/weather-dash.png       | Not deployed with this installer |
++---------------------------------------------+----------------------------------+
 
 Scenario Naming
 ^^^^^^^^^^^^^^^
