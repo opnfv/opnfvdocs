@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "1a486d77_f75dc849",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-24T09:43:36Z",
+      "side": 1,
+      "message": "High level Fuel intro provided by the Fuel team (Jonas),\nFuel is an installer project based on the Fuel OpenStack open source project providing automated deployment and management of OpenStack and other distributed systems. \nFuel is based on puppet and deploys the Ubuntu Linux operating system; the OpenStack virtual Infra-structure manager, and OpenDaylight or ONOS SDN controllers.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 13
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_92a9027e",
         "filename": "docs/platformoverview/introduction.rst",
         "patchSetId": 1
@@ -18,6 +41,52 @@
         "startChar": 7,
         "endLine": 11,
         "endChar": 55
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d871b62",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-24T09:43:36Z",
+      "side": 1,
+      "message": "Maybe write something like this, \nThe primary target being the software platform,\nOr just skip the \"of course\"",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 64
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9d30f3e9",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-24T09:43:36Z",
+      "side": 1,
+      "message": "is this section needed considering row 64-66?",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 30
       },
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
@@ -60,6 +129,29 @@
       "side": 1,
       "message": "Link worked fine at http://artifacts.opnfv.org/opnfvdocs/review/10495/platformoverview/platformoverview.pdf. Or where do you expect a period?",
       "parentUuid": "1a486d77_b2acfe8d",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_b2051e16",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-02-24T09:43:36Z",
+      "side": 1,
+      "message": "Documentation is mentioned twice.\n\nOPNFV bundles the target software, installers, test cases and lab\ndescription to **releases**. This also includes documentation describing the scope and features\nprovided in a release.",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 22
+      },
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
