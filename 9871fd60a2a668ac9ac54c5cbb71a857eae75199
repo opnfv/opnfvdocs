@@ -48,6 +48,23 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_0c8976ca",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-24T17:45:08Z",
+      "side": 1,
+      "message": "this should be http://artifacts.opnfv.org/joid/brahmaputra/docs/userguide/userguide.pdf",
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_acedc2f1",
         "filename": "docs/platformoverview/introduction.rst",
         "patchSetId": 2
@@ -301,6 +318,23 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_2ced528c",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-24T17:45:08Z",
+      "side": 1,
+      "message": "Let\u0027s not point to a temporary test wiki here.  Refer to the config and user guides which go into details of the installer/scenario and scenario/feature relationships and status.\nOr more to the point, now is the time to remove the comments below and refer to the release location.",
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_ac47024b",
         "filename": "docs/platformoverview/testcasesframework.rst",
         "patchSetId": 2
@@ -341,6 +375,23 @@
         "endLine": 41,
         "endChar": 34
       },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ac8f02cc",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-24T17:45:08Z",
+      "side": 1,
+      "message": "yardstick/brahmaputra/docs",
       "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
