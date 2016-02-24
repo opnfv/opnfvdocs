@@ -1,0 +1,280 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_f80b7529",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "Typo: Compass",
+      "range": {
+        "startLine": 30,
+        "startChar": 61,
+        "endLine": 30,
+        "endChar": 69
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_d808b92f",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "is an installer...",
+      "range": {
+        "startLine": 41,
+        "startChar": 8,
+        "endLine": 41,
+        "endChar": 11
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_0c13b65d",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "build, deploy",
+      "range": {
+        "startLine": 20,
+        "startChar": 63,
+        "endLine": 20,
+        "endChar": 78
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ec0f3a2d",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "This helps in ...",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 24
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_cc1c7e6d",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "I would remove this part.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 42
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ac3022e9",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "the list of common requirements for deployment tools here:",
+      "range": {
+        "startLine": 38,
+        "startChar": 71,
+        "endLine": 38,
+        "endChar": 89
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_6c2b4a83",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "Brahmaputra release.",
+      "range": {
+        "startLine": 38,
+        "startChar": 18,
+        "endLine": 38,
+        "endChar": 57
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ec361ae7",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "Correct link: http://artifacts.opnfv.org/genesisreq/brahmaputra/requirements/requirements.pdf",
+      "range": {
+        "startLine": 39,
+        "startChar": 7,
+        "endLine": 39,
+        "endChar": 67
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_8c4d6675",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "Typo: OpenVSwitch",
+      "range": {
+        "startLine": 150,
+        "startChar": 34,
+        "endLine": 150,
+        "endChar": 44
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ac47024b",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "are running...",
+      "range": {
+        "startLine": 41,
+        "startChar": 46,
+        "endLine": 41,
+        "endChar": 49
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_cc4a3e55",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "the OPNFV...",
+      "range": {
+        "startLine": 41,
+        "startChar": 30,
+        "endLine": 41,
+        "endChar": 34
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ec3dfabc",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T16:11:41Z",
+      "side": 1,
+      "message": "What about STORPERF or SFQM?",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 10
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
