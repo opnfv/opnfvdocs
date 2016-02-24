@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_f25dd649",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 0,
+      "message": "I agree with Ryota\u0027s comment. I think it\u0027s more clear with the separate sections.",
+      "parentUuid": "1a486d77_d29f7a4f",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 4
+      },
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_5d04bb14",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -89,6 +113,52 @@
       "side": 0,
       "message": "I don\u0027t understand your meaning. The sub-topic is next level lower than the one above. Do you want me to use ^^^^^^^^^^^^^ to underline the heading instead of ----------?\n\nThere was no info in the template when I started the doc.",
       "parentUuid": "1a486d77_9202220a",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_dd366be7",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 0,
+      "message": "I think this formatting is more readable.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 12
+      },
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bd8f2f75",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 0,
+      "message": "I think we can keep this explanation and the links below as opposed to the new text.",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 50
+      },
       "revId": "604849b00e928600355dee018236b9c3ef635ccb",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false

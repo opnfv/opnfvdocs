@@ -2,6 +2,75 @@
   "comments": [
     {
       "key": {
+        "uuid": "1a486d77_7231e60a",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Can we give reference to the related chapters in these guides?",
+      "range": {
+        "startLine": 21,
+        "startChar": 87,
+        "endLine": 22,
+        "endChar": 12
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1249928b",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "s/Complass/Compass/",
+      "range": {
+        "startLine": 30,
+        "startChar": 61,
+        "endLine": 30,
+        "endChar": 69
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5236ea04",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Same as above.",
+      "range": {
+        "startLine": 30,
+        "startChar": 87,
+        "endLine": 31,
+        "endChar": 12
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_f75dc849",
         "filename": "docs/platformoverview/deploymenttools.rst",
         "patchSetId": 1
@@ -37,6 +106,29 @@
       "side": 1,
       "message": "OK. Will use this better text.",
       "parentUuid": "1a486d77_f75dc849",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_d221bab5",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Same as above.",
+      "range": {
+        "startLine": 36,
+        "startChar": 80,
+        "endLine": 37,
+        "endChar": 12
+      },
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -189,6 +281,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_b22e3ea4",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think Ryota is missing the period from the end of the sentence, not from the link here.",
+      "parentUuid": "1a486d77_927d82b4",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_b2051e16",
         "filename": "docs/platformoverview/introduction.rst",
         "patchSetId": 1
@@ -224,6 +334,52 @@
       "side": 1,
       "message": "Will shorten to avoid duplication.",
       "parentUuid": "1a486d77_b2051e16",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_f20b9629",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think we should describe what requirement view means here. Like you can find the list of requirements defined against the deployment tools at the Requirements and User Experience \u003clink\u003e document.",
+      "range": {
+        "startLine": 18,
+        "startChar": 73,
+        "endLine": 18,
+        "endChar": 89
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_d2089a2f",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Isn\u0027t there a link to a stable version as opposed to a review output?",
+      "range": {
+        "startLine": 19,
+        "startChar": 76,
+        "endLine": 19,
+        "endChar": 89
+      },
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -312,6 +468,328 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_7dff7702",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "s/for/as part of/",
+      "range": {
+        "startLine": 63,
+        "startChar": 54,
+        "endLine": 63,
+        "endChar": 57
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1d2523ab",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Please refer to the official documentation page for OpenStack, like:\n\nFor more information about the OpenStack features and usage refer to the `official OpenStack documentation page \u003chttp://docs.openstack.org/\u003e`. Please ensure that you have the Liberty release selected at the ``More Releases \u0026 Languages`` the drop down menu.",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 83
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fd3927d9",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think this sentence can be removed it does not really hold information especially without references.",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 91
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7d4d3772",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think the text should focus more on highlighting that it depends on the scenario whether ODL is included or not that would give more clarification here.",
+      "range": {
+        "startLine": 90,
+        "startChar": 68,
+        "endLine": 90,
+        "endChar": 93
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d527b14",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Please remove latest.",
+      "range": {
+        "startLine": 92,
+        "startChar": 77,
+        "endLine": 92,
+        "endChar": 83
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1d73e3b2",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Please change this to:\n\nYou can find more information about OpenDaylight among the release artifacts at the `Downloads page \u003chttps://www.opendaylight.org/downloads\u003e`. Please ensure you are using the Beryllium documentation.",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 159
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_dd92eb9e",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Can we remove it for now and add it when it is supported? I think it would be more clear than referring to the \u0027next drop\u0027.",
+      "range": {
+        "startLine": 108,
+        "startChar": 57,
+        "endLine": 108,
+        "endChar": 69
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1d81a34a",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "This sentence should be moved to the beginning of the section.",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 96
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7de9b719",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Linux\u0027s?",
+      "range": {
+        "startLine": 115,
+        "startChar": 13,
+        "endLine": 115,
+        "endChar": 20
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5deefb23",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "As this is a user facing documentation, I think we should highlight where we are using it as opposed mentioning where it can be used. Or remove this section.",
+      "range": {
+        "startLine": 119,
+        "startChar": 28,
+        "endLine": 119,
+        "endChar": 34
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9d8c7381",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "As it is a platform overview I think if we mention KVM as hypervisor we should focus on which version we are using and how as opposed to the OPNFV project that deals with KVM itself.",
+      "range": {
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 7
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d639bb1",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "It would be good if we could add a reference.",
+      "range": {
+        "startLine": 167,
+        "startChar": 72,
+        "endLine": 168,
+        "endChar": 13
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3d58dff9",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Is it described somewhere what we mean by scenarios? If yes, then the original text is better. If not, I would give a brief overview here to describe the term.",
+      "range": {
+        "startLine": 175,
+        "startChar": 26,
+        "endLine": 175,
+        "endChar": 35
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3d41ff0b",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think we should remove the list above and also the link from here and replace it with a view, when we have the complete list for the release.",
+      "range": {
+        "startLine": 180,
+        "startChar": 0,
+        "endLine": 190,
+        "endChar": 44
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_d2c65a49",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -347,6 +825,374 @@
       "side": 1,
       "message": ".. I didn\u0027t find out how to mark the end of the comment :)",
       "parentUuid": "1a486d77_d2c65a49",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1d9e4357",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I would rephrase this a bit, like:\n\nTesting is a key area and also a challenge for OPNFV in order to be able to verify and validate the platform we are creating.\n\nThis is a complex task as we have to test the integration of the components, the functionality we are creating and using and we have to verify that the platform is suitable for telecom applications. We do testing in an automated fashion by using several test tools and frameworks in our CI/CD pipeline.\n\nThis chapter gives an overview about our testing tools and activities.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 26
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_dd9f8b4f",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "This collides a bit with the test automation efforts mentioned above and below. I also think we could focus a bit on the scenarios here as that is the granularity of our release currently, like:\n\nIn Brahmaputra OPNFV is releasing a set of scenarios that provides choices regarding the deployed components and the available features. The scenarios and the provided functionality are checked in the CI/CD pipeline mentioned above and they are considered to be ready after at least 4 successful consecutive iterations.\n\nThe functional testing and the platform validation are divided between two projects called Functest and Yardstick.",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 57
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5dbb9bc4",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I would rephrase it like:\n\nFunctest created a testing framework along with a set of test cases to provide functional testing over the VIM and NFVI components of the OPNFV platform.",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 103
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7db657de",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I would remove this and add the reference mentioned below when we have it.",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 111
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1db523cd",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think we can use the scenario term here too, like:\n\nFunctest is focusing on testing the deployments provided by the scenarios offered by the Brahmaputra release. In order to be able to verify and validate the different set of components the project is using several tools depending on the component under test. For instance we are using Tempest and Rally for OpenStack testing and benchmarking, Robot for OpenDaylight testing and Teston for ONOS.",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 73
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fdc9275b",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I would remove candidate.",
+      "range": {
+        "startLine": 48,
+        "startChar": 38,
+        "endLine": 48,
+        "endChar": 47
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bdc3af37",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "You can consider it as an NFVI pre-deployment testing framework as it can benchmark characteristics and performance vectors about the infrastructure.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 64
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9dc0f32b",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I would remove this sentence.",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 85
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7ddd3714",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Same comment as above.",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 82
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bdda8f15",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think we can use \u0027generic\u0027 with all small capital letters here.",
+      "range": {
+        "startLine": 61,
+        "startChar": 58,
+        "endLine": 61,
+        "endChar": 65
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1dec03c7",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Yardstick offers two main groups of tests:",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 61,
+        "endChar": 46
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d095b94",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "The generic",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 17
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3dfe9f6c",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "from",
+      "range": {
+        "startLine": 63,
+        "startChar": 63,
+        "endLine": 63,
+        "endChar": 67
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9deeb3b3",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Remove other.\n\nOPNFV projects, like",
+      "range": {
+        "startLine": 63,
+        "startChar": 68,
+        "endLine": 64,
+        "endChar": 9
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3de7bfe6",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "I think it would be better to refer to a static document for the release docs.",
+      "range": {
+        "startLine": 65,
+        "startChar": 47,
+        "endLine": 65,
+        "endChar": 96
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5de27bd6",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T11:49:31Z",
+      "side": 1,
+      "message": "Do we want to describe these test projects here in the platform overview?",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 18
+      },
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
