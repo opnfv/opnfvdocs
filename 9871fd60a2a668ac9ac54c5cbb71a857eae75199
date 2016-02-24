@@ -186,6 +186,52 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_cc023eb4",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 321
+      },
+      "writtenOn": "2016-02-24T16:48:28Z",
+      "side": 1,
+      "message": "Can we add a pointer to where the mapping of features to controllers can be found?",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 72
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_acff02aa",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 321
+      },
+      "writtenOn": "2016-02-24T16:48:28Z",
+      "side": 1,
+      "message": "duplicate text, suggest removal.",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 115,
+        "endChar": 62
+      },
+      "revId": "9871fd60a2a668ac9ac54c5cbb71a857eae75199",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_8c4d6675",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 2
