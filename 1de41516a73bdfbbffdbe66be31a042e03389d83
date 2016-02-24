@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_b2751e34",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T05:41:24Z",
+      "side": 1,
+      "message": "you need 2 spaces at the beginning of this line, so that this line would be in the same indent of the previous line.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 3
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_92722248",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T05:41:24Z",
+      "side": 1,
+      "message": "same to line 14",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 3
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_728fa624",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T05:41:24Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5294aa36",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T05:41:24Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 12
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_32992e6f",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T05:41:24Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 21
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
