@@ -6,6 +6,15 @@
 Installer Configuration
 =======================
 
+Installing the OPNFV platform requires either a physical environment as defined in the
+Pharos lab specification, or a virtual infrastructure.  When configuring a physical infrastructure
+it is strongly advised to follow the Pharos configuration material.
+
+.. toctree::
+
+    pharos-config
+
+
 The following sections describe the per installer configuration options.
 Further details for each installer are captured in the referred project documentation.
 
