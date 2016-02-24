@@ -22,6 +22,40 @@
       "revId": "604849b00e928600355dee018236b9c3ef635ccb",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d04bb14",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-24T09:25:33Z",
+      "side": 0,
+      "message": "Could we change this to something like \"OPNFV platform architecture\"  then add a Pharos section in here before getting into the software architecture parts.\nInclude labinfrastructure.rst from https://gerrit.opnfv.org/gerrit/#/c/10559",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9202220a",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-02-24T09:25:33Z",
+      "side": 0,
+      "message": "On reading this, it might make sense to reduce the heading level for these sub-topics.  It i hard to differentiate the levels in the published material, maybe reduce to ^^^ or equivalent theough this section.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
