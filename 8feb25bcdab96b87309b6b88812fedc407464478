@@ -25,6 +25,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_9ded93f2",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T10:28:14Z",
+      "side": 1,
+      "message": "OK. Will use this better text.",
+      "parentUuid": "1a486d77_f75dc849",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_92a9027e",
         "filename": "docs/platformoverview/introduction.rst",
         "patchSetId": 1
@@ -71,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_7dbad7e2",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T10:28:14Z",
+      "side": 1,
+      "message": "OK Will do.",
+      "parentUuid": "1a486d77_5d871b62",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_9d30f3e9",
         "filename": "docs/platformoverview/introduction.rst",
         "patchSetId": 1
@@ -88,6 +124,24 @@
         "endLine": 49,
         "endChar": 30
       },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5dbf1bd1",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T10:28:14Z",
+      "side": 1,
+      "message": "I would keep the section here and delete a few wordes in row 65-66.",
+      "parentUuid": "1a486d77_9d30f3e9",
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -152,6 +206,24 @@
         "endLine": 66,
         "endChar": 22
       },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3db45ff1",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T10:28:14Z",
+      "side": 1,
+      "message": "Will shorten to avoid duplication.",
+      "parentUuid": "1a486d77_b2051e16",
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false

@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_dd3d4bbd",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T10:28:14Z",
+      "side": 0,
+      "message": "OK",
+      "parentUuid": "1a486d77_5d04bb14",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_9202220a",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -53,6 +71,24 @@
       "writtenOn": "2016-02-24T09:25:33Z",
       "side": 0,
       "message": "On reading this, it might make sense to reduce the heading level for these sub-topics.  It i hard to differentiate the levels in the published material, maybe reduce to ^^^ or equivalent theough this section.",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3d6e9fca",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T10:28:14Z",
+      "side": 0,
+      "message": "I don\u0027t understand your meaning. The sub-topic is next level lower than the one above. Do you want me to use ^^^^^^^^^^^^^ to underline the heading instead of ----------?\n\nThere was no info in the template when I started the doc.",
+      "parentUuid": "1a486d77_9202220a",
       "revId": "604849b00e928600355dee018236b9c3ef635ccb",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
