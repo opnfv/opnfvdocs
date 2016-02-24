@@ -84,6 +84,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_dd22eb00",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T13:16:18Z",
+      "side": 0,
+      "message": "I include it here in next patch set, but I am not sure this is the best place....",
+      "parentUuid": "1a486d77_dd3d4bbd",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_9202220a",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -142,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_3dd1ffcd",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T13:16:18Z",
+      "side": 0,
+      "message": "Chris requested to not have subsections per controller implementation",
+      "parentUuid": "1a486d77_dd366be7",
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_bd8f2f75",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -159,6 +195,24 @@
         "endLine": 77,
         "endChar": 50
       },
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fd01273a",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T13:16:18Z",
+      "side": 0,
+      "message": "Chris requested to shorten the text. What should I do?",
+      "parentUuid": "1a486d77_bd8f2f75",
       "revId": "604849b00e928600355dee018236b9c3ef635ccb",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
