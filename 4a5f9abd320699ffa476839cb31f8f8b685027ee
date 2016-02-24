@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_cffb5046",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T23:08:00Z",
+      "side": 1,
+      "message": "Correct link: http://artifacts.opnfv.org/joid/docs/userguide/userguide.pdf",
+      "range": {
+        "startLine": 47,
+        "startChar": 17,
+        "endLine": 47,
+        "endChar": 81
+      },
+      "revId": "4a5f9abd320699ffa476839cb31f8f8b685027ee",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_aff8144a",
+        "filename": "docs/platformoverview/testcasesframework.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T23:08:00Z",
+      "side": 1,
+      "message": "Correct link: http://artifacts.opnfv.org/yardstick/brahmaputra/docs/configguide_yardstick_testcases/03-list-of-tcs.html",
+      "range": {
+        "startLine": 65,
+        "startChar": 2,
+        "endLine": 65,
+        "endChar": 102
+      },
+      "revId": "4a5f9abd320699ffa476839cb31f8f8b685027ee",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
