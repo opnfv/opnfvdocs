@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "1a486d77_1d3ac336",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "This looks like a double space.",
+      "range": {
+        "startLine": 11,
+        "startChar": 46,
+        "endLine": 11,
+        "endChar": 48
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_b2751e34",
         "filename": "docs/opnfvsecguide/compute/trust.rst",
         "patchSetId": 3
@@ -25,6 +48,29 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_1d11a3ac",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Please remove period.",
+      "range": {
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 30
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_92722248",
         "filename": "docs/opnfvsecguide/compute/trust.rst",
         "patchSetId": 3
@@ -41,6 +87,328 @@
         "startChar": 0,
         "endLine": 16,
         "endChar": 3
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fd25a70a",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Same as above.",
+      "range": {
+        "startLine": 16,
+        "startChar": 21,
+        "endLine": 16,
+        "endChar": 22
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bd484fcd",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Please remove space.",
+      "range": {
+        "startLine": 19,
+        "startChar": 24,
+        "endLine": 19,
+        "endChar": 25
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d171ba4",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Please remove space.",
+      "range": {
+        "startLine": 19,
+        "startChar": 38,
+        "endLine": 19,
+        "endChar": 39
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fd3ec728",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Does \u0027Secure\u0027 has to be started with big capital? I also recognized that below you also write \u0027Boot\u0027. It would be good to synchronize this.",
+      "range": {
+        "startLine": 19,
+        "startChar": 18,
+        "endLine": 19,
+        "endChar": 24
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7d79b7fb",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Please remove the last \u0027#\u0027.",
+      "range": {
+        "startLine": 23,
+        "startChar": 11,
+        "endLine": 23,
+        "endChar": 12
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d7efbe5",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "in an",
+      "range": {
+        "startLine": 26,
+        "startChar": 19,
+        "endLine": 26,
+        "endChar": 26
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9d1c73c3",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "s/noods/nodes/",
+      "range": {
+        "startLine": 26,
+        "startChar": 13,
+        "endLine": 26,
+        "endChar": 18
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3d833fce",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "the admin or end user.",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 17
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1d8883e6",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "I think you can remove \u0027the\u0027 or write \u0027the Secure Boot procedure\u0027.",
+      "range": {
+        "startLine": 29,
+        "startChar": 23,
+        "endLine": 29,
+        "endChar": 26
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fd6c8738",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "s/the Secure Boot/it/",
+      "range": {
+        "startLine": 30,
+        "startChar": 28,
+        "endLine": 30,
+        "endChar": 44
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_dd69cb26",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Same about the format as I mentioned below.",
+      "range": {
+        "startLine": 37,
+        "startChar": 68,
+        "endLine": 37,
+        "endChar": 79
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7d609735",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "The UEFI ...",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 4
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5d65db43",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "s/The UEFI/UEFI/",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 8
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1d5f6374",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "I think TXT could be explained like the other abbreviations in the document.",
+      "range": {
+        "startLine": 58,
+        "startChar": 23,
+        "endLine": 58,
+        "endChar": 26
       },
       "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
@@ -88,6 +456,29 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_5dccbb35",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "SRTM does not seem to be connected here. Isn\u0027t it a separate list item?",
+      "range": {
+        "startLine": 70,
+        "startChar": 45,
+        "endLine": 71,
+        "endChar": 12
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_32992e6f",
         "filename": "docs/opnfvsecguide/compute/trust.rst",
         "patchSetId": 3
@@ -104,6 +495,52 @@
         "startChar": 0,
         "endLine": 75,
         "endChar": 21
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ddd78bbe",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "Please replace space with a new line here.",
+      "range": {
+        "startLine": 91,
+        "startChar": 97,
+        "endLine": 91,
+        "endChar": 98
+      },
+      "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bde4cfac",
+        "filename": "docs/opnfvsecguide/compute/trust.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-24T12:14:00Z",
+      "side": 1,
+      "message": "s/leve/level/",
+      "range": {
+        "startLine": 96,
+        "startChar": 16,
+        "endLine": 96,
+        "endChar": 20
       },
       "revId": "1de41516a73bdfbbffdbe66be31a042e03389d83",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
