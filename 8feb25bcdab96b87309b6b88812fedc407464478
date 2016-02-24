@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_92a9027e",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T06:13:09Z",
+      "side": 1,
+      "message": "+1",
+      "range": {
+        "startLine": 11,
+        "startChar": 7,
+        "endLine": 11,
+        "endChar": 55
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_b2acfe8d",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T06:13:09Z",
+      "side": 1,
+      "message": "missing period?",
+      "range": {
+        "startLine": 56,
+        "startChar": 82,
+        "endLine": 56,
+        "endChar": 83
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_52bb8ac4",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T06:13:09Z",
+      "side": 1,
+      "message": "can we add aodh here? or is this the list agreed in genesis project?\n\nfor aodh we can add line like this:\n\n    | aodh | alarming | Available | --- | --- | --- |",
+      "range": {
+        "startLine": 38,
+        "startChar": 1,
+        "endLine": 38,
+        "endChar": 2
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_72b686de",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T06:13:09Z",
+      "side": 1,
+      "message": "is this right? and do we need this component in VIM/NFVI as part of the B release?\n\ni have the same question to heat.",
+      "range": {
+        "startLine": 42,
+        "startChar": 2,
+        "endLine": 42,
+        "endChar": 29
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_d2c65a49",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T06:13:09Z",
+      "side": 1,
+      "message": "nit: you can put \u0027..\u0027 at line 195 and shift line 196-206 by adding the spaces",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 196,
+        "endChar": 2
+      },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}

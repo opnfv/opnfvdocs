@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_d29f7a4f",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-02-24T06:13:09Z",
+      "side": 0,
+      "message": "i prefer this style. is there any discussion to reduce depth of subsections or avoiding specific names in the doc index.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 4
+      },
+      "revId": "604849b00e928600355dee018236b9c3ef635ccb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
