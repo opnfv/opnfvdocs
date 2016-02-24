@@ -43,8 +43,8 @@ This test framework allows users to verify their deployment of the OPNFV target 
 It will execute and test major functions of the platform relevant to NFV applications (VNFs) so
 the user can be confident that VNFs can successfully run.
 
-Of course, the OPNFV releases come with the necessary **documentation**, describing
-target software platform, deployment tools, tests, etc. in their architecture, configuration and usage.
+OPNFV releases come with the necessary documentation describing
+target software platform, deployment tools, test cases, etc. in their architecture, configuration and usage.
 The most important documents here are configuration guides and user guides that help to set up
 a OPNFV deployment and use it.
 
