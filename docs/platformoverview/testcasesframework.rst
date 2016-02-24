@@ -38,7 +38,7 @@ The scope of Functest and relevant test cases can be found in its
 
 In Brahmaputra, Functest is focusing on OpenStack and SDN controllers deployment testing.
 Its testing framework combines a number of testing tools
-to verify the key components of OPNFV platform running successfully.
+to verify the key components of the OPNFV platform are running successfully.
 For example, Rally and Tempest are integrated for OpenStack basic functional testing and benchmark,
 Robot is used for ODL testing, and Teston is integrated for ONOS testing.
 Besides these, Functest also includes tests by deploying candidate VNFs such as vPing and vIMS, and testing their basic functionality.
@@ -54,7 +54,7 @@ Yardstick is also a flexible testing framework supporting OPNFV feature testing 
 Projects can plug in their test cases for specific features easily.
 
 The detail of Yardstick project can be found in the
-`yardstick user guide <http://artifacts.opnfv.org/yardstick/brahmaputra/docs/user_guides_framework/user_guides_framework.pdf>`_.
+`yardstick user guide <http://artifacts.opnfv.org/yardstick/brahmaputra/user_guides_framework/user_guides_framework.pdf>`_.
 
 There are two types of test cases in Yardstick: Yardstick generic test cases and OPNFV feature test cases.
 Yardstick generic test cases include basic characteristics benchmarking in compute/storage/network area.
@@ -62,7 +62,7 @@ OPNFV feature test cases include basic telecom feature testing from OPNFV projec
 for example nfv-kvm, sfc, ipv6, Parser, Availability and SDN VPN.
 
 All of the Yardstick test cases are listed on
-`<http://artifacts.opnfv.org/yardstick/docs/configguide_yardstick_testcases/03-list-of-tcs.html>`_
+`<http://artifacts.opnfv.org/yardstick/brahmaputra/configguide_yardstick_testcases/03-list-of-tcs.html>`_
 
 
 Additional Testing
