@@ -23,6 +23,7 @@ get_repo_names() {
     #       one by one. This will be replaced by the list in project.cfg .
     # grep -v '^#' releng/jjb/opnfvdocs/project.cfg | sort
     echo "apex"
+    echo "compass4nfv"
     echo "copper"
     echo "doctor"
     echo "fastpathmetrics"
@@ -30,11 +31,11 @@ get_repo_names() {
     echo "functest"
     echo "ipv6"
     echo "joid"
+    echo "ovsnfv"
+    echo "pharos"
     echo "promise"
     echo "sdnvpn"
     echo "vswitchperf"
-    echo "ovsnfv"
-    echo "compass4nfv"
     echo "yardstick"
 }
 
