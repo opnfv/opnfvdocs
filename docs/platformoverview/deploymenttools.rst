@@ -27,7 +27,7 @@ It can be considered as what the LiveCD to a single box for a pool of servers â€
 Compass is based on Ansible.
 It can deploy Ubuntu or Centos as target operating system and ODL and ONOS as SDN controllers.
 Find more information at
-`OpenStack Wiki for Compass <https://wiki.openstack.org/wiki/Complass>`_ and the OPNFV user guide and
+`OpenStack Wiki for Compass <https://wiki.openstack.org/wiki/Compass>`_ and the OPNFV user guide and
 config guide.
 
 **Fuel** is an installer project based on the Fuel OpenStack open source project
@@ -38,10 +38,10 @@ Find more information at
 `OpenStack Wiki for Fuel <https://wiki.openstack.org/wiki/Fuel>`_ and the OPNFV user guide and
 config guide.
 
-**Joid** installer utilizes the technology developed in Juju and MAAS.
+**Joid** is an installer utilizes the technology developed in Juju and MAAS.
 Juju allows you to deploy, configure, manage, maintain, and scale
 cloud services quickly and efficiently on public clouds, as well as on physical servers,
 OpenStack, and containers. Together with MAAS hardware usage can be optimized.
 For more info on Juju and MAAS, please visit `<https://jujucharms.com/>`_,
 `<http://maas.ubuntu.com>`_ and the
-`Joid Userguide <http://artifacts.opnfv.org/joid/docs/userguide/userguide.pdf>`_.
+`Joid Userguide <http://artifacts.opnfv.org/joid/brahmaputra/userguide/index.html>`_.
