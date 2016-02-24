@@ -48,6 +48,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_927d82b4",
+        "filename": "docs/platformoverview/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T09:09:59Z",
+      "side": 1,
+      "message": "Link worked fine at http://artifacts.opnfv.org/opnfvdocs/review/10495/platformoverview/platformoverview.pdf. Or where do you expect a period?",
+      "parentUuid": "1a486d77_b2acfe8d",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_52bb8ac4",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -65,6 +83,24 @@
         "endLine": 38,
         "endChar": 2
       },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_724a0685",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T09:09:59Z",
+      "side": 1,
+      "message": "As explained in comment above, this list was generated from a Jenkins output. These are the components registering with keystone. I didn\u0027t find a better list, but I am open. Only we shouldn\u0027t just guess what is in or not.",
+      "parentUuid": "1a486d77_52bb8ac4",
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -94,6 +130,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_524f0a93",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T09:09:59Z",
+      "side": 1,
+      "message": "see above.",
+      "parentUuid": "1a486d77_72b686de",
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_d2c65a49",
         "filename": "docs/platformoverview/softwarearchitecture.rst",
         "patchSetId": 1
@@ -111,6 +165,24 @@
         "endLine": 196,
         "endChar": 2
       },
+      "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_32448e73",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 402
+      },
+      "writtenOn": "2016-02-24T09:09:59Z",
+      "side": 1,
+      "message": ".. I didn\u0027t find out how to mark the end of the comment :)",
+      "parentUuid": "1a486d77_d2c65a49",
       "revId": "8feb25bcdab96b87309b6b88812fedc407464478",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
