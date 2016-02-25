@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_3bbb4274",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T11:02:29Z",
+      "side": 1,
+      "message": "OPNFV Features?",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 22
+      },
+      "revId": "97687a868f307f7e81ea442d5de741c26faaaf7d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
