@@ -11,6 +11,16 @@ in the Brahmaputra release of OPNFV.
 .. image:: ../images/brahmaputrafeaturematrix.jpg
    :alt: OPNFV Brahmaputra Feature Matrix
 
+The table above provides and overview of which scenarios will support certain feature capabilities.
+The table does not indicate if the feature or scenario has limitations, refer to the
+`Configuration Guide <http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide/configoptions.html#opnfv-scenarios>`_
+for details on the state of each scenario and further information.
+
+Feature development in the Brahmaputra release has often consisted of development directly on upstream
+community code requiring further integration and validation work to be done.  In some cases due to these
+dependencies a feature is only supported on the platform when a specific scenario is deployed
+providing the capabilities necessary to run the feature.
+
 Scenario Naming
 ^^^^^^^^^^^^^^^
 
