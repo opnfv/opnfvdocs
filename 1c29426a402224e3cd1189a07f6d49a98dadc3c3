@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_dbe42eae",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T10:59:54Z",
+      "side": 1,
+      "message": "I would prefer using the full name of the document:\nOPNFV Configuration Guide\n\nApplies to all occurrences of this reference.",
+      "range": {
+        "startLine": 21,
+        "startChar": 84,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "1c29426a402224e3cd1189a07f6d49a98dadc3c3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_db92eef5",
+        "filename": "docs/platformoverview/deploymenttools.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T10:59:54Z",
+      "side": 1,
+      "message": "Typo: User Guide",
+      "range": {
+        "startLine": 44,
+        "startChar": 6,
+        "endLine": 44,
+        "endChar": 15
+      },
+      "revId": "1c29426a402224e3cd1189a07f6d49a98dadc3c3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1b02c63e",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T10:59:54Z",
+      "side": 1,
+      "message": "This formatting looks a bit odd, we might create a list from the documents or just remove new line.",
+      "range": {
+        "startLine": 120,
+        "startChar": 27,
+        "endLine": 122,
+        "endChar": 19
+      },
+      "revId": "1c29426a402224e3cd1189a07f6d49a98dadc3c3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bbf8524a",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T10:59:54Z",
+      "side": 1,
+      "message": "Period is missing.",
+      "range": {
+        "startLine": 142,
+        "startChar": 100,
+        "endLine": 142,
+        "endChar": 101
+      },
+      "revId": "1c29426a402224e3cd1189a07f6d49a98dadc3c3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9b9596e6",
+        "filename": "docs/platformoverview/softwarearchitecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T10:59:54Z",
+      "side": 1,
+      "message": "Period is missing.",
+      "range": {
+        "startLine": 162,
+        "startChar": 87,
+        "endLine": 162,
+        "endChar": 88
+      },
+      "revId": "1c29426a402224e3cd1189a07f6d49a98dadc3c3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
