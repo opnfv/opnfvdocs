@@ -17,8 +17,8 @@ include different source components or configurations.  Scenarios are designed t
 enable specific features and capabilities in the platform that can be leveraged by the
 OPNFV user community.
 
-OPNFV Scenarios
-===============
+OPNFV Features
+==============
 
 Each OPNFV scenario provides unique features and capabilities, it is important to
 ensure you have a scenario deployed on your infrastructure that provides the right capabilities
