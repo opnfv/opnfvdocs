@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_d61f65b6",
+        "filename": "docs/scenario/featurematrix.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-02-25T13:29:32Z",
+      "side": 1,
+      "message": "keep \"consisted\" as it was done in the past months.",
+      "range": {
+        "startLine": 19,
+        "startChar": 53,
+        "endLine": 19,
+        "endChar": 61
+      },
+      "revId": "6400d3a876e4653cf74b9619cf27d54f4f0d5fe6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_767e71e6",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-02-25T13:29:32Z",
+      "side": 1,
+      "message": "\"OPNFV Configuration guide\" use the same name as above",
+      "range": {
+        "startLine": 42,
+        "startChar": 7,
+        "endLine": 42,
+        "endChar": 35
+      },
+      "revId": "6400d3a876e4653cf74b9619cf27d54f4f0d5fe6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
