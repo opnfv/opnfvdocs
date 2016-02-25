@@ -18,8 +18,7 @@ RDO manager is a Triple-O based installation tool.
 Triple-O is an image based life cycle deployment tool that is a member of the OpenStack Big Tent Governance.
 Apex uses Centos on all target platforms and can deploy all SDN controllers.
 Find more information at
-`OpenStack Wiki for Triple-O <https://wiki.openstack.org/wiki/TripleO>`_ and the OPNFV user guide and
-config guide.
+`OpenStack Wiki for Triple-O <https://wiki.openstack.org/wiki/TripleO>`_ and `OPNFV Configuration Guide`_.
 
 **Compass** is an installer project based on open source project Compass, which provides automated deployment
 and management of OpenStack and other distributed systems.
@@ -27,16 +26,14 @@ It can be considered as what the LiveCD to a single box for a pool of servers â€
 Compass is based on Ansible.
 It can deploy Ubuntu or Centos as target operating system and ODL and ONOS as SDN controllers.
 Find more information at
-`OpenStack Wiki for Compass <https://wiki.openstack.org/wiki/Compass>`_ and the OPNFV user guide and
-config guide.
+`OpenStack Wiki for Compass <https://wiki.openstack.org/wiki/Compass>`_ and `OPNFV Configuration Guide`_.
 
 **Fuel** is an installer project based on the Fuel OpenStack open source project
 providing automated deployment and management of OpenStack and other distributed systems.
 Fuel is based on puppet and deploys the Ubuntu Linux operating system;
 the OpenStack virtual Infra-structure manager, and OpenDaylight or ONOS SDN controllers.
 Find more information at
-`OpenStack Wiki for Fuel <https://wiki.openstack.org/wiki/Fuel>`_ and the OPNFV user guide and
-config guide.
+`OpenStack Wiki for Fuel <https://wiki.openstack.org/wiki/Fuel>`_ and `OPNFV Configuration Guide`_.
 
 **Joid** is an installer utilizes the technology developed in Juju and MAAS.
 Juju allows you to deploy, configure, manage, maintain, and scale
@@ -44,4 +41,6 @@ cloud services quickly and efficiently on public clouds, as well as on physical 
 OpenStack, and containers. Together with MAAS hardware usage can be optimized.
 For more info on Juju and MAAS, please visit `<https://jujucharms.com/>`_,
 `<http://maas.ubuntu.com>`_ and the
-`Joid Userguide <http://artifacts.opnfv.org/joid/brahmaputra/docs/userguide/index.html>`_.
+`Joid User Guide <http://artifacts.opnfv.org/joid/brahmaputra/docs/userguide/index.html>`_.
+
+.. _`OPNFV Configuration Guide`: http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide

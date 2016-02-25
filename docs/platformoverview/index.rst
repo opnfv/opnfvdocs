@@ -3,13 +3,13 @@
 .. (c) OPNFV, Huawei
 
 ********************************
-OPNFV Platform Overview document
+OPNFV Platform Overview Document
 ********************************
 
 .. toctree::
    :maxdepth: 2
 
-   ./introduction.rst
-   ./softwarearchitecture.rst
-   ./deploymenttools.rst
-   ./testcasesframework.rst
+   introduction.rst
+   softwarearchitecture.rst
+   deploymenttools.rst
+   testcasesframework.rst

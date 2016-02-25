@@ -50,6 +50,8 @@ The following table shows which components are deployed.
 +------------+----------------+-----------+-----------+-----------+-----------+
 | services   | type           | Apex      | Compass   | Fuel      | Joid      |
 +============+================+===========+===========+===========+===========+
+| aodh       | alarming       | Available | ---       | ---       | ---       |
++------------+----------------+-----------+-----------+-----------+-----------+
 | ceilometer | metering       | Available | Available | Available | Available |
 +------------+----------------+-----------+-----------+-----------+-----------+
 | cinder     | volume         | Available | Available | Available | Available |
@@ -94,9 +96,9 @@ SDN Controllers
 OPNFV Brahmaputra release supports different SDN controllers.
 Some scenarios don't use an SDN controller but rely just on Neutron networking capabilities.
 
-Depending on the SDN controller you are using, the featureset available will vary.  More
-information on feature support and scenarios can be found in the Brahmaputra configuration and
-user guides.  Brahmaputra also provides scenarios without an SDN controller, just using OpenStack Neutron.
+Depending on the SDN controller you are using, the featureset available will vary.
+More information on feature support and scenarios can be found in `OPNFV Configuration Guide`_ and `OPNFV User Guide`_.
+Brahmaputra also provides scenarios without an SDN controller, just using OpenStack Neutron.
 
 OpenDaylight is an SDN controller aiming to accelerate
 adoption of Software-Defined Networking (SDN) and Network Functions Virtualization
@@ -116,10 +118,9 @@ More information on the internal design of ONOS may be found in
 `wiki of the ONOS project <https://wiki.onosproject.org>`_.
 ONOS is integrated to OPNFV using a framework ONOSFW and Neutron plugins. Details can be found in the
 ONOS specific OPNFV documents,
-
 `Design guide <http://artifacts.opnfv.org/onosfw/brahmaputra/design/design.pdf>`_,
 `User guide <http://artifacts.opnfv.org/onosfw/brahmaputra/userguide/index.html>`_ and
-`Config guide <http://artifacts.opnfv.org/onosfw/brahmaputra/configguide/index.html>`_.
+`Configuration guide <http://artifacts.opnfv.org/onosfw/brahmaputra/configguide/index.html>`_.
 
 .. OpenContrail SDN controller will be supported in the next drop of the Brahmaputra release.
 
@@ -137,7 +138,7 @@ integration and use by network controllers. OPNFV leverages these by upgrade
 to a specific installation using user-space datapath. This includes changes to
 other dataplane components, including libvirt, qemu, DPDK etc.
 Please find more information in
-`OVSNFV User's Guide <http://artifacts.opnfv.org/ovsnfv/brahmaputra/docs/userguides/userguides.pdf>`_
+`OVSNFV User's Guide <http://artifacts.opnfv.org/ovsnfv/brahmaputra/docs/userguides/userguides.pdf>`_.
 
 Other Components
 ----------------
@@ -157,7 +158,7 @@ information, like hardware, BIOS, OS, etc.
 .. ==> need more input
 
 Please find more information at
-`KVM4NFV project documentation <http://artifacts.opnfv.org/kvmfornfv/docs/all/all.pdf>`_
+`KVM4NFV project documentation <http://artifacts.opnfv.org/kvmfornfv/docs/all/all.pdf>`_.
 
 .. As it is a platform overview I think if we mention KVM as hypervisor we should focus on which version we are using and how as opposed to the OPNFV project that deals with KVM itself.
 
@@ -178,8 +179,7 @@ is a virtual machine and provides the virtual resources using nested virtualizat
 
 The initial deployment is done using a so-called "jumphost". This server (either bare metal
 or virtual) is first installed with the installer program that then installs OpenStack
-and other components on the controller nodes and compute nodes. See the
-`OPNFV user guide <http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/userguide/userguide.pdf>`_
+and other components on the controller nodes and compute nodes. See the `OPNFV User Guide`_
 for more details.
 
 .. Editors note:
@@ -207,3 +207,5 @@ The following scenarios are supported, some of them can be deployed using differ
 Please find more information at:
 http://artifacts.opnfv.org/opnfvdocs/brahmaputra/configguide/configoptions.html#opnfv-scenario-s.
 
+.. _`OPNFV Configuration Guide`: http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide
+.. _`OPNFV User Guide`: http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/userguide
