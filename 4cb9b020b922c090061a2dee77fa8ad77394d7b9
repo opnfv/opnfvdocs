@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_c29e8763",
+        "filename": "docs/configguide/pharos-config.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T00:42:10Z",
+      "side": 1,
+      "message": "replace this with or at least add this line too:\n.. include:: ../projects/pharos/platformoverview/labinfrastructure.rst",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 59
+      },
+      "revId": "4cb9b020b922c090061a2dee77fa8ad77394d7b9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
