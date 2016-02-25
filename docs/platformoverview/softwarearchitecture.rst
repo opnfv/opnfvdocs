@@ -50,6 +50,8 @@ The following table shows which components are deployed.
 +------------+----------------+-----------+-----------+-----------+-----------+
 | services   | type           | Apex      | Compass   | Fuel      | Joid      |
 +============+================+===========+===========+===========+===========+
+| aodh       | alarming       | Available | ---       | ---       | ---       |
++------------+----------------+-----------+-----------+-----------+-----------+
 | ceilometer | metering       | Available | Available | Available | Available |
 +------------+----------------+-----------+-----------+-----------+-----------+
 | cinder     | volume         | Available | Available | Available | Available |
@@ -94,9 +96,9 @@ SDN Controllers
 OPNFV Brahmaputra release supports different SDN controllers.
 Some scenarios don't use an SDN controller but rely just on Neutron networking capabilities.
 
-Depending on the SDN controller you are using, the featureset available will vary.  More
-information on feature support and scenarios can be found in the Brahmaputra configuration and
-user guides.  Brahmaputra also provides scenarios without an SDN controller, just using OpenStack Neutron.
+Depending on the SDN controller you are using, the featureset available will vary.
+More information on feature support and scenarios can be found in `OPNFV Config Guide`_ and `OPNFV User Guide`_.
+Brahmaputra also provides scenarios without an SDN controller, just using OpenStack Neutron.
 
 OpenDaylight is an SDN controller aiming to accelerate
 adoption of Software-Defined Networking (SDN) and Network Functions Virtualization
@@ -178,8 +180,7 @@ is a virtual machine and provides the virtual resources using nested virtualizat
 
 The initial deployment is done using a so-called "jumphost". This server (either bare metal
 or virtual) is first installed with the installer program that then installs OpenStack
-and other components on the controller nodes and compute nodes. See the
-`OPNFV user guide <http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/userguide/userguide.pdf>`_
+and other components on the controller nodes and compute nodes. See the `OPNFV User Guide`_
 for more details.
 
 .. Editors note:
@@ -207,3 +208,5 @@ The following scenarios are supported, some of them can be deployed using differ
 Please find more information at:
 http://artifacts.opnfv.org/opnfvdocs/brahmaputra/configguide/configoptions.html#opnfv-scenario-s.
 
+.. _`OPNFV Config Guide`: http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide
+.. _`OPNFV User Guide`: http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/userguide

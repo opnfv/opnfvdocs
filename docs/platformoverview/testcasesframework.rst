@@ -62,7 +62,7 @@ OPNFV feature test cases include basic telecom feature testing from OPNFV projec
 for example nfv-kvm, sfc, ipv6, Parser, Availability and SDN VPN.
 
 All of the Yardstick test cases are listed on
-`<http://artifacts.opnfv.org/yardstick/brahmaputra/docs/configguide_yardstick_testcases/03-list-of-tcs.html>`_
+`<http://artifacts.opnfv.org/yardstick/brahmaputra/docs/configguide_yardstick_testcases/03-list-of-tcs.html>`_.
 
 
 Additional Testing
