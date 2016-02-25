@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_d6e405ae",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T13:41:30Z",
+      "side": 1,
+      "message": "Guide",
+      "range": {
+        "startLine": 35,
+        "startChar": 21,
+        "endLine": 35,
+        "endChar": 22
+      },
+      "revId": "83193553aadcba17d6300fd62e8046644957ca7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_b6e1899c",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T13:41:30Z",
+      "side": 1,
+      "message": "Configuration Guide",
+      "range": {
+        "startLine": 41,
+        "startChar": 7,
+        "endLine": 41,
+        "endChar": 26
+      },
+      "revId": "83193553aadcba17d6300fd62e8046644957ca7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_56e8157c",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T13:41:30Z",
+      "side": 1,
+      "message": "Remove \u0027the\u0027.",
+      "range": {
+        "startLine": 64,
+        "startChar": 51,
+        "endLine": 64,
+        "endChar": 54
+      },
+      "revId": "83193553aadcba17d6300fd62e8046644957ca7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_36ed998c",
+        "filename": "docs/userguide/introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T13:41:30Z",
+      "side": 1,
+      "message": "it is important for OPNFV to",
+      "range": {
+        "startLine": 64,
+        "startChar": 55,
+        "endLine": 64,
+        "endChar": 69
+      },
+      "revId": "83193553aadcba17d6300fd62e8046644957ca7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
