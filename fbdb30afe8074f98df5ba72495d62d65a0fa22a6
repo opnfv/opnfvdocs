@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_7679d192",
+        "filename": "docs/scenario/featurematrix.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T11:48:56Z",
+      "side": 1,
+      "message": "Typo: an",
+      "range": {
+        "startLine": 14,
+        "startChar": 25,
+        "endLine": 14,
+        "endChar": 28
+      },
+      "revId": "fbdb30afe8074f98df5ba72495d62d65a0fa22a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_96744d9d",
+        "filename": "docs/scenario/featurematrix.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2016-02-25T11:48:56Z",
+      "side": 1,
+      "message": "It would probably more clear to refer to specific requirements in case of features rather than the upstream nature.",
+      "range": {
+        "startLine": 19,
+        "startChar": 82,
+        "endLine": 19,
+        "endChar": 102
+      },
+      "revId": "fbdb30afe8074f98df5ba72495d62d65a0fa22a6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
