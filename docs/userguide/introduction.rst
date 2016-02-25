@@ -30,16 +30,17 @@ and configurations required to use it.
 
 .. include:: ../scenario/featurematrix.rst
 
-For details on which scenario's are best for you and how to install and configure them
-on your infrastructure the `OPNFV Configuration guide
-<http://artifacts.opnfv.org/opnfvdocs/docs/configguide/index.html>`_ provides a definitive
-reference.
+For details on which scenarios are best for you and how to install and configure them
+on your infrastructure the
+`OPNFV Configuration guide <http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide/index.html>`_
+provides a valuable reference.
 
 The user guide will describe how to enable and utilise features and use cases implemented and
 tested on deployed OPNFV scenarios.  For details of the use cases and tests that have been run
-you should check the validation procedures section of the features configuration guide.  This will
-provide information about the specific use cases that have been validated and are working
-on your deployment.
+you should check the
+`validation procedures section <http://artifacts.opnfv.org/opnfvdocs/brahmaputra/docs/configguide/post-install.html>`_
+of the features configuration guide.  This will provide information about the specific use
+cases that have been validated and are working on your deployment.
 
 General usage guidelines
 ========================
@@ -49,16 +50,17 @@ for using features that have been configured according to the installation and c
 instructions.
 
 This guide is structured in a manner that will provide usage instructions for each feature in its own
-section.  Identify the feature capability you would like to leverage and read through that user guide
-section to understand the available usage.  The combination of platform features, if available in a given
-scenario and not otherwise indicated, should function by following each features section.
+section.  Start by identifying the feature capability you would like to leverage, then read through
+the relevant user guide section to understand how to work with the feature.
+The combination of platform features, if available in a given scenario and not otherwise indicated,
+should operate according to the documentation.
 Dependencies between features will be highlighted in the user guide text.
 
-You may wish to use the platform in a manner that the development team have not foreseen, or
+You may wish to use the platform in a manner that the development teams have not foreseen, or
 exercise capabilities not fully validated on the platform.  If you experience issues leveraging the
-platform for the uses you have envisioned the `OPNFV user mailing list <"mailto:opnfv-user@lists.opnfv.org">`_
+platform for the uses you have envisioned, the `OPNFV user mailing list <"mailto:opnfv-user@lists.opnfv.org">`_
 provides a mechanism to establish a dialog with the community to help you overcome any issues identified.
 
 It may be that you have identified a bug in the system, or that you are trying to execute a use case
-that has not yet ben implemented.  In either case OPNFV is in essence a development project
-looking to ensure the required capabilities for our users are available.
+that has not yet been implemented.  In either case the OPNFV wants to learn about it as we are in
+essence a development project looking to ensure the required capabilities for our users are available.
