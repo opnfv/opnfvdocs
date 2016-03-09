@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_afd36737",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-03-09T22:45:34Z",
+      "side": 1,
+      "message": "please fix the commit message and move signed-off to the bottom of the Change-Id.\n\nthe signed-off message is normally added by git commit -s after Change-Id so if you didn\u0027t use git commit -s, I advise you to use it.",
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_8fd8ab54",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-03-09T22:45:34Z",
+      "side": 1,
+      "message": "trailing whitespaces.",
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_6fdd6f42",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2016-03-09T22:45:34Z",
+      "side": 1,
+      "message": "tabs",
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
