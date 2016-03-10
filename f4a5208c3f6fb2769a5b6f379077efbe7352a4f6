@@ -19,6 +19,75 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_0fcb9b73",
+        "filename": "docs/opnfvsecguide/audit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-03-10T01:57:48Z",
+      "side": 1,
+      "message": "fix the length of this line to the same of line 1",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_cfc46361",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-03-10T01:57:48Z",
+      "side": 1,
+      "message": "fix length, ditto on other section titles",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 18
+      },
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_afa127ab",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-03-10T01:57:48Z",
+      "side": 1,
+      "message": "if you intend to put this sub section one label lower from line 1, you have to change the character of underlines.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 21
+      },
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_8fd8ab54",
         "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
         "patchSetId": 1
@@ -30,6 +99,47 @@
       "writtenOn": "2016-03-09T22:45:34Z",
       "side": 1,
       "message": "trailing whitespaces.",
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_efc71f63",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-03-10T01:57:48Z",
+      "side": 1,
+      "message": "yep, trailing spaces should be removed.",
+      "parentUuid": "1a486d77_8fd8ab54",
+      "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_8fa66bc0",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-03-10T01:57:48Z",
+      "side": 1,
+      "message": "put blank line before line 31, so that sphinx can recognize line 31-37 are numbered item list.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 2
+      },
       "revId": "f4a5208c3f6fb2769a5b6f379077efbe7352a4f6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
