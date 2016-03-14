@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_775c2126",
+        "filename": "INFO",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-03-14T20:33:43Z",
+      "side": 1,
+      "message": "trailing white space...",
+      "range": {
+        "startLine": 5,
+        "startChar": 57,
+        "endLine": 5,
+        "endChar": 58
+      },
+      "revId": "083bfcd7fb252b73fe3943095079d4976ec69150",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
