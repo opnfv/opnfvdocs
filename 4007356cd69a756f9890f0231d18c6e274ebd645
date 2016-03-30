@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_7b93e3a3",
+        "filename": "docs/opnfvsecguide/audit/audit_reqs.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-03-30T18:19:40Z",
+      "side": 1,
+      "message": "This should be a \"-\" not a \"_\"",
+      "revId": "4007356cd69a756f9890f0231d18c6e274ebd645",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
