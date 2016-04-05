@@ -6,8 +6,6 @@
 OPNFV Configuration Guide
 *************************
 
-.. test
-
 .. toctree::
    :maxdepth: 2
 
