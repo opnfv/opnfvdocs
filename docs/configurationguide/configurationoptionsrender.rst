@@ -5,6 +5,8 @@
 =====================
 Configuration Options
 =====================
+Colorado 1.0
+------------
 
 OPNFV provides a variety of virtual infrastructure deployments called scenarios designed to
 host virtualised network functions (VNF's).  Each scenario provide specific capabilities and/or
@@ -13,7 +15,7 @@ components such as OpenStack, OpenDaylight, OVS, KVM etc. where each scenario wi
 include different source components or configurations.
 
 OPNFV Scenarios
-================
+===============
 
 Each OPNFV scenario provides unique features and capabilities, it is important to understand
 your target platform capabilities before installing and configuring your target scenario.
