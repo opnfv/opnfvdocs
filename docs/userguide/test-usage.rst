@@ -15,3 +15,39 @@ Brahmaputra deployment.
 
 .. <project>/docs/userguide/testusage.rst files will be imported below by the build script.
 
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst
+
+.. toctree::
+
+    testusage-vswitchperf.rst

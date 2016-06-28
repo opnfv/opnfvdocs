@@ -13,3 +13,219 @@ some operation in this section may refer back to the guides in the general syste
 .. <project>/docs/userguide/featureusage.rst files will be imported below by the build script.
 
 
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
+
+.. toctree::
+
+    featureusage-copper.rst
+
+.. toctree::
+
+    featureusage-doctor.rst
+
+.. toctree::
+
+    featureusage-ipv6.rst
+
+.. toctree::
+
+    featureusage-ovsnfv.rst
+
+.. toctree::
+
+    featureusage-promise.rst
+
+.. toctree::
+
+    featureusage-sdnvpn.rst
