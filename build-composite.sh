@@ -7,6 +7,8 @@
 # which accompanies this distribution, and is available at
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
+echo "Exiting with return code 1"
+exit 1
 
 set -o errexit
 set -o nounset
