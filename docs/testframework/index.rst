@@ -2,16 +2,15 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Christopher Price (Ericsson AB)
 
-*************************
-OPNFV Configuration Guide
-*************************
+*****************************
+OPNFV Test Framework document
+*****************************
 
 .. toctree::
    :maxdepth: 2
 
    ./abstract
-   ./configoptions
-   ./installer-config
-   ./feature-config
-   ./post-install
+   ./opnfv.testframework.overview
+   ./framework.installation.procedure.render
+   ./framework.userguide.render
 
