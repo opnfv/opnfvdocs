@@ -13,7 +13,7 @@ components such as OpenStack, OpenDaylight, OVS, KVM etc. where each scenario wi
 include different source components or configurations.
 
 OPNFV Scenarios
-================
+===============
 
 Each OPNFV scenario provides unique features and capabilities, it is important to understand
 your target platform capabilities before installing and configuring your target scenario.
