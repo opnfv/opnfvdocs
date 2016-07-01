@@ -13,5 +13,5 @@ The following section outlines how to use the test projects that are delivered o
 OPNFV platform for the purpose of testing components and VNFs in the context of a
 Brahmaputra deployment.
 
-.. <project>/docs/userguide/testusage.rst files will be imported below by the build script.
+Needs to be completed according to the testing WG needs.
 

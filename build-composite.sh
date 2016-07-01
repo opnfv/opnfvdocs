@@ -87,12 +87,13 @@ echo
 echo "Creating document links"
 echo
 targets="
-configguide/installer-config.rst
-configguide/feature-config.rst
-userguide/test-usage.rst
-userguide/feature-usage.rst
+configurationguide/configuration.options.render.rst
+configurationguide/installation.procedure.render.rst
+userguide/feature.userguide.render.rst
+testframework/framework.installation.procedure.render.rst
+testframework/framework.userguide.render.rst
 "
-# configguide/post-install.rst
+# configurationguide/post-install.rst
 for guide in $targets
 do
     mainfile="$WORKSPACE/docs/$guide"
