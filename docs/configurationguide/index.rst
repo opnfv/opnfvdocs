@@ -10,8 +10,7 @@ OPNFV Configuration Guide
    :maxdepth: 2
 
    ./abstract
-   ./configoptions
-   ./installer-config
-   ./feature-config
-   ./post-install
+   ./configurationoptionsrender
+   ./featureconfigurationdescription
+   ./installerdeploymentdescription
 

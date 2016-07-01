@@ -1,5 +1,0 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
-
-.. include:: ../projects/functest/userguide/introduction.rst
-.. include:: ../projects/functest/configguide/configguide.rst
