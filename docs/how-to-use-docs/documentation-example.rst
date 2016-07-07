@@ -25,7 +25,7 @@ your documents.
 
 Note:
 You may have "docs/how-to-use-docs/" in you project repo. You can delete it,
-since it is sample and master version is stored in releng repo.
+since it is sample and master version is stored in opnfvdocs repo.
 
 Note:
 During the document build process, 'docs_build' and 'docs_output' will be
@@ -37,7 +37,6 @@ so that git can ignore built files.
 
     /docs_build/
     /docs_output/
-    /releng/
 
 Index File
 ==========
@@ -173,8 +172,8 @@ also used in document build jobs below:
 .. code-block:: bash
 
     $ cd /local/repo/path/to/project
-    $ git clone https://git.opnfv.org/releng
-    $ ./releng/utils/docs-build.sh
+    $ git clone https://git.opnfv.org/opnfvdocs docs_build/_opnfvdocs
+    $ ./docs_build/_opnfvdocs/scripts/docs-build.sh
 
 Then, you can see the docs in 'docs_output' directory if build succeeded.
 
@@ -186,9 +185,10 @@ necessary packages are installed as follows:
     $ sudo pip install Sphinx==1.3.1 doc8 sphinxcontrib-httpdomain
 
 Note:
-Developers are encouraged to use "ssh://<username>@gerrit.opnfv.org:29418/releng"
-instead of "https://git.opnfv.org/releng", so that you can quickly start
-development in releng.
+Developers are encouraged to use
+"ssh://<username>@gerrit.opnfv.org:29418/opnfvdocs"
+instead of "https://git.opnfv.org/opnfvdocs", so that you can quickly start
+development in opnfvdocs.
 See https://wiki.opnfv.org/display/DEV/Developer+Getting+Started for more detail.
 
 
@@ -242,17 +242,17 @@ latest document always.
 Sphinx Extensions
 =================
 
-You can see available sphinx extension(s) in `docs/etc/requirements.txt`_.
+You can see available sphinx extension(s) in `opnfvdocs/etc/requirements.txt`_.
 
-.. _docs/etc/requirements.txt:
-    https://gerrit.opnfv.org/gerrit/gitweb?p=releng.git;a=blob;f=docs/etc/requirements.txt;
+.. _opnfvdocs/etc/requirements.txt:
+    https://gerrit.opnfv.org/gerrit/gitweb?p=opnfvdocs.git;a=blob;f=etc/requirements.txt;
 
 You can use other sphinx extensions to improve your documents.
 To share such improvements, we encourage you to enable the extension in OPNFV infra
 by asking releng and opnfvdocs teams to add new sphinx extension via gerrit
-(proposing change in `utils/docs-build.sh`_ and `docs/etc/requirements.txt`_).
+(proposing change in `opnfvdocs/scripts/docs-build.sh`_ and `opnfvdocs/etc/requirements.txt`_).
 After quick sanity checks, we'll merge the patch to make it available in OPNFV
 document build.
 
-.. _utils/docs-build.sh:
-    https://gerrit.opnfv.org/gerrit/gitweb?p=releng.git;a=blob;f=utils/docs-build.sh;
+.. _opnfvdocs/scripts/docs-build.sh:
+    https://gerrit.opnfv.org/gerrit/gitweb?p=opnfvdocs.git;a=blob;f=scripts/docs-build.sh;
