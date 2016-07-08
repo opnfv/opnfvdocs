@@ -88,7 +88,7 @@ echo "Creating document links"
 echo
 targets="
 configurationguide/configuration.options.render.rst
-configurationguide/installation.procedure.render.rst
+configurationguide/scenario.description.rst
 userguide/feature.userguide.render.rst
 testframework/framework.installation.procedure.render.rst
 testframework/framework.userguide.render.rst
