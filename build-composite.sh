@@ -50,8 +50,6 @@ git_clone() {
     popd
 }
 
-git_clone releng
-
 repos=$(get_repo_names)
 
 [[ -e docs/projects ]] && rm -rf docs/projects
@@ -118,6 +116,6 @@ do
     echo
 done
 
-$WORKSPACE/releng/utils/docs-build.sh
+$WORKSPACE/scripts/docs-build.sh
 
 echo "Done"
