@@ -5,6 +5,8 @@
 ********************************
 OPNFV Platform Overview Document
 ********************************
+Colorado 1.0
+------------
 
 .. toctree::
    :maxdepth: 2
