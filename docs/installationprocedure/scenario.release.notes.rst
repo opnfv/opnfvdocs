@@ -2,9 +2,11 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) <optionally add copywriters name>
 
-=================================================
-Release Note for the Brahmaputra release of OPNFV
-=================================================
+===========================
+Release Note for <scenario>
+===========================
+Colorado 1.0
+------------
 
 .. toctree::
    :maxdepth: 2
@@ -12,15 +14,15 @@ Release Note for the Brahmaputra release of OPNFV
 Abstract
 ========
 
-This document compiles the release notes for the Brahmaputra release of
-OPNFV when using <XYZ> as a deployment tool.
+This document contains the release notes for the Colorado release of
+OPNFV when using <scenario>.
 
 Introduction
 ============
 
-Provide a breif introduction of how this release is used in OPNFV relese using <XYZ> as a deployment tool
+Provide a breif introduction of how this configuration is used in OPNFV relese using <scenario> as scenario.
 
-Be sure to reference your installation-instructions.
+Be sure to reference your scenario installation instruction.
 
 Release Data
 ============

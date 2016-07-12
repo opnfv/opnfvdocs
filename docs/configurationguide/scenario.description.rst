@@ -2,19 +2,9 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Sofia Wallin (Ericsson AB)
 
-=====================
-Installation of <xxx>
-=====================
+====================
+Scenario description
+====================
 
-Introduction
-------------
-Describe the capabilities and associated features of each installer.
-
-Pre-installation activities
----------------------------
-List the acitvites needed for pre-installation.
-
-Hardware requirement
---------------------
-List the HW requirement for each installer
+This document will describe and link to the scenario installation instructions.
 
