@@ -5,12 +5,14 @@
 *************************
 OPNFV Configuration Guide
 *************************
+Colorado 1.0
+------------
 
 .. toctree::
    :maxdepth: 2
 
-   ./abstract
-   ./configuration.options.render
-   ./feature.configuration.description
-   ./installer.procedure.render
+   ./abstract.rst
+   ./configuration.options.render.rst
+   ./feature.configuration.description.rst
+   ./scenario.description.rst
 

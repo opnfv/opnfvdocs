@@ -5,11 +5,14 @@
 **********************
 Installation procedure
 **********************
+Colorado 1.0
+------------
 
 .. toctree::
    :numbered:
    :maxdepth: 2
 
    abstract.rst
-   scenario.installation.instruction
+   scenario.installation.instruction.rst
+   scenario.release.notes.rst
 
