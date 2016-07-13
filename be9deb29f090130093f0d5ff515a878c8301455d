@@ -42,6 +42,52 @@
     },
     {
       "key": {
+        "uuid": "5a7ca5a3_502c8399",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/hardware.requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-07-13T14:21:52Z",
+      "side": 1,
+      "message": "Should this be updated to Colorado? Or is it better to just refer to the corresponding version of the Pharos spec? I.e. not use release specific name here at all.",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 82,
+        "endChar": 39
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_b041573b",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-07-13T14:21:52Z",
+      "side": 1,
+      "message": "Do you mean OPNFV Installation instruction for \u003cscenario\u003e?\n\nOPNFV Installation instruction for os-nosdn-nofeature-ha",
+      "range": {
+        "startLine": 6,
+        "startChar": 39,
+        "endLine": 6,
+        "endChar": 78
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a7ca5a3_dcad0f33",
         "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/installation-instruction.rst",
         "patchSetId": 1
@@ -75,6 +121,52 @@
         "startChar": 0,
         "endLine": 12,
         "endChar": 8
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_10260bb8",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/installation-instruction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-07-13T14:21:52Z",
+      "side": 1,
+      "message": "There is also a separate rst file for references, is that correct?",
+      "range": {
+        "startLine": 563,
+        "startChar": 0,
+        "endLine": 563,
+        "endChar": 10
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_70341fde",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/installation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-07-13T14:21:52Z",
+      "side": 1,
+      "message": "What do you mean with \u003ctemplate\u003e shouldn\u0027t it be \u003cscenario\u003e?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 10
       },
       "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
