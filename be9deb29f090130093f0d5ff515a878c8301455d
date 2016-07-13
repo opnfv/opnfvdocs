@@ -1,0 +1,181 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a7ca5a3_dc866fb9",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/deployment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "Where does the number 38 come from? typo (#)",
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_3cbd2369",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/hardware.requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "This looks different to the Pharos specification. (memory for example) https://wiki.opnfv.org/display/pharos/Pharos+Specification#hardware-requirements",
+      "range": {
+        "startLine": 5,
+        "startChar": 9,
+        "endLine": 5,
+        "endChar": 21
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_dcad0f33",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/installation-instruction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "Typo: Colorado",
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_7caabb1a",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/installation-instruction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "This whole file has duplication. Was it meant to be included in the patchset?",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 8
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_9c7eb7ad",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/installation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "I think most users would first like deploy in a virtual environment. Perhaps instructions for that should also be included somewhere?",
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_5c69fff7",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/preparation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "Is this paragraph meant to be here? It references Apex?",
+      "range": {
+        "startLine": 25,
+        "startChar": 28,
+        "endLine": 25,
+        "endChar": 29
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_fc6d6b05",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/preparation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "Colorado",
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_bc77f3d3",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/preparation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "Colorado",
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_1c7387ea",
+        "filename": "docs/installationprocedure/template-os-nosdn-nofeature-ha/preparation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-07-13T13:44:14Z",
+      "side": 1,
+      "message": "Colorado",
+      "range": {
+        "startLine": 49,
+        "startChar": 44,
+        "endLine": 49,
+        "endChar": 45
+      },
+      "revId": "be9deb29f090130093f0d5ff515a878c8301455d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
