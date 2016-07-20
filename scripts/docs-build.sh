@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 # SPDX-license-identifier: Apache-2.0
 ##############################################################################
 # Copyright (c) 2016 NEC and others.
@@ -7,7 +7,6 @@
 # which accompanies this distribution, and is available at
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
-export PATH=$PATH:/usr/local/bin/
 
 DOCS_DIR=${DOCS_DIR:-docs}
 INDEX_RST=${INDEX_RST:-index.rst}
@@ -58,7 +57,9 @@ function check_rst_doc() {
         echo
         echo -e "$_msg\n$_errs"
         echo
-        [[ -n "$GERRIT_COMMENT" ]] && echo -e "$_msg\n$_errs" >> "$GERRIT_COMMENT"
+        if [ -n "$GERRIT_COMMENT" ]; then
+            echo -e "$_msg\n$_errs" >> "$GERRIT_COMMENT"
+        fi
     }
 }
 
@@ -82,7 +83,9 @@ function add_html_notes() {
 function prepare_src_files() {
     mkdir -p "$(dirname $SRC_DIR)"
 
-    [[ -e "$SRC_DIR" ]] && rm -rf "$SRC_DIR"
+    if [ -e "$SRC_DIR" ]; then
+        rm -rf "$SRC_DIR"
+    fi
     cp -r "$DOCS_DIR" "$SRC_DIR"
     add_html_notes "$SRC_DIR"
 }
@@ -187,6 +190,11 @@ fi
 
 virtualenv "$VENV_DIR"
 source "$VENV_DIR/bin/activate"
+
+if [ -e "$DOCS_DIR/pre-hook.sh" ]; then
+    source "$DOCS_DIR/pre-hook.sh"
+fi
+
 pip install -r "$OPNFVDOCS_DIR/etc/requirements.txt"
 
 find $DOCS_DIR -name $INDEX_RST -printf '%h\n' | while read dir
@@ -227,7 +235,9 @@ do
         echo
         echo "$msg"
         echo
-        [[ -n "$GERRIT_COMMENT" ]] && echo "$msg" >> "$GERRIT_COMMENT"
+        if [ -n "$GERRIT_COMMENT" ]; then
+            echo "$msg" >> "$GERRIT_COMMENT"
+        fi
     }
 
     # TODO: failures in ODT creation should be handled error and
