@@ -126,10 +126,10 @@ added if they are not set in the ``conf.py``.
   'sphinx.ext.viewcode',
   'sphinx.ext.napoleon']
 * **needs_sphinx** = '1.3'
+* **numfig** = True
 * **master_doc** = 'index'
 * **pygments_style** = 'sphinx'
 * **html_use_index** = False
-* **numfig** = True
 * **html_logo** = 'opnfv-logo.png'
 * **latex_domain_indices** = False
 * **latex_logo** = 'opnfv-logo.png'
@@ -140,8 +140,7 @@ added if they are not set in the ``conf.py``.
 * **version** = '``git last tag name`` (``git last commit hash``)'
 * **project** = '``git repo name``'
 * **copyright** = '``year``, OPNFV'
-
-See http://sphinx-doc.org/config.html to learn sphinx configuration.
+* **rst_epilog** = '    Revision:``git last commit hash``\n    Build date:``build date in year-month-date format``'
 
 **Note:**
 You can leave the file path for OPNFV logo image which will be prepared
