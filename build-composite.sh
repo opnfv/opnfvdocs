@@ -116,6 +116,6 @@ do
     echo
 done
 
-$WORKSPACE/scripts/docs-build.sh
+OPNFVDOCS_DIR=. ./scripts/docs-build.sh
 
 echo "Done"
