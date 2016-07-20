@@ -43,8 +43,8 @@ rev_full="$(git rev-parse HEAD)"
 version="$(git describe --abbrev=0 2> /dev/null || echo draft) ($revision)"
 project="$(basename $(git rev-parse --show-toplevel))"
 html_notes="    Revision: $rev_full\n    Build date: $(date -u +'%Y-%m-%d')"
-default_conf="$OPNFVDOCS_DIR/etc/conf.py"
 opnfv_logo="$OPNFVDOCS_DIR/etc/opnfv-logo.png"
+copyright="$(date +%Y), OPNFV"
 
 function check_rst_doc() {
     _src="$1"
@@ -71,7 +71,7 @@ function add_html_notes() {
             # TODO: remove this, once old templates were removed from all repos.
             echo
             echo "Warn: '_sha1_' was found in [$file], use the latest document template."
-            echo "      See https://wiki.opnfv.org/documentation/tools ."
+            echo "      See http://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs ."
             echo
             sed -i "s/ _sha1_/ $git_sha1/g" "$file"
         fi
@@ -96,6 +96,48 @@ function add_config() {
         echo "Adding '$_param' into $_conf ..."
         echo "$_param = $_val" >> "$_conf"
     fi
+}
+
+# Note: User can customize config for specific document by creating 'conf.py'
+#       in the taeget document dir (e.g. docs/abc/conf.py). This config file does
+#       not need to cover all config parameter, as all missing parameter will be
+#       automatically filled by this function.
+function prepare_config() {
+    _src="$1"
+    _name="$2"
+    _conf="$_src/conf.py"
+
+    # default params
+    # Note: If you want to add a new sphinx extention here, you may need python
+    #       package for it (e.g. python package 'sphinxcontrib-httpdomain' is
+    #       required by 'sphinxcontrib.httpdomain'). If you need such python
+    #       package, add the name of the python package into the requirement
+    #       list 'docs/etc/requirements.txt' .
+    add_config "$_conf" 'extensions' \
+    "['sphinxcontrib.httpdomain', 'sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx.ext.napoleon']"
+    add_config "$_conf" 'needs_sphinx' "'1.3'"
+    add_config "$_conf" 'numfig' "True"
+    add_config "$_conf" 'master_doc' "'index'"
+    add_config "$_conf" 'pygments_style' "'sphinx'"
+    add_config "$_conf" 'html_use_index' "False"
+    add_config "$_conf" 'html_logo' "'opnfv-logo.png'"
+    add_config "$_conf" 'latex_domain_indices' "False"
+    add_config "$_conf" 'latex_logo' "'opnfv-logo.png'"
+
+    # genarated params
+    title=$(cd $_src; python -c "$get_title_script")
+    latex_conf="[('index', '$_name.tex', \"$title\", 'OPNFV', 'manual'),]"
+    add_config "$_conf" 'latex_documents' "$latex_conf"
+    add_config "$_conf" 'release' "u'$version'"
+    add_config "$_conf" 'version' "u'$version'"
+    add_config "$_conf" 'project' "u'$project'"
+    add_config "$_conf" 'copyright' "u'$copyright'"
+    add_config "$_conf" 'rst_epilog' "u'$html_notes'"
+
+    echo "sphinx config to be used:"
+    echo
+    sed -e "s/^/    /" "$_conf"
+    echo
 }
 
 function is_top_dir() {
@@ -131,7 +173,8 @@ function generate_name() {
 check_rst_doc $DOCS_DIR
 
 if [[ ! -d "$OPNFVDOCS_DIR" ]] ; then
-    echo "Error: $OPNFVDOCS_DIR dir not found. See https://wiki.opnfv.org/documentation/tools ."
+    echo "Error: $OPNFVDOCS_DIR dir not found."
+    echo "See http://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs ."
     exit 1
 fi
 
@@ -156,7 +199,6 @@ do
     fi
     build="$BUILD_DIR/$name"
     output="$OUTPUT_DIR/$name"
-    conf="$src/conf.py"
 
     echo
     echo "#################${dir//?/#}"
@@ -164,14 +206,7 @@ do
     echo "#################${dir//?/#}"
     echo
 
-    [[ ! -f "$conf" ]] && cp "$default_conf" "$conf"
-    title=$(cd $src; python -c "$get_title_script")
-    latex_conf="[('index', '$name.tex', \"$title\", 'OPNFV', 'manual'),]"
-    add_config "$conf" 'latex_documents' "$latex_conf"
-    add_config "$conf" 'release' "u'$version'"
-    add_config "$conf" 'version' "u'$version'"
-    add_config "$conf" 'project' "u'$project'"
-    add_config "$conf" 'copyright' "u'$(date +%Y), OPNFV'"
+    prepare_config "$src" "$name"
     cp -f $opnfv_logo "$src/opnfv-logo.png"
 
     mkdir -p "$output"
