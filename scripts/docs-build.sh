@@ -190,12 +190,11 @@ fi
 
 virtualenv "$VENV_DIR"
 source "$VENV_DIR/bin/activate"
+pip install -r "$OPNFVDOCS_DIR/etc/requirements.txt"
 
 if [ -e "$DOCS_DIR/pre-hook.sh" ]; then
     source "$DOCS_DIR/pre-hook.sh"
 fi
-
-pip install -r "$OPNFVDOCS_DIR/etc/requirements.txt"
 
 find $DOCS_DIR -name $INDEX_RST -printf '%h\n' | while read dir
 do

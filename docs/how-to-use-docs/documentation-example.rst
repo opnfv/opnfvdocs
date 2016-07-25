@@ -255,3 +255,11 @@ document build.
 
 .. _opnfvdocs/scripts/docs-build.sh:
     https://gerrit.opnfv.org/gerrit/gitweb?p=opnfvdocs.git;a=blob;f=scripts/docs-build.sh;
+
+Hooks
+=====
+
+The document builder script supports pre-hook. If you need to execute some
+commands before starting to build process (e.g. generate API rst from codes),
+create '<your repo>/docs/pre-hook.sh' which will be executed (using 'source')
+once before all document build start.
