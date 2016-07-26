@@ -2,11 +2,15 @@
 .. License. .. http://creativecommons.org/licenses/by/4.0 ..
 .. (c) Christopher Price (Ericsson AB) and others
 
-<template> software installation and deployment
+<scenario> software installation and deployment
 ===============================================
 
+.. Let's figure out how to structure this to highlight both virtual and
+.. bare metal deployments.  I need some help from the scenrio  owners to get
+.. that right.
+
 This section describes the installation of the OPNFV installation
-server (jumphost) as well as the deployment of the <template> OPNFV
+server (jumphost) as well as the deployment of the <scenario> OPNFV
 reference platform stack across a server cluster.
 
 Install jumphost
@@ -15,7 +19,7 @@ Install jumphost
 If you have not already done so, prepare your jumphost according the instructions in _#ref_Preparation
 this can be done using an ISO image with the following commands
 
-#. Mount the <template> ISO file/media as a boot device to the jump host server.
+#. Mount the <scenario> ISO file/media as a boot device to the jump host server.
 
 #. Reboot the jump host to establish the jumphost server.
 

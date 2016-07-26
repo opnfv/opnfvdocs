@@ -10,7 +10,7 @@ It is important that the Verify Networks action is performed as it will verify
 that communicate works for the networks you have setup, as well as check that
 packages needed for a successful deployment can be fetched.
 
-#. From the FUEL UI in your Environment, Select the Networks Tab and select "Connectivity check" on the left pane
+From the FUEL UI in your Environment, Select the Networks Tab and select "Connectivity check" on the left pane
 
    - Select <Verify Networks>
 
@@ -19,7 +19,7 @@ packages needed for a successful deployment can be fetched.
 Deploy Your Environment
 -----------------------
 
-38. Deploy the environment.
+Deploy the environment.
 
     - In the Fuel GUI, click on the "Dashboard" Tab.
 
