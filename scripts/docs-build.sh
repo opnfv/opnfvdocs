@@ -232,6 +232,11 @@ do
         fi
     }
 
+    (
+        cd $OUTPUT_DIR
+        zip -r "${name}.zip" "$name"
+    )
+
     # Note: PDF creation may fail in project doc builds.
     #       We allow this build job to be marked as succeeded with
     #       failure in PDF creation, but leave message to fix it.
