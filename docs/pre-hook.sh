@@ -12,6 +12,12 @@ GIT_CLONE_BASE=${GIT_CLONE_BASE:-ssh://gerrit.opnfv.org:29418}
 GERRIT_BRANCH=${GERRIT_BRANCH:-master}
 WORKSPACE=${WORKSPACE:-.}
 
+
+echo "debug message..."
+python -V
+ls -la /usr/bin/python*
+echo ''
+
 get_repo_names() {
     # NOTE: Not all repositories are ready for the composite docs,
     #       so we have the repo name list here to add project docs
