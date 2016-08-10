@@ -61,7 +61,7 @@ Source Files
 ============
 
 Document source files have to be written in reStructuredText format (rst).
-Each file would be build as an html page and a chapter in PDF.
+Each file would be build as an html page.
 
 Here is an example source rst file :
 
@@ -82,28 +82,9 @@ Writing RST Markdown
 See http://sphinx-doc.org/rest.html .
 
 **Hint:**
-Table and its contents won't be adjusted, so you may need to fix your source
-text when your table is truncated in PDF version. Or, you can use 'longtable'
-option that splits your table vertically (by rows) in multiple pages.
-It is useful if you have trouble in rendering table containing many rows.
-
-.. code-block:: bash
-
-    .. table::
-        :class: longtable
-
-        +------------------------+------------+----------+----------+
-        | Header row, column 1   | Header 2   | Header 3 | Header 4 |
-        +========================+============+==========+==========+
-        | body row 1, column 1   | column 2   | column 3 | column 4 |
-        +------------------------+------------+----------+----------+
-        | body row 2             | ...        | ...      |          |
-        +------------------------+------------+----------+----------+
-
-**Hint:**
 You can add dedicated contents by using 'only' directive with build type
-('html' and 'pdf') for OPNFV document. But, this is not encouraged to use
-since this may make different views in HTML and PDF version.
+('html' and 'singlehtml') for OPNFV document. But, this is not encouraged to
+use since this may make different views.
 
 .. code-block:: bash
 
@@ -131,11 +112,9 @@ added if they are not set in the ``conf.py``.
 * **pygments_style** = 'sphinx'
 * **html_use_index** = False
 * **html_logo** = 'opnfv-logo.png'
-* **latex_domain_indices** = False
-* **latex_logo** = 'opnfv-logo.png'
-* **latex_documents** =
-  [('index', '``document directory name``.tex',
-  '``document title in index.rst``', 'OPNFV', 'manual'),]
+* **html_sidebars** = {'**': ['globaltoc.html',
+  '``path to opnfvdocs dir``/etc/pagemenu.html',
+  'searchbox.html']}
 * **release** = '``git last tag name`` (``git last commit hash``)'
 * **version** = '``git last tag name`` (``git last commit hash``)'
 * **project** = '``git repo name``'
@@ -145,15 +124,6 @@ added if they are not set in the ``conf.py``.
 **Note:**
 You can leave the file path for OPNFV logo image which will be prepared
 before each document build.
-
-**Hint:**
-In PDF, figures will be floated to get better view. If you want to avoid such
-automated fixes, just add this option to your conf.py after copying the default
-configuration in to the document directory.
-
-.. code-block:: bash
-
-    latex_elements = {'figure_align': 'H'}
 
 Versioning
 ==========
@@ -212,8 +182,8 @@ Verify Job
 The verify job name is **opnfv-docs-verify**.
 
 When you send document changes to gerrit, jenkins will create your documents
-in HTML and PDF formats to verify that new document can be built successfully.
-Please check the jenkins log and artifact carefully.
+in HTML formats (normal and single-page) to verify that new document can be
+built successfully. Please check the jenkins log and artifact carefully.
 You can improve your document even though if the build job succeeded.
 
 Documents will be uploaded to
@@ -222,11 +192,6 @@ Those documents will be replaced if you update the change by sending new
 patch set to gerrit, and deleted after the change is merged.
 Document link(s) can be found in your change page on gerrit as a review
 comment.
-
-Note:
-Currently, the job reports 'SUCCESS' as result of document build even if the
-PDF creation failed. This is a provisional workaround, since many projects are
-not ready for PDF creation yet.
 
 Merge Job
 ----------
