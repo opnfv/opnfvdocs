@@ -12,6 +12,29 @@ GIT_CLONE_BASE=${GIT_CLONE_BASE:-ssh://gerrit.opnfv.org:29418}
 GERRIT_BRANCH=${GERRIT_BRANCH:-master}
 WORKSPACE=${WORKSPACE:-.}
 
+echo "debug message..."
+python -V
+ls -la /usr/bin/python*
+echo ''
+
+# workaround for doc8 error in python2.6
+if python -V 2>&1 | grep -q 'Python 2.6'; then
+    echo using python 2.6...
+fi
+if [[ $(python -V) =~ Python 2.6* ]] ; then
+    echo using python 2.6 (b)...
+fi
+if python -V 2>&1 | grep -q 'Python 2.6' && [ -e /usr/bin/python2.7 ] ; then
+    echo virtualenv "$VENV_DIR" --python=/usr/bin/python2.7
+    echo 'use python 2.7'
+else
+    echo virtualenv "$VENV_DIR"
+    echo 'use default python'
+fi
+echo ''
+
+
+if [ 0 = 1 ]; then
 get_repo_names() {
     # NOTE: Not all repositories are ready for the composite docs,
     #       so we have the repo name list here to add project docs
@@ -110,3 +133,4 @@ do
     cat $mainfile
     echo
 done
+fi
