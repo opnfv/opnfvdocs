@@ -170,6 +170,7 @@ also used in document build jobs below:
 
 .. code-block:: bash
 
+    $ sudo pip install virtualenv
     $ cd /local/repo/path/to/project
     $ git clone https://git.opnfv.org/opnfvdocs docs_build/_opnfvdocs
     $ ./docs_build/_opnfvdocs/scripts/docs-build.sh

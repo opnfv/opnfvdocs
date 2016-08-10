@@ -173,15 +173,11 @@ function generate_name() {
 }
 
 
-check_rst_doc $DOCS_DIR
-
 if [[ ! -d "$OPNFVDOCS_DIR" ]] ; then
     echo "Error: $OPNFVDOCS_DIR dir not found."
     echo "See http://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs ."
     exit 1
 fi
-
-prepare_src_files
 
 if ! which virtualenv > /dev/null ; then
     echo "Error: 'virtualenv' not found. Exec 'sudo pip install virtualenv' first."
@@ -191,6 +187,10 @@ fi
 virtualenv "$VENV_DIR"
 source "$VENV_DIR/bin/activate"
 pip install -r "$OPNFVDOCS_DIR/etc/requirements.txt"
+
+check_rst_doc $DOCS_DIR
+
+prepare_src_files
 
 if [ -e "$DOCS_DIR/pre-hook.sh" ]; then
     source "$DOCS_DIR/pre-hook.sh"
