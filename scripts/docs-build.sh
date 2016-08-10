@@ -191,7 +191,8 @@ if ! which virtualenv > /dev/null ; then
 fi
 
 # workaround for doc8 error in python2.6
-if python -V | grep -q 'Python 2.6' && [ -e /usr/bin/python2.7 ] ; then
+if [[ $(python -V 2>&1) == Python\ 2.6.* ]] && [ -e /usr/bin/python2.7 ]; then
+    echo "creating venv with Python 2.7 instead of Python 2.6.x ..."
     virtualenv "$VENV_DIR" --python=/usr/bin/python2.7
 else
     virtualenv "$VENV_DIR"
