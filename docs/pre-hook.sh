@@ -12,6 +12,17 @@ GIT_CLONE_BASE=${GIT_CLONE_BASE:-ssh://gerrit.opnfv.org:29418}
 GERRIT_BRANCH=${GERRIT_BRANCH:-master}
 WORKSPACE=${WORKSPACE:-.}
 
+echo "debug message..."
+python -V
+ls -la /usr/bin/python*
+echo ''
+
+if [[ $(python -V 2>&1) == Python\ 2.6.* ]] && [ -e /usr/bin/python2.7 ]; then
+    echo "using Python 2.7 instead of 2.6.x ..."
+fi
+
+
+if [ 0 = 1 ]; then
 get_repo_names() {
     # NOTE: Not all repositories are ready for the composite docs,
     #       so we have the repo name list here to add project docs
@@ -110,3 +121,4 @@ do
     cat $mainfile
     echo
 done
+fi
