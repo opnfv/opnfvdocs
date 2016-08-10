@@ -110,6 +110,8 @@ function prepare_config() {
     _name="$2"
     _conf="$_src/conf.py"
 
+    touch "$_conf"
+
     # default params
     # Note: If you want to add a new sphinx extention here, you may need python
     #       package for it (e.g. python package 'sphinxcontrib-httpdomain' is
@@ -126,6 +128,10 @@ function prepare_config() {
     add_config "$_conf" 'html_logo' "'opnfv-logo.png'"
     add_config "$_conf" 'latex_domain_indices' "False"
     add_config "$_conf" 'latex_logo' "'opnfv-logo.png'"
+    add_config "$_conf" 'html_sidebars' \
+                        "{'**': ['globaltoc.html',
+                                 '$(cd $OPNFVDOCS_DIR; pwd)/etc/pagemenu.html',
+                                 'searchbox.html']}"
 
     # genarated params
     title=$(cd $_src; python -c "$get_title_script")
