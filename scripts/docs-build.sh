@@ -190,7 +190,13 @@ if ! which virtualenv > /dev/null ; then
     exit 1
 fi
 
-virtualenv "$VENV_DIR"
+# workaround for doc8 error in python2.6
+if python -V | grep -q 'Python 2.6' && [ -e /usr/bin/python2.7 ] ; then
+    virtualenv "$VENV_DIR" --python=/usr/bin/python2.7
+else
+    virtualenv "$VENV_DIR"
+fi
+
 source "$VENV_DIR/bin/activate"
 pip install -r "$OPNFVDOCS_DIR/etc/requirements.txt"
 
