@@ -17,26 +17,6 @@ VENV_DIR=${VENV_DIR:-$BUILD_DIR/_venv}
 OPNFVDOCS_DIR=${OPNFVDOCS_DIR:-$BUILD_DIR/_opnfvdocs}
 GERRIT_COMMENT=${GERRIT_COMMENT:-}
 
-get_title_script="
-import os
-from docutils import core, nodes
-
-try:
-    with open('index.rst', 'r') as file:
-        data = file.read()
-    doctree = core.publish_doctree(data,
-        settings_overrides={'report_level': 5,
-                            'halt_level': 5})
-    if isinstance(doctree[0], nodes.title):
-        title = doctree[0]
-    else:
-        for c in doctree.children:
-            if isinstance(c, nodes.section):
-                title = c[0]
-                break
-    print title.astext()
-except:
-    print 'None'"
 revision="$(git rev-parse --short HEAD)"
 rev_full="$(git rev-parse HEAD)"
 version="$(git describe --abbrev=0 2> /dev/null || echo draft) ($revision)"
@@ -126,17 +106,12 @@ function prepare_config() {
     add_config "$_conf" 'pygments_style' "'sphinx'"
     add_config "$_conf" 'html_use_index' "False"
     add_config "$_conf" 'html_logo' "'opnfv-logo.png'"
-    add_config "$_conf" 'latex_domain_indices' "False"
-    add_config "$_conf" 'latex_logo' "'opnfv-logo.png'"
     add_config "$_conf" 'html_sidebars' \
                         "{'**': ['globaltoc.html',
                                  '$(cd $OPNFVDOCS_DIR; pwd)/etc/pagemenu.html',
                                  'searchbox.html']}"
 
     # genarated params
-    title=$(cd $_src; python -c "$get_title_script")
-    latex_conf="[('index', '$_name.tex', \"$title\", 'OPNFV', 'manual'),]"
-    add_config "$_conf" 'latex_documents' "$latex_conf"
     add_config "$_conf" 'release' "u'$version'"
     add_config "$_conf" 'version' "u'$version'"
     add_config "$_conf" 'project' "u'$project'"
@@ -237,45 +212,6 @@ do
             echo "$msg" >> "$GERRIT_COMMENT"
         fi
     }
-
-    # Note: PDF creation may fail in project doc builds.
-    #       We allow this build job to be marked as succeeded with
-    #       failure in PDF creation, but leave message to fix it.
-    #       Any failure has to be fixed before OPNFV B release.
-    {
-        sphinx-build -b latex -t pdf -E "$src" "$build" && \
-            make -C "$build" LATEXOPTS='--interaction=nonstopmode' all-pdf
-    } && {
-        mv "$build/$name.pdf" "$output"
-    } || {
-        msg="Error: PDF creation for $dir has failed, please fix source rst file(s)."
-        echo
-        echo "$msg"
-        echo
-        if [ -n "$GERRIT_COMMENT" ]; then
-            echo "$msg" >> "$GERRIT_COMMENT"
-        fi
-    }
-
-    # TODO: failures in ODT creation should be handled error and
-    #       cause 'exit 1' before OPNFV B release.
-    tex=$(find $build -name '*.tex' | head -1)
-    odt="${tex%.tex}.odt"
-    if [[ -e $tex ]] && which pandoc > /dev/null ; then
-        (
-            cd $(dirname $tex)
-            pandoc $(basename $tex) -o $(basename $odt)
-        ) && {
-            mv $odt $output/
-        }|| {
-            msg="Error: ODT creation for $dir has failed."
-            echo
-            echo "$msg"
-            echo
-        }
-    else
-        echo "Warn: tex file and/or 'pandoc' are not found, skip ODT creation."
-    fi
 
     if is_top_dir "$dir" ; then
         # NOTE: Having top level document (docs/index.rst) is not recommended.
