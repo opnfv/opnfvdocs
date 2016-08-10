@@ -220,6 +220,18 @@ do
 
     sphinx-build -b html -t html -E "$src" "$output"
 
+    {
+        sphinx-build -b singlehtml -t singlehtml -E "$src" "${output}-single"
+    } || {
+        msg="Error: Single HTML creation for $dir has failed."
+        echo
+        echo "$msg"
+        echo
+        if [ -n "$GERRIT_COMMENT" ]; then
+            echo "$msg" >> "$GERRIT_COMMENT"
+        fi
+    }
+
     # Note: PDF creation may fail in project doc builds.
     #       We allow this build job to be marked as succeeded with
     #       failure in PDF creation, but leave message to fix it.
