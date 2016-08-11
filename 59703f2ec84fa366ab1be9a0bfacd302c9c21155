@@ -16,6 +16,24 @@
       "revId": "59703f2ec84fa366ab1be9a0bfacd302c9c21155",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_51ad7887",
+        "filename": "scripts/docs-build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-08-11T14:35:51Z",
+      "side": 1,
+      "message": "Sorry, this is another fix.\n\nYou might see stderr message like this;\n\n    grep: docs_build/_src/how-to-use-docs/conf.py: No such file or directory\n\nThis fix makes sure the conf file exist in order to avoid such error message.\n\nDropping stderr of grep command is alternative, but hiding message is not so good choice, I think.",
+      "parentUuid": "1a76adc5_d1266868",
+      "revId": "59703f2ec84fa366ab1be9a0bfacd302c9c21155",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
