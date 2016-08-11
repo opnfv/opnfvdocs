@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_eb7295e4",
+        "filename": "docs/feature.templates/scenario-name/scenario.description.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 251
+      },
+      "writtenOn": "2016-08-11T06:47:00Z",
+      "side": 1,
+      "message": "Per my earlier comments, we need to have a section for scenario specific config - be that for the installer or for post install. Assuming this would be in a different document will add nothing but confusion",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 79
+      },
+      "revId": "5617feb9cd70e2b7094bfce62653780bb5a9f0ed",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
