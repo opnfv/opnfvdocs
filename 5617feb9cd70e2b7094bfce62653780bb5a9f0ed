@@ -22,6 +22,24 @@
       "revId": "5617feb9cd70e2b7094bfce62653780bb5a9f0ed",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_e6b5eccd",
+        "filename": "docs/feature.templates/scenario-name/scenario.description.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-08-11T08:50:18Z",
+      "side": 1,
+      "message": "This section is NOT intended to be used to describe the installation of the scenario.  Nor should it replicate the material configuration document.\nScenario config for installation goes in the installer docs.\nScenario config for post configuration usage goes in the configuration doc.",
+      "parentUuid": "1a76adc5_eb7295e4",
+      "revId": "5617feb9cd70e2b7094bfce62653780bb5a9f0ed",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
