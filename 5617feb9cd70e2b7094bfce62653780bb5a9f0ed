@@ -40,6 +40,24 @@
       "revId": "5617feb9cd70e2b7094bfce62653780bb5a9f0ed",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_c6355047",
+        "filename": "docs/feature.templates/scenario-name/scenario.description.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 251
+      },
+      "writtenOn": "2016-08-11T09:12:30Z",
+      "side": 1,
+      "message": "Well. This might work for \"feature scenarios\", i.e. scenarios which introduce new features, but not so much for \"integration scenarios\". Looks like we need to use different templates for different purposes, i.e \"integration scenarios\" if you continue down the path of having scenario descriptions distributed across a series of different documents.",
+      "parentUuid": "1a76adc5_e6b5eccd",
+      "revId": "5617feb9cd70e2b7094bfce62653780bb5a9f0ed",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
