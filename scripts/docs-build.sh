@@ -125,6 +125,7 @@ function prepare_config() {
     add_config "$_conf" 'master_doc' "'index'"
     add_config "$_conf" 'pygments_style' "'sphinx'"
     add_config "$_conf" 'html_use_index' "False"
+    add_config "$_conf" 'html_last_updated_fmt' "'%b %d, %Y'"
     add_config "$_conf" 'html_logo' "'opnfv-logo.png'"
     add_config "$_conf" 'latex_domain_indices' "False"
     add_config "$_conf" 'latex_logo' "'opnfv-logo.png'"
