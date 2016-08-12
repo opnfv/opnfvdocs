@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_b672bde3",
+        "filename": "docs/ovsnfv/scenarios/fuel-os-nosdn-ovs-ha/os-nosdn-ovs-ha/scenario.description.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 50
+      },
+      "writtenOn": "2016-08-12T15:15:19Z",
+      "side": 1,
+      "message": "This is the fuel scenario",
+      "range": {
+        "startLine": 12,
+        "startChar": 40,
+        "endLine": 12,
+        "endChar": 41
+      },
+      "revId": "cdc3496951f5f0980425233d5258e5b9c4b3ac69",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
