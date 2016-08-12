@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_637789d5",
+        "filename": "docs/installationprocedure/installation-instruction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-08-12T12:46:31Z",
+      "side": 1,
+      "message": "Remove Colorado titles in the document.  These are included by the toolchain using the release tag.",
+      "revId": "ebb8c538c64c16784f449b90e316ddbc61226c40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_2381918f",
+        "filename": "docs/installationprocedure/installation-instruction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-08-12T12:46:31Z",
+      "side": 1,
+      "message": "This document should not be specific to any toolchain right?\nWe will make this a general overview and refer to the other installation documents.",
+      "revId": "ebb8c538c64c16784f449b90e316ddbc61226c40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
