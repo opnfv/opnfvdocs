@@ -13,7 +13,9 @@
     {%- if show_source and has_source and sourcename %}
       <li><a href="{{ pathto('_sources/' + sourcename, true)|e }}"
              rel="nofollow">{{ _('Show Source') }}</a></li>
+    {%- else %}
+      {# Note: single HTML won't have source rst #}
+      <li><a href="//pdfcrowd.com/url_to_pdf/">Save to PDF</a></li>
     {%- endif %}
-    <li><a href="//pdfcrowd.com/url_to_pdf/">Save to PDF</a></li>
   </ul>
 </div>
