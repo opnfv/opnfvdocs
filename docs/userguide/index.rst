@@ -5,18 +5,9 @@
 ****************
 OPNFV User Guide
 ****************
-Colorado 1.0
-------------
 
 .. toctree::
    :maxdepth: 2
 
-   ./abstract.rst
-   ./introduction.rst
-   ./common.platform.render.rst
-   ./onos.rst
-   ./opendaylight.rst
-   ./openstack.rst
-   ./feature.userguide.render.rst
-   ./feature.userguide.template.rst
+   ./userguide.introduction.rst
 
