@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_cf879c0e",
+        "filename": "docs/how-to-use-docs/documentation-example.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-08-15T18:15:48Z",
+      "side": 1,
+      "message": "Do we want to keep the normal and single page?  I would think only single for the release in order to get a consistent view.\nNot blocking, but maybe we want to vote or discuss.",
+      "revId": "3596411b631fc829112d41bc36d7a0b3c1e59bf7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
