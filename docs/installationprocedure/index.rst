@@ -2,17 +2,13 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Sofia Wallin Ericsson AB
 
-**********************
-Installation procedure
-**********************
-Colorado 1.0
-------------
+******************************
+OPNFV Installation Instruction
+******************************
 
 .. toctree::
    :numbered:
-   :maxdepth: 2
+   :maxdepth: 3
 
-   abstract.rst
-   scenario.installation.instruction.rst
-   scenario.release.notes.rst
+   installation.introduction.rst
 
