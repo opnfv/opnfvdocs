@@ -16,6 +16,24 @@
       "revId": "3596411b631fc829112d41bc36d7a0b3c1e59bf7",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_4ac5ba59",
+        "filename": "docs/how-to-use-docs/documentation-example.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-08-16T09:05:11Z",
+      "side": 1,
+      "message": "Well, some docs have lots of contents those might cause a issue while opening the page. I suggest that we keep the both for C release.",
+      "parentUuid": "1a76adc5_cf879c0e",
+      "revId": "3596411b631fc829112d41bc36d7a0b3c1e59bf7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
