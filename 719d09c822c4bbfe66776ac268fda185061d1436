@@ -16,6 +16,24 @@
       "revId": "719d09c822c4bbfe66776ac268fda185061d1436",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_78908795",
+        "filename": "docs/installationprocedure/feature.configuration.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-08-18T19:29:07Z",
+      "side": 1,
+      "message": "Yes probably...\nMaybe its better to just create a template explaining what content we want as whole and then then let everyone write accordingly? I\u0027m not very into these config details.",
+      "parentUuid": "1a76adc5_5df49d5a",
+      "revId": "719d09c822c4bbfe66776ac268fda185061d1436",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
