@@ -1,32 +1,41 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
-.. (c) OPNFV, Huawei
+.. (c) Open Platform for NFV Project, Inc. and its contributors
 
-=================
-Testing ecosystem
-=================
+===========================
+The OPNFV Testing ecosystem
+===========================
 
-Testing is a key area and also a challenge for OPNFV in order to be able to
-verify and validate the platform we are creating.
+The OPNFV community has set out to address the needs of virtualisation in the carrier
+network and as such platform validation and measurements are a cornerstone to our
+iterative releases and objectives.
 
-This is a complex task as we have to test the integration of the components,
-the functionality we are creating and using and we have to verify
-that the platform is suitable for telecom applications.
-We do testing in an automated fashion by using several test tools and frameworks in our CI/CD pipeline.
-
-This chapter gives an overview about our testing tools and activities.
-
+To simplify the complex task of feature, component and platform validation and characterisation
+our testing community have established a fully automated method for addressing all key areas
+of platform validation.  This has required the integration of a variety of testing frameworks
+in our CI systems, real time and automated analysis of results, storage and publication of key
+facts for each run.
 
 Release verification
 ====================
 
-OPNFV releases the target platform together with the deployment tools in a set of scenarios
-that provides choices regarding the deployed components and the available features.
-The scenarios and the provided functionality are tested automatically in the CI/CD pipeline
-mentioned above and they are considered to be ready for release after
-at least 4 successful consecutive iterations.
+The OPNFV community relies on it's testing community to establish our release criteria for
+each OPNFV release.  Each release cycle the testing criteria becomes more stringent and
+better representative of our feature and resiliency requirements.
 
-The functional testing and the platform validation are divided between two projects called Functest and Yardstick.
+As each OPNFV release establishes a set of deployment scenarios to validate, our testing
+infrastructure and test suites need to be able to accomodate these features and capabilities.
+It is not only in the validation of the scenarios themselves that complexity increases,
+there are test cases that require mutiple datacenters to execute when evaluating features
+including multisite and distributed datacenter solutions.
+
+The release criteria as established by the testing teams includes passing a set of
+test cases derived from our functional testing project 'functest', a set of test cases derived
+from our platform system and performance test project 'yardstick', and a selection of test
+cases for feature capabilities derived from other test projects such as bottlenecks,
+vsperf, cperf and storperf.  The scenario needs to be able to be deployed, pass these tests
+and be removed from the infrastructure iterarively (no less that 4 times) in order to
+fulfill the release criteria.
 
 Functest
 --------
