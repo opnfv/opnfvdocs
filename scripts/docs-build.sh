@@ -23,7 +23,7 @@ version="$(git describe --abbrev=0 2> /dev/null || echo draft) ($revision)"
 project="$(basename $(git rev-parse --show-toplevel))"
 html_notes="    Revision: $rev_full\n    Build date: $(date -u +'%Y-%m-%d')"
 opnfv_logo="$OPNFVDOCS_DIR/etc/opnfv-logo.png"
-copyright="$(date +%Y), OPNFV"
+copyright="$(date +%Y), OPNFV. Licenced under CC BY 4.0."
 
 function check_rst_doc() {
     _src="$1"
