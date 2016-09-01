@@ -5,8 +5,6 @@
 **************
 OPNFV Glossary
 **************
-Colorado 1.0
-------------
 
 ========
 Contents
