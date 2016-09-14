@@ -208,12 +208,10 @@ do
 
     mkdir -p "$output"
 
-    sphinx-build -b html -t html -E "$src" "$output"
-
     {
-        sphinx-build -b singlehtml -t singlehtml -E "$src" "${output}-single"
+        sphinx-build -b singlehtml -t singlehtml -E "$src" "$output"
     } || {
-        msg="Error: Single HTML creation for $dir has failed."
+        msg="Error: HTML creation for $dir has failed."
         echo
         echo "$msg"
         echo
