@@ -108,10 +108,18 @@ function prepare_config() {
     add_config "$_conf" 'html_use_index' "False"
     add_config "$_conf" 'html_last_updated_fmt' "'%b %d, %Y'"
     add_config "$_conf" 'html_logo' "'opnfv-logo.png'"
-    add_config "$_conf" 'html_sidebars' \
+    # First check if the globaltoc is not empty, otherwise use a localtoc
+    if [ -n globaltoc.html ] then
+      add_config "$_conf" 'html_sidebars' \
                         "{'**': ['globaltoc.html',
                                  '$(cd $OPNFVDOCS_DIR; pwd)/etc/pagemenu.html',
                                  'searchbox.html']}"
+    else
+      add_config "$_conf" 'html_sidebars' \
+                        "{'**': ['localtoc.html',
+                                 '$(cd $OPNFVDOCS_DIR; pwd)/etc/pagemenu.html',
+                                 'searchbox.html']}"
+    fi
 
     # genarated params
     add_config "$_conf" 'release' "u'$version'"
