@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_d792939e",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 652
+      },
+      "writtenOn": "2016-09-18T14:51:54Z",
+      "side": 1,
+      "message": "probably should be CentOS",
+      "range": {
+        "startLine": 118,
+        "startChar": 76,
+        "endLine": 118,
+        "endChar": 80
+      },
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
