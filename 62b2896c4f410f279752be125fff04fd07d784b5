@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_f4454817",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-19T16:51:41Z",
+      "side": 1,
+      "message": "Maybe call this \"Feature Configuration Guides\"",
+      "revId": "62b2896c4f410f279752be125fff04fd07d784b5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_944c1444",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-19T16:51:41Z",
+      "side": 1,
+      "message": "Remove release notes from this document.",
+      "revId": "62b2896c4f410f279752be125fff04fd07d784b5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
