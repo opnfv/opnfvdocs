@@ -43,12 +43,11 @@ To learn more about the scenarios supported in the Colorado release refer to the
 description documents provided:
 
 - Accelerated OVS `os-nosdn-ovs <http://artifacts.opnfv.org/ovsnfv/colorado/docs/scenarios_os-nosdn-ovs/index.html>`_
-- FD.io based forwarding `os-nosdn-fdio-noha <http://artifacts.opnfv.org/fds/docs/scenarios_os-nosdn-fdio-noha/index.html>`_
-- Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/bgpvpn/colorado/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
+- Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/sdnvpn/colorado/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
 - FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/scenarios_os-odl_l2-fdio-noha/index.html>`_
 - High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
 - Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
-- `os-odl-l2-moon-ha <http://artifacts.opnfv.org/moon/colorado/docs/senarios/os-odl_l2-moon-ha/index.html>`_
+- Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/scenarios_os-nosdn-kvm-ha-single/index.html>`_
 
 ======================
 Installation Procedure
@@ -82,3 +81,23 @@ Many of the OPNFV test project provide user-guide documentation and installation
 - `vSwitchPerf user guide <http://artifacts.opnfv.org/vswitchperf/colorado/index.html>`_
 - `Software Fastpath Service Quality Metrics (SFQM) user guide <http://artifacts.opnfv.org/fastpathmetrics/colorado/index.html>`_
 - `Bottlenecks user guide <http://artifacts.opnfv.org/bottlenecks/colorado/docs/installationprocedure/index.html>`_
+- `Storage Performance Benchmarking for NFVI (StorPerf) user guide <http://artifacts.opnfv.org/storperf/colorado/docs/userguide/index.html>`_
+
+==============
+Security Notes
+==============
+
+The following patches were applied to fix security issues discovered in opnfv
+projects, during the c-release cycle.
+
+- `Removal of private keys: <https://gerrit.opnfv.org/gerrit/#/c/21995/>`_
+- `Fix security issues of eval-s in testapi: <https://gerrit.opnfv.org/gerrit/#/c/20751/>`_
+- `Implements use of yaml.safe_load: <https://gerrit.opnfv.org/gerrit/#/c/20911/>`_
+- `Fix security issues reported by the security audit: <https://gerrit.opnfv.org/gerrit/#/c/20693/>`_
+- `Fix issues found in security review: <https://gerrit.opnfv.org/gerrit/#/c/21541/>`_
+- `Removing OpenSteak Project: <https://gerrit.opnfv.org/gerrit/#/c/22139/>`_
+- `Remove unsed files in open-contrail role: <https://gerrit.opnfv.org/gerrit/#/c/21997/>`_
+- `Get rid of private key in repo: <https://gerrit.opnfv.org/gerrit/#/c/21985>`_
+- `Handling file loads and tmp dirs differently <https://gerrit.opnfv.org/gerrit/#/c/21499>`_
+- `Remove `Debug = True when run Flask and add logger <https://gerrit.opnfv.org/gerrit/#/c/21799/>`_
+
