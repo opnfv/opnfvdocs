@@ -25,6 +25,57 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_52cc5135",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "shall it be explicitely mentioned at the same level that the other points\n\nFor the moment MANO is considered in the discussions, new projects but in Colorado there is no specific OPNFV publications around MANO\n\nso stating MANO could be misleading and be a bit disapointing for the end users....",
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_f2d23dd1",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "usually we speak about NFV features\nnot sure if \"applications\" is better",
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_72e62db6",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "we may note that only 2 installers are using this centralized CI, not all...\n\nmoreover I wonder if it makes sens to mention already here the notion of production CI lab (for the machines to validate the release) and community lab (for the people to validate the features)",
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_d792939e",
         "filename": "docs/overview/overview.rst",
         "patchSetId": 10
@@ -42,6 +93,74 @@
         "endLine": 118,
         "endChar": 80
       },
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_6dbf30fc",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "today it is partly true\nfunctest and yardstick (with storperf) OK\ncperf did not publish anything for Colorado, bottlenecks is also not integrated in CI and considered for success criteria",
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_2d3938a4",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "%s/brahmaputra/colorado and not sure pdf version is working fine..http://artifacts.opnfv.org/functest/colorado/docs/userguide/index.html",
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_4d3cb493",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "Functest also integrated OPNFV feature project test suites.",
+      "revId": "fee044a4e5dc9005410be388711156620253eae3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_ed42600f",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2016-09-19T12:20:32Z",
+      "side": 1,
+      "message": "not in Colorado",
       "revId": "fee044a4e5dc9005410be388711156620253eae3",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
