@@ -49,6 +49,8 @@ description documents provided:
 - High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
 - Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
 - `os-odl-l2-moon-ha <http://artifacts.opnfv.org/moon/colorado/docs/senarios/os-odl_l2-moon-ha/index.html>`_
+- `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/scenarios_os-nosdn-kvm-ha-single/index.html>`_
+    
 
 ======================
 Installation Procedure
