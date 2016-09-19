@@ -48,7 +48,8 @@ description documents provided:
 - FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/scenarios_os-odl_l2-fdio-noha/index.html>`_
 - High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
 - Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
-- `os-odl-l2-moon-ha <http://artifacts.opnfv.org/moon/colorado/docs/senarios/os-odl_l2-moon-ha/index.html>`_
+- Moon security solution enabled `os-odl-l2-moon-ha <http://artifacts.opnfv.org/moon/colorado/docs/senarios/os-odl_l2-moon-ha/index.html>`_
+- Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/scenarios_os-nosdn-kvm-ha-single/index.html>`_
 
 ======================
 Installation Procedure
