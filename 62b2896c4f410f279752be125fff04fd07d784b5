@@ -69,6 +69,24 @@
       "revId": "62b2896c4f410f279752be125fff04fd07d784b5",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_172d66fe",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-20T05:49:44Z",
+      "side": 1,
+      "message": "I suggest leave it to be published on the \"documentation\" web page we are producing.  This should be an \"easy reading\" document rather than an accounting of facts.",
+      "parentUuid": "1a76adc5_54c51c3a",
+      "revId": "62b2896c4f410f279752be125fff04fd07d784b5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
