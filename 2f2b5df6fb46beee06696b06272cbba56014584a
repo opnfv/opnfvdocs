@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_a59f9c4f",
+        "filename": "docs/installationprocedure/installation.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-20T09:35:51Z",
+      "side": 1,
+      "message": "\"Accelerated KVM hypervisor\"\nclean whitespace",
+      "revId": "2f2b5df6fb46beee06696b06272cbba56014584a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_e59d945a",
+        "filename": "docs/installationprocedure/installation.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-20T09:35:51Z",
+      "side": 0,
+      "message": "\"Moon security solution enabled\" would be a good title for this scenario",
+      "revId": "e0d9cf46af938e7a87ca351ff4c135f5f478a33b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
