@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_a90a0e1f",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-21T15:24:24Z",
+      "side": 1,
+      "message": "Chris, could you please add Promise to the index.rst:\nhttps://wiki.opnfv.org/display/DOC/Colorado+documentation",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 29
+      },
+      "revId": "71c4d1b969d881f0b705f4457af6ec7ae532e8e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
