@@ -39,7 +39,10 @@ Feature Project documentation
 Copper, policy features, release documentation
 ----------------------------------------------
 
-* `Copper release documentation <http://artifacts.opnfv.org/copper/colorado/docs/design/index.html>`_
+* `Copper design documentation: <http://artifacts.opnfv.org/copper/colorado/docs/design/index.htm>`_
+* `Release Notes: <http://artifacts.opnfv.org/copper/colorado/docs/releasenotes/index.html>`_
+* `Install Guide: <http://artifacts.opnfv.org/copper/colorado/docs/installationprocedure/index.html>`_
+* `User Guide: <http://artifacts.opnfv.org/copper/colorado/docs/userguide/index.html>`_
 
 -----------------------------------------------------
 Doctor, fault notification, features and capabilities
