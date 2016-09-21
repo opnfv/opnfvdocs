@@ -35,11 +35,21 @@ Installation instructions
 Feature Project documentation
 =============================
 
+---------------
+ARMband project
+---------------
+
+* `Installation <instruction: <http://artifacts.opnfv.org/armband/colorado/docs/installationprocedure/index.html>`_
+* `Release Notes <http://artifacts.opnfv.org/armband/colorado/docs/releasenotes/index.html>`_
+
 ----------------------------------------------
 Copper, policy features, release documentation
 ----------------------------------------------
 
-* `Copper release documentation <http://artifacts.opnfv.org/copper/colorado/docs/design/index.html>`_
+* `Copper design documentation: <http://artifacts.opnfv.org/copper/colorado/docs/design/index.htm>`_
+* `Release Notes: <http://artifacts.opnfv.org/copper/colorado/docs/releasenotes/index.html>`_
+* `Installation instruction: <http://artifacts.opnfv.org/copper/colorado/docs/installationprocedure/index.html>`_
+* `User Guide: <http://artifacts.opnfv.org/copper/colorado/docs/userguide/index.html>`_
 
 -----------------------------------------------------
 Doctor, fault notification, features and capabilities
@@ -77,6 +87,16 @@ KVM for NFV
 * `Configuration guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/configurationguide/index.html>`_
 * `Release notes <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/releasenotes/index.html>`_
 
+----
+MOON
+----
+
+* `Project & Scenario overview: http://artifacts.opnfv.org/moon/colorado/docs/colorado_scenarios_os-odl_l2-moon-ha/index.html>`_
+* `Install Procedure: http://artifacts.opnfv.org/moon/colorado/docs/installationprocedure/index.html>`_
+* `Configuration Guide: http://artifacts.opnfv.org/moon/colorado/docs/configurationguide/index.html>`_
+* `User Guide: http://artifacts.opnfv.org/moon/colorado/docs/userguide/index.html>`_
+* `Release Note: http://artifacts.opnfv.org/moon/colorado/docs/releasenotes/index.html>`_
+
 -------------------------
 Network readiness project
 -------------------------
@@ -104,8 +124,42 @@ Parser project
 --------------
 
 * `Parser release documentation <http://artifacts.opnfv.org/parser/colorado/docs/parser_docs/index.html>`_
-* `Installation guide <http://artifacts.opnfv.org/parser/colorado/docs/installationprocedure/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/parser/colorado/docs/installationprocedure/index.html>`_
 * `User guide <http://artifacts.opnfv.org/parser/colorado/docs/userguide/index.html>`_
+
+------
+Pharos
+------
+
+* `Pharos specification <http://artifacts.opnfv.org/pharos/colorado/docs/specification/index.html>`_
+* `Configuration guide <http://artifacts.opnfv.org/pharos/colorado/docs/configguide/index.html>`_
+
+-------
+Promise
+-------
+
+* `Future works and requirements <http://artifacts.opnfv.org/promise/colorado/docs/requirements/index.html>`_
+* `User guide <http://artifacts.opnfv.org/promise/colorado/docs/userguide/index.html>`_
+* `Installation and configuration guide <http://artifacts.opnfv.org/promise/colorado/docs/installationprocedure/index.html>`_
+
+------
+SDNVPN
+------
+
+* `User guide <http://artifacts.opnfv.org/sdnvpn/colorado/docs/userguide/index.html>`_
+* `BGPVPN scenario description document <http://artifacts.opnfv.org/sdnvpn/colorado/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/sdnvpn/colorado/docs/release-notes/index.html>`_
+
+---
+SFC
+---
+
+* `SFC design documentation <http://artifacts.opnfv.org/sfc/colorado/docs/design/index.html>`_
+* `High availbility SFC scenario description <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
+* `SFC scenario description <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/sfc/colorado/docs/installationprocedure/index.html>`_
+* `User guide <http://artifacts.opnfv.org/sfc/colorado/docs/userguide/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/sfc/colorado/docs/releasenotes/index.html>`_
 
 Test Project documentation
 ==========================
