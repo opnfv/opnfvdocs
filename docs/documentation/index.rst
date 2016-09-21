@@ -35,11 +35,14 @@ Installation instructions
 Feature Project documentation
 =============================
 
-----------------------------------------------
-Copper, policy features, release documentation
-----------------------------------------------
+------------------------------------------------------------
+Copper, configuration policy features, release documentation
+------------------------------------------------------------
 
-* `Copper release documentation <http://artifacts.opnfv.org/copper/colorado/docs/design/index.html>`_
+* `Project overview document <http://artifacts.opnfv.org/copper/colorado/docs/design/index.html>`_
+* `Release Notes <http://artifacts.opnfv.org/copper/colorado/docs/releasenotes/index.html>`_
+* `Install Guide <http://artifacts.opnfv.org/copper/colorado/docs/installationprocedure/index.html>`_
+* `User Guide <http://artifacts.opnfv.org/copper/colorado/docs/userguide/index.html>`_
 
 -----------------------------------------------------
 Doctor, fault notification, features and capabilities
