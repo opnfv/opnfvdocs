@@ -77,6 +77,16 @@ KVM for NFV
 * `Configuration guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/configurationguide/index.html>`_
 * `Release notes <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/releasenotes/index.html>`_
 
+--------------------------------
+MOON security management for NFV
+--------------------------------
+
+* `Installation guide <http://artifacts.opnfv.org/moon/colorado/docs/installationprocedure/index.html>`_
+* `User guide <http://artifacts.opnfv.org/moon/colorado/docs/userguide/index.html>`_
+* `Configuration guide <http://artifacts.opnfv.org/moon/colorado/docs/configurationguide/index.html>`_
+* `Project & Scenario Note <http://artifacts.opnfv.org/moon/colorado/docs/colorado_scenarios_os-odl_l2-moon-ha/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/moon/colorado/docs/releasenotes/index.html>`_
+
 -------------------------
 Network readiness project
 -------------------------
