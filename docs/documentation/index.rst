@@ -35,21 +35,32 @@ Installation instructions
 Feature Project documentation
 =============================
 
+---------------
+ARMband project
+---------------
+
+* `Installation instruction <http://artifacts.opnfv.org/armband/colorado/docs/installationprocedure/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/armband/colorado/docs/releasenotes/index.html>`_
+
 ----------------------------------------------
-Copper, policy features, release documentation
+Copper release documentation
 ----------------------------------------------
 
-* `Copper release documentation <http://artifacts.opnfv.org/copper/colorado/docs/design/index.html>`_
+* `Copper design documentation <http://artifacts.opnfv.org/copper/colorado/docs/design/index.htm>`_
+* `Release notes <http://artifacts.opnfv.org/copper/colorado/docs/releasenotes/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/copper/colorado/docs/installationprocedure/index.html>`_
+* `User guide <http://artifacts.opnfv.org/copper/colorado/docs/userguide/index.html>`_
 
 -----------------------------------------------------
-Doctor, fault notification, features and capabilities
+Doctor features and capabilities
 -----------------------------------------------------
 
 * `The doctor overview document <http://artifacts.opnfv.org/doctor/colorado/docs/platformoverview/index.html>`_
-* `Doctor user guide <http://artifacts.opnfv.org/doctor/colorado/docs/userguide/index.html>`_
+* `User guide <http://artifacts.opnfv.org/doctor/colorado/docs/userguide/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/doctor/colorado/docs/releasenotes/index.html>`_
 
 ----------------------------------------------------------------
-Domino, template distribution service, features and capabilities
+Domino features and capabilities
 ----------------------------------------------------------------
 
 * `User guide <http://artifacts.opnfv.org/domino/colorado/docs/userguide/index.html>`_
@@ -65,17 +76,28 @@ FastDataStacks feature and scenario documentation
 IPv6 platform support and capability
 ------------------------------------
 
-* `IPv6 user guide <http://artifacts.opnfv.org/ipv6/colorado/docs/userguide/index.html>`_
-* `Installation of routing functions <http://artifacts.opnfv.org/ipv6/colorado/docs/reldoc/index.html>`_
+* `User guide <http://artifacts.opnfv.org/ipv6/colorado/docs/userguide/index.html>`_
+* `Configuration guide <http://artifacts.opnfv.org/ipv6/colorado/docs/installationprocedure/ind
+ex.html>`_
 
 -----------
 KVM for NFV
 -----------
 
-* `Installation guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/installationprocedure/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/installationprocedure/index.html>`_
 * `User guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/userguide/index.html>`_
 * `Configuration guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/configurationguide/index.html>`_
 * `Release notes <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/releasenotes/index.html>`_
+
+--------------------------------
+MOON security management for NFV
+--------------------------------
+
+* `Project & Scenario overview <http://artifacts.opnfv.org/moon/colorado/docs/colorado_scenarios_os-odl_l2-moon-ha/index.html>`_
+* `Install instruction <http://artifacts.opnfv.org/moon/colorado/docs/installationprocedure/index.html>`_
+* `Configuration guide <http://artifacts.opnfv.org/moon/colorado/docs/configurationguide/index.html>`_
+* `User guide <http://artifacts.opnfv.org/moon/colorado/docs/userguide/index.html>`_
+* `Release note <http://artifacts.opnfv.org/moon/colorado/docs/releasenotes/index.html>`_
 
 -------------------------
 Network readiness project
@@ -87,25 +109,60 @@ Network readiness project
 ONOS framework project
 ----------------------
 
-* `Installation guide <http://artifacts.opnfv.org/onosfw/colorado/docs/installationprocedure/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/onosfw/colorado/docs/installationprocedure/index.html>`_
 * `User guide <http://artifacts.opnfv.org/onosfw/colorado/docs/userguide/index.html>`_
 
 ----------------------------
 OVSNFV release documentation
 ----------------------------
 
+* `OVS for NFV scenario description <http://artifacts.opnfv.org/ovsnfv/colorado/docs/scenarios_os-nosdn-ovs/index.html>`_
 * `Configuration guide <http://artifacts.opnfv.org/ovsnfv/colorado/docs/configguide/index.html>`_
 * `User guide <http://artifacts.opnfv.org/ovsnfv/colorado/docs/userguide/index.html>`_
 * `Release notes <http://artifacts.opnfv.org/ovsnfv/colorado/docs/release/index.html>`_
-* `OVS for NFV scenario description <http://artifacts.opnfv.org/ovsnfv/colorado/docs/scenarios_os-nosdn-ovs/index.html>`_
 
 --------------
 Parser project
 --------------
 
 * `Parser release documentation <http://artifacts.opnfv.org/parser/colorado/docs/parser_docs/index.html>`_
-* `Installation guide <http://artifacts.opnfv.org/parser/colorado/docs/installationprocedure/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/parser/colorado/docs/installationprocedure/index.html>`_
 * `User guide <http://artifacts.opnfv.org/parser/colorado/docs/userguide/index.html>`_
+
+------
+Pharos
+------
+
+* `Pharos specification <http://artifacts.opnfv.org/pharos/colorado/docs/specification/index.html>`_
+* `Configuration guide <http://artifacts.opnfv.org/pharos/colorado/docs/configguide/index.html>`_
+
+-------
+Promise
+-------
+
+* `Requirement specification <http://artifacts.opnfv.org/promise/colorado/docs/requirements/index.html>`_
+* `User guide <http://artifacts.opnfv.org/promise/colorado/docs/userguide/index.html>`_
+* `Installation and configuration guide <http://artifacts.opnfv.org/promise/colorado/docs/installationprocedure/index.html>`_
+
+------
+SDNVPN
+------
+
+* `User guide <http://artifacts.opnfv.org/sdnvpn/colorado/docs/userguide/index.html>`_
+* `BGPVPN scenario description document <http://artifacts.opnfv.org/sdnvpn/colorado/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/sdnvpn/colorado/docs/release-notes/index.html>`_
+
+---
+SFC
+---
+
+* `Design documentation <http://artifacts.opnfv.org/sfc/colorado/docs/design/index.html>`_
+* `High availability SFC scenario description <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
+* `SFC scenario description <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/sfc/colorado/docs/installationprocedure/index.html>`_
+* `User guide <http://artifacts.opnfv.org/sfc/colorado/docs/userguide/index.html>`_
+* `Release notes <http://artifacts.opnfv.org/sfc/colorado/docs/releasenotes/index.html>`_
+
 
 Test Project documentation
 ==========================
@@ -114,18 +171,18 @@ Test Project documentation
 Functest documentation
 ----------------------
 
-*  `The Functest configuration guide <http://artifacts.opnfv.org/functest/colorado/docs/configguide/index.html>`_
-*  `The Functest user Guide <http://artifacts.opnfv.org/functest/colorado/docs/userguide/index.html>`_
+*  `Configuration guide <http://artifacts.opnfv.org/functest/colorado/docs/configguide/index.html>`_
+*  `User Guide <http://artifacts.opnfv.org/functest/colorado/docs/userguide/index.html>`_
 *  `A developer guide for working with functest <http://artifacts.opnfv.org/functest/colorado/docs/devguide/index.html>`_
-*  `Functest release Notes <http://artifacts.opnfv.org/functest/colorado/docs/release-notes/functest-release.html>`_
+*  `Release notes <http://artifacts.opnfv.org/functest/colorado/docs/release-notes/functest-release.html>`_
 
 -----------------------
 Yardstick documentation
 -----------------------
 
-*  `The Yardstick user guide <http://artifacts.opnfv.org/yardstick/colorado/docs/userguide/index.html>`_
+*  `User guide <http://artifacts.opnfv.org/yardstick/colorado/docs/userguide/index.html>`_
 *  `A code documentation and developer guide <http://artifacts.opnfv.org/yardstick/colorado/docs/apidocs/index.html>`_
-*  `Yardstick release notes <http://artifacts.opnfv.org/yardstick/colorado/docs/release/index.html>`_
+*  `Release notes <http://artifacts.opnfv.org/yardstick/colorado/docs/release/index.html>`_
 
 -------------------------
 vSwitchPerf documentation
@@ -143,4 +200,4 @@ Software fast-path quality metrics documentation
 Bottlenecks documentation
 -------------------------
 
-* `Installation procedure <http://artifacts.opnfv.org/bottlenecks/colorado/docs/installationprocedure/index.html>`_
+* `Installation instruction <http://artifacts.opnfv.org/bottlenecks/colorado/docs/installationprocedure/index.html>`_
