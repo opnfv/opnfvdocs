@@ -22,6 +22,29 @@
       "revId": "71c4d1b969d881f0b705f4457af6ec7ae532e8e9",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_4919fa77",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-09-21T15:26:15Z",
+      "side": 1,
+      "message": "ARMband\nhttp://artifacts.opnfv.org/armband/colorado/docs/installationprocedure/index.html\nhttp://artifacts.opnfv.org/armband/colorado/docs/releasenotes/index.html\nMOON\nRelease Note: http://artifacts.opnfv.org/moon/colorado/docs/releasenotes/index.html\nInstall Procedure: http://artifacts.opnfv.org/moon/colorado/docs/installationprocedure/index.html\nUser Guide: http://artifacts.opnfv.org/moon/colorado/docs/userguide/index.html\nConfiguration Guide: http://artifacts.opnfv.org/moon/colorado/docs/configurationguide/index.html\nProject \u0026 Scenario Note: http://artifacts.opnfv.org/moon/colorado/docs/colorado_scenarios_os-odl_l2-moon-ha/index.html\nSDNVPN\nhttp://artifacts.opnfv.org/sdnvpn/colorado/docs/release-notes/index.html\nhttp://artifacts.opnfv.org/sdnvpn/colorado/docs/userguide/index.html\nhttp://artifacts.opnfv.org/sdnvpn/colorado/docs/scenarios_os-odl_l2-bgpvpn/index.html\nSFC\nhttp://artifacts.opnfv.org/sfc/colorado/docs/design/index.html\nhttp://artifacts.opnfv.org/sfc/colorado/docs/installationprocedure/index.html\nhttp://artifacts.opnfv.org/sfc/colorado/docs/releasenotes/index.html\nhttp://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html\nhttp://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html\nhttp://artifacts.opnfv.org/sfc/colorado/docs/userguide/index.html\nPharos\nhttp://artifacts.opnfv.org/pharos/colorado/docs/specification/index.html\nhttp://artifacts.opnfv.org/pharos/colorado/docs/configguide/index.html",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 29
+      },
+      "revId": "71c4d1b969d881f0b705f4457af6ec7ae532e8e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
