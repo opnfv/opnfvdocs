@@ -48,6 +48,24 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_e396e23e",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Will keep it to a non plural form I think.  It refers to the document rather than the content.  Can be debated but I have to merge this very soon.",
+      "parentUuid": "1a76adc5_43fb16c1",
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_830daeea",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -65,6 +83,24 @@
         "endLine": 21,
         "endChar": 23
       },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_8397ee39",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_830daeea",
       "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -94,6 +130,24 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_a39c6a5e",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_63f892c3",
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_03019eae",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -117,6 +171,24 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_43a556a0",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_03019eae",
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_23fe1aaf",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -134,6 +206,24 @@
         "endLine": 94,
         "endChar": 21
       },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_c3916648",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_23fe1aaf",
       "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -186,6 +276,24 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_23713a44",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Yes I try to, a non blocking issue but I do try to keep it consistent.",
+      "parentUuid": "1a76adc5_e33342a9",
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_0318be1c",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -203,6 +311,24 @@
         "endLine": 157,
         "endChar": 9
       },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_03743e34",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done - kept the qualified, dropped the \"document\"",
+      "parentUuid": "1a76adc5_0318be1c",
       "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -232,6 +358,24 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_637bb228",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_2315bae4",
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_e3c10255",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -249,6 +393,24 @@
         "endLine": 172,
         "endChar": 26
       },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_437eb61a",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_e3c10255",
       "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -278,6 +440,24 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_a3854a08",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_43e9d6e4",
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_a3b78af4",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -295,6 +475,24 @@
         "endLine": 198,
         "endChar": 48
       },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_83804ef8",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a76adc5_a3b78af4",
       "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
