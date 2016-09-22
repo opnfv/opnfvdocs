@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_bfeb1caf",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "We are using both \"guide\" vs \"introcution\" in this document. For Bottleneck \"installation procedure\" is used. Is there as deeper meaning behind? If not, I propose to harmonize.",
+      "range": {
+        "startLine": 20,
+        "startChar": 32,
+        "endLine": 20,
+        "endChar": 37
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_3fd70cef",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "project",
+      "range": {
+        "startLine": 35,
+        "startChar": 8,
+        "endLine": 35,
+        "endChar": 9
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_dfde1811",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "s/Release Notes/Release notes/   throughout the document",
+      "range": {
+        "startLine": 43,
+        "startChar": 11,
+        "endLine": 43,
+        "endChar": 12
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_df05b87a",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "not needed",
+      "range": {
+        "startLine": 46,
+        "startChar": 23,
+        "endLine": 46,
+        "endChar": 46
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_ff08b492",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "is this needed? the top level clause is \"feature project\". Should we harmonize all headings on this level?",
+      "range": {
+        "startLine": 55,
+        "startChar": 28,
+        "endLine": 55,
+        "endChar": 53
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_7fcd845c",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "Most project documentation do not have the project name in the documentation name. Proposal to harmonize. Expeption: installer projects as they are all listed in the same clause.\n\nThis comment is also valid for other projects like Functest and Yardstick below.",
+      "range": {
+        "startLine": 158,
+        "startChar": 3,
+        "endLine": 158,
+        "endChar": 7
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_3fc06c29",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "s/Guide/guide/   througout the document",
+      "range": {
+        "startLine": 174,
+        "startChar": 22,
+        "endLine": 174,
+        "endChar": 27
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_1fdc9011",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T08:03:29Z",
+      "side": 1,
+      "message": "notes",
+      "range": {
+        "startLine": 176,
+        "startChar": 21,
+        "endLine": 176,
+        "endChar": 26
+      },
+      "revId": "53ad2f59dd4ae749451bec83082baa42561ba869",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
