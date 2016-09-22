@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_1fe6d0b4",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2016-09-22T08:36:04Z",
+      "side": 1,
+      "message": "Release notes\nhttp://artifacts.opnfv.org/bottlenecks/docs/releasenotes/index.html",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 25
+      },
+      "revId": "4de894fa060101b13d338b9dea7e368751472ab4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
