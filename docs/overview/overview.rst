@@ -184,12 +184,14 @@ The OPNFV community has set out to address the needs of virtualization in the ca
 network and as such platform validation and measurements are a cornerstone to the
 iterative releases and objectives.
 
+.. image:: ../images/OPNFV_testing_group.png
+  :alt: Overview infographic of the Colorado OPNFV testing Ecosystem
+
 To simplify the complex task of feature, component and platform validation and characterization
 the testing community has established a fully automated method for addressing all key areas of
 platform validation. This required the integration of a variety of testing frameworks in our CI
 systems, real time and automated analysis of results, storage and publication of key facts for
 each run.
-
 
 Release Verification
 ====================
