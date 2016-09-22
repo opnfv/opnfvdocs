@@ -1,0 +1,257 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_a3122a07",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "s/Installation/installation/",
+      "range": {
+        "startLine": 20,
+        "startChar": 9,
+        "endLine": 20,
+        "endChar": 21
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_43fb16c1",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "s/installation instruction/installation instructions/   I suggest to use plural for intructions throughout the document. what do you think/prefer?",
+      "range": {
+        "startLine": 20,
+        "startChar": 9,
+        "endLine": 20,
+        "endChar": 33
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_830daeea",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "Just \"OPNFV user guide\", remove the \"the\"",
+      "range": {
+        "startLine": 21,
+        "startChar": 3,
+        "endLine": 21,
+        "endChar": 23
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_63f892c3",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "\"Design documentation\"",
+      "range": {
+        "startLine": 49,
+        "startChar": 3,
+        "endLine": 49,
+        "endChar": 30
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_03019eae",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "\"Platform overview\" or \"Project overview\"  ?",
+      "range": {
+        "startLine": 58,
+        "startChar": 3,
+        "endLine": 58,
+        "endChar": 31
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_23fe1aaf",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "\"Project and scenario overview\"",
+      "range": {
+        "startLine": 94,
+        "startChar": 13,
+        "endLine": 94,
+        "endChar": 21
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_c32e4643",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "\"Project overview\" ?",
+      "range": {
+        "startLine": 112,
+        "startChar": 3,
+        "endLine": 112,
+        "endChar": 27
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_e33342a9",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "\"Release notes\"\n\nshould we always keep a similar order (if available), e.g.\n1. project overview\n2. installation instructions\n3. configuration guide\n4. user guide\n5. release notes\n\nfor all projects?",
+      "range": {
+        "startLine": 133,
+        "startChar": 3,
+        "endLine": 133,
+        "endChar": 31
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_0318be1c",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "IMHO, just \"Scenario descrition\" would be fine",
+      "range": {
+        "startLine": 157,
+        "startChar": 3,
+        "endLine": 157,
+        "endChar": 9
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_2315bae4",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "\"Scenario description\"\n\nPut this link before \"HA SFC scenario description\"?",
+      "range": {
+        "startLine": 166,
+        "startChar": 3,
+        "endLine": 166,
+        "endChar": 27
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_43e9d6e4",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:11:15Z",
+      "side": 1,
+      "message": "Developer guide",
+      "range": {
+        "startLine": 181,
+        "startChar": 4,
+        "endLine": 181,
+        "endChar": 21
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
