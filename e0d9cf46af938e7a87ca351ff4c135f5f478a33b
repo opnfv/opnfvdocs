@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_239a9a6e",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2016-09-22T10:32:07Z",
+      "side": 0,
+      "message": "\"as shown int the following diagram.\" or equivalent followed by the png.",
+      "revId": "e0d9cf46af938e7a87ca351ff4c135f5f478a33b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
