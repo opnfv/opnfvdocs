@@ -100,4 +100,3 @@ projects, during the c-release cycle.
 - `Get rid of private key in repo: <https://gerrit.opnfv.org/gerrit/#/c/21985>`_
 - `Handling file loads and tmp dirs differently <https://gerrit.opnfv.org/gerrit/#/c/21499>`_
 - `Remove `Debug = True when run Flask and add logger <https://gerrit.opnfv.org/gerrit/#/c/21799/>`_
-
