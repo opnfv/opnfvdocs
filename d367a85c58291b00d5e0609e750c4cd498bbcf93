@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_1f6330dd",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 346
+      },
+      "writtenOn": "2016-09-22T06:22:16Z",
+      "side": 1,
+      "message": "Release Notes missing?\nhttp://artifacts.opnfv.org/doctor/docs/releasenotes/index.html",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 1
+      },
+      "revId": "d367a85c58291b00d5e0609e750c4cd498bbcf93",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_7f64a4e4",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 346
+      },
+      "writtenOn": "2016-09-22T06:22:16Z",
+      "side": 1,
+      "message": "What about \"Requirements specification\"",
+      "range": {
+        "startLine": 141,
+        "startChar": 3,
+        "endLine": 141,
+        "endChar": 32
+      },
+      "revId": "d367a85c58291b00d5e0609e750c4cd498bbcf93",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
