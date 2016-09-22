@@ -232,6 +232,29 @@
     },
     {
       "key": {
+        "uuid": "1a76adc5_e3c10255",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:13:24Z",
+      "side": 1,
+      "message": "Proposal to order below projects alphabetically",
+      "range": {
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 172,
+        "endChar": 26
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a76adc5_43e9d6e4",
         "filename": "docs/documentation/index.rst",
         "patchSetId": 9
@@ -248,6 +271,52 @@
         "startChar": 4,
         "endLine": 181,
         "endChar": 21
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_a3b78af4",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:13:24Z",
+      "side": 1,
+      "message": "should go to \"Feature projects\" not Test projects?!",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 198,
+        "endChar": 48
+      },
+      "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_83b28e04",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2016-09-22T10:13:24Z",
+      "side": 1,
+      "message": "should go to \"Feature projects\" not Test projects!",
+      "range": {
+        "startLine": 204,
+        "startChar": 0,
+        "endLine": 204,
+        "endChar": 25
       },
       "revId": "5a8b6471113e512f4b287b3a492c27b75c5d403f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
