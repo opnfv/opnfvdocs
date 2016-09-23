@@ -48,6 +48,8 @@ description documents provided:
 - High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
 - Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
 - Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/scenarios_os-nosdn-kvm-ha-single/index.html>`_
+- LXD container hypervisor `os-nosdn-lxd-noha <http://artifacts.opnfv.org/joid/colorado/docs/scenarios_os-nosdn-lxd-noha/index.html>`_
+- High Availability LXD container hypervisor `os-nosdn-lxd-ha <http://artifacts.opnfv.org/joid/colorado/docs/scenarios_os-nosdn-lxd-ha/index.html>`_
 
 ======================
 Installation Procedure
