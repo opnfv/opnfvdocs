@@ -26,6 +26,18 @@ opnfv_logo="$OPNFVDOCS_DIR/etc/opnfv-logo.png"
 copyright="$(date +%Y), OPNFV."
 copyrightlong="$(date +%Y), OPNFV. Licenced under CC BY 4.0."
 
+if [ "$(uname)" == "Darwin" ]; then
+  # Override system $SED/$FIND with gnu $SED and gnu $FIND
+  # If not found, install with
+  # $ brew install gnu-sed findutils
+  echo "macOS detected."
+  SED="gsed"
+  FIND="gfind"
+else
+  SED="sed"
+  FIND="find"
+fi
+
 function check_rst_doc() {
     _src="$1"
 
@@ -34,7 +46,7 @@ function check_rst_doc() {
     #       check right now, but these have to be fixed before OPNFV B release.
     _out=$(doc8 --max-line-length 240 --ignore D000 "$_src") || {
         _msg='Warning: rst validation (doc8) has failed, please fix the following error(s).'
-        _errs=$(echo "$_out" | sed -n -e "/^$_src/s/^/    /p")
+        _errs=$(echo "$_out" | $SED -n -e "/^$_src/s/^/    /p")
         echo
         echo -e "$_msg\n$_errs"
         echo
@@ -47,7 +59,7 @@ function check_rst_doc() {
 function add_html_notes() {
     _src="$1"
 
-    find "$_src" -name '*.rst' | while read file
+    $FIND "$_src" -name '*.rst' | while read file
     do
         if grep -q -e ' _sha1_' "$file" ; then
             # TODO: remove this, once old templates were removed from all repos.
@@ -55,9 +67,9 @@ function add_html_notes() {
             echo "Warn: '_sha1_' was found in [$file], use the latest document template."
             echo "      See http://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs ."
             echo
-            sed -i "s/ _sha1_/ $git_sha1/g" "$file"
+            $SED -i "s/ _sha1_/ $git_sha1/g" "$file"
         fi
-        sed -i -e "\$a\\\n..\n$html_notes" "$file"
+        $SED -i -e "\$a\\\n..\n$html_notes" "$file"
     done
 }
 
@@ -120,9 +132,9 @@ function prepare_config() {
     add_config "$_conf" 'copyright' "u'$copyrightlong'"
     add_config "$_conf" 'rst_epilog' "u'$html_notes'"
 
-    echo "sphinx config to be used:"
+    echo "sphinx config to be u$SED:"
     echo
-    sed -e "s/^/    /" "$_conf"
+    $SED -e "s/^/    /" "$_conf"
     echo
 }
 
@@ -139,7 +151,7 @@ function generate_name_for_top_dir() {
         return
     done
 
-    echo "Error: cannot find name for top directory [$DOCS_DIR]"
+    echo "Error: cannot $FIND name for top directory [$DOCS_DIR]"
     exit 1
 }
 
@@ -186,7 +198,7 @@ if [ -e "$DOCS_DIR/pre-hook.sh" ]; then
     source "$DOCS_DIR/pre-hook.sh"
 fi
 
-find $DOCS_DIR -name $INDEX_RST -printf '%h\n' | while read dir
+$FIND $DOCS_DIR -name $INDEX_RST -printf '%h\n' | while read dir
 do
     name=$(generate_name $dir)
     if is_top_dir "$dir" ; then
@@ -228,8 +240,8 @@ do
         #       docs directory.
         (
             cd $output
-            find . -type d -print | xargs -I d mkdir -p ../d
-            find . -type f -print | xargs -I f mv -b f ../f
+            $FIND . -type d -print | xargs -I d mkdir -p ../d
+            $FIND . -type f -print | xargs -I f mv -b f ../f
         )
         rm -rf "$output"
     fi
