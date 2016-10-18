@@ -8,6 +8,8 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
 
+set -e
+
 DOCS_DIR=${DOCS_DIR:-docs}
 INDEX_RST=${INDEX_RST:-index.rst}
 BUILD_DIR=${BUILD_DIR:-docs_build}
@@ -25,6 +27,12 @@ html_notes="    Revision: $rev_full\n    Build date: $(date -u +'%Y-%m-%d')"
 opnfv_logo="$OPNFVDOCS_DIR/etc/opnfv-logo.png"
 copyright="$(date +%Y), OPNFV."
 copyrightlong="$(date +%Y), OPNFV. Licenced under CC BY 4.0."
+error_count=0
+
+function set_error() {
+    # TODO(yujunz) log detail errors
+    error_count=(error_count + 1)
+}
 
 function check_rst_doc() {
     _src="$1"
@@ -140,7 +148,7 @@ function generate_name_for_top_dir() {
     done
 
     echo "Error: cannot find name for top directory [$DOCS_DIR]"
-    exit 1
+    set_error
 }
 
 function generate_name() {
@@ -159,12 +167,12 @@ function generate_name() {
 if [[ ! -d "$OPNFVDOCS_DIR" ]] ; then
     echo "Error: $OPNFVDOCS_DIR dir not found."
     echo "See http://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs ."
-    exit 1
+    set_error
 fi
 
 if ! which virtualenv > /dev/null ; then
     echo "Error: 'virtualenv' not found. Exec 'sudo pip install virtualenv' first."
-    exit 1
+    set_error
 fi
 
 # workaround for doc8 error in python2.6
@@ -237,3 +245,5 @@ do
 done
 
 deactivate
+
+exit(error_count)
