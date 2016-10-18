@@ -8,6 +8,8 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 ##############################################################################
 
+set -e
+
 DOCS_DIR=${DOCS_DIR:-docs}
 INDEX_RST=${INDEX_RST:-index.rst}
 BUILD_DIR=${BUILD_DIR:-docs_build}
