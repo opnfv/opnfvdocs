@@ -54,32 +54,32 @@ You can find project specific usage and configuration information below:
 Feature Configuration Guides
 ============================
 
-- `Armband configuration guide <http://artifacts.opnfv.org/armband/colorado/docs/installationprocedure/index.html>`_
-- `Copper configuration guide <http://artifacts.opnfv.org/copper/colorado/docs/installationprocedure/index.html>`_
-- `Doctor configuration guide <http://artifacts.opnfv.org/doctor/colorado/docs/installationprocedure/index.html>`_
-- `IPv6 configuration guide <http://artifacts.opnfv.org/ipv6/colorado/docs/installationprocedure/index.html>`_
-- `KVMforNFV configuration guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/installationprocedure/index.html>`_
-- `Moon configuration guide <http://artifacts.opnfv.org/moon/colorado/docs/installationprocedure/index.html>`_
-- `Multisite configuration guide <http://artifacts.opnfv.org/multisite/colorado/installationprocedure/index.html>`_
-- `ONOSFW configuration guide <http://artifacts.opnfv.org/onosfw/colorado/installationprocedure/index.html>`_
-- `OVSNFV configuration guide <http://artifacts.opnfv.org/ovsnfv/colorado/docs/configguide-single/index.html>`_
-- `Promise configuration guide <http://artifacts.opnfv.org/promise/colorado/docs/installationprocedure/index.html>`_
-- `SFC configuration guide <http://artifacts.opnfv.org/sfc/colorado/docs/installationprocedure/index.html>`_
+- `Armband configuration guide <http://artifacts.opnfv.org/armband/colorado/2.0/docs/installationprocedure/index.html>`_
+- `Copper configuration guide <http://artifacts.opnfv.org/copper/colorado/2.0/docs/installationprocedure/index.html>`_
+- `Doctor configuration guide <http://artifacts.opnfv.org/doctor/colorado/2.0/docs/installationprocedure/index.html>`_
+- `IPv6 configuration guide <http://artifacts.opnfv.org/ipv6/colorado/2.0/docs/installationprocedure/index.html>`_
+- `KVMforNFV configuration guide <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/installationprocedure/index.html>`_
+- `Moon configuration guide <http://artifacts.opnfv.org/moon/colorado/2.0/docs/installationprocedure/index.html>`_
+- `Multisite configuration guide <http://artifacts.opnfv.org/multisite/colorado/2.0/installationprocedure/index.html>`_
+- `ONOSFW configuration guide <http://artifacts.opnfv.org/onosfw/colorado/2.0/installationprocedure/index.html>`_
+- `OVSNFV configuration guide <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/configguide-single/index.html>`_
+- `Promise configuration guide <http://artifacts.opnfv.org/promise/colorado/2.0/docs/installationprocedure/index.html>`_
+- `SFC configuration guide <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/installationprocedure/index.html>`_
 
 
 Feature User Guides
 ===================
 
-- `Copper user guide <http://artifacts.opnfv.org/copper/colorado/docs/userguide/index.html>`_
-- `Doctor user guide <http://artifacts.opnfv.org/doctor/colorado/docs/userguide/index.html>`_
-- `Domino user guide <http://artifacts.opnfv.org/domino/docs/userguide/index.html>`_
-- `IPv6 user guide <http://artifacts.opnfv.org/ipv6/colorado/docs/userguide/index.html>`_
-- `KVMforNFV user guide <http://artifacts.opnfv.org/kvmfornfv/colorado/docs/userguide-single/index.html>`_
-- `Moon user guide <http://artifacts.opnfv.org/moon/colorado/docs/userguide/index.html>`_
-- `Multisite user guide <http://artifacts.opnfv.org/multisite/colorado/userguide/index.html>`_
-- `ONOSFW user guide <http://artifacts.opnfv.org/onosfw/colorado/userguide/index.html>`_
-- `OVSNFV user guide <http://artifacts.opnfv.org/ovsnfv/colorado/docs/userguide-single/index.html>`_
-- `Parser user guide <http://artifacts.opnfv.org/parser/colorado/docs/userguide/index.html>`_
-- `Promise user guide <http://artifacts.opnfv.org/promise/colorado/docs/userguide/index.html>`_
-- `SDNVPN user guide <http://artifacts.opnfv.org/sdnvpn/colorado/docs/userguide/index.html>`_
-- `SFC user guide <http://artifacts.opnfv.org/sfc/colorado/docs/userguide/index.html>`_
+- `Copper user guide <http://artifacts.opnfv.org/copper/colorado/2.0/docs/userguide/index.html>`_
+- `Doctor user guide <http://artifacts.opnfv.org/doctor/colorado/2.0/docs/userguide/index.html>`_
+- `Domino user guide <http://artifacts.opnfv.org/domino/2.0/docs/userguide/index.html>`_
+- `IPv6 user guide <http://artifacts.opnfv.org/ipv6/colorado/2.0/docs/userguide/index.html>`_
+- `KVMforNFV user guide <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/userguide-single/index.html>`_
+- `Moon user guide <http://artifacts.opnfv.org/moon/colorado/2.0/docs/userguide/index.html>`_
+- `Multisite user guide <http://artifacts.opnfv.org/multisite/colorado/2.0/userguide/index.html>`_
+- `ONOSFW user guide <http://artifacts.opnfv.org/onosfw/colorado/2.0/userguide/index.html>`_
+- `OVSNFV user guide <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/userguide-single/index.html>`_
+- `Parser user guide <http://artifacts.opnfv.org/parser/colorado/2.0/docs/userguide/index.html>`_
+- `Promise user guide <http://artifacts.opnfv.org/promise/colorado/2.0/docs/userguide/index.html>`_
+- `SDNVPN user guide <http://artifacts.opnfv.org/sdnvpn/colorado/2.0/docs/userguide/index.html>`_
+- `SFC user guide <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/userguide/index.html>`_
