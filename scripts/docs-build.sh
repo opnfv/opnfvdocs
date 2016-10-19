@@ -209,7 +209,7 @@ do
     mkdir -p "$output"
 
     {
-        sphinx-build -b singlehtml -t singlehtml -E "$src" "$output"
+        sphinx-build -W -b singlehtml -t singlehtml -E "$src" "$output"
     } || {
         msg="Error: HTML creation for $dir has failed."
         echo
