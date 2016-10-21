@@ -2,6 +2,121 @@
   "comments": [
     {
       "key": {
+        "uuid": "9adffdf1_644a7085",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T19:52:25Z",
+      "side": 1,
+      "message": "This appears to have moved to: http://artifacts.opnfv.org/doctor/colorado/2.0/docs/scenarios/index.html",
+      "range": {
+        "startLine": 58,
+        "startChar": 20,
+        "endLine": 58,
+        "endChar": 101
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_8468b4f6",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T19:52:25Z",
+      "side": 1,
+      "message": "Remove \u0027colorado_\u0027",
+      "range": {
+        "startLine": 94,
+        "startChar": 84,
+        "endLine": 94,
+        "endChar": 93
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_6463501b",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T19:52:25Z",
+      "side": 1,
+      "message": "\u00272.0/docs/\u0027",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 94
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_4472cce6",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T19:52:25Z",
+      "side": 1,
+      "message": "Missing \u0027/colorado\u0027",
+      "range": {
+        "startLine": 186,
+        "startChar": 56,
+        "endLine": 186,
+        "endChar": 61
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_e47660d8",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T19:52:25Z",
+      "side": 1,
+      "message": "Should be \u0027index.html\u0027",
+      "range": {
+        "startLine": 195,
+        "startChar": 87,
+        "endLine": 195,
+        "endChar": 108
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9adffdf1_64c7d013",
         "filename": "docs/installationprocedure/installation.introduction.rst",
         "patchSetId": 2
@@ -145,6 +260,29 @@
         "startChar": 94,
         "endLine": 65,
         "endChar": 101
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_04ada431",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T19:52:25Z",
+      "side": 1,
+      "message": "Missing \u0027/colorado\u0027",
+      "range": {
+        "startLine": 75,
+        "startChar": 55,
+        "endLine": 75,
+        "endChar": 60
       },
       "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
