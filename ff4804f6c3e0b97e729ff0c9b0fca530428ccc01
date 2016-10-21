@@ -2,6 +2,98 @@
   "comments": [
     {
       "key": {
+        "uuid": "9adffdf1_64c7d013",
+        "filename": "docs/installationprocedure/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "Removing this should fix the link.",
+      "range": {
+        "startLine": 50,
+        "startChar": 127,
+        "endLine": 50,
+        "endChar": 134
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_84cc3437",
+        "filename": "docs/installationprocedure/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "Because these lines are converted into links, having \u0027:\u0027 at the end looks odd.",
+      "range": {
+        "startLine": 95,
+        "startChar": 1,
+        "endLine": 102,
+        "endChar": 80
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_24d1c8cd",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "This shows an \u0027insecure\u0027 warning because it is over https, and https is not supported on \u0027artifacts.opnfv.org\u0027\n\nThis should be changed to \u0027http\u0027",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 88
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_44d64cc7",
+        "filename": "docs/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "Similar \u0027insecure\u0027 warning here.",
+      "range": {
+        "startLine": 168,
+        "startChar": 38,
+        "endLine": 168,
+        "endChar": 114
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9adffdf1_a46138d5",
         "filename": "docs/overview/overview.rst",
         "patchSetId": 2
@@ -31,6 +123,121 @@
       "side": 1,
       "message": "Sure, I wasn\u0027t sure what it was. These links are not visible in the released version of the document.",
       "parentUuid": "9adffdf1_a46138d5",
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_e4dae0e8",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "\u0027-single\u0027 should be removed",
+      "range": {
+        "startLine": 65,
+        "startChar": 94,
+        "endLine": 65,
+        "endChar": 101
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_a4e4d8ac",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "\u0027-single\u0027 should be removed",
+      "range": {
+        "startLine": 77,
+        "startChar": 89,
+        "endLine": 77,
+        "endChar": 96
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_c4e1dc9b",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "\u0027/docs\u0027 is missing - Unrelated, but page says \u0027Colorado 1.0\u0027",
+      "range": {
+        "startLine": 79,
+        "startChar": 71,
+        "endLine": 79,
+        "endChar": 75
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_64eef08d",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "Missing \u0027/docs\u0027.",
+      "range": {
+        "startLine": 80,
+        "startChar": 65,
+        "endLine": 80,
+        "endChar": 69
+      },
+      "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_04d844ee",
+        "filename": "docs/userguide/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-10-21T17:19:07Z",
+      "side": 1,
+      "message": "\u0027-single\u0027 should be removed.",
+      "range": {
+        "startLine": 81,
+        "startChar": 83,
+        "endLine": 81,
+        "endChar": 90
+      },
       "revId": "ff4804f6c3e0b97e729ff0c9b0fca530428ccc01",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
