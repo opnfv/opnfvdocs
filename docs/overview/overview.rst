@@ -109,7 +109,7 @@ composition may vary depending on the installer and scenario.
 
 For details on the scenarios available in OPNFV and the specific composition of components
 refer to the OPNFV installation instruction:
-https://artifacts.opnfv.org/opnfvdocs/colorado/docs/installationprocedure/index.rst
+http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/installationprocedure/index.html
 
 -----------------
 Operating Systems
@@ -165,7 +165,7 @@ A typical OPNFV deployment starts with three controller nodes running in a high 
 configuration including control plane components from OpenStack, SDN, etc. and a minimum
 of two compute nodes for deployment of workloads (VNFs).
 A detailed description of the hardware requirements required to support the 5 node configuration
-can be found in pharos specification: https://artifacts.opnfv.org/pharos/colorado/docs/specification/index.rst
+can be found in pharos specification: http://artifacts.opnfv.org/pharos/colorado/2.0/docs/specification/index.html
 
 In addition to the deployment on a highly available physical infrastructure, OPNFV can be
 deployed for development and lab purposes in a virtual environment.  In this case each of the hosts
@@ -219,7 +219,7 @@ Functest
 Functest provides a functional testing framework incorporating a number of test suites
 and test cases that test and verify OPNFV platform functionality.
 The scope of Functest and relevant test cases can be found in its
-`user guide <http://artifacts.opnfv.org/functest/colorado/docs/userguide/index.html>`_.
+`user guide <http://artifacts.opnfv.org/functest/colorado/2.0/docs/userguide/index.html>`_.
 
 Functest provides both feature project and component test suite integration, leveraging
 OpenStack and SDN controllers testing frameworks to verify the key components of the OPNFV
@@ -283,7 +283,6 @@ Bottlenecks provides a framework to find system limitations and bottlenecks, pro
 root cause isolation capabilities to facilitate system evaluation.
 
 
-.. _`OPNFV Configuration Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/docs/configguide
-.. _`OPNFV User Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/docs/userguide
+.. _`OPNFV Configuration Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/configguide
+.. _`OPNFV User Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/userguide
 .. _Dovetail project: https://wiki.opnfv.org/display/dovetail
-
