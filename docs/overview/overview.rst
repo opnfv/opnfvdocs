@@ -188,8 +188,10 @@ To simplify the complex task of feature, component and platform validation and c
 the testing community has established a fully automated method for addressing all key areas of
 platform validation. This required the integration of a variety of testing frameworks in our CI
 systems, real time and automated analysis of results, storage and publication of key facts for
-each run.
+each run as shown in the following diagram.
 
+.. image:: ../images/OPNFV_testing_group.png
+  :alt: Overview infographic of the Colorado OPNFV testing Ecosystem
 
 Release Verification
 ====================
