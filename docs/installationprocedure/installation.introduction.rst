@@ -26,7 +26,7 @@ it is important to understand your required target platform capabilities before 
 configuring your target scenario.
 
 An OPNFV installation requires either a physical, or virtual, infrastructure environment as defined
-in the `Pharos specification <http://artifacts.opnfv.org/pharos/colorado/2.0/docs/specification/index.html>`_.
+in the `Pharos specification <http://artifacts.opnfv.org/pharos/colorado/3.0/docs/specification/index.html>`_.
 When configuring a physical infrastructure it is strongly advised to follow the Pharos configuration guidelines.
 
 =========
@@ -42,14 +42,14 @@ where each scenario will include different source components or configurations.
 To learn more about the scenarios supported in the Colorado release refer to the scenario
 description documents provided:
 
-- Accelerated OVS `os-nosdn-ovs <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/scenarios_os-nosdn-ovs/index.html>`_
-- Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/sdnvpn/colorado/2.0/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
-- FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/2.0/scenarios_os-odl_l2-fdio-noha/index.html>`_
-- High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
-- Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
-- Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/scenarios_os-nosdn-kvm-ha/index.html>`_
-- LXD container hypervisor `os-nosdn-lxd-noha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-noha/index.html>`_
-- High Availability LXD container hypervisor `os-nosdn-lxd-ha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-ha/index.html>`_
+- Accelerated OVS `os-nosdn-ovs <http://artifacts.opnfv.org/ovsnfv/colorado/3.0/docs/scenarios_os-nosdn-ovs/index.html>`_
+- Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/sdnvpn/colorado/3.0/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
+- FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/3.0/scenarios_os-odl_l2-fdio-noha/index.html>`_
+- High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/3.0/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
+- Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/3.0/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
+- Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/3.0/docs/scenarios_os-nosdn-kvm-ha/index.html>`_
+- LXD container hypervisor `os-nosdn-lxd-noha <http://artifacts.opnfv.org/joid/colorado/3.0/docs/scenarios_os-nosdn-lxd-noha/index.html>`_
+- High Availability LXD container hypervisor `os-nosdn-lxd-ha <http://artifacts.opnfv.org/joid/colorado/3.0/docs/scenarios_os-nosdn-lxd-ha/index.html>`_
 
 ======================
 Installation Procedure
@@ -61,10 +61,10 @@ support for the OPNFV Colorado release are; Apex, Compass4nfv, Fuel and Joid.
 
 The instructions for each toolchain can be found in these links:
 
-- `Apex installation instruction <http://artifacts.opnfv.org/apex/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Compass4nfv installation instruction <http://artifacts.opnfv.org/compass4nfv/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Fuel installation instruction <http://artifacts.opnfv.org/fuel/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Joid installation instruction <http://artifacts.opnfv.org/joid/colorado/2.0/docs/installationprocedure/index.html>`_
+- `Apex installation instruction <http://artifacts.opnfv.org/apex/colorado/3.0/docs/installationprocedure/index.html>`_
+- `Compass4nfv installation instruction <http://artifacts.opnfv.org/compass4nfv/colorado/3.0/docs/installationprocedure/index.html>`_
+- `Fuel installation instruction <http://artifacts.opnfv.org/fuel/colorado/3.0/docs/installationprocedure/index.html>`_
+- `Joid installation instruction <http://artifacts.opnfv.org/joid/colorado/3.0/docs/installationprocedure/index.html>`_
 
 =====================
 OPNFV Test Frameworks
@@ -78,12 +78,12 @@ select the right test suites to run on your platform from the available projects
 
 Many of the OPNFV test project provide user-guide documentation and installation instructions as provided below:
 
-- `Functest user guide <http://artifacts.opnfv.org/functest/colorado/2.0/docs/userguide/index.html>`_
-- `Yardstick user guide <http://artifacts.opnfv.org/yardstick/colorado/2.0/docs/userguide/index.html>`_
-- `vSwitchPerf user guide <http://artifacts.opnfv.org/vswitchperf/colorado/2.0/index.html>`_
-- `Software Fastpath Service Quality Metrics (SFQM) user guide <http://artifacts.opnfv.org/fastpathmetrics/colorado/2.0/index.html>`_
-- `Bottlenecks user guide <http://artifacts.opnfv.org/bottlenecks/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Storage Performance Benchmarking for NFVI (StorPerf) user guide <http://artifacts.opnfv.org/storperf/colorado/2.0/docs/userguide/index.html>`_
+- `Functest user guide <http://artifacts.opnfv.org/functest/colorado/3.0/docs/userguide/index.html>`_
+- `Yardstick user guide <http://artifacts.opnfv.org/yardstick/colorado/3.0/docs/userguide/index.html>`_
+- `vSwitchPerf user guide <http://artifacts.opnfv.org/vswitchperf/colorado/3.0/index.html>`_
+- `Software Fastpath Service Quality Metrics (SFQM) user guide <http://artifacts.opnfv.org/fastpathmetrics/colorado/3.0/index.html>`_
+- `Bottlenecks user guide <http://artifacts.opnfv.org/bottlenecks/colorado/3.0/docs/installationprocedure/index.html>`_
+- `Storage Performance Benchmarking for NFVI (StorPerf) user guide <http://artifacts.opnfv.org/storperf/colorado/3.0/docs/userguide/index.html>`_
 
 ==============
 Security Notes
