@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_93d1bbcf",
+        "filename": "scripts/docs-build.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-11-30T06:58:57Z",
+      "side": 1,
+      "message": "\u0027set +e\u0027? \u0027set -e\u0027 makes this script exit when it found an error.",
+      "range": {
+        "startLine": 11,
+        "startChar": 4,
+        "endLine": 11,
+        "endChar": 5
+      },
+      "revId": "62ceebdda88e2d667fa534971acea71843466f32",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_b3edd78d",
+        "filename": "scripts/docs-build.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-11-30T06:58:57Z",
+      "side": 1,
+      "message": "I like this idea.",
+      "range": {
+        "startLine": 32,
+        "startChar": 9,
+        "endLine": 32,
+        "endChar": 18
+      },
+      "revId": "62ceebdda88e2d667fa534971acea71843466f32",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_93e8db7d",
+        "filename": "scripts/docs-build.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 253
+      },
+      "writtenOn": "2016-11-30T06:58:57Z",
+      "side": 1,
+      "message": "$((error_count + 1))",
+      "range": {
+        "startLine": 34,
+        "startChar": 16,
+        "endLine": 34,
+        "endChar": 33
+      },
+      "revId": "62ceebdda88e2d667fa534971acea71843466f32",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
