@@ -69,7 +69,8 @@ Domino features and capabilities
 FastDataStacks feature and scenario documentation
 -------------------------------------------------
 
-* `OpenDaylight integrated fd.io scenario description <http://artifacts.opnfv.org/fds/colorado/3.0/scenarios_os-odl_l2-fdio-noha/index.html>`_
+* `OpenDaylight integrated fd.io scenario description <http://artifacts.opnfv.org/fds/colorado/3.0/docs/scenarios_os-odl_l2-fdio-noha/index.html>`_
+* `FD.io based forwarding for OPNFV `os-nosdn-fdio-noha <http://artifacts.opnfv.org/fds/colorado/3.0/docs/scenarios_os-nosdn-fdio-noha/index.html>`_
 
 ------------------------------------
 IPv6 platform support and capability
@@ -171,8 +172,7 @@ SFC
 Software fast-path quality metrics documentation
 ------------------------------------------------
 
-* `Release and development documentation <http://artifacts.opnfv.org/fastpathmetrics/colorado/3.0/index.html>`_
-
+* `Release and development documentation <http://artifacts.opnfv.org/fastpathmetrics/colorado/3.0/index.html>`_  
 
 Test Project documentation
 ==========================

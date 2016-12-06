@@ -44,7 +44,7 @@ description documents provided:
 
 - Accelerated OVS `os-nosdn-ovs <http://artifacts.opnfv.org/ovsnfv/colorado/3.0/docs/scenarios_os-nosdn-ovs/index.html>`_
 - Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/sdnvpn/colorado/3.0/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
-  - FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/3.0/scenarios_os-odl_l2-fdio-noha/index.html>`_
+- FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/3.0/docs/scenarios_os-odl_l2-fdio-noha/index.html>`_
 - FD.io based forwarding for OPNFV `os-nosdn-fdio-noha <http://artifacts.opnfv.org/fds/colorado/3.0/docs/scenarios_os-nosdn-fdio-noha/index.html>`_
 - High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/3.0/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
 - Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/3.0/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
