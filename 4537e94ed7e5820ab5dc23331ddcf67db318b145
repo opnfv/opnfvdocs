@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_59660953",
+        "filename": "docs/documentation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-06T20:13:15Z",
+      "side": 1,
+      "message": "Extra whitespace",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 4
+      },
+      "revId": "4537e94ed7e5820ab5dc23331ddcf67db318b145",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
