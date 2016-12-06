@@ -172,7 +172,7 @@ SFC
 Software fast-path quality metrics documentation
 ------------------------------------------------
 
-* `Release and development documentation <http://artifacts.opnfv.org/fastpathmetrics/colorado/3.0/index.html>`_  
+* `Release and development documentation <http://artifacts.opnfv.org/fastpathmetrics/colorado/3.0/index.html>`_
 
 Test Project documentation
 ==========================
