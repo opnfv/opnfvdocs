@@ -1,0 +1,8 @@
+Code-Review+1: Trevor Bramwell <tbramwell@linuxfoundation.org>
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Tue, 06 Dec 2016 20:36:23 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/25557
+Project: opnfvdocs
+Branch: refs/heads/stable/colorado
