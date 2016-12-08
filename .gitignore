@@ -4,3 +4,6 @@
 /docs/projects/
 /docs_output/
 /releng/
+
+/docs/testing/docs/.tox/*
+/docs/testing/docs/_build/*

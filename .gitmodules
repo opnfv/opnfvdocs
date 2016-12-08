@@ -1,0 +1,27 @@
+[submodule "docs/testing/docs/submodules/apex"]
+	path = docs/testing/docs/submodules/apex
+	url = https://gerrit.opnfv.org/gerrit/apex
+[submodule "docs/testing/docs/submodules/armband"]
+	path = docs/testing/docs/submodules/armband
+	url = https://gerrit.opnfv.org/gerrit/armband
+[submodule "docs/testing/docs/submodules/bottlenecks"]
+	path = docs/testing/docs/submodules/bottlenecks
+	url = https://gerrit.opnfv.org/gerrit/bottlenecks
+[submodule "docs/testing/docs/submodules/compass4nfv"]
+	path = docs/testing/docs/submodules/compass4nfv
+	url = https://gerrit.opnfv.org/gerrit/compass4nfv
+[submodule "docs/testing/docs/submodules/fuel"]
+	path = docs/testing/docs/submodules/fuel
+	url = https://gerrit.opnfv.org/gerrit/fuel
+[submodule "docs/testing/docs/submodules/functest"]
+	path = docs/testing/docs/submodules/functest
+	url = https://gerrit.opnfv.org/gerrit/functest
+[submodule "docs/testing/docs/submodules/joid"]
+	path = docs/testing/docs/submodules/joid
+	url = https://gerrit.opnfv.org/gerrit/joid
+[submodule "docs/testing/docs/submodules/vswitchperf"]
+	path = docs/testing/docs/submodules/vswitchperf
+	url = https://gerrit.opnfv.org/gerrit/vswitchperf
+[submodule "docs/testing/docs/submodules/yardstick"]
+	path = docs/testing/docs/submodules/yardstick
+	url = https://gerrit.opnfv.org/gerrit/yardstick
