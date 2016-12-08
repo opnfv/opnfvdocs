@@ -1,0 +1,244 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_fea47658",
+        "filename": ".gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 27
+      },
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_9e89b2cc",
+        "filename": "docs/testing/build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 11
+      },
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_be86eeb7",
+        "filename": "docs/testing/docs/.gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 25
+      },
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_5e934afa",
+        "filename": "docs/testing/docs/Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 224,
+        "endChar": 0
+      },
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_7e9086ec",
+        "filename": "docs/testing/docs/_static/OPNFV Logo.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_1ebdc268",
+        "filename": "docs/testing/docs/_static/favicon.ico",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_3ec2fee9",
+        "filename": "docs/testing/docs/_static/images/OPNFV_testing_group.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_deb65a8a",
+        "filename": "docs/testing/docs/_static/images/opnfvplatformgraphic.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_febb1670",
+        "filename": "docs/testing/docs/_static/opnfv_small.png",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_9eb0d28c",
+        "filename": "docs/testing/docs/favicon.ico",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_bead8e33",
+        "filename": "docs/testing/requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 0
+      },
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_5eaa6a1a",
+        "filename": "docs/testing/tox.ini",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2016-12-08T15:37:02Z",
+      "side": 1,
+      "message": "Please remove.",
+      "range": {
+        "startLine": 1,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 26
+      },
+      "revId": "adb7364d39104e6369253de1fe4d57aa26c2f582",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
