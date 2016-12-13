@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_cdb6aa8a",
+        "filename": "scripts/docs-build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 371
+      },
+      "writtenOn": "2016-12-13T02:13:12Z",
+      "side": 1,
+      "message": "${error_count} be better?",
+      "range": {
+        "startLine": 261,
+        "startChar": 4,
+        "endLine": 261,
+        "endChar": 17
+      },
+      "revId": "9899d32e4d73fa9657150b4b5b2e70ee997fc486",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
