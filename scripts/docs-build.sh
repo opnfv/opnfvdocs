@@ -258,4 +258,4 @@ done
 
 deactivate
 
-exit(error_count)
+exit $error_count
