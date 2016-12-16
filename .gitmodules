@@ -1,0 +1,120 @@
+[submodule "docs/submodules/apex"]
+	path = docs/submodules/apex
+	url = https://gerrit.opnfv.org/gerrit/apex
+[submodule "docs/submodules/armband"]
+	path = docs/submodules/armband
+	url = https://gerrit.opnfv.org/gerrit/armband
+[submodule "docs/submodules/bottlenecks"]
+	path = docs/submodules/bottlenecks
+	url = https://gerrit.opnfv.org/gerrit/bottlenecks
+[submodule "docs/submodules/compass4nfv"]
+	path = docs/submodules/compass4nfv
+	url = https://gerrit.opnfv.org/gerrit/compass4nfv
+[submodule "docs/submodules/conductor"]
+	path = docs/submodules/conductor
+	url = https://gerrit.opnfv.org/gerrit/conductor
+[submodule "docs/submodules/copper"]
+	path = docs/submodules/copper
+	url = https://gerrit.opnfv.org/gerrit/copper
+[submodule "docs/submodules/daisy"]
+	path = docs/submodules/daisy
+	url = https://gerrit.opnfv.org/gerrit/daisy
+[submodule "docs/submodules/domino"]
+	path = docs/submodules/domino
+	url = https://gerrit.opnfv.org/gerrit/domino
+[submodule "docs/submodules/dpacc"]
+	path = docs/submodules/dpacc
+	url = https://gerrit.opnfv.org/gerrit/dpacc
+[submodule "docs/submodules/enfv"]
+	path = docs/submodules/enfv
+	url = https://gerrit.opnfv.org/gerrit/enfv
+[submodule "docs/submodules/escalator"]
+	path = docs/submodules/escalator
+	url = https://gerrit.opnfv.org/gerrit/escalator
+[submodule "docs/submodules/fastpathmetrics"]
+	path = docs/submodules/fastpathmetrics
+	url = https://gerrit.opnfv.org/gerrit/fastpathmetrics
+[submodule "docs/submodules/fds"]
+	path = docs/submodules/fds
+	url = https://gerrit.opnfv.org/gerrit/fds
+[submodule "docs/submodules/fuel"]
+	path = docs/submodules/fuel
+	url = https://gerrit.opnfv.org/gerrit/fuel
+[submodule "docs/submodules/functest"]
+	path = docs/submodules/functest
+	url = https://gerrit.opnfv.org/gerrit/functest
+[submodule "docs/submodules/genesisreq"]
+	path = docs/submodules/genesisreq
+	url = https://gerrit.opnfv.org/gerrit/genesisreq
+[submodule "docs/submodules/inspector"]
+	path = docs/submodules/inspector
+	url = https://gerrit.opnfv.org/gerrit/inspector
+[submodule "docs/submodules/ipv6"]
+	path = docs/submodules/ipv6
+	url = https://gerrit.opnfv.org/gerrit/ipv6
+[submodule "docs/submodules/joid"]
+	path = docs/submodules/joid
+	url = https://gerrit.opnfv.org/gerrit/joid
+[submodule "docs/submodules/kvmfornfv"]
+	path = docs/submodules/kvmfornfv
+	url = https://gerrit.opnfv.org/gerrit/kvmfornfv
+[submodule "docs/submodules/lsoapi"]
+	path = docs/submodules/lsoapi
+	url = https://gerrit.opnfv.org/gerrit/lsoapi
+[submodule "docs/submodules/moon"]
+	path = docs/submodules/moon
+	url = https://gerrit.opnfv.org/gerrit/moon
+[submodule "docs/submodules/multisite"]
+	path = docs/submodules/multisite
+	url = https://gerrit.opnfv.org/gerrit/multisite
+[submodule "docs/submodules/netready"]
+	path = docs/submodules/netready
+	url = https://gerrit.opnfv.org/gerrit/netready
+[submodule "docs/submodules/octopus"]
+	path = docs/submodules/octopus
+	url = https://gerrit.opnfv.org/gerrit/octopus
+[submodule "docs/submodules/onosfw"]
+	path = docs/submodules/onosfw
+	url = https://gerrit.opnfv.org/gerrit/onosfw
+[submodule "docs/submodules/ovsnfv"]
+	path = docs/submodules/ovsnfv
+	url = https://gerrit.opnfv.org/gerrit/ovsnfv
+[submodule "docs/submodules/parser"]
+	path = docs/submodules/parser
+	url = https://gerrit.opnfv.org/gerrit/parser
+[submodule "docs/submodules/pharos"]
+	path = docs/submodules/pharos
+	url = https://gerrit.opnfv.org/gerrit/pharos
+[submodule "docs/submodules/prediction"]
+	path = docs/submodules/prediction
+	url = https://gerrit.opnfv.org/gerrit/prediction
+[submodule "docs/submodules/promise"]
+	path = docs/submodules/promise
+	url = https://gerrit.opnfv.org/gerrit/promise
+[submodule "docs/submodules/qtip"]
+	path = docs/submodules/qtip
+	url = https://gerrit.opnfv.org/gerrit/qtip
+[submodule "docs/submodules/releng"]
+	path = docs/submodules/releng
+	url = https://gerrit.opnfv.org/gerrit/releng
+[submodule "docs/submodules/sdnvpn"]
+	path = docs/submodules/sdnvpn
+	url = https://gerrit.opnfv.org/gerrit/sdnvpn
+[submodule "docs/submodules/sfc"]
+	path = docs/submodules/sfc
+	url = https://gerrit.opnfv.org/gerrit/sfc
+[submodule "docs/submodules/storperf"]
+	path = docs/submodules/storperf
+	url = https://gerrit.opnfv.org/gerrit/storperf
+[submodule "docs/submodules/ves"]
+	path = docs/submodules/ves
+	url = https://gerrit.opnfv.org/gerrit/ves
+[submodule "docs/submodules/vnf_forwarding_graph"]
+	path = docs/submodules/vnf_forwarding_graph
+	url = https://gerrit.opnfv.org/gerrit/vnf_forwarding_graph
+[submodule "docs/submodules/vswitchperf"]
+	path = docs/submodules/vswitchperf
+	url = https://gerrit.opnfv.org/gerrit/vswitchperf
+[submodule "docs/submodules/yardstick"]
+	path = docs/submodules/yardstick
+	url = https://gerrit.opnfv.org/gerrit/yardstick
