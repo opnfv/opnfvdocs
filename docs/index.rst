@@ -1,47 +1,48 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
-.. (c) Ericsson AB
+OPNFV Documentation
+===================
 
-***********************************
-OPNFV Docs placeholder landing page
-***********************************
+Open Platform for NFV (OPNFV) facilitates the development and evolution of NFV components across various open source ecosystems. Through system level integration, deployment and testing, OPNFV creates a reference NFV platform to accelerate the transformation of enterprise and service provider networks. Participation is open to anyone, whether you are an employee of a member company or just passionate about network transformation.
 
-This will be extended to include all the sub pages and to provide the docs.opnfv.org landing page for Danube.
-
-=====================
 Release Documentation
-=====================
+----------------------
 
-Just pointing to the index.rst file here, but we need to break that out and have
-sub-directories for each of the projects documents to be copied into.
-
-.. toctree::
-   :maxdepth: 1
-
-   release/index
-
-.. need to figure out the correct URL to use here so readthedocs does it for us.
-
-=======
-Testing
-=======
-
-Just pointing to the index.rst file here, but we need to break that out and have
-sub-directories for each of the projects documents to be copied into.
+The following content is intended for people who would like to deploy, use, or just learn more about OPNFV.
 
 .. toctree::
    :maxdepth: 1
 
-   testing/index
+   release/overview
+   release/installation.introduction
+   release/userguide.introduction
+   release/subrelease
 
-=========
-Developer
-=========
 
-Just pointing to the index.rst file here, but we need to break that out and have
-sub-directories for each of the projects documents to be copied into.
+Developer Documentation
+-----------------------------------
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 .. toctree::
    :maxdepth: 1
 
-   developer/index
+
+Testing Documentation
+-------------------------------------
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+.. toctree::
+   :maxdepth: 1
+
+   submodules/functest/docs/userguide/index
+   submodules/bottlenecks/docs/userguide/index
+   submodules/yardstick/docs/userguide/index
+   submodules/vswitchperf/docs/index
+
+.. Commenting the below out until we actually use it
+.. Indices and tables
+.. ==================
+..
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
