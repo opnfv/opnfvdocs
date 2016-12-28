@@ -26,7 +26,7 @@ project="$(basename $(git rev-parse --show-toplevel))"
 html_notes="    Revision: $rev_full\n    Build date: $(date -u +'%Y-%m-%d')"
 opnfv_logo="$OPNFVDOCS_DIR/etc/opnfv-logo.png"
 copyright="$(date +%Y), OPNFV."
-copyrightlong="$(date +%Y), OPNFV. Licenced under CC BY 4.0."
+copyrightlong="$(date +%Y), OPNFV. Licensed under CC BY 4.0."
 error_count=0
 
 function set_error() {
