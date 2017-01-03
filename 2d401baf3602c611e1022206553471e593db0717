@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_70d17356",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-01-03T22:12:37Z",
+      "side": 1,
+      "message": "This doesn\u0027t actually make much sense as what will be merged in, in this change does not contain the context of your previous patchsets.\n\nHere\u0027s a good guide as to what should be in a commit message: http://chris.beams.io/posts/git-commit/#seven-rules\n\nThe most important rule here is explaining the \u0027why\u0027 not the \u0027how\u0027.\n\nA basic example could be:\n\n  Adding submodules of all OPNFV projects in order\n  to create a unified repository for documentation.\n  \n  By using submodules we will be able to maintain a single\n  conf.py file and theme to be used across all projects.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 76
+      },
+      "revId": "2d401baf3602c611e1022206553471e593db0717",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
