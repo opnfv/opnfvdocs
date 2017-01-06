@@ -16,6 +16,24 @@
       "revId": "3755152bb168e5842aa2d00b14e3ba81bce5968c",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_5080f745",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-01-06T18:38:51Z",
+      "side": 1,
+      "message": "This is importing the ODL theme (sphinx_bootstrap_theme). Compiler was unable to locate \u0027sphinx_bootstrap_theme\u0027 since it was earlier in ./requirements.txt\nMoving it to ./etc/requirements.txt, compiler issue should be fixed.",
+      "parentUuid": "5ac10518_35e99d80",
+      "revId": "3755152bb168e5842aa2d00b14e3ba81bce5968c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
