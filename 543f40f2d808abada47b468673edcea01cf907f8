@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_d8e3a503",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T16:13:13Z",
+      "side": 1,
+      "message": "I\u0027m not a fan of this line as it provides us with no new information from the summary. The purpose of a commit message body is to explain why something needs to be changed. We can already tell what is being changed by looking at the change list below.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 67
+      },
+      "revId": "543f40f2d808abada47b468673edcea01cf907f8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
