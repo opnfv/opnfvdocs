@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_5831f5a0",
+        "filename": ".gitmodules",
+        "patchSetId": 8
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T15:55:29Z",
+      "side": 1,
+      "message": "You will want to add: branch \u003d . \n\nto all of the submodules. See [0] for an example. This will make it so that if you ever branch your docs Gerrit will automatically follow the branch of the aggregator repo (docs).\n\nThe current setting means someone will manually have to always update the submodules which is very difficult to maintain.\n\n[0] https://github.com/opendaylight/docs/blob/master/.gitmodules",
+      "revId": "d2e42c5304aa13333110388608d9dfa5c4ab9018",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_382e6944",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T15:55:29Z",
+      "side": 1,
+      "message": "Please wrap text at \u003c72 characters. You can see Gerrit doesn\u0027t properly display the text when it\u0027s not manually wrapped. You should configure your commit message editor to perform the manual wrapping as well.",
+      "revId": "d2e42c5304aa13333110388608d9dfa5c4ab9018",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
