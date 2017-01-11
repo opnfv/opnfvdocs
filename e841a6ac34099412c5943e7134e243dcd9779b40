@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_fdd213d1",
+        "filename": "docs/development/Templates/Design/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-11T13:19:52Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 17
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_1d17df52",
+        "filename": "docs/release/Templates/Installation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-11T13:19:52Z",
+      "side": 1,
+      "message": "repeated title?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 19
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_f80a2120",
+        "filename": "docs/release/Templates/Overview/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-11T13:19:52Z",
+      "side": 1,
+      "message": "The projects are not contributing to the overview document as it is today. The overview document is more of a marketing purpose. Do we want to the project to write an additional doc?",
+      "range": {
+        "startLine": 7,
+        "startChar": 1,
+        "endLine": 7,
+        "endChar": 38
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_781e3165",
+        "filename": "docs/release/Templates/ReleaseNotes/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-11T13:19:52Z",
+      "side": 1,
+      "message": "we should state that the version history should be removed in the final version",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 15
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_b8149944",
+        "filename": "docs/release/Templates/ReleaseNotes/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-11T13:19:52Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 3
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_d83645e7",
+        "filename": "docs/release/Templates/ReleaseNotes/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-11T13:19:52Z",
+      "side": 1,
+      "message": "not sure why we want to create several different documents instead of using a more composed structure?",
+      "range": {
+        "startLine": 38,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 13
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
