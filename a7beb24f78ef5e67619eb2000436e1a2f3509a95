@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_1814cdf3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T15:49:58Z",
+      "side": 1,
+      "message": "I don\u0027t see any changes to a requirements file. Forget to include it in the patch?",
+      "range": {
+        "startLine": 7,
+        "startChar": 26,
+        "endLine": 7,
+        "endChar": 55
+      },
+      "revId": "a7beb24f78ef5e67619eb2000436e1a2f3509a95",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_b8fa59bb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T15:49:58Z",
+      "side": 1,
+      "message": "Not sure I understand this statement, if logo was retained why is there a change to the logo in this patch?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 45
+      },
+      "revId": "a7beb24f78ef5e67619eb2000436e1a2f3509a95",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_d8f5e5cb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T15:49:58Z",
+      "side": 1,
+      "message": "Please wrap the commit message at \u003c 72 characters. You can see that Gerrit doesn\u0027t display this properly when you don\u0027t manually wrap the text.",
+      "revId": "a7beb24f78ef5e67619eb2000436e1a2f3509a95",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_7804f1bf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T15:49:58Z",
+      "side": 1,
+      "message": "I don\u0027t see this being changed here.",
+      "range": {
+        "startLine": 14,
+        "startChar": 4,
+        "endLine": 14,
+        "endChar": 25
+      },
+      "revId": "a7beb24f78ef5e67619eb2000436e1a2f3509a95",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
