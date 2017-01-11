@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_588d7530",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-01-11T17:17:43Z",
+      "side": 1,
+      "message": "Typo: theming\n\nAlso trailing whitespace.",
+      "revId": "792ca466d11b555adef4841e78d4669cb1bef827",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
