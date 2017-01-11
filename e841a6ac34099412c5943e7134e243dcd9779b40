@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_5879f591",
+        "filename": "docs/development/Templates/Design/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-01-11T13:29:57Z",
+      "side": 1,
+      "message": "Will correct",
+      "parentUuid": "5ac10518_fdd213d1",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 17
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_1d17df52",
         "filename": "docs/release/Templates/Installation/index.rst",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-01-11T13:19:52Z",
       "side": 1,
       "message": "repeated title?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 19
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_387669a5",
+        "filename": "docs/release/Templates/Installation/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-01-11T13:29:57Z",
+      "side": 1,
+      "message": "Yes. I\u0027ll correct this.",
+      "parentUuid": "5ac10518_1d17df52",
       "range": {
         "startLine": 5,
         "startChar": 0,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_784cf170",
+        "filename": "docs/release/Templates/ReleaseNotes/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-01-11T13:29:57Z",
+      "side": 1,
+      "message": "Sure. We include that as comment maybe?",
+      "parentUuid": "5ac10518_781e3165",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 15
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_b8149944",
         "filename": "docs/release/Templates/ReleaseNotes/index.rst",
         "patchSetId": 2
@@ -117,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_d83de5bc",
+        "filename": "docs/release/Templates/ReleaseNotes/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-01-11T13:29:57Z",
+      "side": 1,
+      "message": "Will fix",
+      "parentUuid": "5ac10518_b8149944",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 3
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_d83645e7",
         "filename": "docs/release/Templates/ReleaseNotes/index.rst",
         "patchSetId": 2
@@ -128,6 +224,30 @@
       "writtenOn": "2017-01-11T13:19:52Z",
       "side": 1,
       "message": "not sure why we want to create several different documents instead of using a more composed structure?",
+      "range": {
+        "startLine": 38,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 13
+      },
+      "revId": "e841a6ac34099412c5943e7134e243dcd9779b40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_b842593c",
+        "filename": "docs/release/Templates/ReleaseNotes/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-01-11T13:29:57Z",
+      "side": 1,
+      "message": "My rationale for keeping it such is to have a Table of contents. A composed structure will require lot of scrolling if the release documentation is content heavy.",
+      "parentUuid": "5ac10518_d83645e7",
       "range": {
         "startLine": 38,
         "startChar": 2,
