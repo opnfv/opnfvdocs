@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_9e8f45cc",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-01-12T22:28:56Z",
+      "side": 1,
+      "message": "Text needs to be wrapped.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 433
+      },
+      "revId": "a87d9fea791f53f27350eea1cbfb30edb180f46a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_3ebe5166",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-01-12T22:28:56Z",
+      "side": 1,
+      "message": "It\u0027s okay for there to be empty space here. This filler text isn\u0027t needed.",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 245
+      },
+      "revId": "a87d9fea791f53f27350eea1cbfb30edb180f46a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_feb76984",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-01-12T22:28:56Z",
+      "side": 1,
+      "message": "Please add a line-break between the toctree directive and documents to be linked.",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 18
+      },
+      "revId": "a87d9fea791f53f27350eea1cbfb30edb180f46a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_5ec1dde2",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-01-12T22:28:56Z",
+      "side": 1,
+      "message": "Same filler text here should be removed.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 245
+      },
+      "revId": "a87d9fea791f53f27350eea1cbfb30edb180f46a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_1ebb5573",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-01-12T22:28:56Z",
+      "side": 1,
+      "message": "This list should be updated to include all the submodules now that the .gitmodules patch has been merged.",
+      "range": {
+        "startLine": 38,
+        "startChar": 3,
+        "endLine": 41,
+        "endChar": 36
+      },
+      "revId": "a87d9fea791f53f27350eea1cbfb30edb180f46a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
