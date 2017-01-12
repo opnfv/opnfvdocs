@@ -21,7 +21,7 @@ GERRIT_COMMENT=${GERRIT_COMMENT:-}
 
 revision="$(git rev-parse --short HEAD)"
 rev_full="$(git rev-parse HEAD)"
-version="$(git describe --abbrev=0 2> /dev/null || echo draft) ($revision)"
+version="$(git tag | tail -1)"
 project="$(basename $(git rev-parse --show-toplevel))"
 html_notes="    Revision: $rev_full\n    Build date: $(date -u +'%Y-%m-%d')"
 opnfv_logo="$OPNFVDOCS_DIR/etc/opnfv-logo.png"
