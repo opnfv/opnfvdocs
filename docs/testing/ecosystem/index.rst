@@ -10,7 +10,5 @@ OPNFV Test Framework document
    :maxdepth: 2
 
    ./abstract
-   ./opnfv.testframework.overview
-   ./framework.installation.procedure.render
-   ./framework.userguide.render
+   ./overview
 
