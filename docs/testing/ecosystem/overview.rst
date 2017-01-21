@@ -8,18 +8,20 @@ OPNFV testing
 Introduction
 ============
 
-Testing is one of the key activities in OPNFV, including component level testing,
-system testing, automated deployment validation and performance characteristics
-or stress testing.
+Testing is one of the key activities in OPNFV and includes unit, feature, component, system 
+level testing for development, automated deployment, performance characterization or stress 
+testing.
 
-Some projects are fully dedicated to testing, they provide frameworks or tooling.
-The feature projects also include their own test suites.
-he test projects fulfill different roles (such as functional checks, performance
-measurement, platform and component benchmarks, and analysis) on the scenarios
-released in OPNFV.
+Test projects are dedicated to provide frameworks, tooling and test-cases catagorized as 
+functional, performance or compliance testing. Test projects fulfill different roles such as 
+verifying VIM functionality, benchmarking components and platforms or analysis of measured 
+KPIs for the scenarios released in OPNFV.
 
-This document will detail the OPNFV testing ecosystem, describe the commons used
-by the projects and provide the links to project specific documentation.
+Feature projects also provide their own test suites that either run independently or within a
+test project.
+
+This document details the OPNFV testing ecosystem, describes test commonality used
+by the projects and provides links to project specific documentation.
 
 
 OPNFV testing ecosystem
@@ -34,7 +36,7 @@ The OPNFV testing projects may be summarized as follows:
    :align: center
    :alt: Overview of OPNFV Testing projects
 
-The main projects of the testing projects are described in the table below:
+The major testing projects are described in the table below:
 
 +----------------+---------------------------------------------------------+
 |  Project       |   Description                                           |
@@ -86,15 +88,14 @@ The main projects of the testing projects are described in the table below:
 |                | pass/fail thresholds for test, staging, and production  |
 |                | NFVI environments.                                      |
 +----------------+---------------------------------------------------------+
-| VSperf         | The Project “vSwitch Performance" develops a generic and|
-|                | architecture agnostic vSwitch testing framework and     |
-|                | associated tests, that will serve as a basis for        |
-|                | validating the suitability of different vSwitch         |
-|                | implementations in a Telco NFV deployment environment.  |
-|                | The output of this project will be utilized by the OPNFV|
-|                | Performance and Test group and its associated projects, |
-|                | as part of OPNFV Platform and VNF level testing and     |
-|                | validation.                                             |
+| VSperf         | This project provides a framework for NFV data-plane    | 
+|                | performance testing and benchmarking i.e. the NFVI      |
+|                | fast-path including switch technology and network with  |
+|                | physical and virtual interfaces. This can be used for   |
+|                | evaluating the suitability of different vSwitch         |
+|                | implementations with various platform configurations    |
+|                | in a Telco NFV deployment or help optimize system       |
+|                | performance in the context of a specific use-case.      |
 +----------------+---------------------------------------------------------+
 | Yardstick      | The goal of the Project is to verify the infrastructure |
 |                | compliance when running VNF applications. NFV Use Cases |
