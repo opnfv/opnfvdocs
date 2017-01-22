@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_91216ab6",
+        "filename": "docs/templates/release/overview/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-22T15:56:19Z",
+      "side": 1,
+      "message": "The overview document is nothing that the projects contributes to. If we want to add a project specific overview document we might want to move it to /developer and use it as a more optional document.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 44
+      },
+      "revId": "8a29da4d28aff060b3a7344b9763ae91a3b7c9b3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_3130b600",
+        "filename": "docs/templates/release/scenarios/scenario.name/scenario.description.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-22T15:56:19Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 6,
+        "startChar": 29,
+        "endLine": 6,
+        "endChar": 38
+      },
+      "revId": "8a29da4d28aff060b3a7344b9763ae91a3b7c9b3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
