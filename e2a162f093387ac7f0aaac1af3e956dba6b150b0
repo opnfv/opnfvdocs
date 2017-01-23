@@ -19,6 +19,74 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_ccd515ba",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-01-23T08:37:00Z",
+      "side": 1,
+      "message": "trailing spaces will lead to CI errors, need to be fixed to generate the doc\ndepending on the editor you use, you can find plugins to detect such issues",
+      "revId": "e2a162f093387ac7f0aaac1af3e956dba6b150b0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_8cd70dbf",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-01-23T08:37:00Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "e2a162f093387ac7f0aaac1af3e956dba6b150b0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_2ce619b5",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-01-23T08:37:00Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "e2a162f093387ac7f0aaac1af3e956dba6b150b0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_4ce12599",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-01-23T08:37:00Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "e2a162f093387ac7f0aaac1af3e956dba6b150b0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_f12c6e04",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 1
@@ -36,6 +104,23 @@
         "endLine": 52,
         "endChar": 34
       },
+      "revId": "e2a162f093387ac7f0aaac1af3e956dba6b150b0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_6cdc21e5",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-01-23T08:37:00Z",
+      "side": 1,
+      "message": "trailing space",
       "revId": "e2a162f093387ac7f0aaac1af3e956dba6b150b0",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
