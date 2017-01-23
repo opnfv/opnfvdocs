@@ -8,13 +8,13 @@ OPNFV testing
 Introduction
 ============
 
-Testing is one of the key activities in OPNFV and includes unit, feature, component, system 
-level testing for development, automated deployment, performance characterization or stress 
+Testing is one of the key activities in OPNFV and includes unit, feature, component, system
+level testing for development, automated deployment, performance characterization or stress
 testing.
 
-Test projects are dedicated to provide frameworks, tooling and test-cases catagorized as 
-functional, performance or compliance testing. Test projects fulfill different roles such as 
-verifying VIM functionality, benchmarking components and platforms or analysis of measured 
+Test projects are dedicated to provide frameworks, tooling and test-cases catagorized as
+functional, performance or compliance testing. Test projects fulfill different roles such as
+verifying VIM functionality, benchmarking components and platforms or analysis of measured
 KPIs for the scenarios released in OPNFV.
 
 Feature projects also provide their own test suites that either run independently or within a
@@ -48,8 +48,8 @@ The major testing projects are described in the table below:
 |                | production environment, an automatic method for         |
 |                | executing benchmarks which plans to validate the        |
 |                | deployment during staging is adopted. This project      |
-|                | provides a framework to find the bottlenecks of OPNFV   |
-|                | infrastructure.                                         |
+|                | forms a staging framework to find bottlenecks and to do |
+|                | analysis of the OPNFV infrastructure.                   |
 +----------------+---------------------------------------------------------+
 | CPerf          | SDN Controller benchmarks and performance testing,      |
 |                | applicable to controllers in general.                   |
@@ -88,14 +88,13 @@ The major testing projects are described in the table below:
 |                | pass/fail thresholds for test, staging, and production  |
 |                | NFVI environments.                                      |
 +----------------+---------------------------------------------------------+
-| VSperf         | This project provides a framework for NFV data-plane    | 
-|                | performance testing and benchmarking i.e. the NFVI      |
-|                | fast-path including switch technology and network with  |
-|                | physical and virtual interfaces. This can be used for   |
-|                | evaluating the suitability of different vSwitch         |
-|                | implementations with various platform configurations    |
-|                | in a Telco NFV deployment or help optimize system       |
-|                | performance in the context of a specific use-case.      |
+| VSperf         | This project provides a framework for automation of NFV |
+|                | data-plane performance testing and benchmarking. The    |
+|                | NFVI fast-path includes switch technology and network   |
+|                | with physical and virtual interfaces. Vsperf can be     |
+|                | used to evaluate the suitability of different Switch    |
+|                | implementations and features, quantify data-path        |
+|                | performance and optimize platform configurations.       |
 +----------------+---------------------------------------------------------+
 | Yardstick      | The goal of the Project is to verify the infrastructure |
 |                | compliance when running VNF applications. NFV Use Cases |
