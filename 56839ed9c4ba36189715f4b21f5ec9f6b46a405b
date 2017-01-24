@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_16dc8b11",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-24T15:23:42Z",
+      "side": 1,
+      "message": "I guess you can remove this and just include the chapter \u0027Including your documentation\u0027 which is what we want to move and continue to work with.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 1
+      },
+      "revId": "56839ed9c4ba36189715f4b21f5ec9f6b46a405b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
