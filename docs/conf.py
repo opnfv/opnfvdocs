@@ -1,12 +1,8 @@
 import sphinx_bootstrap_theme
-import subprocess
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-# <! RTD Hack >
-subprocess.call(["rm", "-rf", "*"])
-# <!/ RTD Hack >
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.

@@ -1,6 +1,3 @@
-.. |date| date::
-.. |time| date:: %H:%M
-
 OPNFV Documentation
 ===================
 
@@ -10,7 +7,7 @@ system level integration, deployment and testing, OPNFV creates a
 reference NFV platform to accelerate the transformation of enterprise
 and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
-about network transformation. This document was generated on |date| at |time|.
+about network transformation.
 
 Release Documentation
 ----------------------
