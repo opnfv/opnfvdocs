@@ -13,7 +13,7 @@ according to this specific installer or feature.
    :local:
 
 Automated post installation activities
---------------------------------------
+----------------------------------------
 Describe specific post installation activities performed by the OPNFV
 deployment pipeline including testing activities and reports. Refer to
 the relevant testing guides, results, and release notes.
@@ -24,7 +24,7 @@ case yet so each deploy tool will need to provide (hopefully very simillar)
 documentation of this.
 
 <Project> post configuration procedures
---------------------------------------
+-----------------------------------------
 Describe any deploy tool or feature specific scripts, tests or procedures
 that should be carried out on the deployment post install and configuration
 in this section.
