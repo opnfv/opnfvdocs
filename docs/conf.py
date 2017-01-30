@@ -101,7 +101,7 @@ html_theme = 'bootstrap'
 # documentation.
 # html_theme_options = {}
 html_theme_options = {
-    'bootswatch_theme': "united",
+    'bootswatch_theme': "journal",
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
