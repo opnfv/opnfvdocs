@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_0ecaaba1",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-30T13:29:53Z",
+      "side": 1,
+      "message": "specify where, opnfvdocs/docs/templates/",
+      "range": {
+        "startLine": 15,
+        "startChar": 34,
+        "endLine": 15,
+        "endChar": 54
+      },
+      "revId": "9ea0a8d110162fb1c1a3ce8e0dea86795d81d79f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_2ecf67b2",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-30T13:29:53Z",
+      "side": 1,
+      "message": "\u003crepo\u003e/docs/",
+      "range": {
+        "startLine": 16,
+        "startChar": 35,
+        "endLine": 16,
+        "endChar": 41
+      },
+      "revId": "9ea0a8d110162fb1c1a3ce8e0dea86795d81d79f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_eec07f7e",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-30T13:29:53Z",
+      "side": 1,
+      "message": "you want",
+      "range": {
+        "startLine": 17,
+        "startChar": 16,
+        "endLine": 17,
+        "endChar": 24
+      },
+      "revId": "9ea0a8d110162fb1c1a3ce8e0dea86795d81d79f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_8ebd3b05",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-30T13:29:53Z",
+      "side": 1,
+      "message": "your",
+      "range": {
+        "startLine": 17,
+        "startChar": 52,
+        "endLine": 17,
+        "endChar": 55
+      },
+      "revId": "9ea0a8d110162fb1c1a3ce8e0dea86795d81d79f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_aeba7708",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-01-30T13:29:53Z",
+      "side": 1,
+      "message": "at least one committer",
+      "range": {
+        "startLine": 126,
+        "startChar": 19,
+        "endLine": 126,
+        "endChar": 33
+      },
+      "revId": "9ea0a8d110162fb1c1a3ce8e0dea86795d81d79f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
