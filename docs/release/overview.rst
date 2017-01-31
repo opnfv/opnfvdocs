@@ -2,7 +2,10 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-============
+===============
+OPNFV Overview
+===============
+
 Introduction
 ============
 
@@ -40,7 +43,7 @@ topics (such as the MANO components and applications themselves), OPNFV aims to 
 NFV services by increasing performance and power efficiency improving reliability,
 availability and serviceability, and delivering comprehensive platform instrumentation.
 
-===========================
+
 OPNFV Platform Architecture
 ===========================
 
@@ -176,7 +179,7 @@ This server-either physical or virtual-is first installed with the installation 
 that then installs OpenStack and other components on the controller nodes and compute nodes.
 See the `OPNFV User Guide`_ for more details.
 
-===========================
+
 The OPNFV Testing Ecosystem
 ===========================
 
