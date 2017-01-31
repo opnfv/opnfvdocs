@@ -2,7 +2,10 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Sofia Wallin (sofia.wallin@ericssion.com)
 
-========
+================
+OPNFV Userguide
+================
+
 Abstract
 ========
 
@@ -16,7 +19,7 @@ This document is not intended to replace or replicate documentation from other
 open source projects such as OpenStack or OpenDaylight, rather highlight the
 features and capabilities delivered through the OPNFV project.
 
-============
+
 Introduction
 ============
 
@@ -32,7 +35,7 @@ scenario will include different source components or configurations. Scenarios
 are designed to enable specific features and capabilities in the platform that
 can be leveraged by the OPNFV user community.
 
-================
+
 Feature Overview
 ================
 

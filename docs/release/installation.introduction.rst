@@ -1,8 +1,11 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
-   .. (c) Sofia Wallin Ericsson AB
+.. (c) Sofia Wallin Ericsson AB
 
-========
+====================
+OPNFV Installation
+====================
+
 Abstract
 ========
 
@@ -14,7 +17,7 @@ integration projects participating in OPNFV: Apex, Compass4Nfv, Fuel and JOID.
 Each installer provides the ability to install a common OPNFV platform as well as integrating
 additional features delivered through a variety of scenarios by the OPNFV community.
 
-============
+
 Introduction
 ============
 
@@ -29,7 +32,7 @@ An OPNFV installation requires either a physical, or virtual, infrastructure env
 in the `Pharos specification <http://artifacts.opnfv.org/pharos/colorado/2.0/docs/specification/index.html>`_.
 When configuring a physical infrastructure it is strongly advised to follow the Pharos configuration guidelines.
 
-=========
+
 Scenarios
 =========
 
@@ -51,7 +54,7 @@ description documents provided:
 - LXD container hypervisor `os-nosdn-lxd-noha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-noha/index.html>`_
 - High Availability LXD container hypervisor `os-nosdn-lxd-ha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-ha/index.html>`_
 
-======================
+
 Installation Procedure
 ======================
 
@@ -66,7 +69,7 @@ The instructions for each toolchain can be found in these links:
 - `Fuel installation instruction <http://artifacts.opnfv.org/fuel/colorado/2.0/docs/installationprocedure/index.html>`_
 - `Joid installation instruction <http://artifacts.opnfv.org/joid/colorado/2.0/docs/installationprocedure/index.html>`_
 
-=====================
+
 OPNFV Test Frameworks
 =====================
 
@@ -85,7 +88,7 @@ Many of the OPNFV test project provide user-guide documentation and installation
 - `Bottlenecks user guide <http://artifacts.opnfv.org/bottlenecks/colorado/2.0/docs/installationprocedure/index.html>`_
 - `Storage Performance Benchmarking for NFVI (StorPerf) user guide <http://artifacts.opnfv.org/storperf/colorado/2.0/docs/userguide/index.html>`_
 
-==============
+
 Security Notes
 ==============
 

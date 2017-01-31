@@ -21,15 +21,6 @@ Release Documentation
    release/subrelease
 
 
-Developer Documentation
------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   featureprojects
-
-
 Testing Documentation
 -------------------------------------
 
@@ -41,10 +32,10 @@ Testing Documentation
    submodules/yardstick/docs/userguide/index
    submodules/vswitchperf/docs/index
 
-.. Commenting the below out until we actually use it
-.. Indices and tables
-.. ==================
-..
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+Developer Documentation
+-----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   featureprojects
