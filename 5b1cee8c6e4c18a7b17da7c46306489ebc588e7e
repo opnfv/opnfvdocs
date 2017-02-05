@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_4a5c1626",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-02-05T09:36:44Z",
+      "side": 1,
+      "message": "\u0027How to include your documentation\u0027 could be added here",
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_ca3006eb",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-02-05T09:36:44Z",
+      "side": 1,
+      "message": "add /docs to make it as clear as possible",
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_6a4d5272",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-02-05T09:36:44Z",
+      "side": 1,
+      "message": "sub page to be removed",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 28
+      },
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_8a52fe11",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-02-05T09:36:44Z",
+      "side": 1,
+      "message": "sub page to be removed",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 14
+      },
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_2a574a04",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-02-05T09:36:44Z",
+      "side": 1,
+      "message": "add a separate section for configuration guide",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 25
+      },
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
