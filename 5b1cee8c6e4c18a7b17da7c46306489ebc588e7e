@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_c07ea2e4",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-08T11:25:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_4a5c1626",
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_ca3006eb",
         "filename": "docs/how-to-use-docs/documentation-guide.rst",
         "patchSetId": 3
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_a07916fe",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-08T11:25:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_ca3006eb",
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_6a4d5272",
         "filename": "docs/how-to-use-docs/documentation-guide.rst",
         "patchSetId": 3
@@ -47,6 +83,30 @@
       "writtenOn": "2017-02-05T09:36:44Z",
       "side": 1,
       "message": "sub page to be removed",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 28
+      },
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_001d8abd",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-08T11:25:57Z",
+      "side": 1,
+      "message": "This does not hyperlink to a subpage. Can you please elaborate?",
+      "parentUuid": "1acb0d3e_6a4d5272",
       "range": {
         "startLine": 72,
         "startChar": 0,
@@ -82,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_60832ecd",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-08T11:25:57Z",
+      "side": 1,
+      "message": "This does not hyperlink to a subpage. Can you please elaborate?",
+      "parentUuid": "1acb0d3e_8a52fe11",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 14
+      },
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_2a574a04",
         "filename": "docs/how-to-use-docs/documentation-guide.rst",
         "patchSetId": 3
@@ -93,6 +177,30 @@
       "writtenOn": "2017-02-05T09:36:44Z",
       "side": 1,
       "message": "add a separate section for configuration guide",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 25
+      },
+      "revId": "5b1cee8c6e4c18a7b17da7c46306489ebc588e7e",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_80889ae8",
+        "filename": "docs/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-08T11:25:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_2a574a04",
       "range": {
         "startLine": 85,
         "startChar": 0,
