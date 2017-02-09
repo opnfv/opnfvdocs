@@ -66,7 +66,7 @@ Feature Configuration Guides
 - `Multisite configuration guide <http://artifacts.opnfv.org/multisite/colorado/2.0/docs/installationprocedure/index.html>`_
 - `ONOSFW configuration guide <http://artifacts.opnfv.org/onosfw/colorado/2.0/installationprocedure/index.html>`_
 - `OVSNFV configuration guide <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/configguide/index.html>`_
-- `Promise configuration guide <http://artifacts.opnfv.org/promise/colorado/2.0/docs/installationprocedure/index.html>`_
+- `Promise configuration guide <https://git.opnfv.org/promise/tree/docs/release/configguide/feature.configuration.rst>`_
 - `SFC configuration guide <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/installationprocedure/index.html>`_
 
 
@@ -83,6 +83,6 @@ Feature User Guides
 - `ONOSFW user guide <http://artifacts.opnfv.org/onosfw/colorado/2.0/docs/userguide/index.html>`_
 - `OVSNFV user guide <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/userguide/index.html>`_
 - `Parser user guide <http://artifacts.opnfv.org/parser/colorado/2.0/docs/userguide/index.html>`_
-- `Promise user guide <http://artifacts.opnfv.org/promise/colorado/2.0/docs/userguide/index.html>`_
+- `Promise user guide <https://git.opnfv.org/promise/tree/docs/release/userguide/feature.userguide.rst>`_
 - `SDNVPN user guide <http://artifacts.opnfv.org/sdnvpn/colorado/2.0/docs/userguide/index.html>`_
 - `SFC user guide <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/userguide/index.html>`_
