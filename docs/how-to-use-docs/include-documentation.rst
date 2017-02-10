@@ -125,3 +125,86 @@ the opnfvdocs team for review and integration.
 
 Be sure to add the project leader of the opnfvdocs project
 as a reviewer of the change you just pushed in gerrit.
+
+Testing: Build Documentation Locally
+---------------------------------------
+
+Composite OPNFVDOCS documentation
++++++++++++++++++++++++++++++++++++
+To build whole documentation under opnfvdocs/, follow these steps:
+
+Install virtual environment.
+
+.. code-block:: bash
+
+   sudo pip install virtualenv
+   cd /local/repo/path/to/project
+
+Download the OPNFVDOCS repository.
+
+.. code-block:: bash
+
+   git clone https://gerrit.opnfv.org/gerrit/opnfvdocs
+
+Change directory to opnfvdocs & install requirements.
+
+.. code-block:: bash
+
+   cd opnfvdocs
+   sudo pip install -r etc/requirements.txt
+
+Update submodules, build documentation using tox & then open using any browser.
+
+.. code-block:: bash
+
+   cd opnfvdocs
+   git submodule update --init
+   tox -edocs
+   firefox docs/_build/html/index.html
+
+.. note:: Make sure to run `tox -edocs` and not just `tox`.
+
+Individual project documentation
++++++++++++++++++++++++++++++++++++
+To test how the documentation renders in HTML, follow these steps:
+
+Install virtual environment.
+
+.. code-block:: bash
+
+   sudo pip install virtualenv
+   cd /local/repo/path/to/project
+
+Download the opnfvdocs repository.
+
+.. code-block:: bash
+
+   git clone https://gerrit.opnfv.org/gerrit/opnfvdocs
+
+Change directory to opnfvdocs & install requirements.
+
+.. code-block:: bash
+
+   cd opnfvdocs
+   sudo pip install -r etc/requirements.txt
+
+Move the conf.py file to your project folder where RST files have been kept:
+
+.. code-block:: bash
+
+   mv opnfvdocs/docs/conf.py <path-to-your-folder>/
+
+Move the static files to your project folder:
+
+.. code-block:: bash
+
+   mv opnfvdocs/_static/ <path-to-your-folder>/
+
+Build the documentation from within your project folder:
+
+.. code-block:: bash
+
+   sphinx-build -b html <path-to-your-folder> <path-to-output-folder>
+
+Your documentation shall be built as HTML inside the
+specified output folder directory.
