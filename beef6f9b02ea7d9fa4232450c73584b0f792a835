@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_beff0daa",
+        "filename": "docs/templates/release/userguide/feature.userguide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 0,
+      "message": "I\u0027m still not clear if there\u0027s any downside of having the title in the index file and the other documentation file. Am I missing out on something?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "beef6f9b02ea7d9fa4232450c73584b0f792a835",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}

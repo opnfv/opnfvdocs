@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_7e3c3594",
+        "filename": "docs/templates/release/configguide/featureconfig.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "Chapter level markup for subsections will cause multiple headings to show up when referenced via toctree.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 28
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_1e41790b",
+        "filename": "docs/templates/release/configguide/featureconfig.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "Chapter level markup for subsections will cause multiple headings to show up when referenced via toctree.",
+      "range": {
+        "startLine": 14,
+        "startChar": 28,
+        "endLine": 16,
+        "endChar": 28
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_3e46bd24",
+        "filename": "docs/templates/release/configguide/featureconfig.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "Chapter level markup for subsections will cause multiple headings to show up when referenced via toctree. \n\nSame for others too.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_de4a0127",
+        "filename": "docs/templates/release/configguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "I think it\u0027ll work without the .rst too.",
+      "range": {
+        "startLine": 12,
+        "startChar": 14,
+        "endLine": 12,
+        "endChar": 18
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_9e5489cb",
+        "filename": "docs/templates/release/configguide/postinstall.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "Chapter level markup will cause these headings to show up when referenced via toctree.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 38
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_7e63d5b1",
+        "filename": "docs/templates/release/installation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": ".rst may be avoided perhaps?",
+      "range": {
+        "startLine": 11,
+        "startChar": 28,
+        "endLine": 11,
+        "endChar": 31
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_3e5d5dea",
+        "filename": "docs/templates/release/installation/installation.instruction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "Chapter level markup will cause these titles to show up when referenced via toctree",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 7
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_7e0af5d3",
+        "filename": "docs/templates/release/release-notes/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": ".rst maybe avoided?",
+      "range": {
+        "startLine": 11,
+        "startChar": 17,
+        "endLine": 11,
+        "endChar": 20
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_1e0f39e3",
+        "filename": "docs/templates/release/scenarios/scenario.name/scenario.description.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-02-15T14:17:50Z",
+      "side": 1,
+      "message": "Chapter level markup will cause these titles to show up when referenced via toctree",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 12
+      },
+      "revId": "09676048cf60a184d7fc9bac16601468d8e25b54",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
