@@ -35,7 +35,7 @@ Testing Documentation
    submodules/vswitchperf/docs/index
 
 Developer Documentation
------------------------------------
+------------------------------------
 
 .. toctree::
    :maxdepth: 1
