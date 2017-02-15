@@ -1,9 +1,9 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
-=========================================
-OPNFV <Project Name> Installation Guide
-=========================================
+========
+Abstract
+========
 
 This document describes how to install <Component>, it's dependencies and required system resources.
 
@@ -29,8 +29,9 @@ Version history
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 
+============
 Introduction
--------------------
+============
 <INTRODUCTION TO THE SCOPE AND INTENTION OF THIS DOCUMENT AS WELL AS TO THE SYSTEM TO BE INSTALLED>
 
 <EXAMPLE>:
@@ -46,8 +47,9 @@ a result that is OPNFV compliant.
 
 The audience of this document is assumed to have good knowledge in network and Unix/Linux administration.
 
+=======
 Preface
--------------
+=======
 <DESCRIBE NEEDED PREREQUISITES, PLANNING, ETC.>
 
 <EXAMPLE>:
@@ -81,8 +83,9 @@ Secondly, a number of deployment specific parameters must be collected, those ar
 
 This information will be needed for the configuration procedures provided in this document.
 
+=====================
 Hardware requirements
-------------------------
+=====================
 <PROVIDE A LIST OF MINIMUM HARDWARE REQUIREMENTS NEEDED FOR THE INSTALL>
 
 <EXAMPLE>:
@@ -115,8 +118,9 @@ Following minimum hardware requirements must be met for installation of Fuel@OPN
 |                    |                                                    |
 +--------------------+----------------------------------------------------+
 
+================================================
 Top of the rack (TOR) Configuration requirements
----------------------------------------------------
+================================================
 <DESCRIBE NEEDED NETWORK TOPOLOGY SETUP IN THE TORs>
 
 <EXAMPLE>:
@@ -139,8 +143,9 @@ VLAN considerations and blue-print
 IP Address plan considerations and blue-print
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+==========================================
 OPNFV Software installation and deployment
---------------------------------------------
+==========================================
 <DESCRIBE THE FULL PROCEDURES FOR THE INSTALLATION OF THE OPNFV COMPONENT INSTALLATION AND DEPLOYMENT>
 
 <EXAMPLE>:
@@ -161,8 +166,9 @@ Configure the OPNFV environment
 Deploy the OPNFV environment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+=========================
 Installation health-check
----------------------------
+=========================
 <DESCRIBE ANY MEANS TO DO VERIFY THE INTEGRITY AND HEALTHYNESS OF THE INSTALL>
 
 <EXAMPLE>:
@@ -187,8 +193,9 @@ for the system to work according OPNFV standards.
 **Change host OS password:**
 Change the Host OS password by......
 
+==========
 References
--------------
+==========
 <PROVIDE NEEDED/USEFUL REFERENCES>
 
 <EXAMPLES>:

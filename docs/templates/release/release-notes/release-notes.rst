@@ -1,9 +1,6 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
-======================================================================
-OPNFV <Project Name> Release Notes
-======================================================================
 
 This document provides the release notes for <RELEASE> of <COMPONENT>.
 
@@ -13,7 +10,7 @@ This document provides the release notes for <RELEASE> of <COMPONENT>.
 
 
 Version history
-------------------
+---------------
 
 +--------------------+--------------------+--------------------+--------------------+
 | **Date**           | **Ver.**           | **Author**         | **Comment**        |
@@ -29,8 +26,9 @@ Version history
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 
+===============
 Important notes
------------------
+===============
 
 <STATE IMPORTANT NOTES/DEVIATIONS SINCE PREVIOUS ITERATIVE RELEASE AND OTHER IMPORTANT NOTES FOR THIS RELEASE>
 
@@ -39,8 +37,9 @@ Important notes
 **Attention:** Please be aware that since LSV3 a pre-deploy script must be ran on the Fuel master -
 see the OPNFV@Fuel SW installation instructions
 
+=======
 Summary
-------------
+=======
 
 <SUMMARIZE THE RELEASE - THE CONTENT - AND OTHER IMPORTANT HIGH LEVEL PROPERTIES>
 
@@ -49,8 +48,9 @@ Summary
 Arno Fuel@OPNFV is based the OpenStack Fuel upstream project version 6.0.1,
 but adds OPNFV unique components such as OpenDaylight version: Helium as well as other OPNFV unique configurations......
 
+============
 Release Data
----------------
+============
 <STATE RELEVANT RELEASE DATA/RECORDS>
 
 <EXAMPLE>:
@@ -147,8 +147,9 @@ Documentation deliverables
 
 <EXAMPLE>:
 
+=========================================
 Known Limitations, Issues and Workarounds
---------------------------------------------
+=========================================
 
 System Limitations
 ^^^^^^^^^^^^^^^^^^^^
@@ -197,8 +198,9 @@ Workarounds
 - In case the contact with a compute is lost - restart the compute host
 - In case the disk is full on a controller - delete all files in /tmp
 
+===========
 Test Result
----------------
+===========
 <STATE THE QA COVERAGE AND RESULTS>
 
 <EXAMPLE>:
@@ -222,8 +224,9 @@ Fuel@OPNFV Arno RC2 has undergone QA test runs with the following results:
 |                                      | 2.......                             |
 +--------------------------------------+--------------------------------------+
 
+==========
 References
-------------
+==========
 <STATE RELEVANT REFERENCES FOR THIS RELEASE/VERSION>
 
 <EXAMPLE>:
