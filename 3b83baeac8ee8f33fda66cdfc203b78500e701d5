@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_06136b5d",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-02-16T15:11:23Z",
+      "side": 1,
+      "message": "Then we should remove this one, right?",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 166,
+        "endChar": 55
+      },
+      "revId": "3b83baeac8ee8f33fda66cdfc203b78500e701d5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
