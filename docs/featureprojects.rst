@@ -9,6 +9,16 @@ ARMband
    ../submodules/armband/docs/releasenotes/index
    ../submodules/armband/docs/installationprocedure/index
 
+Barometer
+----------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/barometer/docs/release/release-notes/index
+   ../submodules/barometer/docs/release/configguide/index
+   ../submodules/barometer/docs/release/userguide/index
+
+
 Copper
 --------
 .. toctree::
