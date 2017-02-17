@@ -170,3 +170,15 @@
 	path = docs/submodules/dovetail
 	url = https://gerrit.opnfv.org/gerrit/dovetail
 	branch = .
+[submodule "docs/submodules/snaps"]
+	path = docs/submodules/snaps
+	url = https://gerrit.opnfv.org/gerrit/snaps
+	branch = .
+[submodule "docs/submodules/barometer"]
+	path = docs/submodules/barometer
+	url = https://gerrit.opnfv.org/gerrit/barometer
+	branch = .
+[submodule "docs/submodules/ovno"]
+	path = docs/submodules/ovno
+	url = https://gerrit.opnfv.org/gerrit/ovno
+	branch = .
