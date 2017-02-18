@@ -171,10 +171,10 @@ Enabling Jenkins Jobs
 Jenkins in OPNFV infra performs the jobs to verify and update your documents.
 To make your project repository watched by Jenkins to execute those jobs, you
 have to add your project name in 'project-pattern' of the following jobs by
-sending patch to update `jjb/opnfv/opnfv-docs.yml`_ on gerrit.
+sending patch to update `jjb/opnfvdocs/opnfvddocs.yml`_ on gerrit.
 
-.. _jjb/opnfv/opnfv-docs.yml:
-    https://gerrit.opnfv.org/gerrit/gitweb?p=releng.git;a=blob;f=jjb/opnfv/opnfv-docs.yml;
+.. _jjb/opnfvdocs/opnfvdocs.yml:
+    https://gerrit.opnfv.org/gerrit/gitweb?p=releng.git;a=blob;f=jjb/opnfvdocs/opnfvdocs.yml;
 
 Verify Job
 ----------
