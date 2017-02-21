@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_ec02ad0a",
+        "filename": "docs/how-to-use-docs/How to use Labels/A.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-02-21T15:07:42Z",
+      "side": 1,
+      "message": "Just an FYI since I see you doing this in many places, I believe the proper syntax for reStructuredText is to set the top and bottom indents to be at the same column width as the header it\u0027s covering.",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 9
+      },
+      "revId": "28890134beb4c9610a7dfb87f214e60b45e0b8f6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
