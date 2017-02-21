@@ -208,3 +208,5 @@ Build the documentation from within your project folder:
 
 Your documentation shall be built as HTML inside the
 specified output folder directory.
+
+.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content. 
