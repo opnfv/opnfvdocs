@@ -1,7 +1,7 @@
 .. _include-documentation:
-=============================================
+=============================
 Including your Documentation
-=============================================
+=============================
 
 .. contents::
    :depth: 3
@@ -126,6 +126,22 @@ the opnfvdocs team for review and integration.
 Be sure to add the project leader of the opnfvdocs project
 as a reviewer of the change you just pushed in gerrit.
 
+'doc8' Validation 
+--------------------------------------
+It is recommended that all rst content is validated by `doc8 <https://pypi.python.org/pypi/doc8>`_ standards.
+To validate your rst files using doc8, install doc8.
+
+.. code-block:: bash
+
+   sudo pip install doc8
+
+doc8 can now be used to check the rst files. Execute as,
+
+.. code-block:: bash
+
+   doc8 --ignore D000,D001 <file>
+
+
 Testing: Build Documentation Locally
 ---------------------------------------
 
@@ -208,3 +224,5 @@ Build the documentation from within your project folder:
 
 Your documentation shall be built as HTML inside the
 specified output folder directory.
+
+.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
