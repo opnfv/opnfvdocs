@@ -41,7 +41,7 @@ Project teams are encouraged to use templates provided by the opnfvdocs project 
 ::
 
 	docs/
-	├── developer
+	├── development
 	│   ├── design
 	│   ├── overview
 	│   └── requirements
