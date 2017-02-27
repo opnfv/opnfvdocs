@@ -208,3 +208,12 @@
 	url = https://gerrit.opnfv.org/gerrit/dovetail
 	branch = .
 	shallow = true
+[submodule "docs/submodules/ovno"]
+	path = docs/submodules/ovno
+	url = https://gerrit.opnfv.org/gerrit/ovno
+[submodule "docs/submodules/snaps"]
+	path = docs/submodules/snaps
+	url = https://gerrit.opnfv.org/gerrit/snaps
+[submodule "docs/submodules/barometer"]
+	path = docs/submodules/barometer
+	url = https://gerrit.opnfv.org/gerrit/barometer

@@ -1,5 +1,5 @@
-OPNFV Feature Projects
-=======================
+OPNFV Projects
+================
 
 ARMband
 --------

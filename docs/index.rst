@@ -1,4 +1,4 @@
-.. note:: This documentation is still under development.
+.. note:: This page is still under development.
 
 OPNFV Documentation
 ===================
@@ -34,10 +34,11 @@ Testing Documentation
    submodules/yardstick/docs/userguide/index
    submodules/vswitchperf/docs/index
 
-Developer Documentation
+Development Documentation
 -----------------------------------
 
 .. toctree::
    :maxdepth: 1
 
    featureprojects
+   how-to-use-docs/index
