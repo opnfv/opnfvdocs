@@ -66,7 +66,7 @@ The instructions for each toolchain can be found in these links:
 
 - `Apex installation instruction <http://artifacts.opnfv.org/apex/colorado/2.0/docs/installationprocedure/index.html>`_
 - `Compass4nfv installation instruction <http://artifacts.opnfv.org/compass4nfv/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Fuel installation instruction <http://artifacts.opnfv.org/fuel/colorado/2.0/docs/installationprocedure/index.html>`_
+- :ref:`Fuel installation instruction <fuel-release-installation-label>`
 - `Joid installation instruction <http://artifacts.opnfv.org/joid/colorado/2.0/docs/installationprocedure/index.html>`_
 
 
