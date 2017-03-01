@@ -33,6 +33,8 @@ Testing Documentation
    submodules/bottlenecks/docs/userguide/index
    submodules/yardstick/docs/userguide/index
    submodules/vswitchperf/docs/index
+   submodules/storperf/docs/index
+
 
 Development Documentation
 -----------------------------------
