@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_2eee6aed",
+        "filename": "docs/how-to-use-docs/How to use Labels/A.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-03-01T17:56:10Z",
+      "side": 1,
+      "message": "Still 1 character too far here.",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 7
+      },
+      "revId": "85646daa6375a5aadca39bb8538a35fb2762b2e5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_ceba2ee1",
+        "filename": "docs/how-to-use-docs/How to use Labels/A.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-03-01T17:56:10Z",
+      "side": 1,
+      "message": "2 characters too far here.",
+      "range": {
+        "startLine": 14,
+        "startChar": 17,
+        "endLine": 14,
+        "endChar": 19
+      },
+      "revId": "85646daa6375a5aadca39bb8538a35fb2762b2e5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dabed58f_eebff2ce",
+        "filename": "docs/how-to-use-docs/How to use Labels/Demo.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2017-03-01T17:56:10Z",
+      "side": 1,
+      "message": "1 character too far here.",
+      "range": {
+        "startLine": 3,
+        "startChar": 17,
+        "endLine": 3,
+        "endChar": 18
+      },
+      "revId": "85646daa6375a5aadca39bb8538a35fb2762b2e5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
