@@ -24,7 +24,7 @@ Release Documentation
 
 
 Testing Documentation
--------------------------------------
+----------------------
 
 .. toctree::
    :maxdepth: 1
@@ -37,7 +37,7 @@ Testing Documentation
 
 
 Development Documentation
------------------------------------
+--------------------------
 
 .. toctree::
    :maxdepth: 1
