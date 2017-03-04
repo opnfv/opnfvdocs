@@ -29,11 +29,11 @@ Testing Documentation
 .. toctree::
    :maxdepth: 1
 
-   submodules/functest/docs/userguide/index
-   submodules/bottlenecks/docs/userguide/index
-   submodules/yardstick/docs/userguide/index
-   submodules/vswitchperf/docs/index
-   submodules/storperf/docs/index
+   submodules/functest/docs/testing/user/index
+   submodules/bottlenecks/docs/testing/user/index
+   submodules/yardstick/docs/testing/user/index
+   submodules/vswitchperf/docs/testing/user/index
+   submodules/storperf/docs/testing/user/index
 
 
 Development Documentation
