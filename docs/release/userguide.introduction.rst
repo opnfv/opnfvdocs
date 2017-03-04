@@ -2,9 +2,9 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Sofia Wallin (sofia.wallin@ericssion.com)
 
-================
-OPNFV Userguide
-================
+======================================
+OPNFV User Guide & Configuration Guide
+======================================
 
 Abstract
 ========
@@ -25,15 +25,15 @@ Introduction
 
 OPNFV provides a suite of scenarios, infrastructure depoyment options, which
 are able to be installed to host virtualized network functions (VNFs).
-This guide intends to help users of the platform leverage the features and
+This Guide intends to help Users of the platform leverage the features and
 capabilities delivered by the OPNFV project in support of these applications.
 
 OPNFV Continuous Integration builds, deploys and tests combinations of virtual
 infrastructure components in what are defined as scenarios. A scenario may
 include components such as OpenStack, OpenDaylight, OVS, KVM etc. where each
-scenario will include different source components or configurations. Scenarios
+scenario will include different source components or Configurations. Scenarios
 are designed to enable specific features and capabilities in the platform that
-can be leveraged by the OPNFV user community.
+can be leveraged by the OPNFV User community.
 
 
 Feature Overview
@@ -42,47 +42,47 @@ Feature Overview
 The following links outline the feature deliveries from the participant OPNFV
 projects in the Colorado release. Each of the participating projects provides
 detailed descriptions about the delivered features. Including use cases,
-implementation and configuration specifics on a per OPNFV project basis.
+implementation and Configuration specifics on a per OPNFV project basis.
 
 The following are Configuration Guides and User Guides and assume that the reader has already some
-information about a given projects specifics and deliverables. These guides
+information about a given projects specifics and deliverables. These Guides
 are intended to be used following the installation of a given OPNFV installer
 to allow a user to deploy and implement feature delivered by OPNFV.
 
 If you are unsure about the specifics of a given project, please refer to the
 OPNFV projects home page, found on http://wiki.opnfv.org, for specific details.
 
-You can find project specific usage and configuration information below:
+You can find project specific usage and Configuration information below:
 
 Feature Configuration Guides
 ============================
 
-- `Armband configuration guide <http://artifacts.opnfv.org/armband/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Copper configuration guide <http://artifacts.opnfv.org/copper/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Doctor configuration guide <http://artifacts.opnfv.org/doctor/colorado/2.0/docs/installationprocedure/index.html>`_
-- `IPv6 configuration guide <http://artifacts.opnfv.org/ipv6/colorado/2.0/docs/installationprocedure/index.html>`_
-- `KVMforNFV configuration guide <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Moon configuration guide <http://artifacts.opnfv.org/moon/colorado/2.0/docs/installationprocedure/index.html>`_
-- `Multisite configuration guide <http://artifacts.opnfv.org/multisite/colorado/2.0/docs/installationprocedure/index.html>`_
-- `ONOSFW configuration guide <http://artifacts.opnfv.org/onosfw/colorado/2.0/installationprocedure/index.html>`_
-- `OVSNFV configuration guide <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/configguide/index.html>`_
-- `Promise configuration guide <https://git.opnfv.org/promise/tree/docs/release/configguide/feature.configuration.rst>`_
-- `SFC configuration guide <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/installationprocedure/index.html>`_
+- :ref:`Armband Configuration Guide <armband-configguide>`
+- :ref:`Copper Configuration Guide <copper-configguide>`
+- :ref:`Doctor Configuration Guide <doctor-configguide>`
+- :ref:`IPv6 Configuration Guide <ipv6-configguide>`
+- :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
+- :ref:`Moon Configuration Guide <moon-configguide>`
+- :ref:`Multisite Configuration Guide <multisite-configguide>`
+- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
+- :ref:`OVSNFV Configuration Guide <ovsnfv-configguide>`
+- :ref:`Promise Configuration Guide <promise-configguide>`
+- :ref:`SFC Configuration Guide <sfc-configguide>`
 
 
 Feature User Guides
 ===================
 
-- `Copper user guide <http://artifacts.opnfv.org/copper/colorado/2.0/docs/userguide/index.html>`_
-- `Doctor user guide <http://artifacts.opnfv.org/doctor/colorado/2.0/docs/userguide/index.html>`_
-- `Domino user guide <http://artifacts.opnfv.org/domino/colorado/2.0/docs/userguide/index.html>`_
-- `IPv6 user guide <http://artifacts.opnfv.org/ipv6/colorado/2.0/docs/userguide/index.html>`_
-- `KVMforNFV user guide <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/userguide/index.html>`_
-- `Moon user guide <http://artifacts.opnfv.org/moon/colorado/2.0/docs/userguide/index.html>`_
-- `Multisite user guide <http://artifacts.opnfv.org/multisite/colorado/2.0/docs/userguide/index.html>`_
-- `ONOSFW user guide <http://artifacts.opnfv.org/onosfw/colorado/2.0/docs/userguide/index.html>`_
-- `OVSNFV user guide <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/userguide/index.html>`_
-- `Parser user guide <http://artifacts.opnfv.org/parser/colorado/2.0/docs/userguide/index.html>`_
-- `Promise user guide <https://git.opnfv.org/promise/tree/docs/release/userguide/feature.userguide.rst>`_
-- `SDNVPN user guide <http://artifacts.opnfv.org/sdnvpn/colorado/2.0/docs/userguide/index.html>`_
-- `SFC user guide <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/userguide/index.html>`_
+- :ref:`Copper User Guide <copper-userguide>`
+- :ref:`Doctor User Guide <doctor-userguide>`
+- :ref:`Domino User Guide <domino-userguide>`
+- :ref:`IPv6 User Guide <ipv6-userguide>`
+- :ref:`KVMforNFV User Guide <kvmfornfv-userguide>`
+- :ref:`Moon User Guide <moon-userguide>`
+- :ref:`Multisite User Guide <multisite-userguide>`
+- :ref:`ONOSFW User Guide <onosfw-userguide>`
+- :ref:`OVSNFV User Guide <ovsnfv-userguide>`
+- :ref:`Parser User Guide <parser-userguide>`
+- :ref:`Promise User Guide <promise-userguide>`
+- :ref:`SDNVPN User Guide <sdnvpn-userguide>`
+- :ref:`SFC User Guide <sfc-userguide>`
