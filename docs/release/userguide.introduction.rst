@@ -2,9 +2,9 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Sofia Wallin (sofia.wallin@ericssion.com)
 
-================
-OPNFV Userguide
-================
+===============================
+OPNFV User Guide & Config Guide
+===============================
 
 Abstract
 ========

@@ -223,8 +223,7 @@ Functest
 
 Functest provides a functional testing framework incorporating a number of test suites
 and test cases that test and verify OPNFV platform functionality.
-The scope of Functest and relevant test cases can be found in its
-`user guide <http://artifacts.opnfv.org/functest/colorado/2.0/docs/userguide/index.html>`_.
+The scope of Functest and relevant test cases can be found in its:ref:`user guide <Functest-UserGuide>`
 
 Functest provides both feature project and component test suite integration, leveraging
 OpenStack and SDN controllers testing frameworks to verify the key components of the OPNFV
@@ -290,4 +289,4 @@ root cause isolation capabilities to facilitate system evaluation.
 
 .. _`OPNFV Configuration Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/configguide
 .. _`OPNFV User Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/userguide
-.. _Dovetail project: https://wiki.opnfv.org/display/dovetail
+.. _`Dovetail project`: https://wiki.opnfv.org/display/dovetail
