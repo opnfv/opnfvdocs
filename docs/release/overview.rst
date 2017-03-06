@@ -1,5 +1,5 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
+.. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
 ===============
@@ -23,8 +23,7 @@ de facto NFV platform for the industry.
 By integrating components from upstream projects, the community is able to conduct performance
 and use case-based testing on a variety of solutions to ensure the platform’s suitability for
 NFV use cases. OPNFV also works upstream with other open source communities to bring contributions
-and learnings from its work directly to those communities in the form of blueprints, patches,bugs, 
-and new code.
+and learnings from its work directly to those communities in the form of blueprints, patches, bugs, and new code.
 
 OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
 Management (VIM) by integrating components from upstream projects such as OpenDaylight,
