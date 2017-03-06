@@ -10,21 +10,20 @@ Introduction
 ============
 
 Network Functions Virtualization (NFV) is transforming the networking industry via
-software-defined infrastructures and open source is the proven method for developing
-software quickly for commercial products and services that can move markets.
+software-defined infrastructures and open source is the proven method for quickly developing
+software for commercial products and services that can move markets.
 Open Platform for NFV (OPNFV) facilitates the development and evolution of NFV
 components across various open source ecosystems. Through system level integration,
 deployment and testing, OPNFV constructs a reference NFV platform to accelerate the
 transformation of enterprise and service provider networks.
 As an open source project, OPNFV is uniquely positioned to bring together the work
-of standards bodies, open source communities, and commercial suppliers to deliver a
+of standards bodies, open source communities, service providers and commercial suppliers to deliver a
 de facto NFV platform for the industry.
 
 By integrating components from upstream projects, the community is able to conduct performance
 and use case-based testing on a variety of solutions to ensure the platform’s suitability for
-NFV use cases. OPNFV also works upstream with other open source communities to bring both contributions
-and learnings from its work directly to those communities in the form of blueprints, patches,
-and new code.
+NFV use cases. OPNFV also works upstream with other open source communities to bring contributions
+and learnings from its work directly to those communities in the form of blueprints, patches, bugs, and new code.
 
 OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
 Management (VIM) by integrating components from upstream projects such as OpenDaylight,
