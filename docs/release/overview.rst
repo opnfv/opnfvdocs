@@ -1,5 +1,5 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
+.. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
 ===============
@@ -17,13 +17,13 @@ components across various open source ecosystems. Through system level integrati
 deployment and testing, OPNFV constructs a reference NFV platform to accelerate the
 transformation of enterprise and service provider networks.
 As an open source project, OPNFV is uniquely positioned to bring together the work
-of standards bodies, open source communities, service providers and commercial suppliers to deliver a
-de facto NFV platform for the industry.
+of standards bodies, open source communities, service providers and commercial suppliers to deliver
+a de facto NFV platform for the industry.
 
 By integrating components from upstream projects, the community is able to conduct performance
 and use case-based testing on a variety of solutions to ensure the platform’s suitability for
 NFV use cases. OPNFV also works upstream with other open source communities to bring contributions
-and learnings from its work directly to those communities in the form of blueprints, patches,bugs, 
+and learnings from its work directly to those communities in the form of blueprints, patches, bugs,
 and new code.
 
 OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
