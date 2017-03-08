@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_08d7cdc2",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-08T13:28:40Z",
+      "side": 1,
+      "message": "Please update to Configuration Guide",
+      "range": {
+        "startLine": 6,
+        "startChar": 19,
+        "endLine": 6,
+        "endChar": 31
+      },
+      "revId": "d68675b001aef4ffb79c3c7fe30076b430c923f1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
