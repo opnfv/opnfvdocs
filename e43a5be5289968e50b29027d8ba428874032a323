@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dabed58f_1c0632cf",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-08T16:24:05Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "revId": "e43a5be5289968e50b29027d8ba428874032a323",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
