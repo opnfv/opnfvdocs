@@ -1,14 +1,14 @@
 .. _include-documentation:
-=============================
+============================
 Including your Documentation
-=============================
+============================
 
 .. contents::
    :depth: 3
    :local:
 
 In your project repository
-----------------------------
+--------------------------
 
 Add your documentation to your repository in the folder structure and
 according to the templates listed above. The documentation templates you
@@ -34,7 +34,7 @@ the documentation to the project repository.
    git review
 
 In OPNFVDocs Composite Documentation
---------------------------------------
+------------------------------------
 
 In toctree
 +++++++++++
@@ -70,7 +70,7 @@ it, example:
     <submodules/path-to-your-file>
 
 As Hyperlink
-+++++++++++++
+++++++++++++
 
 It's pretty common to want to reference another location in the
 OPNFV documentation and it's pretty easy to do with
@@ -126,8 +126,8 @@ the opnfvdocs team for review and integration.
 Be sure to add the project leader of the opnfvdocs project
 as a reviewer of the change you just pushed in gerrit.
 
-'doc8' Validation 
---------------------------------------
+'doc8' Validation
+-----------------
 It is recommended that all rst content is validated by `doc8 <https://pypi.python.org/pypi/doc8>`_ standards.
 To validate your rst files using doc8, install doc8.
 
@@ -143,10 +143,10 @@ doc8 can now be used to check the rst files. Execute as,
 
 
 Testing: Build Documentation Locally
----------------------------------------
+------------------------------------
 
 Composite OPNFVDOCS documentation
-+++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++
 To build whole documentation under opnfvdocs/, follow these steps:
 
 Install virtual environment.
@@ -181,7 +181,7 @@ Update submodules, build documentation using tox & then open using any browser.
 .. note:: Make sure to run `tox -edocs` and not just `tox`.
 
 Individual project documentation
-+++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++
 To test how the documentation renders in HTML, follow these steps:
 
 Install virtual environment.
