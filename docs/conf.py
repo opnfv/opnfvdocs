@@ -263,6 +263,7 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+html_sidebars = {'**': ['my_custom_sidebar.html']}
 # Documents to append as an appendix to all manuals.
 # texinfo_appendices = []
 
