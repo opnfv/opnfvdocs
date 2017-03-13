@@ -96,6 +96,11 @@ ONOS
    ../submodules/onosfw/docs/userguide/index
    ../submodules/onosfw/docs/installationprocedure/index
 
+
+OpenRetriever
+-------------
+
+
 OVSNFV
 --------
 .. toctree::
@@ -150,4 +155,3 @@ SFC
    ../submodules/sfc/docs/userguide/index
    ../submodules/sfc/docs/releasenotes/index
    ../submodules/sfc/docs/installationprocedure/index
-
