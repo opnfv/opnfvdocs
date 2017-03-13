@@ -6,7 +6,6 @@ ARMband
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/armband/docs/releasenotes/index
    ../submodules/armband/docs/installationprocedure/index
 
 Barometer
@@ -14,7 +13,6 @@ Barometer
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/barometer/docs/release/release-notes/index
    ../submodules/barometer/docs/release/configguide/index
    ../submodules/barometer/docs/release/userguide/index
 
@@ -25,7 +23,6 @@ Copper
    :maxdepth: 1
 
    ../submodules/copper/docs/design/index
-   ../submodules/copper/docs/releasenotes/index
    ../submodules/copper/docs/userguide/index
    ../submodules/copper/docs/installationprocedure/index
 
@@ -37,7 +34,6 @@ Doctor
    ../submodules/doctor/docs/scenario/index
    ../submodules/doctor/docs/installationprocedure/index
    ../submodules/doctor/docs/userguide/index
-   ../submodules/doctor/docs/releasenotes/index
 
 Domino
 --------
