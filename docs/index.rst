@@ -20,7 +20,7 @@ Release Documentation
    release/overview
    release/installation.introduction
    release/userguide.introduction
-   release/subrelease
+   release/release-notes
 
 
 Testing Documentation
