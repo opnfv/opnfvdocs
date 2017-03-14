@@ -1,5 +1,5 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
+.. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Sofia Wallin (sofia.wallin@ericssion.com)
 
 ======================================
@@ -11,27 +11,27 @@ Abstract
 
 OPNFV is a collaborative project aimed at providing a variety of virtualization
 deployments intended to host applications serving the networking and carrier
-industry. This document provides guidance and instructions for using platform
+industries. This document provides guidance and instructions for using platform
 features designed to support these applications, made available in the OPNFV
 Colorado release.
 
 This document is not intended to replace or replicate documentation from other
-open source projects such as OpenStack or OpenDaylight, rather highlight the
+upstream open source projects such as KVM, OpenDaylight, or OpenStack, but to highlight the
 features and capabilities delivered through the OPNFV project.
 
 
 Introduction
 ============
 
-OPNFV provides a suite of scenarios, infrastructure depoyment options, which
+OPNFV provides a suite of scenarios, infrastructure deployment options, which
 are able to be installed to host virtualized network functions (VNFs).
-This Guide intends to help Users of the platform leverage the features and
-capabilities delivered by the OPNFV project in support of these applications.
+This Guide intends to help users of the platform leverage the features and
+capabilities delivered by the OPNFV project.
 
-OPNFV Continuous Integration builds, deploys and tests combinations of virtual
+OPNFVs' Continuous Integration builds, deploys and tests combinations of virtual
 infrastructure components in what are defined as scenarios. A scenario may
-include components such as OpenStack, OpenDaylight, OVS, KVM etc. where each
-scenario will include different source components or Configurations. Scenarios
+include components such as KVM, OpenDaylight, OpenStack, OVS, etc., where each
+scenario will include different source components or configurations. Scenarios
 are designed to enable specific features and capabilities in the platform that
 can be leveraged by the OPNFV User community.
 
@@ -39,20 +39,19 @@ can be leveraged by the OPNFV User community.
 Feature Overview
 ================
 
-The following links outline the feature deliveries from the participant OPNFV
+The following links outline the feature deliverables from participating OPNFV
 projects in the Colorado release. Each of the participating projects provides
-detailed descriptions about the delivered features. Including use cases,
-implementation and Configuration specifics on a per OPNFV project basis.
+detailed descriptions about the delivered features including use cases,
+implementation and configuration specifics.
 
-The following are Configuration Guides and User Guides and assume that the reader has already some
-information about a given projects specifics and deliverables. These Guides
-are intended to be used following the installation of a given OPNFV installer
-to allow a user to deploy and implement feature delivered by OPNFV.
+The following Configuration Guides and User Guides assume that the reader already has some
+information about a given project's specifics and deliverables. These Guides
+are intended to be used following the installation with an OPNFV installer
+to allow users to deploy and implement feature delivered by OPNFV.
 
 If you are unsure about the specifics of a given project, please refer to the
-OPNFV projects home page, found on http://wiki.opnfv.org, for specific details.
+OPNFV wiki page at http://wiki.opnfv.org, for more details.
 
-You can find project specific usage and Configuration information below:
 
 Feature Configuration Guides
 ============================
