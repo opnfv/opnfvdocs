@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_a180528c",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 163
+      },
+      "writtenOn": "2017-03-15T12:28:44Z",
+      "side": 1,
+      "message": "Please move this entry up to the right place for O in alphabetical order.\n\nAlso list the submodules according to the needed structure outlined on http://artifacts.opnfv.org/opnfvdocs/docs/how-to-use-docs/index.html",
+      "revId": "36534a74d22853050b2b7924227dce65a36b9616",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
