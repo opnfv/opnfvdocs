@@ -29,6 +29,7 @@ Testing Documentation
 .. toctree::
    :maxdepth: 1
 
+   testing/ecosystem/index
    submodules/functest/docs/testing/user/index
    submodules/bottlenecks/docs/testing/user/index
    submodules/yardstick/docs/testing/user/index
@@ -42,5 +43,4 @@ Development Documentation
 .. toctree::
    :maxdepth: 1
 
-   featureprojects
    how-to-use-docs/index
