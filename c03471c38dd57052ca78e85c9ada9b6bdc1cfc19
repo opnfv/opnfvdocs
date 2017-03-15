@@ -1,0 +1,8 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Aric Gardner <agardner@linuxfoundation.org>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Wed, 15 Mar 2017 14:40:29 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/30453
+Project: opnfvdocs
+Branch: refs/heads/master
