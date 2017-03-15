@@ -1,5 +1,5 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
+.. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Sofia Wallin Ericsson AB
 
 ====================
@@ -12,7 +12,7 @@ Abstract
 The following document provides an overview of the instructions required for the installation
 of the Colorado release of OPNFV.
 
-The Colorado release can be installed using a variety of technologies provided by the
+The Colorado release can be installed using a tool from the following
 integration projects participating in OPNFV: Apex, Compass4Nfv, Fuel and JOID.
 Each installer provides the ability to install a common OPNFV platform as well as integrating
 additional features delivered through a variety of scenarios by the OPNFV community.
@@ -24,9 +24,10 @@ Introduction
 The OPNFV platform is comprised of a variety of upstream components that may be deployed on your physical
 infrastructure.  A composition of components, tools and configurations is identified in OPNFV as a
 deployment scenario.
-The various OPNFV scenarios provide unique features and capabilities that you may want to leverage,
+
+The various OPNFV scenarios provide unique features and capabilities that you may want to leverage, and
 it is important to understand your required target platform capabilities before installing and
-configuring your target scenario.
+configuring your scenarios.
 
 An OPNFV installation requires either a physical, or virtual, infrastructure environment as defined
 in the `Pharos specification <http://artifacts.opnfv.org/pharos/colorado/2.0/docs/specification/index.html>`.
@@ -37,9 +38,10 @@ Scenarios
 =========
 
 OPNFV scenarios are designed to host virtualised network functions (VNF’s) in a variety of deployment
-architectures and locations. Each scenario provides specific capabilities and/or components aimed to
-solve specific problems for the deployment of VNF’s.
-A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc...
+architectures and locations. Each scenario provides specific capabilities and/or components aimed at
+solving specific problems for the deployment of VNF’s.
+
+A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
 where each scenario will include different source components or configurations.
 
 To learn more about the scenarios supported in the Colorado release refer to the scenario
@@ -75,11 +77,11 @@ OPNFV Test Frameworks
 
 If you have elected to install the OPNFV platform using the deployment toolchain provided by OPNFV
 your system will have been validated once the installation is completed.
-The basic deployment validation only addresses a small component of the capability provided in
-the platform and you may desire to execute more exhaustive tests.  Some investigation is required to
-select the right test suites to run on your platform from the available projects and suites.
+The basic deployment validation only addresses a small part of capabilities provided in
+the platform and you may want to execute more exhaustive tests.  Some investigation will be required to
+select the right test suites to run on your platform.
 
-Many of the OPNFV test project provide user-guide documentation and installation instructions as provided below:
+Many of the OPNFV test project provide user-guide documentation and installation instructions as listed below:
 
 - :ref:`Functest user guide <functest-userguide>`
 - :ref:`Yardstick user guide <yardstick-userguidde>`
@@ -93,7 +95,7 @@ Security Notes
 ==============
 
 The following patches were applied to fix security issues discovered in opnfv
-projects, during the c-release cycle.
+projects, during the Colorado release cycle.
 
 - :ref:`Removal of private keys <https://gerrit.opnfv.org/gerrit/#/c/21995/>`
 - :ref:`Fix security issues of eval-s in testapi <https://gerrit.opnfv.org/gerrit/#/c/20751/>`
