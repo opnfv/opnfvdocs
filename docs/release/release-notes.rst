@@ -5,10 +5,6 @@
 OPNFV Release Notes
 ===================
 
-.. contents::
-   :depth: 3
-   :local:
-
 Apex
 -----
 :ref:`Apex Release Notes <apex-releasenotes>`
