@@ -230,6 +230,4 @@
 	shallow = true
 [submodule "docs/submodules/opera"]
 	path = docs/submodules/opera
-	url = https://gerrit.opnfv.org/gerrit/opera
-	branch = .
-	shallow = true
+	url = https://sofiawallin@gerrit.opnfv.org/gerrit/a/opera
