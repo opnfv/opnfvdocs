@@ -213,6 +213,11 @@
 	url = https://gerrit.opnfv.org/gerrit/ovno
 	branch = .
 	shallow = true
+[submodule "docs/submodules/opera"]
+	path = docs/submodules/ovno
+	url = https://gerrit.opnfv.org/gerrit/opera
+	branch = .
+	shallow = true
 [submodule "docs/submodules/snaps"]
 	path = docs/submodules/snaps
 	url = https://gerrit.opnfv.org/gerrit/snaps
