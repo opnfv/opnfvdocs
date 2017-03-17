@@ -171,7 +171,7 @@
 	branch = .
 	shallow = true
 [submodule "docs/submodules/opera"]
-	path = docs/submodules/ovno
+	path = docs/submodules/opera
 	url = https://gerrit.opnfv.org/gerrit/opera
 	branch = .
 	shallow = true
