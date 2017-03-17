@@ -123,9 +123,9 @@
 	url = https://gerrit.opnfv.org/gerrit/onosfw
 	branch = .
 	shallow = true
-[submodule "docs/submodules/ovsnfv"]
-	path = docs/submodules/ovsnfv
-	url = https://gerrit.opnfv.org/gerrit/ovsnfv
+[submodule "docs/submodules/opera"]
+	path = docs/submodules/opera
+	url = https://gerrit.opnfv.org/gerrit/opera
 	branch = .
 	shallow = true
 [submodule "docs/submodules/parser"]
@@ -228,3 +228,6 @@
 	url = https://gerrit.opnfv.org/gerrit/openretriever
 	branch = .
 	shallow = true
+[submodule "docs/submodules/opera"]
+	path = docs/submodules/opera
+	url = https://sofiawallin@gerrit.opnfv.org/gerrit/a/opera
