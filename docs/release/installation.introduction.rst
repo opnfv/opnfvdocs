@@ -47,14 +47,14 @@ where each scenario will include different source components or configurations.
 To learn more about the scenarios supported in the Colorado release refer to the scenario
 description documents provided:
 
-- Accelerated OVS `os-nosdn-ovs <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/scenarios_os-nosdn-ovs/index.html>`
-- Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/sdnvpn/colorado/2.0/docs/scenarios_os-odl_l2-bgpvpn/index.html>`
-- FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/2.0/scenarios_os-odl_l2-fdio-noha/index.html>`
-- High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/scenarios_os-odl_l2-sfc-ha/index.html>`
-- Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/scenarios_os-odl_l2-sfc-noha/index.html>`
-- Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/scenarios_os-nosdn-kvm-ha/index.html>`
-- LXD container hypervisor `os-nosdn-lxd-noha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-noha/index.html>`
-- High Availability LXD container hypervisor `os-nosdn-lxd-ha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-ha/index.html>`
+- Accelerated OVS `os-nosdn-ovs <http://artifacts.opnfv.org/ovsnfv/colorado/2.0/docs/scenarios_os-nosdn-ovs/index.html>`_
+- Layer 3 overlay using opendaylight `os-odl-l2-bgpvpn <http://artifacts.opnfv.org/sdnvpn/colorado/2.0/docs/scenarios_os-odl_l2-bgpvpn/index.html>`_
+- FD.io based forwarding using opendaylight SDN `os-odl-12-fdio-noha <http://artifacts.opnfv.org/fds/colorado/2.0/scenarios_os-odl_l2-fdio-noha/index.html>`_
+- High availability service function chaining `os-odl-l2-sfc-ha <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/scenarios_os-odl_l2-sfc-ha/index.html>`_
+- Service function chaining `os-odl-l2-sfc-noha <http://artifacts.opnfv.org/sfc/colorado/2.0/docs/scenarios_os-odl_l2-sfc-noha/index.html>`_
+- Accelerated KVM hypervisor `os-nosdn-kvm-ha <http://artifacts.opnfv.org/kvmfornfv/colorado/2.0/docs/scenarios_os-nosdn-kvm-ha/index.html>`_
+- LXD container hypervisor `os-nosdn-lxd-noha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-noha/index.html>`_
+- High Availability LXD container hypervisor `os-nosdn-lxd-ha <http://artifacts.opnfv.org/joid/colorado/2.0/docs/scenarios_os-nosdn-lxd-ha/index.html>`_
 
 
 Installation Procedure
@@ -97,13 +97,13 @@ Security Notes
 The following patches were applied to fix security issues discovered in opnfv
 projects, during the Colorado release cycle.
 
-- :ref:`Removal of private keys <https://gerrit.opnfv.org/gerrit/#/c/21995/>`
-- :ref:`Fix security issues of eval-s in testapi <https://gerrit.opnfv.org/gerrit/#/c/20751/>`
-- :ref:`Implements use of yaml.safe_load <https://gerrit.opnfv.org/gerrit/#/c/20911/>`
-- :ref:`Fix security issues reported by the security audit <https://gerrit.opnfv.org/gerrit/#/c/20693/>`
-- :ref:`Fix issues found in security review <https://gerrit.opnfv.org/gerrit/#/c/21541/>`
-- :ref:`Removing OpenSteak Project <https://gerrit.opnfv.org/gerrit/#/c/22139/>`
-- :ref:`Remove unsed files in open-contrail role <https://gerrit.opnfv.org/gerrit/#/c/21997/>`
-- :ref:`Get rid of private key in repo <https://gerrit.opnfv.org/gerrit/#/c/21985>`
-- :ref:`Handling file loads and tmp dirs differently <https://gerrit.opnfv.org/gerrit/#/c/21499>`
-- :ref:`Remove `Debug = True when run Flask and add logger <https://gerrit.opnfv.org/gerrit/#/c/21799/>`
+- `Removal of private keys <https://gerrit.opnfv.org/gerrit/#/c/21995/>`_
+- `Fix security issues of eval-s in testapi <https://gerrit.opnfv.org/gerrit/#/c/20751/>`_
+- `Implements use of yaml.safe_load <https://gerrit.opnfv.org/gerrit/#/c/20911/>`_
+- `Fix security issues reported by the security audit <https://gerrit.opnfv.org/gerrit/#/c/20693/>`_
+- `Fix issues found in security review <https://gerrit.opnfv.org/gerrit/#/c/21541/>`_
+- `Removing OpenSteak Project <https://gerrit.opnfv.org/gerrit/#/c/22139/>`_
+- `Remove unsed files in open-contrail role <https://gerrit.opnfv.org/gerrit/#/c/21997/>`_
+- `Get rid of private key in repo <https://gerrit.opnfv.org/gerrit/#/c/21985>`_
+- `Handling file loads and tmp dirs differently <https://gerrit.opnfv.org/gerrit/#/c/21499>`_
+- `Remove 'Debug = True' when run Flask and add logger <https://gerrit.opnfv.org/gerrit/#/c/21799/>`_
