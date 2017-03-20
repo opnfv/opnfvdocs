@@ -18,11 +18,6 @@
 	url = https://gerrit.opnfv.org/gerrit/compass4nfv
 	branch = .
 	shallow = true
-[submodule "docs/submodules/conductor"]
-	path = docs/submodules/conductor
-	url = https://gerrit.opnfv.org/gerrit/conductor
-	branch = .
-	shallow = true
 [submodule "docs/submodules/copper"]
 	path = docs/submodules/copper
 	url = https://gerrit.opnfv.org/gerrit/copper
@@ -36,16 +31,6 @@
 [submodule "docs/submodules/domino"]
 	path = docs/submodules/domino
 	url = https://gerrit.opnfv.org/gerrit/domino
-	branch = .
-	shallow = true
-[submodule "docs/submodules/dpacc"]
-	path = docs/submodules/dpacc
-	url = https://gerrit.opnfv.org/gerrit/dpacc
-	branch = .
-	shallow = true
-[submodule "docs/submodules/enfv"]
-	path = docs/submodules/enfv
-	url = https://gerrit.opnfv.org/gerrit/enfv
 	branch = .
 	shallow = true
 [submodule "docs/submodules/escalator"]
@@ -73,16 +58,6 @@
 	url = https://gerrit.opnfv.org/gerrit/functest
 	branch = .
 	shallow = true
-[submodule "docs/submodules/genesisreq"]
-	path = docs/submodules/genesisreq
-	url = https://gerrit.opnfv.org/gerrit/genesisreq
-	branch = .
-	shallow = true
-[submodule "docs/submodules/inspector"]
-	path = docs/submodules/inspector
-	url = https://gerrit.opnfv.org/gerrit/inspector
-	branch = .
-	shallow = true
 [submodule "docs/submodules/ipv6"]
 	path = docs/submodules/ipv6
 	url = https://gerrit.opnfv.org/gerrit/ipv6
@@ -96,11 +71,6 @@
 [submodule "docs/submodules/kvmfornfv"]
 	path = docs/submodules/kvmfornfv
 	url = https://gerrit.opnfv.org/gerrit/kvmfornfv
-	branch = .
-	shallow = true
-[submodule "docs/submodules/lsoapi"]
-	path = docs/submodules/lsoapi
-	url = https://gerrit.opnfv.org/gerrit/lsoapi
 	branch = .
 	shallow = true
 [submodule "docs/submodules/multisite"]
@@ -136,11 +106,6 @@
 [submodule "docs/submodules/pharos"]
 	path = docs/submodules/pharos
 	url = https://gerrit.opnfv.org/gerrit/pharos
-	branch = .
-	shallow = true
-[submodule "docs/submodules/prediction"]
-	path = docs/submodules/prediction
-	url = https://gerrit.opnfv.org/gerrit/prediction
 	branch = .
 	shallow = true
 [submodule "docs/submodules/promise"]
@@ -203,14 +168,6 @@
 	url = https://gerrit.opnfv.org/gerrit/availability
 	branch = .
 	shallow = true
-[submodule "docs/submodules/dovetail"]
-	path = docs/submodules/dovetail
-	url = https://gerrit.opnfv.org/gerrit/dovetail
-	branch = .
-	shallow = true
-[submodule "docs/submodules/ovno"]
-	path = docs/submodules/ovno
-	url = https://gerrit.opnfv.org/gerrit/ovno
 	branch = .
 	shallow = true
 [submodule "docs/submodules/snaps"]
