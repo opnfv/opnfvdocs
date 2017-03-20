@@ -1,7 +1,7 @@
 
-================================
-How to work with Documentation
-================================
+===================
+Documentation Guide
+===================
 
 .. toctree::
    :maxdepth: 2
