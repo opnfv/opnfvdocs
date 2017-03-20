@@ -233,3 +233,8 @@
 	url = https://gerrit.opnfv.org/gerrit/openretriever
 	branch = .
 	shallow = true
+[submodule "docs/submodules/moon"]
+	path = docs/submodules/moon
+	url = https://gerrit.opnfv.org/gerrit/moon
+	branch = .
+	shallow = true
