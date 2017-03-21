@@ -30,11 +30,8 @@ Testing Documentation
    :maxdepth: 1
 
    testing/ecosystem/index
-   submodules/functest/docs/testing/user/index
-   submodules/bottlenecks/docs/testing/user/index
-   submodules/yardstick/docs/testing/user/index
-   submodules/vswitchperf/docs/testing/user/index
-   submodules/storperf/docs/testing/user/index
+   testing/testing-user
+   testing/testing-dev
 
 
 Development Documentation
