@@ -29,7 +29,7 @@ Yardstick
    ../submodules/yardstick/docs/testing/developer/devguide/index
 
 
-Qtip
+QTIP
 -----
 .. toctree::
    :maxdepth: 1
