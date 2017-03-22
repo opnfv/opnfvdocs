@@ -141,9 +141,9 @@ Promise
 --------
 :ref:`Promise Release Notes <promise-releasenotes>`
 
-Qtip
+QTIP
 -----
-:ref:`Qtip Release Notes <qtip-releasenotes>`
+:ref:`QTIP Release Notes <qtip-releasenotes>`
 
 Releng
 -------
