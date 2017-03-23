@@ -98,20 +98,6 @@ KVM for NFV
    ../submodules/kvmfornfv/docs/development/requirements/index
 
 
-Moon
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/moon/docs/release/configguide/index
-   ../submodules/moon/docs/release/installation/index
-   ../submodules/moon/docs/release/userguide/index
-   ../submodules/moon/docs/development/design/index
-   ../submodules/moon/docs/development/manuals/index
-   ../submodules/moon/docs/development/overview/index
-   ../submodules/moon/docs/development/requirements/index
-
-
 Multisite
 ----------
 .. toctree::
@@ -184,6 +170,20 @@ Pharos
 
    ../submodules/pharos/docs/platformoverview/index
    ../submodules/pharos/docs/specification/index
+
+
+Promice
+--------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/promice/docs/release/configguide/index
+   ../submodules/promice/docs/release/installation/index
+   ../submodules/promice/docs/release/userguide/index
+   ../submodules/promice/docs/development/design/index
+   ../submodules/promice/docs/development/manuals/index
+   ../submodules/promice/docs/development/overview/index
+   ../submodules/promice/docs/development/requirements/index
 
 
 SDNVPN
