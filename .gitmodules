@@ -1,185 +1,185 @@
 [submodule "docs/submodules/apex"]
 	path = docs/submodules/apex
-	url = https://gerrit.opnfv.org/gerrit/apex
+	url = ../apex
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/armband"]
 	path = docs/submodules/armband
-	url = https://gerrit.opnfv.org/gerrit/armband
+	url = ../armband
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/bottlenecks"]
 	path = docs/submodules/bottlenecks
-	url = https://gerrit.opnfv.org/gerrit/bottlenecks
+	url = ../bottlenecks
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/compass4nfv"]
 	path = docs/submodules/compass4nfv
-	url = https://gerrit.opnfv.org/gerrit/compass4nfv
+	url = ../compass4nfv
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/copper"]
 	path = docs/submodules/copper
-	url = https://gerrit.opnfv.org/gerrit/copper
+	url = ../copper
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/daisy"]
 	path = docs/submodules/daisy
-	url = https://gerrit.opnfv.org/gerrit/daisy
+	url = ../daisy
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/domino"]
 	path = docs/submodules/domino
-	url = https://gerrit.opnfv.org/gerrit/domino
+	url = ../domino
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/escalator"]
 	path = docs/submodules/escalator
-	url = https://gerrit.opnfv.org/gerrit/escalator
+	url = ../escalator
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/fastpathmetrics"]
 	path = docs/submodules/fastpathmetrics
-	url = https://gerrit.opnfv.org/gerrit/fastpathmetrics
+	url = ../fastpathmetrics
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
-	url = https://gerrit.opnfv.org/gerrit/fds
+	url = ../fds
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/fuel"]
 	path = docs/submodules/fuel
-	url = https://gerrit.opnfv.org/gerrit/fuel
+	url = ../fuel
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/functest"]
 	path = docs/submodules/functest
-	url = https://gerrit.opnfv.org/gerrit/functest
+	url = ../functest
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ipv6"]
 	path = docs/submodules/ipv6
-	url = https://gerrit.opnfv.org/gerrit/ipv6
+	url = ../ipv6
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/joid"]
 	path = docs/submodules/joid
-	url = https://gerrit.opnfv.org/gerrit/joid
+	url = ../joid
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/kvmfornfv"]
 	path = docs/submodules/kvmfornfv
-	url = https://gerrit.opnfv.org/gerrit/kvmfornfv
+	url = ../kvmfornfv
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/multisite"]
 	path = docs/submodules/multisite
-	url = https://gerrit.opnfv.org/gerrit/multisite
+	url = ../multisite
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/netready"]
 	path = docs/submodules/netready
-	url = https://gerrit.opnfv.org/gerrit/netready
+	url = ../netready
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/octopus"]
 	path = docs/submodules/octopus
-	url = https://gerrit.opnfv.org/gerrit/octopus
+	url = ../octopus
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/onosfw"]
 	path = docs/submodules/onosfw
-	url = https://gerrit.opnfv.org/gerrit/onosfw
+	url = ../onosfw
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ovsnfv"]
 	path = docs/submodules/ovsnfv
-	url = https://gerrit.opnfv.org/gerrit/ovsnfv
+	url = ../ovsnfv
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/parser"]
 	path = docs/submodules/parser
-	url = https://gerrit.opnfv.org/gerrit/parser
+	url = ../parser
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/pharos"]
 	path = docs/submodules/pharos
-	url = https://gerrit.opnfv.org/gerrit/pharos
+	url = ../pharos
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/promise"]
 	path = docs/submodules/promise
-	url = https://gerrit.opnfv.org/gerrit/promise
+	url = ../promise
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/qtip"]
 	path = docs/submodules/qtip
-	url = https://gerrit.opnfv.org/gerrit/qtip
+	url = ../qtip
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/releng"]
 	path = docs/submodules/releng
-	url = https://gerrit.opnfv.org/gerrit/releng
-	branch = .
+	url = ../releng
+	branch = master
 	ignore = dirty
 [submodule "docs/submodules/sdnvpn"]
 	path = docs/submodules/sdnvpn
-	url = https://gerrit.opnfv.org/gerrit/sdnvpn
+	url = ../sdnvpn
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sfc"]
 	path = docs/submodules/sfc
-	url = https://gerrit.opnfv.org/gerrit/sfc
+	url = ../sfc
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/storperf"]
 	path = docs/submodules/storperf
-	url = https://gerrit.opnfv.org/gerrit/storperf
+	url = ../storperf
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ves"]
 	path = docs/submodules/ves
-	url = https://gerrit.opnfv.org/gerrit/ves
+	url = ../ves
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnf_forwarding_graph"]
 	path = docs/submodules/vnf_forwarding_graph
-	url = https://gerrit.opnfv.org/gerrit/vnf_forwarding_graph
+	url = ../vnf_forwarding_graph
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vswitchperf"]
 	path = docs/submodules/vswitchperf
-	url = https://gerrit.opnfv.org/gerrit/vswitchperf
+	url = ../vswitchperf
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/yardstick"]
 	path = docs/submodules/yardstick
-	url = https://gerrit.opnfv.org/gerrit/yardstick
+	url = ../yardstick
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/doctor"]
 	path = docs/submodules/doctor
-	url = https://gerrit.opnfv.org/gerrit/doctor
+	url = ../doctor
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/availability"]
 	path = docs/submodules/availability
-	url = https://gerrit.opnfv.org/gerrit/availability
+	url = ../availability
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/opera"]
 	path = docs/submodules/opera
-	url = https://gerrit.opnfv.org/gerrit/opera
+	url = ../opera
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/snaps"]
 	path = docs/submodules/snaps
-	url = https://gerrit.opnfv.org/gerrit/snaps
+	url = ../snaps
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/barometer"]
 	path = docs/submodules/barometer
-	url = https://gerrit.opnfv.org/gerrit/barometer
+	url = ../barometer
 	branch = .
 	ignore = dirty
