@@ -39,3 +39,13 @@ QTIP
 
    ../submodules/qtip/docs/testing/user/userguide/index
    ../submodules/qtip/docs/testing/user/configguide/index
+
+
+VSPERF
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/vswitchperf/docs/testing/user/configguide/index
+   ../submodules/vswitchperf/docs/testing/user/userguide/index

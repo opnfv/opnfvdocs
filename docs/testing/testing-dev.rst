@@ -35,3 +35,11 @@ QTIP
    :maxdepth: 1
 
    ../submodules/qtip/docs/testing/developer/devguide/index
+
+
+VSPERF
+-------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/qtip/docs/testing/developer/index
