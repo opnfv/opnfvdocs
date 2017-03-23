@@ -1,5 +1,5 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
+.. SPDX-License-Identifier: CC-BY-4.0
 
 =============
 OPNFV testing
@@ -20,8 +20,8 @@ KPIs for the scenarios released in OPNFV.
 Feature projects also provide their own test suites that either run independently or within a
 test project.
 
-This document details the OPNFV testing ecosystem, describes test commonality used
-by the projects and provides links to project specific documentation.
+This document details the OPNFV testing ecosystem, describes common test components used
+by individual OPNFV projects and provides links to project specific documentation.
 
 
 OPNFV testing ecosystem
@@ -69,7 +69,7 @@ The major testing projects are described in the table below:
 +----------------+---------------------------------------------------------+
 | Functest       | This project deals with the functional testing of the   |
 |                | VIM and NFVI. It leverages several upstream test suites |
-|                | (OpenStack, ODL, ONOS,..) and can be used by feature    |
+|                | (OpenStack, ODL, ONOS, etc.) and can be used by feature |
 |                | project to launch feature test suites in CI/CD.         |
 |                | The project is used for scenario validation.            |
 +----------------+---------------------------------------------------------+
@@ -91,7 +91,7 @@ The major testing projects are described in the table below:
 | VSperf         | This project provides a framework for automation of NFV |
 |                | data-plane performance testing and benchmarking. The    |
 |                | NFVI fast-path includes switch technology and network   |
-|                | with physical and virtual interfaces. Vsperf can be     |
+|                | with physical and virtual interfaces. VSperf can be     |
 |                | used to evaluate the suitability of different Switch    |
 |                | implementations and features, quantify data-path        |
 |                | performance and optimize platform configurations.       |
@@ -152,7 +152,7 @@ The Test result management can be summarized as follows::
 
 The testing databases
 ---------------------
-A Mongo DB Database has been introduced in Brahmaputra.
+A Mongo DB Database has been introduced for the Brahmaputra release.
 The following collections are declared in this database:
  * pods: the list of pods used for production CI
  * projects: the list of projects providing test cases
@@ -164,7 +164,7 @@ This database can be used by any project through the testapi.
 Please note that projects may also use additional databases. This database is
 mainly use to colelct CI results and scenario trust indicators.
 
-This database is cloned for plugfest.
+This database is also cloned for OPNFV Plugfest.
 
 
 The test API
@@ -176,7 +176,7 @@ cases. If you try to push results of test done on non referenced pod,
 the API will return an error message.
 
 An additional method dashboard has been added to post-process
-the raw results in release Brahmaputra (deprecated in Colorado).
+the raw results in the Brahmaputra release (deprecated in Colorado release).
 
 The data model is very basic, 4 objects are created:
 
@@ -274,7 +274,7 @@ the database.
 
 The reporting
 -------------
-Until Colorado, each testing project was reporting a status on a dedicated page.
+Until the Colorado release, each testing project was reporting a status on a dedicated page.
 It was decided to unify the reporting by creating a landing page that should give
 the scenario status in one glance (it was previously consolidated manually
 on a wiki page). The landing page will be display per scenario:
@@ -290,7 +290,7 @@ This landing page has been dockerized. The back end relies on the testing DB.
 
 The test case catalog
 ----------------------
-Until Colorado, each testing project was managing the list of its test cases. It
+Until the Colorado release, each testing project was managing the list of its test cases. It
 was very hard to have a global view of the available test cases among the
 different test projects. A common view was possible through the API but it was
 not very user friendly.
