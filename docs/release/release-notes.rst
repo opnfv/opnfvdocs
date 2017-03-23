@@ -169,9 +169,9 @@ Vnf_Forwarding_Graph
 -------------------
 :ref:`Vnf_Forwarding_Graph Release Notes <vnf_forwarding_graph-releasenotes>`
 
-Vswitchperf
+VSPERF
 ------------
-:ref:`Vswitchperf Release Notes <vswitchperf-releasenotes>`
+:ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
 
 Yardstick
 ----------
