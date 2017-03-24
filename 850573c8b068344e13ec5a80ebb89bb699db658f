@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_a9f33d09",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-03-24T08:52:17Z",
+      "side": 1,
+      "message": "typo: Promise",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 175,
+        "endChar": 7
+      },
+      "revId": "850573c8b068344e13ec5a80ebb89bb699db658f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_c9f8f1e7",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-03-24T08:52:17Z",
+      "side": 1,
+      "message": "typo: promise   for each line below",
+      "range": {
+        "startLine": 180,
+        "startChar": 17,
+        "endLine": 180,
+        "endChar": 24
+      },
+      "revId": "850573c8b068344e13ec5a80ebb89bb699db658f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_69dd4570",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-03-24T08:52:17Z",
+      "side": 1,
+      "message": "does not exist for Promise as it is part of the configguide",
+      "range": {
+        "startLine": 181,
+        "startChar": 38,
+        "endLine": 181,
+        "endChar": 56
+      },
+      "revId": "850573c8b068344e13ec5a80ebb89bb699db658f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_89daf976",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-03-24T08:52:17Z",
+      "side": 1,
+      "message": "does not exist for Promise project",
+      "range": {
+        "startLine": 183,
+        "startChar": 3,
+        "endLine": 185,
+        "endChar": 56
+      },
+      "revId": "850573c8b068344e13ec5a80ebb89bb699db658f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
