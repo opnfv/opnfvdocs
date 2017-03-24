@@ -139,6 +139,30 @@
       "revId": "850573c8b068344e13ec5a80ebb89bb699db658f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_c946b123",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-03-24T09:01:04Z",
+      "side": 1,
+      "message": "Wouldn\u0027t that cause a lot of errors in the build script that may distract from other real errors/warnings?\nOkay for me to keep it if this is the agreed way in opnfvdocs.",
+      "parentUuid": "9ab8dda7_a9ca5d9f",
+      "range": {
+        "startLine": 183,
+        "startChar": 3,
+        "endLine": 185,
+        "endChar": 56
+      },
+      "revId": "850573c8b068344e13ec5a80ebb89bb699db658f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
