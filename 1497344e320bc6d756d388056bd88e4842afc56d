@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_49bba10e",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-24T08:57:32Z",
+      "side": 1,
+      "message": "is this correct?",
+      "range": {
+        "startLine": 45,
+        "startChar": 17,
+        "endLine": 45,
+        "endChar": 21
+      },
+      "revId": "1497344e320bc6d756d388056bd88e4842afc56d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
