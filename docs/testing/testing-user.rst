@@ -10,8 +10,8 @@ Functest
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/functest/docs/testing/user/userguide/index
    ../submodules/functest/docs/testing/user/configguide/index
+   ../submodules/functest/docs/testing/user/userguide/index
 
 
 Bottlenecks
@@ -19,8 +19,8 @@ Bottlenecks
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/bottlenecks/docs/testing/user/userguide/index
    ../submodules/bottlenecks/docs/testing/user/configguide/index
+   ../submodules/bottlenecks/docs/testing/user/userguide/index
 
 
 Yardstick
@@ -28,8 +28,8 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/user/userguide/index
    ../submodules/yardstick/docs/testing/user/configguide/index
+   ../submodules/yardstick/docs/testing/user/userguide/index
 
 
 QTIP
@@ -37,8 +37,8 @@ QTIP
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/qtip/docs/testing/user/userguide/index
    ../submodules/qtip/docs/testing/user/configguide/index
+   ../submodules/qtip/docs/testing/user/userguide/index
 
 
 VSPERF
