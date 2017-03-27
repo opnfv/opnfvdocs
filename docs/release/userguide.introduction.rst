@@ -61,10 +61,8 @@ Feature Configuration Guides
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
-- :ref:`Moon Configuration Guide <moon-configguide>`
 - :ref:`Multisite Configuration Guide <multisite-configguide>`
 - :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
-- :ref:`OVSNFV Configuration Guide <ovsnfv-configguide>`
 - :ref:`Promise Configuration Guide <promise-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 
@@ -77,10 +75,8 @@ Feature User Guides
 - :ref:`Domino User Guide <domino-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`KVMforNFV User Guide <kvmfornfv-userguide>`
-- :ref:`Moon User Guide <moon-userguide>`
 - :ref:`Multisite User Guide <multisite-userguide>`
 - :ref:`ONOSFW User Guide <onosfw-userguide>`
-- :ref:`OVSNFV User Guide <ovsnfv-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`Promise User Guide <promise-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
