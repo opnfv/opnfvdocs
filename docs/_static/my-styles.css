@@ -18,3 +18,11 @@ body{
 .navbar-text{
 	color: #676767;
 }
+
+.navbar-form.navbar-right{
+	padding: 0;
+}
+
+.navbar-form .form-control{
+	width: 150px;
+}
