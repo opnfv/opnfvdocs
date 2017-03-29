@@ -21,14 +21,6 @@ Bottlenecks
    ../submodules/bottlenecks/docs/testing/developer/devguide/index
 
 
-Yardstick
-----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/yardstick/docs/testing/developer/devguide/index
-
-
 QTIP
 -----
 .. toctree::
