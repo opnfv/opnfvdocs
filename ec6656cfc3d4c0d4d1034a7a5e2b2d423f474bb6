@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_557a4689",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-03-29T13:31:11Z",
+      "side": 1,
+      "message": "Do we have an official name...\nAccording to the wiki, it is Testing Working Group\n\nhere is it just an image link...but I will ix it",
+      "parentUuid": "9ab8dda7_765bd554",
+      "range": {
+        "startLine": 35,
+        "startChar": 25,
+        "endLine": 35,
+        "endChar": 44
+      },
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_36a79d51",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2017-03-29T08:27:38Z",
       "side": 1,
       "message": "\"Pods\" are the \"Pods\" :)\n\nMaybe, \"Pods are the physical nodes to....\"",
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_b56862bb",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-03-29T13:31:11Z",
+      "side": 1,
+      "message": "rephrasing done \n\"Pods correspond to the cluster of machines (3 controller and 2 compute nodes in\nHA mode) used to run the tests and defined in Pharos project.\"",
+      "parentUuid": "9ab8dda7_36a79d51",
       "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -59,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_d565d6e1",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-03-29T13:31:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab8dda7_f64fc590",
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_96444975",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 1
@@ -70,6 +130,24 @@
       "writtenOn": "2017-03-29T08:27:38Z",
       "side": 1,
       "message": "UK: catalogue\nUS: catalog",
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_7562ead9",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-03-29T13:31:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab8dda7_96444975",
       "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
