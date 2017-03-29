@@ -33,6 +33,11 @@
 	url = ../domino
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/dovetail"]
+        path = docs/submodules/dovetail
+        url = ../dovetail
+        branch = .
+        ignore = dirty
 [submodule "docs/submodules/escalator"]
 	path = docs/submodules/escalator
 	url = ../escalator
