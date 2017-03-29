@@ -122,7 +122,6 @@
 	path = docs/submodules/releng
 	url = ../releng
 	branch = master
-	ignore = dirty
 [submodule "docs/submodules/sdnvpn"]
 	path = docs/submodules/sdnvpn
 	url = ../sdnvpn
