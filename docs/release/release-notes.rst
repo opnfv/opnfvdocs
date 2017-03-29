@@ -14,12 +14,29 @@ Project release notes:
 
 :ref:`Apex Release Notes <apex-releasenotes>`
 
+<<<<<<< HEAD
+Armband
+--------
+:ref:`Armband Release Notes <armband-release-notes-label>`
+
+Bottlenecks
+------------
+=======
 :ref:`Armband Release Notes <armband-releasenotes>`
 
+>>>>>>> 6e335429dd2de4b431cd36d2d64967ab0b32090e
 :ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
 
 :ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
 
+<<<<<<< HEAD
+Copper
+-------
+:ref:`Copper Release Notes <copper-releasenotes>`
+
+Fuel
+-----
+=======
 :ref:`Conductor Release Notes <conductor-releasenotes>`
 
 :ref:`Copper Release Notes <copper-releasenotes>`
@@ -42,20 +59,34 @@ Project release notes:
 
 :ref:`Fds Release Notes <fds-releasenotes>`
 
+>>>>>>> 6e335429dd2de4b431cd36d2d64967ab0b32090e
 :ref:`Fuel Release Notes <fuel-releasenotes>`
 
 :ref:`Functest Release Notes <functest-releasenotes>`
 
+<<<<<<< HEAD
+Ipv6
+----
+=======
 :ref:`Genesisreq Release Notes <genesisreq-releasenotes>`
 
 :ref:`Inspector Release Notes <inspector-releasenotes>`
 
+>>>>>>> 6e335429dd2de4b431cd36d2d64967ab0b32090e
 :ref:`Ipv6 Release Notes <ipv6-releasenotes>`
 
 :ref:`Joid Release Notes <joid-releasenotes>`
 
 :ref:`Kvmfornfv Release Notes <kvmfornfv-releasenotes>`
 
+<<<<<<< HEAD
+Netready
+---------
+:ref:`Netready Release Notes <netready-releasenotes>`
+
+Ovsnfv
+-------
+=======
 :ref:`Lsoapi Release Notes <lsoapi-releasenotes>`
 
 :ref:`Moon Release Notes <moon-releasenotes>`
@@ -68,10 +99,28 @@ Project release notes:
 
 :ref:`Onosfw Release Notes <onosfw-releasenotes>`
 
+>>>>>>> 6e335429dd2de4b431cd36d2d64967ab0b32090e
 :ref:`Ovsnfv Release Notes <ovsnfv-releasenotes>`
 
 :ref:`Parser Release Notes <parser-releasenotes>`
 
+<<<<<<< HEAD
+QTIP
+-----
+:ref:`QTIP Release Notes <qtip-releasenotes>`
+
+Sfc
+----
+:ref:`Sfc Release Notes <sfc-releasenotes>`
+
+Ves
+----
+:ref:`Ves Release Notes <ves-releasenotes>`
+
+VSPERF
+-------
+:ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
+=======
 :ref:`Pharos Release Notes <pharos-releasenotes>`
 
 :ref:`Prediction Release Notes <prediction-releasenotes>`
@@ -99,3 +148,4 @@ Project release notes:
 :ref:`Ovno Release Notes <ovno-releasenotes>`
 
 :ref:`Snaps Release Notes <snaps-releasenotes>`
+>>>>>>> 6e335429dd2de4b431cd36d2d64967ab0b32090e
