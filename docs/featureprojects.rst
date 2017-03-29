@@ -440,7 +440,6 @@ Snaps
 .. toctree::
    :maxdepth: 1
 
-<<<<<<< HEAD
    ../submodules/snaps/docs/development/overview/index
    ../submodules/snaps/docs/development/requirements/index
    ../submodules/snaps/docs/release/installation/index
@@ -520,8 +519,3 @@ Yardstick
    ../submodules/yardstick/docs/development/manuals/index
 
 
-=======
-   ../submodules/sfc/docs/userguide/index
-   ../submodules/sfc/docs/releasenotes/index
-   ../submodules/sfc/docs/installationprocedure/index
->>>>>>> 88a5b11... Add git submodule for openretriever
