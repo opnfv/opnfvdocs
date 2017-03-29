@@ -276,8 +276,10 @@ Some of the projects focused on these testing areas include:
 VSPERF
 ------
 
-VSPERF provides a generic and architecture agnostic vSwitch testing framework and associated tests.
-This serves as a basis for validating the suitability of different vSwitch implementations and deployments.
+VSPERF provides an automated test-framework and comprehensive test suite for measuring data-plane
+performance of the NFVI including switching technology, physical and virtual network interfaces.
+The provided test cases with network topologies can be customized while also allowing individual
+versions of Operating System, vSwitch and hypervisor to be specified.
 
 -----------
 Bottlenecks
