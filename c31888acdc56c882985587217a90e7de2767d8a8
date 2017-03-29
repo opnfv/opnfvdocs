@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_d5dab677",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-29T13:43:57Z",
+      "side": 1,
+      "message": "Please leave all paricipating projects listed. Something might show up since deadline is tomorrow.",
+      "revId": "c31888acdc56c882985587217a90e7de2767d8a8",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
