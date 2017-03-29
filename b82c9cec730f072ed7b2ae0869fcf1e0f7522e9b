@@ -22,6 +22,40 @@
       "revId": "b82c9cec730f072ed7b2ae0869fcf1e0f7522e9b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_f56d7a05",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-29T15:56:28Z",
+      "side": 1,
+      "message": "Netready needs to be added http://docs.opnfv.org/en/stable-danube/submodules/netready/docs/release/configguide/index.html\nParser needs to be added http://docs.opnfv.org/en/stable-danube/submodules/parser/docs/release/configguide/index.html\nSDNVPN needs to be added http://docs.opnfv.org/en/stable-danube/submodules/sdnvpn/docs/release/configguide/index.html",
+      "revId": "b82c9cec730f072ed7b2ae0869fcf1e0f7522e9b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_b57702d4",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-29T15:56:28Z",
+      "side": 1,
+      "message": "Netready user guide http://docs.opnfv.org/en/stable-danube/submodules/netready/docs/release/userguide/index.html",
+      "revId": "b82c9cec730f072ed7b2ae0869fcf1e0f7522e9b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
