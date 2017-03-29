@@ -2,191 +2,189 @@
 	path = docs/submodules/apex
 	url = https://gerrit.opnfv.org/gerrit/apex
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/armband"]
 	path = docs/submodules/armband
 	url = https://gerrit.opnfv.org/gerrit/armband
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/bottlenecks"]
 	path = docs/submodules/bottlenecks
 	url = https://gerrit.opnfv.org/gerrit/bottlenecks
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/compass4nfv"]
 	path = docs/submodules/compass4nfv
 	url = https://gerrit.opnfv.org/gerrit/compass4nfv
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/copper"]
 	path = docs/submodules/copper
 	url = https://gerrit.opnfv.org/gerrit/copper
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/daisy"]
 	path = docs/submodules/daisy
 	url = https://gerrit.opnfv.org/gerrit/daisy
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/domino"]
 	path = docs/submodules/domino
 	url = https://gerrit.opnfv.org/gerrit/domino
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/escalator"]
 	path = docs/submodules/escalator
 	url = https://gerrit.opnfv.org/gerrit/escalator
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/fastpathmetrics"]
 	path = docs/submodules/fastpathmetrics
 	url = https://gerrit.opnfv.org/gerrit/fastpathmetrics
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
 	url = https://gerrit.opnfv.org/gerrit/fds
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/fuel"]
 	path = docs/submodules/fuel
 	url = https://gerrit.opnfv.org/gerrit/fuel
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/functest"]
 	path = docs/submodules/functest
 	url = https://gerrit.opnfv.org/gerrit/functest
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/ipv6"]
 	path = docs/submodules/ipv6
 	url = https://gerrit.opnfv.org/gerrit/ipv6
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/joid"]
 	path = docs/submodules/joid
 	url = https://gerrit.opnfv.org/gerrit/joid
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/kvmfornfv"]
 	path = docs/submodules/kvmfornfv
 	url = https://gerrit.opnfv.org/gerrit/kvmfornfv
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/multisite"]
 	path = docs/submodules/multisite
 	url = https://gerrit.opnfv.org/gerrit/multisite
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/netready"]
 	path = docs/submodules/netready
 	url = https://gerrit.opnfv.org/gerrit/netready
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/octopus"]
 	path = docs/submodules/octopus
 	url = https://gerrit.opnfv.org/gerrit/octopus
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/onosfw"]
 	path = docs/submodules/onosfw
 	url = https://gerrit.opnfv.org/gerrit/onosfw
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/ovsnfv"]
 	path = docs/submodules/ovsnfv
 	url = https://gerrit.opnfv.org/gerrit/ovsnfv
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/parser"]
 	path = docs/submodules/parser
 	url = https://gerrit.opnfv.org/gerrit/parser
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/pharos"]
 	path = docs/submodules/pharos
 	url = https://gerrit.opnfv.org/gerrit/pharos
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/promise"]
 	path = docs/submodules/promise
 	url = https://gerrit.opnfv.org/gerrit/promise
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/qtip"]
 	path = docs/submodules/qtip
 	url = https://gerrit.opnfv.org/gerrit/qtip
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/releng"]
 	path = docs/submodules/releng
 	url = https://gerrit.opnfv.org/gerrit/releng
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/sdnvpn"]
 	path = docs/submodules/sdnvpn
 	url = https://gerrit.opnfv.org/gerrit/sdnvpn
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/sfc"]
 	path = docs/submodules/sfc
 	url = https://gerrit.opnfv.org/gerrit/sfc
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/storperf"]
 	path = docs/submodules/storperf
 	url = https://gerrit.opnfv.org/gerrit/storperf
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/ves"]
 	path = docs/submodules/ves
 	url = https://gerrit.opnfv.org/gerrit/ves
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/vnf_forwarding_graph"]
 	path = docs/submodules/vnf_forwarding_graph
 	url = https://gerrit.opnfv.org/gerrit/vnf_forwarding_graph
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/vswitchperf"]
 	path = docs/submodules/vswitchperf
 	url = https://gerrit.opnfv.org/gerrit/vswitchperf
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/yardstick"]
 	path = docs/submodules/yardstick
 	url = https://gerrit.opnfv.org/gerrit/yardstick
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/doctor"]
 	path = docs/submodules/doctor
 	url = https://gerrit.opnfv.org/gerrit/doctor
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/availability"]
 	path = docs/submodules/availability
 	url = https://gerrit.opnfv.org/gerrit/availability
 	branch = .
-	shallow = true
-	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/opera"]
 	path = docs/submodules/opera
 	url = https://gerrit.opnfv.org/gerrit/opera
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/snaps"]
 	path = docs/submodules/snaps
 	url = https://gerrit.opnfv.org/gerrit/snaps
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/barometer"]
 	path = docs/submodules/barometer
 	url = https://gerrit.opnfv.org/gerrit/barometer
 	branch = .
-	shallow = true
+	ignore = dirty
 [submodule "docs/submodules/openretriever"]
 	path = docs/submodules/openretriever
 	url = https://gerrit.opnfv.org/gerrit/openretriever
 	branch = .
-	shallow = true
+	ignore = dirty
