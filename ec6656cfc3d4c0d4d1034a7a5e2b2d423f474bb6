@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_36a79d51",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-03-29T08:27:38Z",
+      "side": 1,
+      "message": "\"Pods\" are the \"Pods\" :)\n\nMaybe, \"Pods are the physical nodes to....\"",
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_f64fc590",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-03-29T08:27:38Z",
+      "side": 1,
+      "message": "version --\u003e OPNFV release",
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_96444975",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-03-29T08:27:38Z",
+      "side": 1,
+      "message": "UK: catalogue\nUS: catalog",
+      "revId": "ec6656cfc3d4c0d4d1034a7a5e2b2d423f474bb6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
