@@ -9,11 +9,11 @@ OPNFV User Guide & Configuration Guide
 Abstract
 ========
 
-OPNFV is a collaborative project aimed at providing a variety of virtualization
+OPNFV is a collaborative project aimed at providing a variety of virtualisation
 deployments intended to host applications serving the networking and carrier
 industries. This document provides guidance and instructions for using platform
 features designed to support these applications, made available in the OPNFV
-Colorado release.
+Danube release.
 
 This document is not intended to replace or replicate documentation from other
 upstream open source projects such as KVM, OpenDaylight, or OpenStack, but to highlight the
@@ -24,7 +24,7 @@ Introduction
 ============
 
 OPNFV provides a suite of scenarios, infrastructure deployment options, which
-are able to be installed to host virtualized network functions (VNFs).
+are able to be installed to host virtualised network functions (VNFs).
 This Guide intends to help users of the platform leverage the features and
 capabilities delivered by the OPNFV project.
 
@@ -40,7 +40,7 @@ Feature Overview
 ================
 
 The following links outline the feature deliverables from participating OPNFV
-projects in the Colorado release. Each of the participating projects provides
+projects in the Danube release. Each of the participating projects provides
 detailed descriptions about the delivered features including use cases,
 implementation and configuration specifics.
 
