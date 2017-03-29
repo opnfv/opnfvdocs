@@ -25,6 +25,52 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_b55e2244",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-29T16:00:28Z",
+      "side": 1,
+      "message": "OPNFV",
+      "range": {
+        "startLine": 89,
+        "startChar": 72,
+        "endLine": 89,
+        "endChar": 77
+      },
+      "revId": "b82c9cec730f072ed7b2ae0869fcf1e0f7522e9b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_75818a8e",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-29T16:00:28Z",
+      "side": 1,
+      "message": "maybe I\u0027m reading it wrong? OPNFV participating projects?",
+      "range": {
+        "startLine": 8,
+        "startChar": 33,
+        "endLine": 8,
+        "endChar": 62
+      },
+      "revId": "b82c9cec730f072ed7b2ae0869fcf1e0f7522e9b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_f56d7a05",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 4
