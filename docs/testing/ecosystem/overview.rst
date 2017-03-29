@@ -322,9 +322,9 @@ Reference documentation
 +================+=========================================================+
 |  Bottlenecks   | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
 +----------------+---------------------------------------------------------+
-| CPerf          | https://wiki.opnfv.org/display/meetings/CPerf           |
+| CPerf          | https://wiki.opnfv.org/display/cperf                    |
 +----------------+---------------------------------------------------------+
-| Dovetail       | https://wiki.opnfv.org/display/dovetail/Dovetail        |
+| Dovetail       | https://wiki.opnfv.org/display/dovetail                 |
 +----------------+---------------------------------------------------------+
 | Functest       | https://wiki.opnfv.org/display/functest/                |
 +----------------+---------------------------------------------------------+
@@ -332,7 +332,7 @@ Reference documentation
 +----------------+---------------------------------------------------------+
 | Storperf       | https://wiki.opnfv.org/display/storperf/Storperf        |
 +----------------+---------------------------------------------------------+
-| VSperf         | https://wiki.opnfv.org/display/vsperf/VSperf            |
+| VSperf         | https://wiki.opnfv.org/display/vsperf                   |
 +----------------+---------------------------------------------------------+
 | Yardstick      | https://wiki.opnfv.org/display/yardstick/Yardstick      |
 +----------------+---------------------------------------------------------+
