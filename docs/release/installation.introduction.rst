@@ -73,15 +73,7 @@ The basic deployment validation only addresses a small part of capabilities prov
 the platform and you may want to execute more exhaustive tests.  Some investigation will be required to
 select the right test suites to run on your platform.
 
-Many of the OPNFV test project provide user-guide documentation and installation instructions as listed below:
-
-- :ref:`Functest user guide <functest-userguide>`
-- :ref:`Yardstick user guide <yardstick-userguidde>`
-- :ref:`vSwitchPerf user guide <vswitchperf-userguide>`
-- :ref:`Software Fastpath Service Quality Metrics (SFQM) user guide <fastpathmetrics-userguide>`
-- :ref:`Bottlenecks user guide <bottlenecks-userguide>`
-- :ref:`Storage Performance Benchmarking for NFVI (StorPerf) user guide <storperf-userguide>`
-
+Many of the OPNFV test project provide user-guide documentation and installation instructions in :ref:`this document <testing-userguide>`
 
 Security Notes
 ==============
