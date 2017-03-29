@@ -30,9 +30,9 @@ OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised In
 Management (VIM) by integrating components from upstream projects such as OpenDaylight,
 OpenStack, Ceph Storage, KVM, Open vSwitch, and Linux.
 More recently, OPNFV has extended its portfolio of forwarding solutions to include fd.io and ODP,
-is able to run on both Intel and ARM commercial and white-box hardware, and includes
-Management and Network Orchestration MANO components primarily for application composition
-and management in the Colorado release.
+is able to run on both Intel and ARM commercial and white-box hardware, support VM, Container and
+BareMetal workloads, and includes Management and Network Orchestration MANO components primarily
+for application composition and management in the Danube release.
 
 These capabilities, along with application programmable interfaces (APIs) to other NFV
 elements, form the basic infrastructure required for Virtualized Network Functions (VNF)
@@ -71,7 +71,8 @@ OPNFV Lab Infrastructure
 The infrastructure working group oversees such topics as lab management, workflow,
 definitions, metrics and tools for OPNFV infrastructure.
 
-Fundamental to the WG is the `Pharos Project <https://www.opnfv.org/developers/pharos>`_
+Fundamental to the WG is the
+`Pharos Specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_
 which provides a set of defined lab infrastructures over a geographically and technically
 diverse federated global OPNFV lab.
 
@@ -111,8 +112,7 @@ an NFV domain, the OPNFV community consumes a sub-set of OpenStack projects wher
 composition may vary depending on the installer and scenario.
 
 For details on the scenarios available in OPNFV and the specific composition of components
-refer to the OPNFV installation instruction:
-http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/installationprocedure/index.html
+refer to the `OPNFV User Guide & Configuration Guide`_
 
 -----------------
 Operating Systems
@@ -168,7 +168,7 @@ A typical OPNFV deployment starts with three controller nodes running in a high 
 configuration including control plane components from OpenStack, SDN, etc. and a minimum
 of two compute nodes for deployment of workloads (VNFs).
 A detailed description of the hardware requirements required to support the 5 node configuration
-can be found in pharos specification: http://artifacts.opnfv.org/pharos/colorado/2.0/docs/specification/index.html
+can be found in pharos specification: `Pharos Project <https://www.opnfv.org/developers/pharos>`_
 
 In addition to the deployment on a highly available physical infrastructure, OPNFV can be
 deployed for development and lab purposes in a virtual environment.  In this case each of the hosts
@@ -194,7 +194,7 @@ systems, real time and automated analysis of results, storage and publication of
 each run as shown in the following diagram.
 
 .. image:: ../images/OPNFV_testing_group.png
-  :alt: Overview infographic of the Colorado OPNFV testing Ecosystem
+  :alt: Overview infographic of the OPNFV testing Ecosystem
 
 Release Verification
 ====================
@@ -257,7 +257,7 @@ OPNFV ecosystem.
 The Dovetail project will provide a test framework and methodology able to be used on any NFV platform,
 including an agreed set of test cases establishing an evaluation criteria for exercising
 an OPNFV compatible system. The Dovetail project has begun establishing the test framework
-and will provide a preliminary methodology for the Colorado release. Work will continue to
+and will provide a preliminary methodology for the Danube release. Work will continue to
 develop these test cases to establish a stand alone compliance evaluation solution
 in future releases.
 
@@ -289,6 +289,6 @@ Bottlenecks provides a framework to find system limitations and bottlenecks, pro
 root cause isolation capabilities to facilitate system evaluation.
 
 
-.. _`OPNFV Configuration Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/configguide
-.. _`OPNFV User Guide`: http://artifacts.opnfv.org/opnfvdocs/colorado/2.0/docs/userguide
+.. _`OPNFV Configuration Guide`: `OPNFV User Guide & Configuration Guide`
+.. _`OPNFV User Guide`: `OPNFV User Guide & Configuration Guide`
 .. _`Dovetail project`: https://wiki.opnfv.org/display/dovetail
