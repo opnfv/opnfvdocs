@@ -52,7 +52,11 @@ The major testing projects are described in the table below:
 |                | analysis of the OPNFV infrastructure.                   |
 +----------------+---------------------------------------------------------+
 | CPerf          | SDN Controller benchmarks and performance testing,      |
-|                | applicable to controllers in general.                   |
+|                | applicable to controllers in general. Collaboration of  |
+|                | upstream controller testing experts, external test tool |
+|                | developers and the standards community. Primarily       |
+|                | contribute to upstream/external tooling, then add jobs
+|                | to run those tools on OPNFV's infrastructure.
 +----------------+---------------------------------------------------------+
 | Dovetail       | This project intends to define and provide a set of     |
 |                | OPNFV related validation criteria that will provide     |
