@@ -12,7 +12,7 @@ Testing is one of the key activities in OPNFV and includes unit, feature, compon
 level testing for development, automated deployment, performance characterization or stress
 testing.
 
-Test projects are dedicated to provide frameworks, tooling and test-cases catagorized as
+Test projects are dedicated to provide frameworks, tooling and test-cases categorized as
 functional, performance or compliance testing. Test projects fulfill different roles such as
 verifying VIM functionality, benchmarking components and platforms or analysis of measured
 KPIs for the scenarios released in OPNFV.
@@ -32,7 +32,7 @@ The testing projects
 
 The OPNFV testing projects may be summarized as follows:
 
-.. figure:: https://wiki.opnfv.org/download/attachments/8688867/EcoSystem%20Copy.png
+.. figure:: ../../images/OPNFV_testing_group.png
    :align: center
    :alt: Overview of OPNFV Testing projects
 
@@ -169,136 +169,63 @@ This database is also cloned for OPNFV Plugfest.
 
 The test API
 ------------
-The Test API is used to declare pods, projects, test cases and test
-results. Pods are the pods used to run the tests.
-The results pushed in the database are related to pods, projects and
-cases. If you try to push results of test done on non referenced pod,
-the API will return an error message.
+The Test API is used to declare pods, projects, test cases and test results.
+Pods are the pods used to run the tests.
+The results pushed in the database are related to pods, projects and cases.
+If you try to push results of test done on non referenced pod, the API will
+return an error message.
 
-An additional method dashboard has been added to post-process
-the raw results in the Brahmaputra release (deprecated in Colorado release).
+An additional method dashboard has been added to post-process the raw results in
+the Brahmaputra release (deprecated in Colorado release).
 
-The data model is very basic, 4 objects are created:
-
+The data model is very basic, 5 objects are available:
   * Pods
   * Projects
   * Testcases
   * Results
+  * Scenarios
 
-Pods::
-
-  {
-    "id": <ID>,
-    "details": <URL description of the POD>,
-    "creation_date": "YYYY-MM-DD HH:MM:SS",
-    "name": <The POD Name>,
-    "mode": <metal or virtual>,
-    "role": <ci-pod or community-pod or single-node>
-  },
-
-Projects::
-
-  {
-    "id": <ID>,
-    "name": <Name of the Project>,
-    "creation_date": "YYYY-MM-DD HH:MM:SS",
-    "description": <Short description>
-  },
-
-Testcases::
-
-  {
-    "id": <ID>,
-    "name":<Name of the test case>,
-    "project_name":<Name of belonged project>,
-    "creation_date": "YYYY-MM-DD HH:MM:SS",
-    "description": <short description>,
-    "url":<URL for longer description>
-  },
-
-Results::
-
-  {
-    "_id": <ID>,
-    "case_name": <Reference to the test case>,
-    "project_name": <Reference to project>,
-    "pod_name": <Reference to POD where the test was executed>,
-    "installer": <Installer Apex or Compass or Fuel or Joid>,
-    "version": <master or Colorado or Brahmaputra>,
-    "start_date": "YYYY-MM-DD HH:MM:SS",
-    "stop_date": "YYYY-MM-DD HH:MM:SS",
-    "build_tag": <such as "jenkins-functest-fuel-baremetal-daily-master-108">,
-    "scenario": <Scenario on which the test was executed>,
-    "criteria": <PASS or FAILED>,
-    "trust_indicator": {
-                        "current": 0,
-                        "histories": []
-                       }
-  }
-
-  Scenarios::
-
-    {
-      "id": <ID>,
-      "name":<Name of the test case>,
-      "name" : "os-odl_l2-nofeature-ha",
-      "installers":[
-       {
-       "installer" : <installer name>,
-       "versions": [
-           {
-            "version": <version name>,
-            "owner": <scenario owner>,
-            "custom list": { "projects": [{
-                                 "functest" : [ "vping_ssh", "vping_userdata", "tempest_smoke_serial", "rally_sanity", "odl", "doctor"],
-                                 "yardstick" : [ "tc002","tc005","tc010","tc011","tc012","tc014","tc037","tc055","tc063","tc069","tc070","tc071","tc072","tc075"]}]},
-            "score": { "projects": [{
-                                  "functest" : [{"date": YYY-MM-DD HH:MM, "score":<score>}, {"date": YYY-MM-DD HH:MM, "score":<score>}, ...],
-                                  "yardstick" : [{"date": YYY-MM-DD HH:MM, "score":<score>}, {"date": YYY-MM-DD HH:MM, "score":<score>}, ...]}]},
-            "trust_indicator": { "projects": [{
-            "functest" : [{"date": YYY-MM-DD HH:MM,"status":<status>}, {"date": YYY-MM-DD HH:MM,"status":<status>},...],
-            "yardstick" : [{"date": YYY-MM-DD HH:MM,"status":<status>}, {"date": YYY-MM-DD HH:MM,"status":<status>},...]}]}},
-          { ....
-    },
-
-For detailed information, please go to
-
- http://testresults.opnfv.org/test/swagger/spec.html
-
- Authentication: opnfv/api@opnfv
-
-Please notes that POST/DELETE/PUT operations for test or study purpose via
-swagger website is not allowed, because it will change the real data in
-the database.
+For detailed information, please go to http://artifacts.opnfv.org/releng/docs/testapi.html
 
 
 The reporting
 -------------
-Until the Colorado release, each testing project was reporting a status on a dedicated page.
+The reporting page for the test projects is http://testresults.opnfv.org/reporting/
+
+.. figure:: ../../images/reporting_page.png
+   :align: center
+   :alt: Testing group reporting page
+
+This page provides a reporting per version and per project.
+
+An evolution of this page is planned.
 It was decided to unify the reporting by creating a landing page that should give
 the scenario status in one glance (it was previously consolidated manually
-on a wiki page). The landing page will be display per scenario:
+on a wiki page).
+
+The landing page (planned for Danube 2.0) will be displayed per scenario:
  * the status of the deployment
  * the score of the test projectS
  * a trust indicator
 
-Additional filters (version, installer, test collection time window,... )
+Additional filters (version, installer, test collection time window,... ) are
+included.
 
-This landing page has been dockerized. The back end relies on the testing DB.
+The test case catalogue
+-----------------------
+Until the Colorado release, each testing project was managing the list of its
+test cases. It was very hard to have a global view of the available test cases
+among the different test projects. A common view was possible through the API
+but it was not very user friendly.
+In fact you may know all the cases per project calling:
 
- TODO: add picture
+ http://testresults.opnfv.org/test/api/v1/projects/<project_name>/cases
 
-The test case catalog
-----------------------
-Until the Colorado release, each testing project was managing the list of its test cases. It
-was very hard to have a global view of the available test cases among the
-different test projects. A common view was possible through the API but it was
-not very user friendly.
+with project_name: bottlenecks, functest, qtip, storperf, vsperf, yardstick
+
 It was decided to build a web site providing a consistent view of the test cases
-per project and allow any scenario owner to build his/her custom list of tests.
-The test catalog can be described as below::
-
- TODO: add picture
+per project and allow any scenario owner to build his/her custom list of tests
+(Danube 2.0).
 
 Other resources
 ===============
