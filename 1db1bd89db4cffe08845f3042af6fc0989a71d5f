@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_78f2df9b",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-03-29T18:51:55Z",
+      "side": 1,
+      "message": "We dont have a document by this name. Perhaps you meant `OPNFV User Guide \u0026 Configuration Guide`?",
+      "range": {
+        "startLine": 180,
+        "startChar": 9,
+        "endLine": 180,
+        "endChar": 25
+      },
+      "revId": "1db1bd89db4cffe08845f3042af6fc0989a71d5f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_98ef93b0",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-03-29T18:51:55Z",
+      "side": 1,
+      "message": "Functest still has not merged the patch which added labels. Please refer it via its title(OPNFV FUNCTEST user guide) instead.",
+      "range": {
+        "startLine": 226,
+        "startChar": 72,
+        "endLine": 226,
+        "endChar": 102
+      },
+      "revId": "1db1bd89db4cffe08845f3042af6fc0989a71d5f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_382c6702",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-03-29T18:51:55Z",
+      "side": 1,
+      "message": "Many projects in this doc are not part of Danube. They\u0027ll show a blank after rendering.",
+      "range": {
+        "startLine": 93,
+        "startChar": 6,
+        "endLine": 93,
+        "endChar": 40
+      },
+      "revId": "1db1bd89db4cffe08845f3042af6fc0989a71d5f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
