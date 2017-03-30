@@ -1,3 +1,5 @@
+.. _opnfv-releasenotes:
+
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
@@ -34,7 +36,7 @@ Project release notes:
 
 :ref:`Joid Release Notes <joid-releasenotes>`
 
-:ref:`KVM4NFV Release Notes <kvm4nfv-releasenotes>`
+:ref:`KVMforNFV Release Notes <kvmfornfv-releasenotes>`
 
 :ref:`Multisite Release Notes <multisite-releasenotes>`
 
