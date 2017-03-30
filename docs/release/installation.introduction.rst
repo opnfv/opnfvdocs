@@ -32,7 +32,7 @@ it is important to understand your required target platform capabilities before 
 configuring your scenarios.
 
 An OPNFV installation requires either a physical, or virtual, infrastructure environment as defined
-in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`.
+in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_.
 When configuring a physical infrastructure it is strongly advised to follow the Pharos configuration guidelines.
 
 
