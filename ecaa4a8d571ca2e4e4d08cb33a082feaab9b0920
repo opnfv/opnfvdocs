@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_3e88ca70",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2017-03-30T18:04:03Z",
+      "side": 1,
+      "message": "This should not be included.",
+      "range": {
+        "startLine": 61,
+        "startChar": 7,
+        "endLine": 61,
+        "endChar": 32
+      },
+      "revId": "ecaa4a8d571ca2e4e4d08cb33a082feaab9b0920",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_1e838657",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2017-03-30T18:04:03Z",
+      "side": 1,
+      "message": "This should not be included.",
+      "range": {
+        "startLine": 69,
+        "startChar": 8,
+        "endLine": 69,
+        "endChar": 52
+      },
+      "revId": "ecaa4a8d571ca2e4e4d08cb33a082feaab9b0920",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
