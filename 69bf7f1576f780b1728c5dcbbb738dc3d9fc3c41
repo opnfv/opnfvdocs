@@ -1,0 +1,9 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: David McBride <dmcbride@linuxfoundation.org>
+Code-Review+1: Frank Brockners <fbrockne@cisco.com>
+Code-Review+2: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-by: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-at: Thu, 30 Mar 2017 15:38:05 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/32501
+Project: opnfvdocs
+Branch: refs/heads/master
