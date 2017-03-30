@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_fee797e2",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-30T06:17:08Z",
+      "side": 1,
+      "message": "FDS",
+      "range": {
+        "startLine": 29,
+        "startChar": 6,
+        "endLine": 29,
+        "endChar": 9
+      },
+      "revId": "3f161ade43336c2177e0e3292be3ec8c008756b7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_5ee343d9",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-30T06:17:08Z",
+      "side": 1,
+      "message": "SFC",
+      "range": {
+        "startLine": 49,
+        "startChar": 6,
+        "endLine": 49,
+        "endChar": 9
+      },
+      "revId": "3f161ade43336c2177e0e3292be3ec8c008756b7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
