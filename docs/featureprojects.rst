@@ -101,20 +101,6 @@ Copper
    ../submodules/copper/docs/development/manuals/index
 
 
-Daisy
------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/daisy/docs/development/overview/index
-   ../submodules/daisy/docs/development/requirements/index
-   ../submodules/daisy/docs/release/installation/index
-   ../submodules/daisy/docs/release/configguide/index
-   ../submodules/daisy/docs/release/userguide/index
-   ../submodules/daisy/docs/development/design/index
-   ../submodules/daisy/docs/development/manuals/index
-
-
 Doctor
 ------
 .. toctree::
@@ -143,34 +129,6 @@ Domino
    ../submodules/domino/docs/development/manuals/index
 
 
-Escalator
----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/escalator/docs/development/overview/index
-   ../submodules/escalator/docs/development/requirements/index
-   ../submodules/escalator/docs/release/installation/index
-   ../submodules/escalator/docs/release/configguide/index
-   ../submodules/escalator/docs/release/userguide/index
-   ../submodules/escalator/docs/development/design/index
-   ../submodules/escalator/docs/development/manuals/index
-
-
-Fastpathmetrics
----------------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/fastpathmetrics/docs/development/overview/index
-   ../submodules/fastpathmetrics/docs/development/requirements/index
-   ../submodules/fastpathmetrics/docs/release/installation/index
-   ../submodules/fastpathmetrics/docs/release/configguide/index
-   ../submodules/fastpathmetrics/docs/release/userguide/index
-   ../submodules/fastpathmetrics/docs/development/design/index
-   ../submodules/fastpathmetrics/docs/development/manuals/index
-
-
 Fds
 ---
 .. toctree::
@@ -183,34 +141,6 @@ Fds
    ../submodules/fds/docs/release/userguide/index
    ../submodules/fds/docs/development/design/index
    ../submodules/fds/docs/development/manuals/index
-
-
-Fuel
-----
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/fuel/docs/development/overview/index
-   ../submodules/fuel/docs/development/requirements/index
-   ../submodules/fuel/docs/release/installation/index
-   ../submodules/fuel/docs/release/configguide/index
-   ../submodules/fuel/docs/release/userguide/index
-   ../submodules/fuel/docs/development/design/index
-   ../submodules/fuel/docs/development/manuals/index
-
-
-Functest
---------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/functest/docs/development/overview/index
-   ../submodules/functest/docs/development/requirements/index
-   ../submodules/functest/docs/release/installation/index
-   ../submodules/functest/docs/release/configguide/index
-   ../submodules/functest/docs/release/userguide/index
-   ../submodules/functest/docs/development/design/index
-   ../submodules/functest/docs/development/manuals/index
 
 
 IPV6
@@ -283,34 +213,6 @@ Netready
    ../submodules/netready/docs/development/manuals/index
 
 
-Octopus
--------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/octopus/docs/development/overview/index
-   ../submodules/octopus/docs/development/requirements/index
-   ../submodules/octopus/docs/release/installation/index
-   ../submodules/octopus/docs/release/configguide/index
-   ../submodules/octopus/docs/release/userguide/index
-   ../submodules/octopus/docs/development/design/index
-   ../submodules/octopus/docs/development/manuals/index
-
-
-Onosfw
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/onosfw/docs/development/overview/index
-   ../submodules/onosfw/docs/development/requirements/index
-   ../submodules/onosfw/docs/release/installation/index
-   ../submodules/onosfw/docs/release/configguide/index
-   ../submodules/onosfw/docs/release/userguide/index
-   ../submodules/onosfw/docs/development/design/index
-   ../submodules/onosfw/docs/development/manuals/index
-
-
 Opera
 -----
 .. toctree::
@@ -323,20 +225,6 @@ Opera
    ../submodules/opera/docs/release/userguide/index
    ../submodules/opera/docs/development/design/index
    ../submodules/opera/docs/development/manuals/index
-
-
-Ovsnfv
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/ovsnfv/docs/development/overview/index
-   ../submodules/ovsnfv/docs/development/requirements/index
-   ../submodules/ovsnfv/docs/release/installation/index
-   ../submodules/ovsnfv/docs/release/configguide/index
-   ../submodules/ovsnfv/docs/release/userguide/index
-   ../submodules/ovsnfv/docs/development/design/index
-   ../submodules/ovsnfv/docs/development/manuals/index
 
 
 Parser
@@ -353,20 +241,6 @@ Parser
    ../submodules/parser/docs/development/manuals/index
 
 
-Pharos
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/pharos/docs/development/overview/index
-   ../submodules/pharos/docs/development/requirements/index
-   ../submodules/pharos/docs/release/installation/index
-   ../submodules/pharos/docs/release/configguide/index
-   ../submodules/pharos/docs/release/userguide/index
-   ../submodules/pharos/docs/development/design/index
-   ../submodules/pharos/docs/development/manuals/index
-
-
 Promise
 -------
 .. toctree::
@@ -379,76 +253,6 @@ Promise
    ../submodules/promise/docs/release/userguide/index
    ../submodules/promise/docs/development/design/index
    ../submodules/promise/docs/development/manuals/index
-
-
-Qtip
-----
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/qtip/docs/development/overview/index
-   ../submodules/qtip/docs/development/requirements/index
-   ../submodules/qtip/docs/release/installation/index
-   ../submodules/qtip/docs/release/configguide/index
-   ../submodules/qtip/docs/release/userguide/index
-   ../submodules/qtip/docs/development/design/index
-   ../submodules/qtip/docs/development/manuals/index
-
-
-Releng
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/releng/docs/development/overview/index
-   ../submodules/releng/docs/development/requirements/index
-   ../submodules/releng/docs/release/installation/index
-   ../submodules/releng/docs/release/configguide/index
-   ../submodules/releng/docs/release/userguide/index
-   ../submodules/releng/docs/development/design/index
-   ../submodules/releng/docs/development/manuals/index
-
-
-Sdnvpn
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/sdnvpn/docs/development/overview/index
-   ../submodules/sdnvpn/docs/development/requirements/index
-   ../submodules/sdnvpn/docs/release/installation/index
-   ../submodules/sdnvpn/docs/release/configguide/index
-   ../submodules/sdnvpn/docs/release/userguide/index
-   ../submodules/sdnvpn/docs/development/design/index
-   ../submodules/sdnvpn/docs/development/manuals/index
-
-
-Sfc
----
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/sfc/docs/development/overview/index
-   ../submodules/sfc/docs/development/requirements/index
-   ../submodules/sfc/docs/release/installation/index
-   ../submodules/sfc/docs/release/configguide/index
-   ../submodules/sfc/docs/release/userguide/index
-   ../submodules/sfc/docs/development/design/index
-   ../submodules/sfc/docs/development/manuals/index
-
-
-Snaps
------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/snaps/docs/development/overview/index
-   ../submodules/snaps/docs/development/requirements/index
-   ../submodules/snaps/docs/release/installation/index
-   ../submodules/snaps/docs/release/configguide/index
-   ../submodules/snaps/docs/release/userguide/index
-   ../submodules/snaps/docs/development/design/index
-   ../submodules/snaps/docs/development/manuals/index
 
 
 Storperf
@@ -465,32 +269,18 @@ Storperf
    ../submodules/storperf/docs/development/manuals/index
 
 
-Ves
+SFC
 ---
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/ves/docs/development/overview/index
-   ../submodules/ves/docs/development/requirements/index
-   ../submodules/ves/docs/release/installation/index
-   ../submodules/ves/docs/release/configguide/index
-   ../submodules/ves/docs/release/userguide/index
-   ../submodules/ves/docs/development/design/index
-   ../submodules/ves/docs/development/manuals/index
-
-
-Vnf Forwarding Graph
---------------------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/vnf_forwarding_graph/docs/development/overview/index
-   ../submodules/vnf_forwarding_graph/docs/development/requirements/index
-   ../submodules/vnf_forwarding_graph/docs/release/installation/index
-   ../submodules/vnf_forwarding_graph/docs/release/configguide/index
-   ../submodules/vnf_forwarding_graph/docs/release/userguide/index
-   ../submodules/vnf_forwarding_graph/docs/development/design/index
-   ../submodules/vnf_forwarding_graph/docs/development/manuals/index
+   ../submodules/sfc/docs/development/overview/index
+   ../submodules/sfc/docs/development/requirements/index
+   ../submodules/sfc/docs/release/installation/index
+   ../submodules/sfc/docs/release/configguide/index
+   ../submodules/sfc/docs/release/userguide/index
+   ../submodules/sfc/docs/development/design/index
+   ../submodules/sfc/docs/development/manuals/index
 
 
 Vswitchperf
@@ -505,19 +295,5 @@ Vswitchperf
    ../submodules/vswitchperf/docs/release/userguide/index
    ../submodules/vswitchperf/docs/development/design/index
    ../submodules/vswitchperf/docs/development/manuals/index
-
-
-Yardstick
----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/yardstick/docs/development/overview/index
-   ../submodules/yardstick/docs/development/requirements/index
-   ../submodules/yardstick/docs/release/installation/index
-   ../submodules/yardstick/docs/release/configguide/index
-   ../submodules/yardstick/docs/release/userguide/index
-   ../submodules/yardstick/docs/development/design/index
-   ../submodules/yardstick/docs/development/manuals/index
 
 
