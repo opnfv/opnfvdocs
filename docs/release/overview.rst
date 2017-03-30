@@ -112,7 +112,7 @@ an NFV domain, the OPNFV community consumes a sub-set of OpenStack projects wher
 composition may vary depending on the installer and scenario.
 
 For details on the scenarios available in OPNFV and the specific composition of components
-refer to the `OPNFV User Guide & Configuration Guide`_
+refer to the :ref:'OPNFV User Guide & Configuration Guide <opnfv-user-config>'
 
 -----------------
 Operating Systems
@@ -177,7 +177,7 @@ is provided by a virtual machine and allows control and workload placement using
 The initial deployment is done using a staging server, referred to as the "jumphost".
 This server-either physical or virtual-is first installed with the installation program
 that then installs OpenStack and other components on the controller nodes and compute nodes.
-See the `OPNFV User Guide`_ for more details.
+See the :ref:'OPNFV User Guide & Configuration Guide <opnfv-user-config>' for more details.
 
 
 The OPNFV Testing Ecosystem
