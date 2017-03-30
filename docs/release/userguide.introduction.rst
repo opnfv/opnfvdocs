@@ -61,7 +61,6 @@ Feature Configuration Guides
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
-- :ref:`Multisite Configuration Guide <multisite-configguide>`
 - :ref:`Netready Configuration Guide <netready-configguide>`
 - :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
@@ -77,7 +76,6 @@ Feature User Guides
 - :ref:`Domino User Guide <domino-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`KVMforNFV User Guide <kvmfornfv-userguide>`
-- :ref:`Multisite User Guide <multisite-userguide>`
 - :ref:`Netready User Guide <netready-userguide>`
 - :ref:`ONOSFW User Guide <onosfw-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
