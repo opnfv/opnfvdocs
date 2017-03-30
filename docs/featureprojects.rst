@@ -59,20 +59,6 @@ Barometer
    ../submodules/barometer/docs/development/manuals/index
 
 
-Bottlenecks
------------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/bottlenecks/docs/development/overview/index
-   ../submodules/bottlenecks/docs/development/requirements/index
-   ../submodules/bottlenecks/docs/release/installation/index
-   ../submodules/bottlenecks/docs/release/configguide/index
-   ../submodules/bottlenecks/docs/release/userguide/index
-   ../submodules/bottlenecks/docs/development/design/index
-   ../submodules/bottlenecks/docs/development/manuals/index
-
-
 Compass4Nfv
 -----------
 .. toctree::
@@ -127,20 +113,6 @@ Domino
    ../submodules/domino/docs/release/userguide/index
    ../submodules/domino/docs/development/design/index
    ../submodules/domino/docs/development/manuals/index
-
-
-Fds
----
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/fds/docs/development/overview/index
-   ../submodules/fds/docs/development/requirements/index
-   ../submodules/fds/docs/release/installation/index
-   ../submodules/fds/docs/release/configguide/index
-   ../submodules/fds/docs/release/userguide/index
-   ../submodules/fds/docs/development/design/index
-   ../submodules/fds/docs/development/manuals/index
 
 
 IPV6
@@ -281,19 +253,3 @@ SFC
    ../submodules/sfc/docs/release/userguide/index
    ../submodules/sfc/docs/development/design/index
    ../submodules/sfc/docs/development/manuals/index
-
-
-Vswitchperf
------------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/vswitchperf/docs/development/overview/index
-   ../submodules/vswitchperf/docs/development/requirements/index
-   ../submodules/vswitchperf/docs/release/installation/index
-   ../submodules/vswitchperf/docs/release/configguide/index
-   ../submodules/vswitchperf/docs/release/userguide/index
-   ../submodules/vswitchperf/docs/development/design/index
-   ../submodules/vswitchperf/docs/development/manuals/index
-
-

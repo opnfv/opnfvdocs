@@ -26,8 +26,6 @@ Project release notes:
 
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
-:ref:`Domino Release Notes <domino-releasenotes>`
-
 :ref:`FDS Release Notes <fds-releasenotes>`
 
 :ref:`Fuel Release Notes <fuel-releasenotes>`
@@ -39,8 +37,6 @@ Project release notes:
 :ref:`Joid Release Notes <joid-releasenotes>`
 
 :ref:`KVMforNFV Release Notes <kvmfornfv-releasenotes>`
-
-:ref:`Multisite Release Notes <multisite-releasenotes>`
 
 :ref:`Netready Release Notes <netready-releasenotes>`
 
