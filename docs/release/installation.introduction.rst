@@ -32,7 +32,7 @@ it is important to understand your required target platform capabilities before 
 configuring your scenarios.
 
 An OPNFV installation requires either a physical, or virtual, infrastructure environment as defined
-in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`.
+in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_.
 When configuring a physical infrastructure it is strongly advised to follow the Pharos configuration guidelines.
 
 
@@ -56,7 +56,6 @@ description documents provided:
 - :ref:`os-odl_l2-fdio-ha <os-odl_l2-fdio-ha>`
 - :ref:`os-odl_l2-fdio-noha <os-odl_l2-fdio-noha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
-- :ref:`os-nosdn-kvm-noha <>`
 - :ref:`os-odl-gluon-noha <gluon-scenario>`
 - :ref:`os-nosdn-openo-ha <opera-os-nosdn-openo-ha>`
 - :ref:`os-odl_l2-sfc-ha <os-odl_l2-sfc-ha>`
@@ -91,11 +90,3 @@ the platform and you may want to execute more exhaustive tests.  Some investigat
 select the right test suites to run on your platform.
 
 Many of the OPNFV test project provide user-guide documentation and installation instructions in :ref:`this document <testing-userguide>`
-
-Security Notes
-==============
-
-The following patches were applied to fix security issues discovered in OPNFV
-projects, during the Danube release cycle.
-
-- Links to security patches need to be added here.  (todo)
