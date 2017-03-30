@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_6903f3b8",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-03-30T08:11:58Z",
+      "side": 1,
+      "message": "FDS",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 3
+      },
+      "revId": "08a898f831104910e2ad24891f1b92c0e7ba2754",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
