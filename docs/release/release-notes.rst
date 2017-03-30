@@ -30,6 +30,8 @@ Project release notes:
 
 :ref:`FDS Release Notes <fds-releasenotes>`
 
+:ref:`Fuel Release Notes <fuel-releasenotes>`
+
 :ref:`Functest Release Notes <functest-releasenotes>`
 
 :ref:`IPV6 Release Notes <ipv6-releasenotes>`
