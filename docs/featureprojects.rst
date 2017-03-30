@@ -1,3 +1,5 @@
+.. _opnfv-featureprojects:
+
 OPNFV Projects
 ================
 
