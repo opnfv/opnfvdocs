@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_7e8de27a",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 602
+      },
+      "writtenOn": "2017-03-30T18:07:29Z",
+      "side": 1,
+      "message": "why is it so? JOID is releasing this scenario?",
+      "parentUuid": "9ab8dda7_1e838657",
+      "range": {
+        "startLine": 69,
+        "startChar": 8,
+        "endLine": 69,
+        "endChar": 52
+      },
+      "revId": "ecaa4a8d571ca2e4e4d08cb33a082feaab9b0920",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_fe81d24a",
         "filename": "docs/release/installation.introduction.rst",
         "patchSetId": 1
