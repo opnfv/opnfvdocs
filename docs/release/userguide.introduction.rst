@@ -58,16 +58,13 @@ OPNFV wiki page at http://wiki.opnfv.org, for more details.
 Feature Configuration Guides
 ============================
 
-- :ref:`Armband Configuration Guide <armband-configguide>`
 - :ref:`Copper Configuration Guide <copper-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
 - :ref:`Netready Configuration Guide <netready-configguide>`
-- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise-configguide>`
-- :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 
 Feature User Guides
@@ -79,8 +76,6 @@ Feature User Guides
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`KVMforNFV User Guide <kvmfornfv-userguide>`
 - :ref:`Netready User Guide <netready-userguide>`
-- :ref:`ONOSFW User Guide <onosfw-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`Promise User Guide <promise-userguide>`
-- :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
