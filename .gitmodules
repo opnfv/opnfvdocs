@@ -23,11 +23,6 @@
 	url = ../copper
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/daisy"]
-	path = docs/submodules/daisy
-	url = ../daisy
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/domino"]
 	path = docs/submodules/domino
 	url = ../domino
@@ -38,16 +33,6 @@
         url = ../dovetail
         branch = .
         ignore = dirty
-[submodule "docs/submodules/escalator"]
-	path = docs/submodules/escalator
-	url = ../escalator
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/fastpathmetrics"]
-	path = docs/submodules/fastpathmetrics
-	url = ../fastpathmetrics
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
 	url = ../fds
@@ -88,11 +73,6 @@
 	url = ../netready
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/octopus"]
-	path = docs/submodules/octopus
-	url = ../octopus
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/onosfw"]
 	path = docs/submodules/onosfw
 	url = ../onosfw
@@ -106,11 +86,6 @@
 [submodule "docs/submodules/parser"]
 	path = docs/submodules/parser
 	url = ../parser
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/pharos"]
-	path = docs/submodules/pharos
-	url = ../pharos
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/promise"]
@@ -142,16 +117,6 @@
 	url = ../storperf
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/ves"]
-	path = docs/submodules/ves
-	url = ../ves
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vnf_forwarding_graph"]
-	path = docs/submodules/vnf_forwarding_graph
-	url = ../vnf_forwarding_graph
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/vswitchperf"]
 	path = docs/submodules/vswitchperf
 	url = ../vswitchperf
@@ -175,11 +140,6 @@
 [submodule "docs/submodules/opera"]
 	path = docs/submodules/opera
 	url = ../opera
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/snaps"]
-	path = docs/submodules/snaps
-	url = ../snaps
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/barometer"]
