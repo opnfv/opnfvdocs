@@ -28,6 +28,8 @@ Project release notes:
 
 :ref:`FDS Release Notes <fds-releasenotes>`
 
+:ref:`Fuel Release Notes <fuel-releasenotes>`
+
 :ref:`Functest Release Notes <functest-releasenotes>`
 
 :ref:`IPV6 Release Notes <ipv6-releasenotes>`
@@ -35,8 +37,6 @@ Project release notes:
 :ref:`Joid Release Notes <joid-releasenotes>`
 
 :ref:`KVM4NFV Release Notes <kvm4nfv-releasenotes>`
-
-:ref:`Multisite Release Notes <multisite-releasenotes>`
 
 :ref:`Netready Release Notes <netready-releasenotes>`
 
