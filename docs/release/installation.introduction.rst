@@ -49,7 +49,36 @@ where each scenario will include different source components or configurations.
 To learn more about the scenarios supported in the Danube release refer to the scenario
 description documents provided:
 
-- Links to scenario description documents need to be added here.  (todo)
+- :ref:`os-nosdn-kvm-ha <kvmfornfv-os-nosdn-kvm-ha>`
+- :ref:`os-nosdn-kvm_ovs_dpdk-noha <kvmfornfv-os-nosdn-kvm_nfv_ovs_dpdk-noha>`
+- :ref:`os-nosdn-kvm_ovs_dpdk_bar-noha <kvmfornfv-os-nosdn-kvm_nfv_ovs_dpdk_bar-noha>`
+- :ref:`os-odl_l3-nofeature-ha <>`
+- :ref:`os-odl_l3-fdio-noha <os-odl_l3-fdio-noha>`
+- :ref:`os-odl_l2-fdio-ha <os-odl_l2-fdio-ha>`
+- :ref:`os-odl_l2-fdio-noha <os-odl_l2-fdio-noha>`
+- :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
+- :ref:`os-nosdn-kvm-noha <>`
+- :ref:`os-odl-gluon-noha <gluon-scenario>`
+- :ref:`os-nosdn-nofeature-ha <>`
+- :ref:`os-odl_l2-nofeature-ha <>`
+- :ref:`os-odl_l3-nofeature-ha <>`
+- :ref:`os-onos-nofeature-ha <>`
+- :ref:`os-nosdn-openo-ha <>`
+- :ref:`os-odl_l2-sfc-ha <os-odl_l2-sfc-ha>`
+- :ref:`os-odl_l2-sfc-noha <os-odl_l2-sfc-noha>`
+- :ref:`os-nosdn-nofeature-ha <>`
+- :ref:`os-nosdn-nofeature-noha <>`
+- :ref:`os-odl_l2-nofeature-ha <>`
+- :ref:`os-odl_l2-nofeature-noha <>`
+- :ref:`os-odl_l3-nofeature-ha <>`
+- :ref:`os-odl_l3-nofeature-noha <>`
+- :ref:`os-nosdn-nofeature-ha <>`
+- :ref:`os-nosdn-nofeature-noha <>`
+- :ref:`os-nosdn-lxd-ha <os-nosdn-lxd-ha>`
+- :ref:`os-nosdn-lxd-noha <os-nosdn-lxd-noha>`
+- :ref:`k8-nosdn-nofeature-noha <>`
+- :ref:`k8-nosdn-lb-noha <>`
+
 
 Installation Procedure
 ======================
@@ -64,7 +93,6 @@ The instructions for each toolchain can be found in these links:
 - :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
 - :ref:`Joid installation instruction <joid-installation>`
-
 
 OPNFV Test Frameworks
 =====================
