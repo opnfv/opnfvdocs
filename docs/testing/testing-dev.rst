@@ -37,3 +37,10 @@ VSPERF
    :maxdepth: 1
 
    ../submodules/vswitchperf/docs/testing/developer/index
+
+YARDSTICK
+---------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/yardstick/docs/testing/developer/devguide/index
