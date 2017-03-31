@@ -227,20 +227,6 @@ Promise
    ../submodules/promise/docs/development/manuals/index
 
 
-Storperf
---------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/storperf/docs/development/overview/index
-   ../submodules/storperf/docs/development/requirements/index
-   ../submodules/storperf/docs/release/installation/index
-   ../submodules/storperf/docs/release/configguide/index
-   ../submodules/storperf/docs/release/userguide/index
-   ../submodules/storperf/docs/development/design/index
-   ../submodules/storperf/docs/development/manuals/index
-
-
 SFC
 ---
 .. toctree::
@@ -253,3 +239,4 @@ SFC
    ../submodules/sfc/docs/release/userguide/index
    ../submodules/sfc/docs/development/design/index
    ../submodules/sfc/docs/development/manuals/index
+
