@@ -53,3 +53,5 @@ Project release notes:
 :ref:`SFC Release Notes <sfc-releasenotes>`
 
 :ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
+
+:ref:`YARDSTICK Release Notes <yardstick-releasenotes>`
