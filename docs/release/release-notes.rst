@@ -42,6 +42,8 @@ Project release notes:
 
 :ref:`Opera Release Notes <opera-releasenotes>`
 
+:ref:`ONOSFW Release Notes <onosfw-releasenotes>`
+
 :ref:`Parser Release Notes <parser-releasenotes>`
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
@@ -50,4 +52,4 @@ Project release notes:
 
 :ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
 
-:ref:`YARDSTICK Release Notes <yardstick-releasenotes>`
+:ref:`Yardstick Release Notes <yardstick-releasenotes>`
