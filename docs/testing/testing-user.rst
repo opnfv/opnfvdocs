@@ -51,3 +51,12 @@ VSPERF
 
    ../submodules/vswitchperf/docs/testing/user/configguide/index
    ../submodules/vswitchperf/docs/testing/user/userguide/index
+
+
+Storperf
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/vswitchperf/docs/testing/user/index
