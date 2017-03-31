@@ -66,6 +66,8 @@ Feature Configuration Guides
 - :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
+- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
+
 
 Feature User Guides
 ===================
@@ -79,3 +81,5 @@ Feature User Guides
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`Promise User Guide <promise-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
+- :ref:`ONOSFW User Guide <onosfw-userguide>`
+
