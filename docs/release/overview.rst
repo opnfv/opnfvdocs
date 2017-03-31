@@ -195,7 +195,7 @@ platform validation. This required the integration of a variety of testing frame
 systems, real time and automated analysis of results, storage and publication of key facts for
 each run as shown in the following diagram.
 
-.. image:: ../images/OPNFV_testing_group.png
+.. image:: ../images/OPNFV_testing_working_group.png
   :alt: Overview infographic of the OPNFV testing Ecosystem
 
 Release Verification
