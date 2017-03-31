@@ -59,4 +59,4 @@ Storperf
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/vswitchperf/docs/testing/user/index
+   ../submodules/storperf/docs/testing/user/index
