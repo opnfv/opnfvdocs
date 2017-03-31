@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_f4ec93c9",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-03-31T06:26:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab8dda7_b4a05b91",
+      "revId": "af47648310370e8e4706abe478d0db0f93a34e16",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_94a3d79d",
         "filename": "docs/release/installation.introduction.rst",
         "patchSetId": 2
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_94d197fd",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-03-31T06:26:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab8dda7_94a3d79d",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 58
+      },
+      "revId": "af47648310370e8e4706abe478d0db0f93a34e16",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_01bc8b68",
         "filename": "docs/release/release-notes.rst",
         "patchSetId": 2
@@ -53,6 +95,30 @@
       "writtenOn": "2017-03-31T01:52:29Z",
       "side": 1,
       "message": "you don\u0027t need to change here. See https://gerrit.opnfv.org/gerrit/32647",
+      "range": {
+        "startLine": 27,
+        "startChar": 35,
+        "endLine": 27,
+        "endChar": 47
+      },
+      "revId": "af47648310370e8e4706abe478d0db0f93a34e16",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_d4e70fe3",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-03-31T06:26:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab8dda7_01bc8b68",
       "range": {
         "startLine": 27,
         "startChar": 35,
