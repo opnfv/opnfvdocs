@@ -11,11 +11,10 @@ OPNFV Installation
 Abstract
 ========
 
-The following document provides an overview of the instructions required for the installation
-of the Danube release of OPNFV.
+This document provides an overview of the installation of the Danube release of OPNFV.
 
-The Danube release can be installed using a tool from the following integration projects in OPNFV:
-Apex, Compass4Nfv, Fuel and JOID.  Each installer provides the ability to install a common OPNFV
+The Danube release can be installed making use of any of the installer projects in OPNFV:
+Apex, Compass4Nfv, Fuel or JOID.  Each installer provides the ability to install a common OPNFV
 platform as well as integrating additional features delivered through a variety of scenarios by
 the OPNFV community.
 
@@ -23,7 +22,7 @@ the OPNFV community.
 Introduction
 ============
 
-The OPNFV platform is comprised of a variety of upstream components that may be deployed on your physical
+The OPNFV platform is comprised of a variety of upstream components that may be deployed on your 
 infrastructure.  A composition of components, tools and configurations is identified in OPNFV as a
 deployment scenario.
 
@@ -31,8 +30,8 @@ The various OPNFV scenarios provide unique features and capabilities that you ma
 it is important to understand your required target platform capabilities before installing and
 configuring your scenarios.
 
-An OPNFV installation requires either a physical, or virtual, infrastructure environment as defined
-in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_.
+An OPNFV installation requires either a physical infrastructure environment as defined
+in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_, or a virtual one.
 When configuring a physical infrastructure it is strongly advised to follow the Pharos configuration guidelines.
 
 
@@ -70,15 +69,15 @@ Installation Procedure
 ======================
 
 Detailed step by step instructions for working with an installation toolchain and installing
-the required scenario are provided by each installation project.  The four projects providing installation
-support for the OPNFV Danube release are; Apex, Compass4nfv, Fuel and Joid.
+the required scenario are provided by the installation projects.  The four projects providing installation
+support for the OPNFV Danube release are: Apex, Compass4nfv, Fuel and JOID.
 
 The instructions for each toolchain can be found in these links:
 
 - :ref:`Apex installation instruction <apex-installation>`
 - :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
-- :ref:`Joid installation instruction <joid-installation>`
+- :ref:`JOID installation instruction <joid-installation>`
 
 OPNFV Test Frameworks
 =====================
