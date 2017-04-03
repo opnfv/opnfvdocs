@@ -35,7 +35,7 @@ Testing Documentation
    testing/testing-dev
 
 
-Development Documentation
+Developer Documentation
 --------------------------
 
 .. toctree::
