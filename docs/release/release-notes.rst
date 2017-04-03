@@ -42,8 +42,6 @@ Project release notes:
 
 :ref:`Opera Release Notes <opera-releasenotes>`
 
-:ref:`ONOSFW Release Notes <onosfw-releasenotes>`
-
 :ref:`Parser Release Notes <parser-releasenotes>`
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
