@@ -64,6 +64,11 @@ description documents provided:
 - :ref:`os-nosdn-lxd-noha <os-nosdn-lxd-noha>`
 - :ref:`k8-nosdn-nofeature-noha <k8-nosdn-nofeature-noha>`
 - :ref:`k8-nosdn-lb-noha <k8-nosdn-lb-noha>`
+- `os-nosdn-ovs-ha <http://docs.opnfv.org/en/stable-danube/submodules/ovsnfv/docs/release/scenarios/os-nosdn-ovs-ha/index.html>`_
+- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
+- :ref:`os-nosdn-ovs <os-nosdn-ovs>`
+- `os-odl_l3-ovs-ha <http://docs.opnfv.org/en/stable-danube/submodules/ovsnfv/docs/release/scenarios/os-odl_l3-ovs-ha/index.html>`_
+- :ref:`os-odl_l3-ovs-noha <os-odl_l3-ovs-noha>`
 
 
 Installation Procedure
