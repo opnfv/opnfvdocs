@@ -22,7 +22,7 @@ the OPNFV community.
 Introduction
 ============
 
-The OPNFV platform is comprised of a variety of upstream components that may be deployed on your 
+The OPNFV platform is comprised of a variety of upstream components that may be deployed on your
 infrastructure.  A composition of components, tools and configurations is identified in OPNFV as a
 deployment scenario.
 
