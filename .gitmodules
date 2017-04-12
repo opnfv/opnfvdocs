@@ -99,8 +99,8 @@
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/openretriever"]
-        path = docs/submodules/openretriever
-        url = ../openretriever
+	path = docs/submodules/openretriever
+	url = ../openretriever
         branch = .
         ignore = dirty
 [submodule "docs/submodules/ovsnfv"]
