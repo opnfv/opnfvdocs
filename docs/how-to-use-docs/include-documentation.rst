@@ -226,3 +226,18 @@ Your documentation shall be built as HTML inside the
 specified output folder directory.
 
 .. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
+
+
+Adding your project repository as a submodule
+--------------------------
+
+Clone the opnfvdocs repository and your submodule to .gitmodules following the convention of the file
+
+.. code-block:: bash
+
+  cd docs/submodules/
+  git submodule git https://gerrit.opnfv.org/gerrit/$reponame
+  git submodule init $reponame/
+  git submodule update $reponame/
+  git add .
+  git review
