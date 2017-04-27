@@ -34,10 +34,10 @@
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dovetail"]
-        path = docs/submodules/dovetail
-        url = ../dovetail
-        branch = .
-        ignore = dirty
+	path = docs/submodules/dovetail
+	url = ../dovetail
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/escalator"]
 	path = docs/submodules/escalator
 	url = ../escalator
@@ -101,8 +101,8 @@
 [submodule "docs/submodules/openretriever"]
 	path = docs/submodules/openretriever
 	url = ../openretriever
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ovsnfv"]
 	path = docs/submodules/ovsnfv
 	url = ../ovsnfv
@@ -190,5 +190,10 @@
 [submodule "docs/submodules/barometer"]
 	path = docs/submodules/barometer
 	url = ../barometer
+	branch = .
+	ignore = dirty
+[submodule "docs/submodules/infra"]
+	path = docs/submodules/infra
+	url = https://gerrit.opnfv.org/gerrit/infra
 	branch = .
 	ignore = dirty
