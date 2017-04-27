@@ -12,8 +12,8 @@ and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
 about network transformation.
 
-Release Documentation
-----------------------
+Release
+-------
 
 .. toctree::
    :maxdepth: 1
@@ -24,8 +24,8 @@ Release Documentation
    release/release-notes
 
 
-Testing Documentation
-----------------------
+Test Frameworks
+---------------
 
 .. toctree::
    :maxdepth: 1
@@ -35,11 +35,18 @@ Testing Documentation
    testing/testing-dev
 
 
-Developer Documentation
---------------------------
+Developer
+---------
 
 .. toctree::
    :maxdepth: 1
 
    how-to-use-docs/index
    featureprojects
+
+
+Infrastructure
+--------------
+
+.. toctree::
+   :maxdepth: 1
