@@ -7,15 +7,6 @@
 Testing User Guides
 ===================
 
-Functest
----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/functest/docs/testing/user/configguide/index
-   ../submodules/functest/docs/testing/user/userguide/index
-
-
 Bottlenecks
 ------------
 .. toctree::
@@ -25,13 +16,13 @@ Bottlenecks
    ../submodules/bottlenecks/docs/testing/user/userguide/index
 
 
-Yardstick
-----------
+Functest
+---------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/user/configguide/index
-   ../submodules/yardstick/docs/testing/user/userguide/index
+   ../submodules/functest/docs/testing/user/configguide/index
+   ../submodules/functest/docs/testing/user/userguide/index
 
 
 QTIP
@@ -41,6 +32,15 @@ QTIP
 
    ../submodules/qtip/docs/testing/user/configguide/index
    ../submodules/qtip/docs/testing/user/userguide/index
+
+
+Storperf
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/storperf/docs/testing/user/index
 
 
 VSPERF
@@ -53,12 +53,13 @@ VSPERF
    ../submodules/vswitchperf/docs/testing/user/userguide/index
 
 
-Storperf
---------
-
+Yardstick
+----------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/storperf/docs/testing/user/index
+   ../submodules/yardstick/docs/testing/user/configguide/index
+   ../submodules/yardstick/docs/testing/user/userguide/index
+
 
 

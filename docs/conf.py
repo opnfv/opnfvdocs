@@ -103,6 +103,7 @@ html_theme = 'bootstrap'
 # html_theme_options = {}
 html_theme_options = {
     'bootswatch_theme': "journal",
+    'navbar_sidebarrel': False,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -264,7 +265,7 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-html_sidebars = {'**': ['my_custom_sidebar.html']}
+html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 # Documents to append as an appendix to all manuals.
 # texinfo_appendices = []
 

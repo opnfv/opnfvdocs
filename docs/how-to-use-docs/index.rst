@@ -9,3 +9,4 @@ Documentation Guide
 
    documentation-guide
    include-documentation
+   addendum
