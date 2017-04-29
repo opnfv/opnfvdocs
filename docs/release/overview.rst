@@ -4,9 +4,9 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-===============
-OPNFV Overview
-===============
+=========
+Overview
+=========
 
 Introduction
 ============

@@ -4,9 +4,9 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Sofia Wallin (sofia.wallin@ericssion.com)
 
-======================================
-OPNFV User Guide & Configuration Guide
-======================================
+=================================
+User Guide & Configuration Guide
+=================================
 
 Abstract
 ========
