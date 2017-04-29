@@ -7,20 +7,20 @@
 Testing Developer Guides
 ========================
 
-Functest
----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/functest/docs/testing/developer/devguide/index
-
-
 Bottlenecks
 ------------
 .. toctree::
    :maxdepth: 1
 
    ../submodules/bottlenecks/docs/testing/developer/devguide/index
+
+
+Functest
+---------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/functest/docs/testing/developer/devguide/index
 
 
 QTIP
@@ -39,7 +39,7 @@ VSPERF
    ../submodules/vswitchperf/docs/testing/developer/index
 
 
-YARDSTICK
+Yardstick
 ---------
 .. toctree::
    :maxdepth: 1

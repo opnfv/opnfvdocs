@@ -4,9 +4,9 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Sofia Wallin Ericsson AB
 
-====================
-OPNFV Installation
-====================
+=============
+Installation
+=============
 
 Abstract
 ========
