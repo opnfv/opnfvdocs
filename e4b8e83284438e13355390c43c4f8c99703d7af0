@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ab8dda7_4ee287d6",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-05-02T14:03:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab8dda7_2e915347",
+      "revId": "e4b8e83284438e13355390c43c4f8c99703d7af0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ab8dda7_8e72bf47",
         "filename": "docs/release/subrelease.rst",
         "patchSetId": 1
