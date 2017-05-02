@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_2e915347",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-05-02T13:39:34Z",
+      "side": 1,
+      "message": "Platform Overview is maybe better?",
+      "revId": "e4b8e83284438e13355390c43c4f8c99703d7af0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_8e72bf47",
+        "filename": "docs/release/subrelease.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-05-02T13:39:34Z",
+      "side": 1,
+      "message": "This file is not included anywhere since the installers are listed in the composite installation document? But I guess it doesn\u0027t matter if its updated.",
+      "revId": "e4b8e83284438e13355390c43c4f8c99703d7af0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
