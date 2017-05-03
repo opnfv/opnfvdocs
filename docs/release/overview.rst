@@ -5,7 +5,7 @@
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
 ================
-Platform verview
+Platform overview
 ================
 
 Introduction
