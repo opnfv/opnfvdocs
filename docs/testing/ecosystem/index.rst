@@ -2,9 +2,9 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Christopher Price (Ericsson AB)
 
-=============================
-OPNFV Test Framework Overview
-=============================
+========================
+Test Framework Overview
+========================
 
 .. toctree::
    :maxdepth: 2
