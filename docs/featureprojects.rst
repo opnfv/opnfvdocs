@@ -227,6 +227,19 @@ Promise
    ../submodules/promise/docs/development/manuals/index
 
 
+SDNVPN
+--------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/sdnvpn/docs/development/overview/index
+   ../submodules/sdnvpn/docs/development/requirements/index
+   ../submodules/sdnvpn/docs/release/installation/index
+   ../submodules/sdnvpn/docs/release/configguide/index
+   ../submodules/sdnvpn/docs/release/userguide/index
+   ../submodules/sdnvpn/docs/development/design/index
+
+
 SFC
 ---
 .. toctree::

@@ -65,6 +65,7 @@ Feature Configuration Guides
 - :ref:`Netready Configuration Guide <netready-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise-configguide>`
+- :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 
 
@@ -79,5 +80,6 @@ Feature User Guides
 - :ref:`Netready User Guide <netready-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`Promise User Guide <promise-userguide>`
+- :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 
