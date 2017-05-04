@@ -68,6 +68,7 @@ description documents provided:
 - :ref:`os-nosdn-ovs <os-nosdn-ovs>`
 - `os-odl_l3-ovs-ha <http://docs.opnfv.org/en/stable-danube/submodules/ovsnfv/docs/release/scenarios/os-odl_l3-ovs-ha/index.html>`_
 - :ref:`os-odl_l3-ovs-noha <os-odl_l3-ovs-noha>`
+- :ref:`os-odl_l3-fdio-ha <os-odl_l3-fdio-ha>`
 
 
 Installation Procedure
