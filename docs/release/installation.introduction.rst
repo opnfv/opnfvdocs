@@ -55,6 +55,7 @@ description documents provided:
 - :ref:`os-odl_l2-fdio-ha <os-odl_l2-fdio-ha>`
 - :ref:`os-odl_l2-fdio-noha <os-odl_l2-fdio-noha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
+- :ref:`os-odl_l2-bgpvpn <sdnvpn-os-odl_l2-bgpvpn>`
 - :ref:`os-odl-gluon-noha <gluon-scenario>`
 - :ref:`os-nosdn-openo-ha <opera-os-nosdn-openo-ha>`
 - `os-odl_l2-sfc-ha <http://docs.opnfv.org/en/stable-danube/submodules/sfc/docs/release/scenarios/os-odl_l2-sfc-ha/index.html>`_
