@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_f45b052c",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 6383
+      },
+      "writtenOn": "2017-05-04T14:55:55Z",
+      "side": 1,
+      "message": "Hi,\nI dont see these scenario files in the SDNVPN repo. I assume its located in another repository?",
+      "range": {
+        "startLine": 58,
+        "startChar": 26,
+        "endLine": 58,
+        "endChar": 44
+      },
+      "revId": "ed925f0f94f7991db09874c3803f0aacfc9b7501",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
