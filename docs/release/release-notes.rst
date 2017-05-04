@@ -46,6 +46,8 @@ Project release notes:
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
 
+:ref:`SDNVPN Release Notes <sdnvpn-releasenotes>`
+
 :ref:`SFC Release Notes <sfc-releasenotes>`
 
 :ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
