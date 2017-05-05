@@ -44,9 +44,3 @@ Developer
    how-to-use-docs/index
    featureprojects
 
-
-Infrastructure
---------------
-
-.. toctree::
-   :maxdepth: 1
