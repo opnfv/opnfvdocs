@@ -1,6 +1,6 @@
-=====================
+===================
 Documentation Guide
-=====================
+===================
 
 This page intends to cover the documentation handling for OPNFV. OPNFV projects are expected to create a variety of document types,
 according to the nature of the project. Some of these are common to projects that develop/integrate features into the OPNFV platform, e.g.
@@ -11,7 +11,7 @@ Installation Instructions and User/Configurations Guides. Other document types m
    :local:
 
 Getting Started with Documentation for Your Project
-----------------------------------------------------
+---------------------------------------------------
 OPNFV documentation is automated and integrated into our git & gerrit toolchains.
 
 We use RST document templates in our repositories and automatically render to HTML and PDF versions of the documents in our artifact
@@ -20,33 +20,27 @@ process for project information, content and deliverables.
 Read :ref:`this page <include-documentation>` which elaborates on how documentation is to be included within opnfvdocs.
 
 Licencing your documentation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 All contributions to the OPNFV project are done in accordance with the OPNFV licensing requirements. Documentation in OPNFV is contributed
-in accordance with the `Creative Commons 4.0 <https://creativecommons.org/licenses/by/4.0/>`_ licence.
-All documentation files need to be licensed using the creative commons licence. The following example may be applied in the first lines of
+in accordance with the `Creative Commons 4.0 <https://creativecommons.org/licenses/by/4.0/>`_  and the `SPDX https://spdx.org/>`_ licence.
+All documentation files need to be licensed using the text below. The license may be applied in the first lines of
 all contributed RST files:
 
 .. code-block:: bash
 
  .. This work is licensed under a Creative Commons Attribution 4.0 International License.
- .. http://creativecommons.org/licenses/by/4.0
+ .. SPDX-License-Identifier: CC-BY-4.0
  .. (c) <optionally add copywriters name>
-
-Or if you want to use the `SPDX https://spdx.org/>`_  Shorthand vs. the Creative Commons URL
-
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. SPDX-License-Identifier: CC-BY-4.0
-.. (c) <optionally add copywriters name>
 
  These lines will not be rendered in the html and pdf files.
 
 How and where to store the document content files in your repository
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 All documentation for your project should be structured and stored in the :code:`<repo>/docs/` directory. The documentation toolchain will
 look in these directories and be triggered on events in these directories when generating documents.
 
 Document structure and contribution
--------------------------------------
+-----------------------------------
 A general structure is proposed for storing and handling documents that are common across many projects but also for documents that may be
 project specific. The documentation is divided into three areas Release, Development and Testing. Templates for these areas can be found
 under :code:`opnfvdocs/docs/templates/`.
@@ -74,7 +68,7 @@ Following representation shows the expected structure:
 
 
 Release documentation
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 Release documentation is the set of documents that are published for each OPNFV release. These documents are created and developed
 following the OPNFV release process and milestones and should reflect the content of the OPNFV release.
 These documents have a master index.rst file in the <opnfvdocs> repository and extract content from other repositories.
@@ -110,7 +104,7 @@ and add a reference to that file in the correct place in the corresponding index
 - Include version details.
 
 Testing documentation
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 Documentation created by test projects can be stored under two different sub directories /user or /developemnt.
 Release notes will be stored under <repo>/docs/release/release-notes
 
@@ -122,7 +116,7 @@ e.g. Functest/Yardstick/Vsperf/Storperf/Bottlenecks/Qtip installation/config & u
 Will collect documentation to explain how to create your own test case and leverage existing testing frameworks e.g. developer guides.
 
 Development Documentation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 Project specific documents such as design documentation, project overview or requirement documentation can be stored under
 /docs/development. Links to generated documents will be dislayed under Development Documentaiton section on docs.opnfv.org.
 You are encouraged to establish the following basic structure for your project as needed:
