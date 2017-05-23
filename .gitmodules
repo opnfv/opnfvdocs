@@ -29,10 +29,10 @@
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dovetail"]
-        path = docs/submodules/dovetail
-        url = ../dovetail
-        branch = .
-        ignore = dirty
+	path = docs/submodules/dovetail
+	url = ../dovetail
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
 	url = ../fds
