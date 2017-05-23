@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_ee7393e5",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2017-05-23T13:50:00Z",
+      "side": 1,
+      "message": "The scope of this guide is overall testing, correct?  Then we should say \"Test cases that assess key aspects of a particular system or function, and express results on a quantitative continuum of the units of measure, or compare the quantitative results with an acceptance threshold to communicate pass or fail status.\"",
+      "range": {
+        "startLine": 77,
+        "startChar": 2,
+        "endLine": 77,
+        "endChar": 40
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_4e4ae784",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2017-05-23T13:50:00Z",
+      "side": 1,
+      "message": "In my mind, NFVI includes compute, network, and storage. WHat is the additional Infrastructure in this category, Hypervisor? Container system?",
+      "range": {
+        "startLine": 96,
+        "startChar": 2,
+        "endLine": 96,
+        "endChar": 6
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_ce5d774a",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2017-05-23T13:50:00Z",
+      "side": 1,
+      "message": "is this supposed to be http://artifacts.opnfv.org/releng/docs/testapi.html\n\n?",
+      "range": {
+        "startLine": 150,
+        "startChar": 9,
+        "endLine": 150,
+        "endChar": 43
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_ee5ab34f",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2017-05-23T13:50:00Z",
+      "side": 1,
+      "message": "s/pods/sets of hosts and networking equipment/",
+      "range": {
+        "startLine": 172,
+        "startChar": 22,
+        "endLine": 172,
+        "endChar": 26
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
