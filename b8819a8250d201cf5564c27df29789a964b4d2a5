@@ -48,6 +48,52 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_1fb65b8b",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 2651
+      },
+      "writtenOn": "2017-05-25T06:32:46Z",
+      "side": 1,
+      "message": "converage -\u003e coverage?",
+      "range": {
+        "startLine": 105,
+        "startChar": 8,
+        "endLine": 105,
+        "endChar": 17
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_ffac9f37",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 2651
+      },
+      "writtenOn": "2017-05-25T06:32:46Z",
+      "side": 1,
+      "message": "How about using \u0027TestAPI framework\u0027 directly?",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 25
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_ce5d774a",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 1
