@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_e7ff28a9",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 833
+      },
+      "writtenOn": "2017-06-02T07:51:20Z",
+      "side": 1,
+      "message": "Do we need to add rows for stress and in service here?",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 18
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_271d4010",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 833
+      },
+      "writtenOn": "2017-06-02T07:51:20Z",
+      "side": 1,
+      "message": "Maybe we could add the link https://wiki.opnfv.org/display/testing/Result+alignment+for+ELK+post-processing here as complementary information.",
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
