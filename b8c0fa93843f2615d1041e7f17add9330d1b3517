@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "5aaae553_6787b810",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "Fix indentation (1 space)\n\n    | Smoke",
+      "range": {
+        "startLine": 67,
+        "startChar": 1,
+        "endLine": 67,
+        "endChar": 9
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_4782bc01",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "Fix indentation (1 space)\n\n    | Features",
+      "range": {
+        "startLine": 69,
+        "startChar": 1,
+        "endLine": 69,
+        "endChar": 12
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_e7ff28a9",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -25,6 +71,214 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_077cc41f",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "+1\n\nShould be in line with:\nhttps://wiki.opnfv.org/display/testing/Testing+Ecosystem",
+      "parentUuid": "5aaae553_e7ff28a9",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 18
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_2779c02f",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "goals",
+      "range": {
+        "startLine": 100,
+        "startChar": 11,
+        "endLine": 100,
+        "endChar": 15
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_c7754c33",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "Do we want to expose the password here? In the wiki we say: ask on IRC or the mailing list. We could say something similar here. Otherwise, authentication is useless if passwords are public :)",
+      "range": {
+        "startLine": 120,
+        "startChar": 17,
+        "endLine": 120,
+        "endChar": 32
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_a794d037",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "and to produce a dashboard with the current test status of the project.",
+      "range": {
+        "startLine": 124,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 61
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_47995c6d",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "I\u0027d rather say \"bare metal servers\"\n\nor since we consider also vPODs, we can say\n\n\"bare metal or virtual servers\"",
+      "range": {
+        "startLine": 164,
+        "startChar": 30,
+        "endLine": 164,
+        "endChar": 35
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_679ed858",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "test cases",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 5
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_c7ac6c8f",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "consistent",
+      "range": {
+        "startLine": 220,
+        "startChar": 0,
+        "endLine": 220,
+        "endChar": 11
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_e7a9687c",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "consistent",
+      "range": {
+        "startLine": 232,
+        "startChar": 31,
+        "endLine": 232,
+        "endChar": 41
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_87b674db",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "that was the decision in Colorado, however it is not implemented, we are still using http://testresults.opnfv.org/reporting",
+      "range": {
+        "startLine": 237,
+        "startChar": 0,
+        "endLine": 237,
+        "endChar": 14
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_271d4010",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -36,6 +290,29 @@
       "writtenOn": "2017-06-02T07:51:20Z",
       "side": 1,
       "message": "Maybe we could add the link https://wiki.opnfv.org/display/testing/Result+alignment+for+ELK+post-processing here as complementary information.",
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_a7bb70c3",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 459
+      },
+      "writtenOn": "2017-06-02T08:35:52Z",
+      "side": 1,
+      "message": "you could add:\n\nbut it is possible to deploy a local database to be used to store your own results. (or something similar).\n\nJust as we do for the plugfests..",
+      "range": {
+        "startLine": 271,
+        "startChar": 1,
+        "endLine": 272,
+        "endChar": 50
+      },
       "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
