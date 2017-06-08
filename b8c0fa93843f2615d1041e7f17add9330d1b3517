@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_88ee818a",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_6787b810",
+      "range": {
+        "startLine": 67,
+        "startChar": 1,
+        "endLine": 67,
+        "endChar": 9
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_4782bc01",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-06-02T08:35:52Z",
       "side": 1,
       "message": "Fix indentation (1 space)\n\n    | Features",
+      "range": {
+        "startLine": 69,
+        "startChar": 1,
+        "endLine": 69,
+        "endChar": 12
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_a8f33d72",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_4782bc01",
       "range": {
         "startLine": 69,
         "startChar": 1,
@@ -95,6 +143,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_48e8897c",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_077cc41f",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 18
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_2779c02f",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -106,6 +178,30 @@
       "writtenOn": "2017-06-02T08:35:52Z",
       "side": 1,
       "message": "goals",
+      "range": {
+        "startLine": 100,
+        "startChar": 11,
+        "endLine": 100,
+        "endChar": 15
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_68ed458b",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_2779c02f",
       "range": {
         "startLine": 100,
         "startChar": 11,
@@ -141,6 +237,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_0802913e",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_c7754c33",
+      "range": {
+        "startLine": 120,
+        "startChar": 17,
+        "endLine": 120,
+        "endChar": 32
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_a794d037",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -152,6 +272,30 @@
       "writtenOn": "2017-06-02T08:35:52Z",
       "side": 1,
       "message": "and to produce a dashboard with the current test status of the project.",
+      "range": {
+        "startLine": 124,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 61
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_28ff4d36",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_a794d037",
       "range": {
         "startLine": 124,
         "startChar": 0,
@@ -187,6 +331,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_c8fb1946",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_47995c6d",
+      "range": {
+        "startLine": 164,
+        "startChar": 30,
+        "endLine": 164,
+        "endChar": 35
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_679ed858",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -198,6 +366,30 @@
       "writtenOn": "2017-06-02T08:35:52Z",
       "side": 1,
       "message": "test cases",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 5
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_e8f8554b",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_679ed858",
       "range": {
         "startLine": 167,
         "startChar": 0,
@@ -279,6 +471,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_a89a5d12",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_87b674db",
+      "range": {
+        "startLine": 237,
+        "startChar": 0,
+        "endLine": 237,
+        "endChar": 14
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_271d4010",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -296,6 +512,24 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_489f2904",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_271d4010",
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_a7bb70c3",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 2
@@ -307,6 +541,30 @@
       "writtenOn": "2017-06-02T08:35:52Z",
       "side": 1,
       "message": "you could add:\n\nbut it is possible to deploy a local database to be used to store your own results. (or something similar).\n\nJust as we do for the plugfests..",
+      "range": {
+        "startLine": 271,
+        "startChar": 1,
+        "endLine": 272,
+        "endChar": 50
+      },
+      "revId": "b8c0fa93843f2615d1041e7f17add9330d1b3517",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_68a46557",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_a7bb70c3",
       "range": {
         "startLine": 271,
         "startChar": 1,
