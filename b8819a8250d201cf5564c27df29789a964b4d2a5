@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_784a0085",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "oops bad copy/paste \u003d\u003e fixed",
+      "parentUuid": "5aaae553_ee7393e5",
+      "range": {
+        "startLine": 77,
+        "startChar": 2,
+        "endLine": 77,
+        "endChar": 40
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_4e4ae784",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2017-05-23T13:50:00Z",
       "side": 1,
       "message": "In my mind, NFVI includes compute, network, and storage. WHat is the additional Infrastructure in this category, Hypervisor? Container system?",
+      "range": {
+        "startLine": 96,
+        "startChar": 2,
+        "endLine": 96,
+        "endChar": 6
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_d82bf492",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_4e4ae784",
       "range": {
         "startLine": 96,
         "startChar": 2,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_7818c084",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_1fb65b8b",
+      "range": {
+        "startLine": 105,
+        "startChar": 8,
+        "endLine": 105,
+        "endChar": 17
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_ffac9f37",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2017-05-25T06:32:46Z",
       "side": 1,
       "message": "How about using \u0027TestAPI framework\u0027 directly?",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 25
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_981d7c76",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_ffac9f37",
       "range": {
         "startLine": 118,
         "startChar": 0,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_58170452",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "the lonk you mention is the documentation of the API\nI removed the link, it was misleading",
+      "parentUuid": "5aaae553_ce5d774a",
+      "range": {
+        "startLine": 150,
+        "startChar": 9,
+        "endLine": 150,
+        "endChar": 43
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_ee5ab34f",
         "filename": "docs/testing/developer/devguide/index.rst",
         "patchSetId": 1
@@ -128,6 +248,30 @@
       "writtenOn": "2017-05-23T13:50:00Z",
       "side": 1,
       "message": "s/pods/sets of hosts and networking equipment/",
+      "range": {
+        "startLine": 172,
+        "startChar": 22,
+        "endLine": 172,
+        "endChar": 26
+      },
+      "revId": "b8819a8250d201cf5564c27df29789a964b4d2a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_d802140b",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-06-08T02:12:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_ee5ab34f",
       "range": {
         "startLine": 172,
         "startChar": 22,
