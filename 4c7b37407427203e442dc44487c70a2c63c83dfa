@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_78ce6985",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-06-20T01:08:16Z",
+      "side": 1,
+      "message": "A link is preferred, since the code may be updated and the document will become out of date.",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 315,
+        "endChar": 22
+      },
+      "revId": "4c7b37407427203e442dc44487c70a2c63c83dfa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_98cb2572",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 373,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-06-20T01:08:16Z",
+      "side": 1,
+      "message": "What are these empty slots?",
+      "range": {
+        "startLine": 367,
+        "startChar": 0,
+        "endLine": 373,
+        "endChar": 7
+      },
+      "revId": "4c7b37407427203e442dc44487c70a2c63c83dfa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_38c8f173",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-06-20T01:08:16Z",
+      "side": 1,
+      "message": "It seems [9] is never referred.",
+      "range": {
+        "startLine": 375,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 7
+      },
+      "revId": "4c7b37407427203e442dc44487c70a2c63c83dfa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_d8b99dea",
+        "filename": "docs/testing/developer/devguide/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-06-20T01:08:16Z",
+      "side": 1,
+      "message": "Is this document dedicated to functest or generalized for testperf ?",
+      "range": {
+        "startLine": 393,
+        "startChar": 25,
+        "endLine": 393,
+        "endChar": 33
+      },
+      "revId": "4c7b37407427203e442dc44487c70a2c63c83dfa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
