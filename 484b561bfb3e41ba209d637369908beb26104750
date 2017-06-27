@@ -1,0 +1,11 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Yujun Zhang <zhang.yujunz@zte.com.cn>
+Code-Review+1: Serena Feng <feng.xiaowei@zte.com.cn>
+Code-Review+1: Kubi <jean.gaoliang@huawei.com>
+Code-Review+1: Jose Lausuch <jose.lausuch@ericsson.com>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Tue, 27 Jun 2017 09:32:16 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/35179
+Project: opnfvdocs
+Branch: refs/heads/master
