@@ -142,6 +142,16 @@
 	url = ../opera
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/samplevnf"]
+	path = docs/submodules/samplevnf
+	url = https://gerrit.opnfv.org/gerrit/samplevnf
+	branch = .
+	ignore = dirty
+[submodule "docs/submodules/snaps"]
+	path = docs/submodules/snaps
+	url = ../snaps
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/barometer"]
 	path = docs/submodules/barometer
 	url = ../barometer
