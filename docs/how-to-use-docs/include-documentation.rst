@@ -236,7 +236,7 @@ Clone the opnfvdocs repository and your submodule to .gitmodules following the c
 .. code-block:: bash
 
   cd docs/submodules/
-  git submodule git https://gerrit.opnfv.org/gerrit/$reponame
+  git submodule add https://gerrit.opnfv.org/gerrit/$reponame
   git submodule init $reponame/
   git submodule update $reponame/
   git add .
