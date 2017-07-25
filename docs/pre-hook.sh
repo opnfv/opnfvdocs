@@ -21,6 +21,7 @@ get_repo_names() {
     echo "bottlenecks"
     echo "compass4nfv"
     echo "copper"
+    echo "daisy"
     echo "doctor"
     echo "fastpathmetrics"
     echo "fuel"

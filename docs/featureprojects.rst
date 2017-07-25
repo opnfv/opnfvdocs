@@ -87,6 +87,16 @@ Copper
    ../submodules/copper/docs/development/manuals/index
 
 
+Daisy4NFV
+---------
+.. toctree::
+  :maxdepth: 1
+
+  ../submodules/daisy/docs/developer/design/index
+  ../submodules/daisy/docs/configurationguide/index
+  ../submodules/daisy/docs/installationprocedure/index
+
+
 Doctor
 ------
 .. toctree::
