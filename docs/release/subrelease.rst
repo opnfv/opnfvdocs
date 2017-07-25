@@ -18,6 +18,14 @@ Compass
    ../submodules/compass4nfv/docs/releasenotes/index
    ../submodules/compass4nfv/docs/installationprocedure/index
 
+Daisy
+-------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/daisy/docs/release/release-notes/index
+   ../submodules/daisy/docs/release/installation/index
+
 Fuel
 -----
 .. toctree::
