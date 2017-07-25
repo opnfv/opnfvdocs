@@ -24,6 +24,8 @@ Project release notes:
 
 :ref:`Copper Release Notes <copper-releasenotes>`
 
+:ref:`Daisy Release Notes <daisy-releasenotes>`
+
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
 :ref:`FDS Release Notes <fds-releasenotes>`
