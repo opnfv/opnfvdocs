@@ -77,3 +77,4 @@ Once the patch is merged, jenkins will automatically trigger building of
 the new documentation. This might take about 15 minutes while readthedocs
 builds the documentatation. The newly built documentation shall show up
 as appropriate placed in docs.opnfv.org/{branch}/path-to-file.
+
