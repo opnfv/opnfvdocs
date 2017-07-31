@@ -88,6 +88,11 @@
 	url = ../netready
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/nfvbench"]
+	path = docs/submodules/nfvbench
+	url = https://gerrit.opnfv.org/gerrit/nfvbench
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/octopus"]
 	path = docs/submodules/octopus
 	url = ../octopus
