@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_8ab62f89",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 3903
+      },
+      "writtenOn": "2017-08-01T02:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_87f3ca09",
+      "range": {
+        "startLine": 95,
+        "startChar": 3,
+        "endLine": 97,
+        "endChar": 54
+      },
+      "revId": "21c196346e3153b2e6fdaa4383f94d2fb9b5e6c9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_27ee3e23",
         "filename": "docs/release/subrelease.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2017-07-31T15:03:49Z",
       "side": 1,
       "message": "And then you need to change here, \ndocs/release/release-notes\ndocs/release/installation",
+      "range": {
+        "startLine": 26,
+        "startChar": 5,
+        "endLine": 27,
+        "endChar": 56
+      },
+      "revId": "21c196346e3153b2e6fdaa4383f94d2fb9b5e6c9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_6abbeb72",
+        "filename": "docs/release/subrelease.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 3903
+      },
+      "writtenOn": "2017-08-01T02:47:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_27ee3e23",
       "range": {
         "startLine": 26,
         "startChar": 5,
