@@ -7,6 +7,10 @@
 Testing Developer Guides
 ========================
 
+Testing group
+-------------
+.. include:: ./developer/devguide/index.rst
+
 Bottlenecks
 ------------
 .. toctree::

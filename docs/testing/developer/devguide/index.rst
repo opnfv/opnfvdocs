@@ -62,7 +62,7 @@ The testing group defined several categories also known as tiers. These
 categories can be used to group test suites.
 
 +----------------+-------------------------------------------------------------+
-| healthcheck    | Simple and quick healthcheck tests case                     |
+| Healthcheck    | Simple and quick healthcheck tests case                     |
 +----------------+-------------------------------------------------------------+
 | Smoke          | Set of smoke test cases/suites to validate the release      |
 +----------------+-------------------------------------------------------------+
