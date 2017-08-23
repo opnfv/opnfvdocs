@@ -7,6 +7,10 @@
 Testing Developer Guides
 ========================
 
+Testing group
+-------------
+.. include:: ./developer/devguide/index.rst
+
 Bottlenecks
 ------------
 .. toctree::
@@ -36,7 +40,7 @@ VSPERF
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/vswitchperf/docs/testing/developer/index
+   ../submodules/vswitchperf/docs/testing/developer/devguide/index
 
 
 Yardstick
