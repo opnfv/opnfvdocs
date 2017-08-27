@@ -62,9 +62,17 @@ Following representation shows the expected structure:
         │   ├── scenarios
         │   │   └── scenario.name
         │   └── userguide
-        └── testing
-            ├── developer
-            └── user
+        ├── testing
+        │   ├── developer
+        │   └── user
+        └── infrastructure
+            ├── software-infrastructure
+            ├── continuous-integration
+            │   └── developer
+            └── cross-community-continuous-integration
+                ├── overview
+                ├── developer
+                └── user
 
 
 Release documentation
@@ -133,3 +141,7 @@ You are encouraged to establish the following basic structure for your project a
 **Project overview**: :code:`<repo>/docs/development/overview`
 
 - Folder for any project specific documentation.
+
+Infrastructure Documentation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Infrastructure documentation can be stored under code:`<repo>/docs/infrastructure/` folder.
