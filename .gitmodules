@@ -108,6 +108,11 @@
 	url = ../openretriever
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/orchestra"]
+	path = docs/submodules/orchestra
+	url = https://gerrit.opnfv.org/gerrit/orchestra
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ovsnfv"]
 	path = docs/submodules/ovsnfv
 	url = ../ovsnfv
