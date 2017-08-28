@@ -240,4 +240,15 @@ Clone the opnfvdocs repository and your submodule to .gitmodules following the c
   git submodule init $reponame/
   git submodule update $reponame/
   git add .
+  git commit -sv
   git review
+
+Removing a project repository as a submodule
+--------------------------
+  git rm docs/submodules/$reponame
+  rm -rf .git/modules/$reponame
+  git config -f .git/config --remove-section submodule.$reponame 2> /dev/null
+  git add .
+  git commit -sv
+  git review
+
