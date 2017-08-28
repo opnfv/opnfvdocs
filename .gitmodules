@@ -18,6 +18,11 @@
 	url = ../compass4nfv
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/container4nfv"]
+	path = docs/submodules/container4nfv
+	url = https://gerrit.opnfv.org/gerrit/container4nfv
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/copper"]
 	path = docs/submodules/copper
 	url = ../copper
