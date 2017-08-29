@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_4a4e9970",
+        "filename": "docs/submodules/ovn4nfv/.gitignore",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-08-29T11:08:33Z",
+      "side": 1,
+      "message": "This look a bit wired... \nI think that you need to remove the /.gitignore and just store it as docs/submodules/ovn4nfv",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 4,
+        "endChar": 11
+      },
+      "revId": "e6fc911c25e5a9705780568be48f4d05089370f2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
