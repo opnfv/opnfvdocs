@@ -113,6 +113,11 @@
 	url = https://gerrit.opnfv.org/gerrit/orchestra
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/ovn4nfv"]
+	path = docs/submodules/ovn4nfv
+	url = ../ovn4nfv
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ovsnfv"]
 	path = docs/submodules/ovsnfv
 	url = ../ovsnfv
