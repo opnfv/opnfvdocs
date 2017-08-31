@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_810d2493",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-08-31T02:42:03Z",
+      "side": 1,
+      "message": "What is this? Should it be part of project source code?",
+      "range": {
+        "startLine": 86,
+        "startChar": 8,
+        "endLine": 86,
+        "endChar": 11
+      },
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_6110e0a8",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-08-31T02:42:03Z",
+      "side": 1,
+      "message": "Put a note like \"TBD\" for empty section?",
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c1260c16",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-08-31T02:42:03Z",
+      "side": 1,
+      "message": "What about putting a header row for the table?",
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a12148fe",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-08-31T02:42:03Z",
+      "side": 1,
+      "message": "Not quite understanding this.",
+      "range": {
+        "startLine": 196,
+        "startChar": 14,
+        "endLine": 196,
+        "endChar": 30
+      },
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a1682822",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-08-31T02:42:03Z",
+      "side": 1,
+      "message": "^",
+      "range": {
+        "startLine": 233,
+        "startChar": 11,
+        "endLine": 233,
+        "endChar": 12
+      },
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
