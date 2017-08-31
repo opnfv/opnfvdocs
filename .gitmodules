@@ -212,3 +212,6 @@
 	url = ../infra
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/ovn4nfv"]
+	path = docs/submodules/ovn4nfv
+	url = https://gerrit.opnfv.org/gerrit/ovn4nfv
