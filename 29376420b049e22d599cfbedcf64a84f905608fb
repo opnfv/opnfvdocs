@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_1cd4db45",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-01T07:03:29Z",
+      "side": 1,
+      "message": "yes \u003d\u003e tree changed",
+      "parentUuid": "da33351e_6110e0a8",
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_c1260c16",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 2
@@ -53,6 +71,24 @@
       "writtenOn": "2017-08-31T02:42:03Z",
       "side": 1,
       "message": "What about putting a header row for the table?",
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9cbf4bfc",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-01T07:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_c1260c16",
       "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -82,6 +118,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_7c424711",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-01T07:03:29Z",
+      "side": 1,
+      "message": "I changed the structure of this section",
+      "parentUuid": "da33351e_a12148fe",
+      "range": {
+        "startLine": 196,
+        "startChar": 14,
+        "endLine": 196,
+        "endChar": 30
+      },
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_a1682822",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 2
@@ -93,6 +153,30 @@
       "writtenOn": "2017-08-31T02:42:03Z",
       "side": 1,
       "message": "^",
+      "range": {
+        "startLine": 233,
+        "startChar": 11,
+        "endLine": 233,
+        "endChar": 12
+      },
+      "revId": "29376420b049e22d599cfbedcf64a84f905608fb",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5c45c315",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-01T07:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_a1682822",
       "range": {
         "startLine": 233,
         "startChar": 11,
