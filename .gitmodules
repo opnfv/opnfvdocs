@@ -217,3 +217,8 @@
 	url = ../infra
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/releng-xci"]
+	path = docs/submodules/releng-xci
+	url = https://gerrit.opnfv.org/gerrit/releng-xci
+	branch = .
+	ignore = dirty
