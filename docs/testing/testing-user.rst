@@ -7,6 +7,9 @@
 Testing User Guides
 ===================
 
+This page provides the links to the installation, configuration and user guides
+of the different test projects.
+
 Bottlenecks
 ------------
 .. toctree::
@@ -60,6 +63,3 @@ Yardstick
 
    ../submodules/yardstick/docs/testing/user/configguide/index
    ../submodules/yardstick/docs/testing/user/userguide/index
-
-
-
