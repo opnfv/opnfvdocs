@@ -9,7 +9,7 @@ Testing Developer Guides
 
 Testing group
 -------------
-.. include:: ./developer/devguide/index.rst
+.. include:: ./developer/devguide/index
 
 Bottlenecks
 ------------
