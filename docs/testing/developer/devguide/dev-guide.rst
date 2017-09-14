@@ -48,6 +48,11 @@ Tooling may be specific to a project or generic to all the projects. For
 specific tooling, please report to the test project user guide. The tooling used
 by several test projects will be detailed in this document.
 
+The best event to meet the testing community is probably the plugfest. Such
+event is organized after each release. Most of the test projects are present.
+
+The summit is also a good occastion to meet most of the actors `[4]`_.
+
 Be involved in the testing group
 ================================
 
@@ -57,8 +62,8 @@ consistant test strategy (test case definition, scope of projects, resources for
 long duration, documentation, ...) and align tooling or best practices.
 
 A weekly meeting is organized, the agenda may be amended by any participant.
-2 slots have been defined (US and APAC). Agendas and minutes are public.See
-`[8]`_ for details.
+2 slots have been defined (US/Europe and APAC). Agendas and minutes are public.
+See `[3]`_ for details.
 The testing group IRC channel is #opnfv-testperf
 
 Best practices
@@ -122,24 +127,42 @@ possible to prepare the environement and run tests through a CLI.
 
 Dockerization
 -------------
-Dockerization has been introduced in Brahmaputra and adopted by the test
+Dockerization has been introduced in Brahmaputra and adopted by most of the test
 projects. Docker containers are pulled on the jumphost of OPNFV POD.
 
 
+Code quality
+------------
+
+It is recommended to control the quality of the code of the testing projects,
+and more precisely to implement some verifications before any merge:
+  * pep8
+  * pylint
+  * unit tests (python 2.7)
+  * unit tests (python 3.5)
 
 
-Unit tests
-----------
+The code of the test project must also be covered by unit tests. The coverage
+shall be reasonable and not decrease when adding new features to the framework.
+The use of tox is recommended.
+It is possible to implement strict rules (no decrease of pylint score, unit
+test coverages) on critical classes.
 
 
 Traffic generators
 ------------------
+Several test projects dealing with load/stress testing are using trafic
+generators. They can be listed as follows:
+
+  * Yardstick: TODO
+  * Vsperf: TODO
+  * Storperf: TODO
+  * Bottlenecks: TODO
 
 
 ======================================
 Testing group configuration parameters
 ======================================
-
 
 Testing categories
 ==================
@@ -195,161 +218,6 @@ Ideally based on the declaration of the test cases, through the tags, domains
 and tier fields, it shall be possible to create heuristic maps.
 
 
-=================
-TestAPI framework
-=================
-
-The OPNFV testing group created a test collection database to collect
-the test results from CI:
-
-
- http://testresults.opnfv.org/test/swagger/spec.html
-
-Any test project running on any lab integrated in CI can push the
-results to this database.
-This database can be used to see the evolution of the tests and compare
-the results versus the installers, the scenarios or the labs.
-It is used to produce a dashboard with the current test status of the project.
-
-
-Overall Architecture
-====================
-The Test result management can be summarized as follows::
-
-  +-------------+    +-------------+    +-------------+
-  |             |    |             |    |             |
-  |   Test      |    |   Test      |    |   Test      |
-  | Project #1  |    | Project #2  |    | Project #N  |
-  |             |    |             |    |             |
-  +-------------+    +-------------+    +-------------+
-           |               |               |
-           V               V               V
-       +-----------------------------------------+
-       |                                         |
-       |         Test Rest API front end         |
-       |                                         |
-       +-----------------------------------------+
-           |                |
-           |                V
-           |     +-------------------------+
-           |     |                         |
-           |     |    Test Results DB      |
-           |     |         Mongo DB        |
-           |     |                         |
-           |     +-------------------------+
-           |
-           |
-     +----------------------+
-     |                      |
-     |    test Dashboard    |
-     |                      |
-     +----------------------+
-
-TestAPI description
-===================
-The TestAPI is used to declare pods, projects, test cases and test
-results. Pods are the sets of bare metal or virtual servers and networking
-equipments used to run the tests.
-
-The results pushed in the database are related to pods, projects and test cases.
-If you try to push results of test done on non referenced pod, the API will
-return an error message.
-
-An additional method dashboard has been added to post-process
-the raw results in release Brahmaputra (deprecated in Colorado).
-
-The data model is very basic, 5 objects are created:
-
-  * Pods
-  * Projects
-  * Testcases
-  * Results
-  * Scenarios
-
-The code of the API is hosted in the releng repository `[6]`_.
-The static documentation of the API can be found at `[7]`_.
-The TestAPI has been dockerized and may be installed locally in your
-lab. See `[15]`_ for details.
-
-The deployment of the TestAPI has been automated.
-A jenkins job manages:
-
-  * the unit tests of the TestAPI
-  * the creation of a new docker file
-  * the deployment of the new TestAPI
-  * the archive of the old TestAPI
-  * the backup of the Mongo DB
-
-TestAPI Authorization
----------------------
-
-PUT/DELETE/POST operations of the TestAPI now require token based authorization. The token needs
-to be added in the request using a header 'X-Auth-Token' for access to the database.
-
-e.g::
-    headers['X-Auth-Token']
-
-The value of the header i.e the token can be accessed in the jenkins environment variable
-*TestApiToken*. The token value is added as a masked password.
-
-.. code-block:: python
-
-    headers['X-Auth-Token'] = os.environ.get('TestApiToken')
-
-The above example is in Python. Token based authentication has been added so that only ci pods
-jenkins job can have access to the database.
-
-Please note that currently token authorization is implemented but is not yet enabled.
-
-===============================
-Feedback from the testing group
-================================
-
-Test case catalog
-===================
-
-A test case catalog has been realized. Roll over the project then click to get
-the list of test cases, click on the case to get more details.
-
-.. raw:: html
-   :url: http://testresults.opnfv.org/reporting2/reporting/index.html#!/select/visual
-
-Reporting
-=========
-
-An automatic reporting page has been created in order to provide a
-consistent view of the scenarios.
-
-In this page, each scenario is evaluated according to test criteria.
-The code for the automatic reporting is available at `[8]`_.
-
-The results are collected from the centralized database every day and,
-per scenario. A score is calculated based on the results from the last
-10 days.
-
-Dashboard
-=========
-
-Dashboard is used to provide a consistent view of the results collected in CI.
-The results showed on the dashboard are post processed from the Database,
-which only contains raw results.
-
-It can be used in addition of the reporting page (high level view) to allow
-the creation of specific graphs according to what the test owner wants to show.
-
-In Brahmaputra, a basic home made dashboard was created in Functest.
-In Colorado, Yardstick adopted Grafana (time based graphs) and ELK (complex
-graphs).
-Since Danube, the testing community decided to adopt ELK framework and to rely
-on bitergia. It was not implemented for Danube but it is planned for Euphrates.
-
-Bitergia already provides a dashboard for code and infrastructure.
-A new Test tab will be added. The dataset will be built by consuming
-the TestAPI.
-
-See `[3]`_ for details.
-
-
 =======
 How TOs
 =======
@@ -388,7 +256,7 @@ The architecture and associated API is described in previous chapter.
 If you want to push your results from CI, you just have to call the API
 at the end of your script.
 
-You can also reuse a python function defined in functest_utils.py `[5]`_
+You can also reuse a python function defined in functest_utils.py `[2]`_
 
 
 Where can I find the documentation on the test API?
@@ -432,21 +300,21 @@ http://artifacts.opnfv.org/<project name>
 References
 ==========
 
-_`[1]`: http://docs.opnfv.org/en/stable-danube/testing/ecosystem/overview.html
+`[1]`_: OPNFV Testing Ecosystem
 
-_`[2]`: http://www.opnfv.org
+`[2]`_: Python code sample to push results into the Database
 
-_`[3]`: https://wiki.opnfv.org/display/testing/Result+alignment+for+ELK+post-processing
+`[3]`_: Testing group wiki page
 
-_`[4]`: https://wiki.opnfv.org/display/INF/CI+Scenario+Naming
+`[4]`_: Conversation with the testing community, OPNFV Beijing Summit
 
-_`[5]`: https://git.opnfv.org/functest/tree/functest/utils/functest_utils.py#176
 
-_`[6]`: https://git.opnfv.org/functest/tree/releng
+.._`[1]`: http://docs.opnfv.org/en/latest/testing/ecosystem/index.html
 
-_`[7]`: http://artifacts.opnfv.org/releng/docs/testapi.html
+.._`[2]`: https://git.opnfv.org/functest/tree/functest/utils/functest_utils.py#176
 
-_`[8]`: https://wiki.opnfv.org/display/meetings/Test+Working+Group+Weekly+Meeting
+.._`[3]`: https://wiki.opnfv.org/display/meetings/Test+Working+Group+Weekly+Meeting
 
+.._`[4]`: https://www.youtube.com/watch?v=f9VAUdEqHoA
 
 IRC support chan: #opnfv-testperf
