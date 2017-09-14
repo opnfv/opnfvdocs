@@ -116,11 +116,21 @@ The major testing projects are described in the table below:
 The testing working group resources
 ===================================
 
-The assets
-==========
+Test collection framework
+=========================
+
+Any test project running on any lab integrated in CI can push the
+results to this database.
+This database can be used to see the evolution of the tests and compare
+the results versus the installers, the scenarios or the labs.
+It is used to produce a dashboard with the current test status of the project.
+
+Please note that you can deploy the test Database and test API locally in your
+own environment.
 
 Overall Architecture
 --------------------
+
 The Test result management can be summarized as follows::
 
   +-------------+    +-------------+    +-------------+
@@ -171,8 +181,8 @@ mainly use to colelct CI results and scenario trust indicators.
 This database is also cloned for OPNFV Plugfest.
 
 
-The test API
-------------
+TestAPI description
+-------------------
 The Test API is used to declare pods, projects, test cases and test results.
 Pods correspond to the cluster of machines (3 controller and 2 compute nodes in
 HA mode) used to run the tests and defined in Pharos project.
@@ -192,9 +202,48 @@ The data model is very basic, 5 objects are available:
 
 For detailed information, please go to http://artifacts.opnfv.org/releng/docs/testapi.html
 
+The code of the API is hosted in the releng repository `[2]`_.
+The static documentation of the API can be found at `[3]`_.
+The TestAPI has been dockerized and may be installed locally in your
+lab. See `[15]`_ for details.
 
-The reporting
--------------
+The deployment of the TestAPI has been automated.
+A jenkins job manages:
+
+  * the unit tests of the TestAPI
+  * the creation of a new docker file
+  * the deployment of the new TestAPI
+  * the archive of the old TestAPI
+  * the backup of the Mongo DB
+
+TestAPI Authorization
+---------------------
+
+PUT/DELETE/POST operations of the TestAPI now require token based authorization. The token needs
+to be added in the request using a header 'X-Auth-Token' for access to the database.
+
+e.g::
+    headers['X-Auth-Token']
+
+The value of the header i.e the token can be accessed in the jenkins environment variable
+*TestApiToken*. The token value is added as a masked password.
+
+.. code-block:: python
+
+    headers['X-Auth-Token'] = os.environ.get('TestApiToken')
+
+The above example is in Python. Token based authentication has been added so that only ci pods
+jenkins job can have access to the database.
+
+Please note that currently token authorization is implemented but is not yet enabled.
+
+TestAPI Portal
+--------------
+The portal has been developed for the CVP. It consumes the TestAPI.
+
+
+Reporting pages
+===============
 The reporting page for the test projects is http://testresults.opnfv.org/reporting/
 
 .. figure:: ../../images/reporting_page.png
@@ -203,9 +252,9 @@ The reporting page for the test projects is http://testresults.opnfv.org/reporti
 
 This page provides a reporting per OPNFV release and per testing project.
 
-.. figure:: ../../images/reporting_danube_page.png
+.. figure:: ../../images/reportingMaster.png
    :align: center
-   :alt: Testing group Danube reporting page
+   :alt: Testing group Euphrates reporting page
 
 An evolution of this page is planned.
 It was decided to unify the reporting by creating a landing page that should give
@@ -220,8 +269,9 @@ The landing page (planned for Danube 2.0) will be displayed per scenario:
 Additional filters (version, installer, test collection time window,... ) are
 included.
 
-The test case catalog
----------------------
+
+Test case catalog
+=================
 Until the Colorado release, each testing project was managing the list of its
 test cases. It was very hard to have a global view of the available test cases
 among the different test projects. A common view was possible through the API
@@ -232,9 +282,31 @@ In fact you may know all the cases per project calling:
 
 with project_name: bottlenecks, functest, qtip, storperf, vsperf, yardstick
 
-It was decided to build a web site providing a consistent view of the test cases
-per project and allow any scenario owner to build his/her custom list of tests
-(Danube 2.0).
+A test case catalog has been realized. Roll over the project then click to get
+the list of test cases, click on the case to get more details.
+
+.. raw:: html
+   :url: http://testresults.opnfv.org/testing/index.html#!/select/visual
+
+Dashboards
+==========
+
+Dashboard is used to provide a consistent view of the results collected in CI.
+The results showed on the dashboard are post processed from the Database,
+which only contains raw results.
+
+It can be used in addition of the reporting page (high level view) to allow
+the creation of specific graphs according to what the test owner wants to show.
+
+In Brahmaputra, a basic home made dashboard was created in Functest.
+In Colorado, Yardstick adopted Grafana (time based graphs) and ELK (complex
+graphs).
+Since Danube, the testing community decided to adopt ELK framework and to rely
+on bitergia.
+
+.. raw:: html
+   :url: https://opnfv.biterg.io:443/goto/283dba93ca18e95964f852c63af1d1ba
+
 
 Other resources
 ===============
@@ -248,6 +320,7 @@ IRC chan: #opnfv-testperf
 weekly meeting (https://wiki.opnfv.org/display/meetings/TestPerf):
  * Usual time: Every Thursday 15:00-16:00 UTC / 7:00-8:00 PST
  * APAC time: 2nd Wednesday of the month 8:00-9:00 UTC
+
 
 =======================
 Reference documentation
@@ -272,3 +345,17 @@ Reference documentation
 +----------------+---------------------------------------------------------+
 | Yardstick      | https://wiki.opnfv.org/display/yardstick/Yardstick      |
 +----------------+---------------------------------------------------------+
+
+
+`[1]`_: OPNFV web site
+
+`[2]`_: Test utils in Releng
+
+`[3]`_: TestAPI autogenerated documentation
+
+
+.._`[1]`: http://www.opnfv.org
+
+.._`[2]`: https://git.opnfv.org/functest/tree/releng/utils/tests
+
+.._`[3]`: http://artifacts.opnfv.org/releng/docs/testapi.html
