@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f7976838",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9496da3d",
+      "range": {
+        "startLine": 53,
+        "startChar": 71,
+        "endLine": 53,
+        "endChar": 75
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f4976638",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 10
@@ -36,6 +60,30 @@
       "writtenOn": "2017-09-14T23:46:08Z",
       "side": 1,
       "message": "does this TODO refer to the Docker section, or something else?",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 4
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_37a550a2",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "yes, it shall be completed by Jose/Alec/mark, I could be more specific here",
+      "parentUuid": "da33351e_f4976638",
       "range": {
         "startLine": 135,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_57bf34aa",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f40ac677",
+      "range": {
+        "startLine": 180,
+        "startChar": 17,
+        "endLine": 180,
+        "endChar": 38
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_34a54ea2",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 10
@@ -82,6 +154,30 @@
       "writtenOn": "2017-09-14T23:46:08Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 175,
+        "startChar": 60,
+        "endLine": 175,
+        "endChar": 64
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d7ea24ab",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_34a54ea2",
       "range": {
         "startLine": 175,
         "startChar": 60,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_37d39005",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_74ab5675",
+      "range": {
+        "startLine": 197,
+        "startChar": 59,
+        "endLine": 197,
+        "endChar": 68
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_54a8d276",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 10
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_17d00cf5",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 294,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_54a8d276",
+      "range": {
+        "startLine": 294,
+        "startChar": 12,
+        "endLine": 294,
+        "endChar": 18
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b4b83ec9",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 10
@@ -151,6 +295,30 @@
       "writtenOn": "2017-09-14T23:46:08Z",
       "side": 1,
       "message": "change to \"following:\" and delete whitespace",
+      "range": {
+        "startLine": 315,
+        "startChar": 0,
+        "endLine": 315,
+        "endChar": 14
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d701846b",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T06:51:47Z",
+      "side": 1,
+      "message": "sentence removed",
+      "parentUuid": "da33351e_b4b83ec9",
       "range": {
         "startLine": 315,
         "startChar": 0,
