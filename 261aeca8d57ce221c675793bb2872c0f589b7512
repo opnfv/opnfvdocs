@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d786a4da",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T07:12:30Z",
+      "side": 1,
+      "message": "Done changed to opportunity",
+      "parentUuid": "da33351e_d7850408",
+      "range": {
+        "startLine": 56,
+        "startChar": 26,
+        "endLine": 56,
+        "endChar": 35
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f4976638",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 10
@@ -189,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_57729411",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T07:12:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_574454b6",
+      "range": {
+        "startLine": 270,
+        "startChar": 4,
+        "endLine": 270,
+        "endChar": 9
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_9719bcd9",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 10
@@ -200,6 +248,30 @@
       "writtenOn": "2017-09-15T07:03:00Z",
       "side": 1,
       "message": "\u0027It is possible to access for POD access\u0027 what does it mean?",
+      "range": {
+        "startLine": 270,
+        "startChar": 68,
+        "endLine": 271,
+        "endChar": 67
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1753ec6b",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T07:12:30Z",
+      "side": 1,
+      "message": "I rephrazed something\ntell me if it is clearer this way",
+      "parentUuid": "da33351e_9719bcd9",
       "range": {
         "startLine": 270,
         "startChar": 68,
