@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_25f7d68c",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_fa390df3",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 7
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_457e5a1a",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -36,6 +60,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "This sub-heading does not seem useful. IMO can be deleted.",
+      "range": {
+        "startLine": 30,
+        "startChar": 1,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_85f06292",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_457e5a1a",
       "range": {
         "startLine": 30,
         "startChar": 1,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_65ed5eb7",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_c591ca48",
+      "range": {
+        "startLine": 122,
+        "startChar": 31,
+        "endLine": 122,
+        "endChar": 35
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_a596463d",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -82,6 +154,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "delete extra white space",
+      "range": {
+        "startLine": 142,
+        "startChar": 15,
+        "endLine": 142,
+        "endChar": 16
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c52d4a00",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_a596463d",
       "range": {
         "startLine": 142,
         "startChar": 15,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e5384e3f",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_a5e486e1",
+      "range": {
+        "startLine": 170,
+        "startChar": 41,
+        "endLine": 170,
+        "endChar": 56
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_e59cce5f",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -128,6 +248,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "overrun (not sure if it matters)",
+      "range": {
+        "startLine": 176,
+        "startChar": 17,
+        "endLine": 176,
+        "endChar": 20
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_256cf634",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_e59cce5f",
       "range": {
         "startLine": 176,
         "startChar": 17,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_8547c2bb",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_25a23699",
+      "range": {
+        "startLine": 192,
+        "startChar": 0,
+        "endLine": 192,
+        "endChar": 7
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_65a8be77",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -174,6 +342,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "test cases",
+      "range": {
+        "startLine": 197,
+        "startChar": 69,
+        "endLine": 197,
+        "endChar": 74
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_050bb27d",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_65a8be77",
       "range": {
         "startLine": 197,
         "startChar": 69,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_a51926d9",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_a5bda6b9",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 23
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_05af327e",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -220,6 +436,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "Test",
+      "range": {
+        "startLine": 214,
+        "startChar": 32,
+        "endLine": 214,
+        "endChar": 36
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e50fae86",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_05af327e",
       "range": {
         "startLine": 214,
         "startChar": 32,
@@ -255,6 +495,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_45281ae2",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_e5b32ee7",
+      "range": {
+        "startLine": 246,
+        "startChar": 0,
+        "endLine": 246,
+        "endChar": 85
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_65bf1eab",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -266,6 +530,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "I would deleted this, meaning is not clear. \"The portal\" is still WIP and anyway CVP/Dovetail is not part of the release.",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 250,
+        "endChar": 67
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_25251609",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_65bf1eab",
       "range": {
         "startLine": 248,
         "startChar": 0,
@@ -301,6 +589,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_651b9eca",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_c5df0a0c",
+      "range": {
+        "startLine": 261,
+        "startChar": 19,
+        "endLine": 261,
+        "endChar": 21
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_05e612e8",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -312,6 +624,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "the score from each test suite.\n\nThere is no overall score, it is determined by each test project.",
+      "range": {
+        "startLine": 273,
+        "startChar": 3,
+        "endLine": 273,
+        "endChar": 33
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a58006c1",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_05e612e8",
       "range": {
         "startLine": 273,
         "startChar": 3,
@@ -347,6 +683,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_058292c7",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "filters / front end / back end yes\nbut implementation needed at the project level...so it is not fully there. I removed the sentence.",
+      "parentUuid": "da33351e_e5ea0eab",
+      "range": {
+        "startLine": 276,
+        "startChar": 74,
+        "endLine": 277,
+        "endChar": 8
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_45d3fa03",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -358,6 +718,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "shown",
+      "range": {
+        "startLine": 303,
+        "startChar": 12,
+        "endLine": 303,
+        "endChar": 18
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e5868eda",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_45d3fa03",
       "range": {
         "startLine": 303,
         "startChar": 12,
@@ -393,6 +777,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_857502fc",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_05fd726e",
+      "range": {
+        "startLine": 319,
+        "startChar": 0,
+        "endLine": 319,
+        "endChar": 15
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_e5016e6b",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 13
@@ -404,6 +812,30 @@
       "writtenOn": "2017-09-15T15:58:47Z",
       "side": 1,
       "message": "following:",
+      "range": {
+        "startLine": 323,
+        "startChar": 0,
+        "endLine": 323,
+        "endChar": 9
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_456f7a2b",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-15T16:08:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_e5016e6b",
       "range": {
         "startLine": 323,
         "startChar": 0,
