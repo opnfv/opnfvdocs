@@ -2,19 +2,19 @@
 
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. SPDX-License-Identifier: CC-BY-4.0
-.. (c) Sofia Wallin Ericsson AB
+.. (c) Sofia Wallin Ericsson AB and other contributors
 
-=============
+============
 Installation
-=============
+============
 
 Abstract
 ========
 
-This document provides an overview of the installation of the Danube release of OPNFV.
+This document provides an overview of the installation of the Euphrates release of OPNFV.
 
-The Danube release can be installed making use of any of the installer projects in OPNFV:
-Apex, Compass4Nfv, Fuel or JOID.  Each installer provides the ability to install a common OPNFV
+The Euphrates release can be installed making use of any of the installer projects in OPNFV:
+Apex, Compass4Nfv, Daisy, Fuel or JOID.  Each installer provides the ability to install a common OPNFV
 platform as well as integrating additional features delivered through a variety of scenarios by
 the OPNFV community.
 
@@ -45,7 +45,7 @@ solving specific problems for the deployment of VNF’s.
 A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
 where each scenario will include different source components or configurations.
 
-To learn more about the scenarios supported in the Danube release refer to the scenario
+To learn more about the scenarios supported in the Euphrates release refer to the scenario
 description documents provided:
 
 - :ref:`os-nosdn-kvm-ha <kvmfornfv-os-nosdn-kvm-ha>`
@@ -77,8 +77,8 @@ Installation Procedure
 ======================
 
 Detailed step by step instructions for working with an installation toolchain and installing
-the required scenario are provided by the installation projects.  The four projects providing installation
-support for the OPNFV Danube release are: Apex, Compass4nfv, Fuel and JOID.
+the required scenario are provided by the installation projects.  The projects providing installation
+support for the OPNFV Euphrates release are: Apex, Compass4nfv, Daisy, Fuel and JOID.
 
 The instructions for each toolchain can be found in these links:
 
