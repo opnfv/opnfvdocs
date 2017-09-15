@@ -284,6 +284,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_57a57445",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 2651
+      },
+      "writtenOn": "2017-09-15T07:46:37Z",
+      "side": 1,
+      "message": "yes, very clear now :)",
+      "parentUuid": "da33351e_1753ec6b",
+      "range": {
+        "startLine": 270,
+        "startChar": 68,
+        "endLine": 271,
+        "endChar": 67
+      },
+      "revId": "261aeca8d57ce221c675793bb2872c0f589b7512",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_34a54ea2",
         "filename": "docs/testing/ecosystem/overview.rst",
         "patchSetId": 10
