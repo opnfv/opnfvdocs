@@ -1,0 +1,418 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_fa390df3",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "T",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 7
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_457e5a1a",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "This sub-heading does not seem useful. IMO can be deleted.",
+      "range": {
+        "startLine": 30,
+        "startChar": 1,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c591ca48",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "Not sure if an overrun affects formatting.",
+      "range": {
+        "startLine": 122,
+        "startChar": 31,
+        "endLine": 122,
+        "endChar": 35
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a596463d",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "delete extra white space",
+      "range": {
+        "startLine": 142,
+        "startChar": 15,
+        "endLine": 142,
+        "endChar": 16
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a5e486e1",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "Suggest calling it \"Test Landing Page\"",
+      "range": {
+        "startLine": 170,
+        "startChar": 41,
+        "endLine": 170,
+        "endChar": 56
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e59cce5f",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "overrun (not sure if it matters)",
+      "range": {
+        "startLine": 176,
+        "startChar": 17,
+        "endLine": 176,
+        "endChar": 20
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_25a23699",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "For consistency/readability I had changed all \"TestAPI\" to \"Test API\" since this doc is high level.",
+      "range": {
+        "startLine": 192,
+        "startChar": 0,
+        "endLine": 192,
+        "endChar": 7
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_65a8be77",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "test cases",
+      "range": {
+        "startLine": 197,
+        "startChar": 69,
+        "endLine": 197,
+        "endChar": 74
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a5bda6b9",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "Trying to push results generated from a non-referenced pod will return an error message by the Test API",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 23
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_05af327e",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "Test",
+      "range": {
+        "startLine": 214,
+        "startChar": 32,
+        "endLine": 214,
+        "endChar": 36
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e5b32ee7",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "Sentence is duplicated from previous one.",
+      "range": {
+        "startLine": 246,
+        "startChar": 0,
+        "endLine": 246,
+        "endChar": 85
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_65bf1eab",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "I would deleted this, meaning is not clear. \"The portal\" is still WIP and anyway CVP/Dovetail is not part of the release.",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 250,
+        "endChar": 67
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c5df0a0c",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "delete \"a\"",
+      "range": {
+        "startLine": 261,
+        "startChar": 19,
+        "endLine": 261,
+        "endChar": 21
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_05e612e8",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "the score from each test suite.\n\nThere is no overall score, it is determined by each test project.",
+      "range": {
+        "startLine": 273,
+        "startChar": 3,
+        "endLine": 273,
+        "endChar": 33
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e5ea0eab",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "\"Are\" these already available?",
+      "range": {
+        "startLine": 276,
+        "startChar": 74,
+        "endLine": 277,
+        "endChar": 8
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_45d3fa03",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "shown",
+      "range": {
+        "startLine": 303,
+        "startChar": 12,
+        "endLine": 303,
+        "endChar": 18
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_05fd726e",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "Its not really resources ... its pointers to additional information. ... OPNFV Test Group Information ... or at least OPNFV Test Group Resources",
+      "range": {
+        "startLine": 319,
+        "startChar": 0,
+        "endLine": 319,
+        "endChar": 15
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e5016e6b",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 323,
+      "author": {
+        "id": 728
+      },
+      "writtenOn": "2017-09-15T15:58:47Z",
+      "side": 1,
+      "message": "following:",
+      "range": {
+        "startLine": 323,
+        "startChar": 0,
+        "endLine": 323,
+        "endChar": 9
+      },
+      "revId": "e0c41f51b490f475c4e14abb7a2de052a377feca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
