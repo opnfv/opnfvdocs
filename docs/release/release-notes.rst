@@ -3,11 +3,11 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
-==============
+=============
 Release Notes
-==============
+=============
 
-Release notes as provided by the OPNFV participating documents are captured in this section.
+Release notes as provided by the OPNFV participating projects are captured in this section.
 These include details of software versions used, known limitations and outstanding trouble
 reports.
 
@@ -45,6 +45,8 @@ Project release notes:
 :ref:`Opera Release Notes <opera-releasenotes>`
 
 :ref:`Parser Release Notes <parser-releasenotes>`
+
+:ref:`Promise Release Notes <promise-releasenotes>`    
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
 
