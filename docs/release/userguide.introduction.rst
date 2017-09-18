@@ -2,11 +2,11 @@
 
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. SPDX-License-Identifier: CC-BY-4.0
-.. (c) Sofia Wallin (sofia.wallin@ericssion.com)
+.. (c) Sofia Wallin (sofia.wallin@ericsson.com) and other contributors
 
-=================================
+================================
 User Guide & Configuration Guide
-=================================
+================================
 
 Abstract
 ========
@@ -15,7 +15,7 @@ OPNFV is a collaborative project aimed at providing a variety of virtualisation
 deployments intended to host applications serving the networking and carrier
 industries. This document provides guidance and instructions for using platform
 features designed to support these applications, made available in the OPNFV
-Danube release.
+Euphrates release.
 
 This document is not intended to replace or replicate documentation from other
 upstream open source projects such as KVM, OpenDaylight, or OpenStack, but to highlight the
@@ -27,7 +27,7 @@ Introduction
 
 OPNFV provides a suite of scenarios, infrastructure deployment options, which
 are able to be installed to host virtualised network functions (VNFs).
-This Guide intends to help users of the platform leverage the features and
+This document intends to help users of the platform leverage the features and
 capabilities delivered by the OPNFV project.
 
 OPNFVs' Continuous Integration builds, deploys and tests combinations of virtual
@@ -42,7 +42,7 @@ Feature Overview
 ================
 
 The following links outline the feature deliverables from participating OPNFV
-projects in the Danube release. Each of the participating projects provides
+projects in the Euphrates release. Each of the participating projects provides
 detailed descriptions about the delivered features including use cases,
 implementation and configuration specifics.
 
@@ -58,12 +58,9 @@ OPNFV wiki page at http://wiki.opnfv.org, for more details.
 Feature Configuration Guides
 ============================
 
-- :ref:`Copper Configuration Guide <copper-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
-- :ref:`Netready Configuration Guide <netready-configguide>`
-- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
@@ -73,13 +70,11 @@ Feature Configuration Guides
 Feature User Guides
 ===================
 
-- :ref:`Copper User Guide <copper-userguide>`
 - :ref:`Doctor User Guide <doctor-userguide>`
 - :ref:`Domino User Guide <domino-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`KVMforNFV User Guide <kvmfornfv-userguide>`
-- :ref:`Netready User Guide <netready-userguide>`
-- :ref:`ONOSFW User Guide <onosfw-userguide>`
+- :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`Promise User Guide <promise-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
