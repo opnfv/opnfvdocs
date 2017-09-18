@@ -3,11 +3,11 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
-==============
+=============
 Release Notes
-==============
+=============
 
-Release notes as provided by the OPNFV participating documents are captured in this section.
+Release notes as provided by the OPNFV participating projects are captured in this section.
 These include details of software versions used, known limitations and outstanding trouble
 reports.
 
@@ -21,8 +21,6 @@ Project release notes:
 :ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
 
 :ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
-
-:ref:`Copper Release Notes <copper-releasenotes>`
 
 :ref:`Daisy Release Notes <daisy-releasenotes>`
 
@@ -40,11 +38,9 @@ Project release notes:
 
 :ref:`KVMforNFV Release Notes <kvmfornfv-releasenotes>`
 
-:ref:`Netready Release Notes <netready-releasenotes>`
-
-:ref:`Opera Release Notes <opera-releasenotes>`
-
 :ref:`Parser Release Notes <parser-releasenotes>`
+
+:ref:`Promise Release Notes <promise-releasenotes>`
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
 
