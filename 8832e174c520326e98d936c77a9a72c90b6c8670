@@ -22,6 +22,29 @@
       "revId": "8832e174c520326e98d936c77a9a72c90b6c8670",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_106c8d07",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2091
+      },
+      "writtenOn": "2017-09-18T17:44:03Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 5,
+        "startChar": 40,
+        "endLine": 5,
+        "endChar": 41
+      },
+      "revId": "8832e174c520326e98d936c77a9a72c90b6c8670",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
