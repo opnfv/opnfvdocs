@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "da33351e_6ed0961f",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2017-09-19T02:14:12Z",
+      "side": 1,
+      "message": "\"Daisy4NFV\" according to https://wiki.opnfv.org/display/DAIS/Daisy4NFV",
+      "range": {
+        "startLine": 81,
+        "startChar": 64,
+        "endLine": 81,
+        "endChar": 69
+      },
+      "revId": "8832e174c520326e98d936c77a9a72c90b6c8670",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_106c8d07",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 2
