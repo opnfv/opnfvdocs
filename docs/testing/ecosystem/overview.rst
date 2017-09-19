@@ -305,8 +305,8 @@ use Bitergia for creating highly flexible dashboards `[TST5]`_.
    :alt: Testing group testcase catalog
 
 
- OPNFV Test Group Information
-=============================
+OPNFV Test Group Information
+============================
 
 For more information or to participate in the OPNFV test community please see the
 following:
