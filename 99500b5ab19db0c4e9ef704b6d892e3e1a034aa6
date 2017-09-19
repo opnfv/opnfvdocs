@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_8ebfdaa9",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 833
+      },
+      "writtenOn": "2017-09-19T04:52:54Z",
+      "side": 1,
+      "message": "Stress Testing over OPNFV Platform\n----------------------------------\n\nResiliency of NFV refers to the ability of the NFV framework to limit disruption and return to normal or at a minimum acceptable service delivery level in the face of a fault, failure, or an event that disrupts the normal operation `[DEV5]`_. Resiliency testing evaluates the ability of SUT to recover in face of fault, failure or disrupts in normal operation or simply the ability of SUT absorbing \"disruptions\". It could take different forms of inputs that causing \"disruptions\" while stress testing only takes some kind of \"load\" as input. These kinds of \"load\" will cause \"disruption\" which could be easily found in system logs. It is the purpose to raise such \"load\" to evaluate the SUT if it could provide an acceptable level of service or level of confidence during such circumstances. In Danube and Euphrates, we only considered the resiliency test with \"load\" input, i.e., stress testing, over OPNFV Platform.\n\nIn Danube, Bottlenecks project and Yardstick project jointly implemented 2 stress tests (concurrently create/destroy VM pairs and do ping, system throughput limit) while Bottlenecks acts as the load manager calling yardstick to execute each test iteration. These tests are designed to test for breaking points and provide level of confidence of the system to users. Summary of the test cases are listed in the following address. \n* https://wiki.opnfv.org/display/bottlenecks/Stress+Testing+over+OPNFV+Platform\n* https://wiki.opnfv.org/download/attachments/2926539/Testing%20over%20Long%20Duration%20POD.pptx?version\u003d2\u0026modificationDate\u003d1502943821000\u0026api\u003dv2\n\nStress test cases for OPNFV Euphrates (OS Ocata) release can be seen as extension/enhancement of those in D release. These tests locate in Bottlenecks/Yardstick repo (Bottlenecks as load manager while Yardstick execute each test iteration):\n* VNF scale out/up tests (also plan to measure storage usage simultaneously): https://wiki.opnfv.org/pages/viewpage.action?pageId\u003d12390101\n* Life-cycle event with throughputs (measure NFVI to support concurrent network usage from different VM pairs): https://wiki.opnfv.org/display/DEV/Intern+Project%3A+Baseline+Stress+Test+Case+for+Bottlenecks+E+Release\n\nIn OPNFV E release, we also plan to do long duration testing over OS Ocata. A separate CI pipe testing OPNFV XCI (OSA) is proposed to accomplish the job. We have applied specific pod for the testing. Proposals and details are listed below:\n* https://wiki.opnfv.org/display/testing/Euphrates+Testing+needs\n* https://wiki.opnfv.org/download/attachments/2926539/testing%20evolution%20v1_4.pptx?version\u003d1\u0026modificationDate\u003d1503937629000\u0026api\u003dv2\n* https://wiki.opnfv.org/download/attachments/2926539/Testing%20over%20Long%20Duration%20POD.pptx?version\u003d2\u0026modificationDate\u003d1502943821000\u0026api\u003dv2\nThe long duration testing is supposed to be started when OPNFV E release is published.\nA simple monitoring module for these tests is also planned to be added: https://wiki.opnfv.org/display/DEV/Intern+Project%3A+Monitoring+Stress+Testing+for+Bottlenecks+E+Release",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 253,
+        "endChar": 63
+      },
+      "revId": "99500b5ab19db0c4e9ef704b6d892e3e1a034aa6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_aec29e31",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 833
+      },
+      "writtenOn": "2017-09-19T04:52:54Z",
+      "side": 1,
+      "message": "Hi Morgan, should we add resiliency/stress/long duration test under this section as we agreed in Testperf meeting?",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 253,
+        "endChar": 63
+      },
+      "revId": "99500b5ab19db0c4e9ef704b6d892e3e1a034aa6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_eedf860b",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 833
+      },
+      "writtenOn": "2017-09-19T04:52:54Z",
+      "side": 1,
+      "message": "`[DEV4]`_: GS NFV 003",
+      "range": {
+        "startLine": 392,
+        "startChar": 72,
+        "endLine": 392,
+        "endChar": 72
+      },
+      "revId": "99500b5ab19db0c4e9ef704b6d892e3e1a034aa6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_cee442e3",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 397,
+      "author": {
+        "id": 833
+      },
+      "writtenOn": "2017-09-19T04:52:54Z",
+      "side": 1,
+      "message": ".. _`[DEV5]`: http://www.etsi.org/deliver/etsi_gs/NFV/001_099/003/01.01.01_60/gs_NFV003v010101p.pdf",
+      "range": {
+        "startLine": 397,
+        "startChar": 57,
+        "endLine": 397,
+        "endChar": 57
+      },
+      "revId": "99500b5ab19db0c4e9ef704b6d892e3e1a034aa6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
