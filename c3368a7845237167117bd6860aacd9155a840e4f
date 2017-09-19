@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_84505bd5",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-09-19T14:27:56Z",
+      "side": 1,
+      "message": "remove trailing whitespaces",
+      "range": {
+        "startLine": 49,
+        "startChar": 51,
+        "endLine": 49,
+        "endChar": 55
+      },
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
