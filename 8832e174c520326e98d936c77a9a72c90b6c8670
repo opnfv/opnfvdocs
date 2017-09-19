@@ -48,6 +48,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_eebe6664",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 933
+      },
+      "writtenOn": "2017-09-19T07:53:56Z",
+      "side": 1,
+      "message": "Missing Promise release notes:\nhttps://gerrit.opnfv.org/gerrit/gitweb?p\u003dpromise.git;a\u003dblob;f\u003ddocs/release/release-notes/releasenotes.rst;h\u003ddba59cfea8584565f53e336a55d8d52c57c47ffe;hb\u003dHEAD",
+      "revId": "8832e174c520326e98d936c77a9a72c90b6c8670",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_106c8d07",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 2
