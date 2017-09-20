@@ -9,7 +9,10 @@ Testing Developer Guides
 
 Testing group
 -------------
-.. include:: ./developer/devguide/index
+.. toctree::
+   :maxdepth: 1
+
+   ./developer/devguide/index
 
 Bottlenecks
 ------------
