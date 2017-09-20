@@ -22,6 +22,74 @@
       "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5fda9de8",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-20T07:53:22Z",
+      "side": 1,
+      "message": "to be reviewed by the release manager to knwo precisely if the features are onboarded in Euphrates or not...\n\nFunctest (limited) view: https://wiki.opnfv.org/display/functest/Functest+feature+integration+status\n\n\nFrom a Functest perspective:\n- Barometer and Domino are missing here\n- Copper, Netready, ONOSFW are not part of the release",
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3fd079c8",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-20T07:53:22Z",
+      "side": 1,
+      "message": "part of the release?\n0 commit in Q2 and Q3 2017\nhttps://git.opnfv.org/copper/stats/?period\u003dq\u0026ofs\u003d10\n\nNo in https://wiki.opnfv.org/display/SWREL/Projects+Intending+to+Participate+in+the+Euphrates+Release",
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_bf4c89c9",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-20T07:53:22Z",
+      "side": 1,
+      "message": "Netready not part of the release\nyes according to https://wiki.opnfv.org/display/SWREL/Projects+Intending+to+Participate+in+the+Euphrates+Release\nbut we got a mail some time ago saying No\n1 commit in Q2 and Q3 2017: https://git.opnfv.org/netready/stats/?period\u003dq\u0026ofs\u003d10",
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7f56815d",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-20T07:53:22Z",
+      "side": 1,
+      "message": "AFAIK, ONOSFW not part of the E release",
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
