@@ -114,6 +114,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_59e63516",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1452
+      },
+      "writtenOn": "2017-09-21T15:51:28Z",
+      "side": 1,
+      "message": "No plans to add release notes.",
+      "parentUuid": "da33351e_99155de7",
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3fd079c8",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 3
