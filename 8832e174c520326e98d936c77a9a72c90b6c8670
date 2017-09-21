@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ae7575fb",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-09-21T12:56:01Z",
+      "side": 1,
+      "message": "Please let me know where the associated documentation is found",
+      "parentUuid": "da33351e_5d0e2e3c",
+      "revId": "8832e174c520326e98d936c77a9a72c90b6c8670",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_6ed0961f",
         "filename": "docs/release/installation.introduction.rst",
         "patchSetId": 2
