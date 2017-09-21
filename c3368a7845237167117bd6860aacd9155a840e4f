@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ee62dd3c",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-09-21T12:56:01Z",
+      "side": 1,
+      "message": "Need to know what documents that Barometer and Domino want to add",
+      "parentUuid": "da33351e_5fda9de8",
+      "revId": "c3368a7845237167117bd6860aacd9155a840e4f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3fd079c8",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 3
