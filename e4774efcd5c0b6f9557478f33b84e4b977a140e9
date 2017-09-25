@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d2b7b738",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-25T12:45:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f79c6d11",
+      "range": {
+        "startLine": 256,
+        "startChar": 0,
+        "endLine": 256,
+        "endChar": 10
+      },
+      "revId": "e4774efcd5c0b6f9557478f33b84e4b977a140e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b772e50e",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2017-09-25T10:09:46Z",
       "side": 1,
       "message": "Question: How does this differ from *Reliability* testing?\n(I think this is Reliability.)\n\nIOW, I think that Resilience is the goal of system design and a desirable property of systems, but we are testing the reliability of the system when confronted by various forms of failure and disruption.\n\nI think the solution is to call this **Reliability** testing,\nand reserve the term \"resilience\" to describe an outcome of *Reliability* testing OR an outcome of *Stress Testing*. \n\nFor example, we would comment on how resilient the system under test is:  resilient to the failures and disruptions introduced in Reliability testing.  Also, the system is resilient to Stress testing up to X VMs installed.",
+      "range": {
+        "startLine": 264,
+        "startChar": 0,
+        "endLine": 266,
+        "endChar": 14
+      },
+      "revId": "e4774efcd5c0b6f9557478f33b84e4b977a140e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_32cee3b4",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-25T12:45:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b772e50e",
       "range": {
         "startLine": 264,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d2bcd708",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-25T12:45:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_57e719ac",
+      "range": {
+        "startLine": 268,
+        "startChar": 0,
+        "endLine": 269,
+        "endChar": 55
+      },
+      "revId": "e4774efcd5c0b6f9557478f33b84e4b977a140e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f7ce2d2d",
         "filename": "docs/testing/developer/devguide/dev-guide.rst",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2017-09-25T10:09:46Z",
       "side": 1,
       "message": "Here. we need to make a distinction between Reliability testing, which includes real failures, and Stress Testing,\nwhich exposes the system excess load of operations encountered under normal circumstances.  The sentence becomes:\n\n\"In Danube and Euphrates, we only considered the stress test with excess load over OPNFV Platform.\"",
+      "range": {
+        "startLine": 274,
+        "startChar": 15,
+        "endLine": 275,
+        "endChar": 61
+      },
+      "revId": "e4774efcd5c0b6f9557478f33b84e4b977a140e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b2b95317",
+        "filename": "docs/testing/developer/devguide/dev-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 335
+      },
+      "writtenOn": "2017-09-25T12:45:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f7ce2d2d",
       "range": {
         "startLine": 274,
         "startChar": 15,
