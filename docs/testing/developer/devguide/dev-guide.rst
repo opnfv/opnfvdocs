@@ -252,6 +252,65 @@ areas and avoid testing overlap.
 Ideally based on the declaration of the test cases, through the tags, domains
 and tier fields, it shall be possible to create heuristic maps.
 
+=============================================
+Reliability, Stress and Long Duration Testing
+=============================================
+
+Resiliency of NFV refers to the ability of the NFV framework to limit disruption
+and return to normal or at a minimum acceptable service delivery level in the
+face of a fault, failure, or an event that disrupts the normal operation
+`[DEV5]`_.
+
+**Reliability** testing evaluates the ability of SUT to recover in face of fault,
+failure or disrupts in normal operation or simply the ability of SUT absorbing
+"disruptions".
+
+Reliability tests use different forms of faults as stimulus, and the test must
+measure the reaction in terms of the outage time or impairments to transmission.
+
+**Stress testing** involves producing excess load as stimulus, and the test
+must measure the reaction in terms of unexpected outages or (more likely)
+impairments to transmission.
+
+These kinds of "load" will cause "disruption" which could be easily found in
+system logs. It is the purpose to raise such "load" to evaluate the SUT if it
+could provide an acceptable level of service or level of confidence during such
+circumstances. In Danube and Euphrates, we only considered the stress test with
+excess load over OPNFV Platform.
+
+In Danube, Bottlenecks and Yardstick project jointly implemented 2 stress tests
+(concurrently create/destroy VM pairs and do ping, system throughput limit)
+while Bottlenecks acts as the load manager calling yardstick to execute each
+test iteration. These tests are designed to test for breaking points and provide
+level of confidence of the system to users. Summary of the test cases are listed
+in the following addresses:
+
+  * https://wiki.opnfv.org/display/bottlenecks/Stress+Testing+over+OPNFV+Platform
+  * https://wiki.opnfv.org/download/attachments/2926539/Testing%20over%20Long%20Duration%20POD.pptx?version=2&modificationDate=1502943821000&api=v2
+
+**Stress test cases** for OPNFV Euphrates (OS Ocata) release can be seen as
+extension/enhancement of those in D release. These tests are located in
+Bottlenecks/Yardstick repo (Bottlenecks as load manager while Yardstick execute
+each test iteration):
+
+  * VNF scale out/up tests (also plan to measure storage usage simultaneously): https://wiki.opnfv.org/pages/viewpage.action?pageId=12390101
+  * Life-cycle event with throughputs (measure NFVI to support concurrent
+  network usage from different VM pairs):
+  https://wiki.opnfv.org/display/DEV/Intern+Project%3A+Baseline+Stress+Test+Case+for+Bottlenecks+E+Release
+
+In OPNFV E release, we also plan to do **long duration testing** over OS Ocata.
+A separate CI pipe testing OPNFV XCI (OSA) is proposed to accomplish the job.
+We have applied specific pod for the testing.
+Proposals and details are listed below:
+  * https://wiki.opnfv.org/display/testing/Euphrates+Testing+needs
+  * https://wiki.opnfv.org/download/attachments/2926539/testing%20evolution%20v1_4.pptx?version=1&modificationDate=1503937629000&api=v2
+  * https://wiki.opnfv.org/download/attachments/2926539/Testing%20over%20Long%20Duration%20POD.pptx?version=2&modificationDate=1502943821000&api=v2
+
+The long duration testing is supposed to be started when OPNFV E release is
+published.
+A simple monitoring module for these tests is also planned to be added:
+https://wiki.opnfv.org/display/DEV/Intern+Project%3A+Monitoring+Stress+Testing+for+Bottlenecks+E+Release
+
 
 =======
 How TOs
@@ -391,9 +450,12 @@ References
 
 `[DEV4]`_: Conversation with the testing community, OPNFV Beijing Summit
 
+`[DEV5]`_: GS NFV 003
+
 .. _`[DEV1]`: http://docs.opnfv.org/en/latest/testing/ecosystem/index.html
 .. _`[DEV2]`: https://git.opnfv.org/functest/tree/functest/utils/functest_utils.py#176
 .. _`[DEV3]`: https://wiki.opnfv.org/display/meetings/Test+Working+Group+Weekly+Meeting
 .. _`[DEV4]`: https://www.youtube.com/watch?v=f9VAUdEqHoA
+.. _`[DEV5]`: http://www.etsi.org/deliver/etsi_gs/NFV/001_099/003/01.01.01_60/gs_NFV003v010101p.pdf
 
 IRC support chan: #opnfv-testperf
