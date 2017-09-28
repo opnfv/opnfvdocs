@@ -1,0 +1,9 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Al Morton <acmorton@att.com>
+Code-Review+1: Yujun Zhang <zhang.yujunz@zte.com.cn>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Thu, 28 Sep 2017 11:03:19 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/42919
+Project: opnfvdocs
+Branch: refs/heads/master
