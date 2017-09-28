@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_8f24d80d",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 321
+      },
+      "writtenOn": "2017-09-28T10:48:44Z",
+      "side": 1,
+      "message": "I wonder if this should be odl only like for most of the other scenarios",
+      "range": {
+        "startLine": 53,
+        "startChar": 30,
+        "endLine": 53,
+        "endChar": 36
+      },
+      "revId": "a33b18c7508a941c5ab8d68480a4d0be7795547f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_ef1da4bf",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 321
+      },
+      "writtenOn": "2017-09-28T10:48:44Z",
+      "side": 1,
+      "message": "see above",
+      "range": {
+        "startLine": 54,
+        "startChar": 32,
+        "endLine": 54,
+        "endChar": 38
+      },
+      "revId": "a33b18c7508a941c5ab8d68480a4d0be7795547f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_cf1a60c5",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 321
+      },
+      "writtenOn": "2017-09-28T10:48:44Z",
+      "side": 1,
+      "message": "I need to change the directory name in SDNVPN for this to work, will raise a patch today.",
+      "range": {
+        "startLine": 56,
+        "startChar": 28,
+        "endLine": 56,
+        "endChar": 53
+      },
+      "revId": "a33b18c7508a941c5ab8d68480a4d0be7795547f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2f7b0cf6",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 321
+      },
+      "writtenOn": "2017-09-28T10:48:44Z",
+      "side": 1,
+      "message": "see above",
+      "range": {
+        "startLine": 57,
+        "startChar": 26,
+        "endLine": 57,
+        "endChar": 49
+      },
+      "revId": "a33b18c7508a941c5ab8d68480a4d0be7795547f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
