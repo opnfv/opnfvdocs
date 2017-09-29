@@ -27,6 +27,13 @@ Functest
    ../submodules/functest/docs/testing/user/configguide/index
    ../submodules/functest/docs/testing/user/userguide/index
 
+NFVbench
+-----
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/nfvbench/docs/testing/user/userguide/index
+
 
 QTIP
 -----
