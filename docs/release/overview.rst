@@ -4,9 +4,9 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-================
+=================
 Platform overview
-================
+=================
 
 Introduction
 ============
@@ -29,9 +29,9 @@ and learnings from its work directly to those communities in the form of bluepri
 and new code.
 
 OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
-Management (VIM) by integrating components from upstream projects such as OpenDaylight,
-OpenStack, Ceph Storage, KVM, Open vSwitch, and Linux.
-More recently, OPNFV has extended its portfolio of forwarding solutions to include fd.io and ODP,
+Management (VIM) by integrating components from upstream projects such as OpenDaylight, ONOS, OpenContrail,
+OVN, OpenStack, Kubernetes, Ceph Storage, KVM, Open vSwitch, and Linux.
+More recently, OPNFV has extended its portfolio of forwarding solutions to include DPDK, fd.io and ODP,
 is able to run on both Intel and ARM commercial and white-box hardware, support VM, Container and
 BareMetal workloads, and includes Management and Network Orchestration MANO components primarily
 for application composition and management in the Danube release.
@@ -114,7 +114,10 @@ an NFV domain, the OPNFV community consumes a sub-set of OpenStack projects wher
 composition may vary depending on the installer and scenario.
 
 For details on the scenarios available in OPNFV and the specific composition of components
-refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`
+refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`.
+
+OPNFV now also has initial support for containerized VNFs through the integration of Kubernetes,
+a leading container orchestration engine.
 
 -----------------
 Operating Systems
@@ -145,8 +148,11 @@ being worked on by the community during this release of OPNFV include:
   industry’s de facto SDN platform and providing the foundation for networks of the future.
 * ONOS: a carrier-grade SDN network operating system designed for high availability,
   performance, scale-out.
+* OpenContrail: An open source SDN controller designed for cloud and NFV use cases. It has an
+  analytics engine, well defined northbound REST APIs to configure and gather ops/analytics data.
+* OVN: A virtual networking solution developed by the same team that created OVS. OVN stands for
+  Open Virtual Networking and is dissimilar from the above projects in that it focuses only on overlay networks.
 
-.. OpenContrail SDN controller is planned to be supported in the next release.
 
 Data Plane
 ----------
@@ -156,13 +162,23 @@ and routing components. The OPNFV community proactively engages with these sourc
 communities to address performance, scale and resiliency needs apparent in carrier
 networks.
 
-* FD.io (Fast data - Input/Output): a collection of several projects and libraries to
-  amplify the transformation that began with Data Plane Development Kit (DPDK) to support
-  flexible, programmable and composable services on a generic hardware platform.
-* Open vSwitch: a production quality, multilayer virtual switch designed to enable
-  massive network automation through programmatic extension, while still supporting standard
-  management interfaces and protocols.
+* OVS (Open vSwitch): a production quality, multilayer virtual switch designed to enable massive
+  network automation through programmatic extension, while still supporting standard management interfaces and protocols.
+* FD.io (Fast data - Input/Output): a high performance alternative to Open vSwitch, the core engine of
+  FD.io is a vector processing engine (VPP). VPP processes a number of packets in parallel instead of one at
+  a time thus significantly improving packet throughput.
+* DPDK:  a set of libraries that bypass the kernel and provide polling mechanisms, instead of interrupt based operations,
+  to speed up packet processing. DPDK works with both OVS and FD.io.
 
+MANO
+----
+
+OPNFV integrates open source MANO projects for NFV orchestration and VNF management.
+New MANO projects are constantly being added, currently OPNFV integrates:
+* OpenBaton: Open Baton is a ETSI NFV compliant Management and Orchestration (MANO) Framework.
+  It enables virtual Network Services deployments on top of heterogeneous NFV Infrastructures.
+
+  
 Deployment Architecture
 =======================
 
@@ -274,6 +290,30 @@ additional testing stimuli, or tests simulating environmental disturbances or fa
 These additional testing activities provide a more complete evaluation of the OPNFV platform.
 Some of the projects focused on these testing areas include:
 
+-----------
+Bottlenecks
+-----------
+
+Bottlenecks provides a framework to find system limitations and bottlenecks, providing
+root cause isolation capabilities to facilitate system evaluation.
+
+NFVBench
+--------
+
+NFVbench is a lightweight end-to-end dataplane benchmarking framework project.
+It includes traffic generator(s) and measures a number of packet performance related metrics.
+
+QTIP
+----
+QTIP boils down NFVI compute and storage performance into one single metric for easy comparison.
+QTIP crunches these numbers based on five different categories of compute metrics and relies on
+Storperf for storage metrics.
+
+Storperf
+--------
+Storperf measures the performance of external block storage. The goal of this project is
+to provide a report based on SNIA’s (Storage Networking Industry Association) Performance Test Specification.
+
 ------
 VSPERF
 ------
@@ -283,12 +323,7 @@ performance of the NFVI including switching technology, physical and virtual net
 The provided test cases with network topologies can be customized while also allowing individual
 versions of Operating System, vSwitch and hypervisor to be specified.
 
------------
-Bottlenecks
------------
 
-Bottlenecks provides a framework to find system limitations and bottlenecks, providing
-root cause isolation capabilities to facilitate system evaluation.
 
 
 .. _`OPNFV Configuration Guide`: `OPNFV User Guide & Configuration Guide`
