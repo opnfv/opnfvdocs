@@ -4,9 +4,9 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-================
+=================
 Platform overview
-================
+=================
 
 Introduction
 ============
@@ -28,10 +28,10 @@ NFV use cases. OPNFV also works upstream with other open source communities to b
 and learnings from its work directly to those communities in the form of blueprints, patches, bugs,
 and new code.
 
-OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
-Management (VIM) by integrating components from upstream projects such as OpenDaylight,
-OpenStack, Ceph Storage, KVM, Open vSwitch, and Linux.
-More recently, OPNFV has extended its portfolio of forwarding solutions to include fd.io and ODP,
+OPNFV focuses on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
+Management (VIM) by integrating components from upstream projects such as OpenDaylight, ONOS, OpenContrail,
+OVN, OpenStack, Kubernetes, Ceph Storage, KVM, Open vSwitch, and Linux.
+More recently, OPNFV has extended its portfolio of forwarding solutions to include DPDK, fd.io and ODP,
 is able to run on both Intel and ARM commercial and white-box hardware, support VM, Container and
 BareMetal workloads, and includes Management and Network Orchestration MANO components primarily
 for application composition and management in the Danube release.
@@ -55,17 +55,18 @@ platform including common hardware requirements, software architecture, MANO and
 
 OPNFV Platform Overview Diagram
 
-.. image:: ../images/opnfvplatformgraphic.png
+.. image:: ../images/diagram_euphrates.png
    :alt: Overview infographic of the opnfv platform and projects.
 
 
 To address these areas effectively, the OPNFV platform architecture can be decomposed
 into the following basic building blocks:
 
-* Hardware: with the Infra working group, Pharos project and associated activities
-* Software Platform: through the platform integration and deployment projects
-* MANO: through the MANO working group and associated projects
-* Applications: which affect all other areas and drive requirements for OPNFV
+* Hardware: Infrastructure working group, Pharos project and associated activities
+* Software Platform: Platform integration and deployment projects
+* MANO: MANO working group and associated projects
+* Tooling and testing: Testing working group and test projects
+* Applications: All other areas and drive requirements for OPNFV
 
 OPNFV Lab Infrastructure
 ========================
@@ -96,12 +97,8 @@ OPNFV Software Platform Architecture
 
 The OPNFV software platform is comprised exclusively of open source implementations of
 platform component pieces.  OPNFV is able to draw from the rich ecosystem of NFV related
-technologies available in open-source then integrate, test, measure and improve these
-components in conjunction with our source communities.
-
-While the composition of the OPNFV software platform is highly complex and constituted of many
-projects and components, a subset of these projects gain the most attention from the OPNFV community
-to drive the development of new technologies and capabilities.
+technologies available in open source communities, and then integrate, test, measure and improve these
+components in conjunction with our upstream communities.
 
 ---------------------------------
 Virtual Infrastructure Management
@@ -110,17 +107,19 @@ Virtual Infrastructure Management
 OPNFV derives it's virtual infrastructure management from one of our largest upstream ecosystems
 OpenStack.  OpenStack provides a complete reference cloud management system and associated technologies.
 While the OpenStack community sustains a broad set of projects, not all technologies are relevant in
-an NFV domain, the OPNFV community consumes a sub-set of OpenStack projects where the usage and
+the NFV domain, the OPNFV community consumes a sub-set of OpenStack projects and the usage and
 composition may vary depending on the installer and scenario.
 
 For details on the scenarios available in OPNFV and the specific composition of components
-refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`
+refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`.
+
+OPNFV now also has initial support for containerized VNFs.
 
 -----------------
 Operating Systems
 -----------------
 
-OPNFV currently uses Linux on all target machines, this can include Ubuntu, Centos or SUSE linux. The
+OPNFV currently uses Linux on all target machines, this can include Ubuntu, Centos or SUSE Linux. The
 specific version of Linux used for any deployment is documented in the installation guide.
 
 -----------------------
@@ -140,34 +139,46 @@ where the OPNFV community supports and contributes to a number of these.  The co
 being worked on by the community during this release of OPNFV include:
 
 * Neutron: an OpenStack project to provide “network connectivity as a service” between
-  interface devices (e.g., vNICs) managed by other OpenStack services (e.g., nova).
+  interface devices (e.g., vNICs) managed by other OpenStack services (e.g. Nova).
 * OpenDaylight: addresses multivendor, traditional and greenfield networks, establishing the
   industry’s de facto SDN platform and providing the foundation for networks of the future.
-* ONOS: a carrier-grade SDN network operating system designed for high availability,
-  performance, scale-out.
+* OpenContrail: An open source SDN controller designed for cloud and NFV use cases. It has an
+  analytics engine, well defined northbound REST APIs to configure and gather ops/analytics data.
+* OVN: A virtual networking solution developed by the same team that created OVS. OVN stands for
+  Open Virtual Networking and is dissimilar from the above projects in that it focuses only on overlay networks.
 
-.. OpenContrail SDN controller is planned to be supported in the next release.
 
 Data Plane
 ----------
 
 OPNFV extends Linux virtual networking capabilities by using virtual switching
-and routing components. The OPNFV community proactively engages with these source
+and routing components. The OPNFV community proactively engages with the following open source
 communities to address performance, scale and resiliency needs apparent in carrier
 networks.
 
-* FD.io (Fast data - Input/Output): a collection of several projects and libraries to
-  amplify the transformation that began with Data Plane Development Kit (DPDK) to support
-  flexible, programmable and composable services on a generic hardware platform.
-* Open vSwitch: a production quality, multilayer virtual switch designed to enable
-  massive network automation through programmatic extension, while still supporting standard
-  management interfaces and protocols.
+* OVS (Open vSwitch): a production quality, multilayer virtual switch designed to enable massive
+  network automation through programmatic extension, while still supporting standard management interfaces and protocols.
+* FD.io (Fast data - Input/Output): a high performance alternative to Open vSwitch, the core engine of
+  FD.io is a vector processing engine (VPP). VPP processes a number of packets in parallel instead of one at
+  a time thus significantly improving packet throughput.
+* DPDK:  a set of libraries that bypass the kernel and provide polling mechanisms, instead of interrupt based operations,
+  to speed up packet processing. DPDK works with both OVS and FD.io.
+
+MANO
+----
+
+OPNFV integrates open source MANO projects for NFV orchestration and VNF management.
+New MANO projects are constantly being added, currently OPNFV integrates:
+* OpenBaton: Open Baton is a ETSI NFV compliant Management and Orchestration (MANO) Framework.
+  It enables virtual Network Services deployments on top of heterogeneous NFV Infrastructures.
+  OpenBaton is also used to deploy vIMS (clearwater and openIMS).
+
 
 Deployment Architecture
 =======================
 
 A typical OPNFV deployment starts with three controller nodes running in a high availability
-configuration including control plane components from OpenStack, SDN, etc. and a minimum
+configuration including control plane components from OpenStack, SDN controllers, etc. and a minimum
 of two compute nodes for deployment of workloads (VNFs).
 A detailed description of the hardware requirements required to support the 5 node configuration
 can be found in pharos specification: `Pharos Project <https://www.opnfv.org/developers/pharos>`_
@@ -202,22 +213,16 @@ Release Verification
 ====================
 
 The OPNFV community relies on its testing community to establish release criteria for each OPNFV
-release. Each release cycle the testing criteria become more stringent and better representative
-of our feature and resiliency requirements.
-
-
-As each OPNFV release establishes a set of deployment scenarios to validate, the testing
-infrastructure and test suites need to accommodate these features and capabilities. It’s not
-only in the validation of the scenarios themselves where complexity increases, there are test
-cases that require multiple datacenters to execute when evaluating features, including multisite
-and distributed datacenter solutions.
+release. With each release cycle the testing criteria become more stringent and better representative
+of our feature and resiliency requirements. Each release establishes a set of deployment scenarios to validate,
+the testing infrastructure and test suites need to accommodate these features and capabilities.
 
 The release criteria as established by the testing teams include passing a set of test cases
 derived from the functional testing project ‘functest,’ a set of test cases derived from our
 platform system and performance test project ‘yardstick,’ and a selection of test cases for
 feature capabilities derived from other test projects such as bottlenecks, vsperf, cperf and
 storperf. The scenario needs to be able to be deployed, pass these tests, and be removed from
-the infrastructure iteratively (no less that 4 times) in order to fulfil the release criteria.
+the infrastructure iteratively in order to fulfill the release criteria.
 
 --------
 Functest
@@ -274,6 +279,30 @@ additional testing stimuli, or tests simulating environmental disturbances or fa
 These additional testing activities provide a more complete evaluation of the OPNFV platform.
 Some of the projects focused on these testing areas include:
 
+-----------
+Bottlenecks
+-----------
+
+Bottlenecks provides a framework to find system limitations and bottlenecks, providing
+root cause isolation capabilities to facilitate system evaluation.
+
+NFVBench
+--------
+
+NFVbench is a lightweight end-to-end dataplane benchmarking framework project.
+It includes traffic generator(s) and measures a number of packet performance related metrics.
+
+QTIP
+----
+QTIP boils down NFVI compute and storage performance into one single metric for easy comparison.
+QTIP crunches these numbers based on five different categories of compute metrics and relies on
+Storperf for storage metrics.
+
+Storperf
+--------
+Storperf measures the performance of external block storage. The goal of this project is
+to provide a report based on SNIA’s (Storage Networking Industry Association) Performance Test Specification.
+
 ------
 VSPERF
 ------
@@ -283,12 +312,7 @@ performance of the NFVI including switching technology, physical and virtual net
 The provided test cases with network topologies can be customized while also allowing individual
 versions of Operating System, vSwitch and hypervisor to be specified.
 
------------
-Bottlenecks
------------
 
-Bottlenecks provides a framework to find system limitations and bottlenecks, providing
-root cause isolation capabilities to facilitate system evaluation.
 
 
 .. _`OPNFV Configuration Guide`: `OPNFV User Guide & Configuration Guide`
