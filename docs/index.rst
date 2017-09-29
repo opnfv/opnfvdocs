@@ -50,3 +50,5 @@ Infrastructure
 
 .. toctree::
    :maxdepth: 1
+
+   infrastructure/infrastructure-overview

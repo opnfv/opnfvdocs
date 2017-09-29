@@ -139,4 +139,5 @@ You are encouraged to establish the following basic structure for your project a
 
 Infrastructure Documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Infrastructure documentation can be stored under code:`<repo>/docs/infrastructure/` folder.
+Infrastructure documentation can be stored under :code:`<repo>/docs/` folder of
+corresponding infrastructure project.
