@@ -52,7 +52,5 @@ Infrastructure
    :maxdepth: 1
 
    infrastructure/overview
-   infrastructure/hardware-infrastructure
-   infrastructure/software-infrastructure
    infrastructure/ci
    infrastructure/xci
