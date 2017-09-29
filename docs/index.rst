@@ -51,4 +51,8 @@ Infrastructure
 .. toctree::
    :maxdepth: 1
 
-   infrastructure/infrastructure-overview
+   infrastructure/overview
+   infrastructure/hardware-infrastructure
+   infrastructure/software-infrastructure
+   infrastructure/ci
+   infrastructure/xci
