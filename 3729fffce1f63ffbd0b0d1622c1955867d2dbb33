@@ -1,0 +1,395 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_24c32558",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "change to \"focuses on\"",
+      "range": {
+        "startLine": 31,
+        "startChar": 6,
+        "endLine": 31,
+        "endChar": 26
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_44746935",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "Infra working group, Pharos project and associated activities",
+      "range": {
+        "startLine": 65,
+        "startChar": 12,
+        "endLine": 65,
+        "endChar": 81
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a49c555e",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "Platform integration and deployment projects",
+      "range": {
+        "startLine": 66,
+        "startChar": 21,
+        "endLine": 66,
+        "endChar": 77
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_44abc974",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "remove \"through the\"",
+      "range": {
+        "startLine": 67,
+        "startChar": 8,
+        "endLine": 67,
+        "endChar": 19
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_84df910c",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "All other areas that drive requirements for OPNFV",
+      "range": {
+        "startLine": 68,
+        "startChar": 16,
+        "endLine": 68,
+        "endChar": 77
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e46bfd1b",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "opens source communities, and then integrate",
+      "range": {
+        "startLine": 99,
+        "startChar": 26,
+        "endLine": 99,
+        "endChar": 52
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_046f012c",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "upstream",
+      "range": {
+        "startLine": 100,
+        "startChar": 35,
+        "endLine": 100,
+        "endChar": 41
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_44a8e91f",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "I suggest removing this entire paragraph.",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 62
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c46b59ef",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "and",
+      "range": {
+        "startLine": 113,
+        "startChar": 76,
+        "endLine": 113,
+        "endChar": 81
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_646a4def",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 2
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0479c1c7",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "Linux",
+      "range": {
+        "startLine": 126,
+        "startChar": 91,
+        "endLine": 126,
+        "endChar": 96
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_447f49ab",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "e.g. Nova",
+      "range": {
+        "startLine": 146,
+        "startChar": 71,
+        "endLine": 146,
+        "endChar": 81
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c4423967",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "the following open",
+      "range": {
+        "startLine": 161,
+        "startChar": 69,
+        "endLine": 161,
+        "endChar": 74
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0460a1ff",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "SDN controllers",
+      "range": {
+        "startLine": 186,
+        "startChar": 65,
+        "endLine": 186,
+        "endChar": 68
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4456292b",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "With each",
+      "range": {
+        "startLine": 221,
+        "startChar": 9,
+        "endLine": 221,
+        "endChar": 13
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2453253a",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "increases.  For example, there",
+      "range": {
+        "startLine": 227,
+        "startChar": 68,
+        "endLine": 227,
+        "endChar": 84
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_84331113",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-02T18:24:18Z",
+      "side": 1,
+      "message": "this should be removed",
+      "range": {
+        "startLine": 236,
+        "startChar": 31,
+        "endLine": 236,
+        "endChar": 53
+      },
+      "revId": "3729fffce1f63ffbd0b0d1622c1955867d2dbb33",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
