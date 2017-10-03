@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_5de43ce0",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-10-03T10:55:36Z",
+      "side": 1,
+      "message": "[submodule \"docs/submodules/moon\"]\n\tpath \u003d docs/submodules/moon\n\turl \u003d ../moon\n\tbranch \u003d .\n\tignore \u003d dirty",
+      "revId": "e21937e93de2a1e80266f05fad110783c08aa437",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
