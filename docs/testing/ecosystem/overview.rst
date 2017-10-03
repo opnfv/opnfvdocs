@@ -56,17 +56,17 @@ The major testing projects are described in the table below:
 |                | to run those tools on OPNFV's infrastructure.           |
 +----------------+---------------------------------------------------------+
 | Dovetail       | This project intends to define and provide a set of     |
-|                | OPNFV related validation criteria that will provide     |
-|                | input for the evaluation of the use of OPNFV trademarks.|
-|                | The dovetail project is executed with the guidance and  |
-|                | oversight of the Compliance and Certification committee |
-|                | and work to secure the goals of the C&C committee for   |
-|                | each release. The project intends to incrementally      |
-|                | define qualification criteria that establish the        |
-|                | foundations of how we are able to measure the ability to|
-|                | utilize the OPNFV platform, how the platform itself     |
-|                | should behave, and how applications may be deployed on  |
-|                | the platform.                                           |
+|                | OPNFV related validation criteria/tests that will       |
+|                | provide input for the OPNFV Complaince Verification     |
+|		 | Program.  The Dovetail project is executed with the     |
+|                | guidance and oversight of the Complaince and            |
+|                | Certification (C&C) committee and work to secure the    |
+|                | goals of the C&C committee for each release. The        |
+|                | project intends to incrementally define qualification   |
+|                | criteria that establish the foundations of how one is   |
+|                | able to measure the ability to utilize the OPNFV        |
+|                | platform, how the platform itself should behave, and    |
+|                | how applications may be deployed on the platform.       |
 +----------------+---------------------------------------------------------+
 | Functest       | This project deals with the functional testing of the   |
 |                | VIM and NFVI. It leverages several upstream test suites |
@@ -175,33 +175,30 @@ A Mongo DB Database was introduced for the Brahmaputra release.
 The following collections are declared in this database:
  * pods: the list of pods used for production CI
  * projects: the list of projects providing test cases
- * testcases: the test cases related to a given project
+ * test cases: the test cases related to a given project
  * results: the results of the test cases
  * scenarios: the OPNFV scenarios tested in CI
 
 This database can be used by any project through the Test API.
 Please note that projects may also use additional databases. The Test
 Database is mainly use to collect CI test results and generate scenario
-trust indicators. The Test Database is cloned for OPNFV Plugfests in
+trust indicators. The Test Database is also cloned for OPNFV Plugfests in
 order to provide a private datastore only accessible to Plugfest participants.
 
 
 Test API description
 --------------------
 The Test API is used to declare pods, projects, test cases and test results.
-Pods correspond to the cluster of machines (3 controller and 2 compute nodes in
-HA mode) used to run the tests and defined in Pharos project.
+Pods correspond to a cluster of machines (3 controller and 2 compute nodes in
+HA mode) used to run the tests and are defined in the Pharos project.
 The results pushed in the database are related to pods, projects and test cases.
 Trying to push results generated from a non-referenced pod will return an error
 message by the Test API.
 
-An additional method dashboard has been added to post-process the raw results in
-the Brahmaputra release (deprecated in Colorado release).
-
 The data model is very basic, 5 objects are available:
   * Pods
   * Projects
-  * Testcases
+  * Test cases
   * Results
   * Scenarios
 
@@ -237,7 +234,7 @@ The value of the header i.e the token can be accessed in the jenkins environment
     headers['X-Auth-Token'] = os.environ.get('TestApiToken')
 
 The above example is in Python. Token based authentication has been added so
-that only CI pods running Jenkins jobs can access to the database. Please note
+that only CI pods running Jenkins jobs can access the database. Please note
 that currently token authorization is implemented but is not yet enabled.
 
 
@@ -256,7 +253,7 @@ This page provides reporting per OPNFV release and per testing project.
    :alt: Testing group Euphrates reporting page
 
 An evolution of the reporting page is planned to unify test reporting by creating
-a landing page that shows the scenario status with one glance (this information was
+a landing page that shows the scenario status in one glance (this information was
 previously consolidated manually on a wiki page). The landing page will be displayed
 per scenario and show:
 
@@ -279,7 +276,7 @@ Test cases per project may be listed by calling:
 with project_name: bottlenecks, functest, qtip, storperf, vsperf, yardstick
 
 A test case catalog has now been realized `[TST4]`_. Roll over the project then
-click to get the list of test cases, click on the case to get more details.
+click to get the list of test cases, and then click on the case to get more details.
 
 .. figure:: ../../images/TestcaseCatalog.png
    :align: center
@@ -291,7 +288,7 @@ Test Dashboards
 The Test Dashboard is used to provide a consistent view of the results collected in CI.
 The results shown on the dashboard are post processed from the Database, which only
 contains raw results.
-The dashboard can be used in addition of the reporting page (high level view) to allow
+The dashboard can be used in addition to the reporting page (high level view) to allow
 the creation of specific graphs according to what the test owner wants to show.
 
 In Brahmaputra, a basic dashboard was created in Functest.
@@ -315,7 +312,7 @@ wiki: https://wiki.opnfv.org/testing
 
 mailing list: test-wg@lists.opnfv.org
 
-IRC chan: #opnfv-testperf
+IRC channel: #opnfv-testperf
 
 weekly meeting (https://wiki.opnfv.org/display/meetings/TestPerf):
  * Usual time: Every Thursday 15:00-16:00 UTC / 7:00-8:00 PST
