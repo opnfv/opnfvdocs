@@ -42,6 +42,8 @@ Project release notes:
 
 :ref:`Netready Release Notes <netready-releasenotes>`
 
+:ref:`Moon Release Notes <moon-releasenotes>`
+
 :ref:`Opera Release Notes <opera-releasenotes>`
 
 :ref:`Parser Release Notes <parser-releasenotes>`
