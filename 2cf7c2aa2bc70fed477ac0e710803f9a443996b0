@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_3a917ef1",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2017-10-03T08:31:24Z",
+      "side": 1,
+      "message": "Please put Moon before Netready",
+      "revId": "2cf7c2aa2bc70fed477ac0e710803f9a443996b0",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
