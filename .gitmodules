@@ -222,3 +222,6 @@
 	url = ../releng-xci
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/moon"]
+	path = docs/submodules/moon
+	url = https://gerrit.opnfv.org/gerrit/moon
