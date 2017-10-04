@@ -16,6 +16,18 @@ Bottlenecks
    ../submodules/bottlenecks/docs/testing/user/userguide/index
 
 
+Dovetail
+--------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/dovetail/docs/testing/user/certificationworkflow/index
+   ../submodules/dovetail/docs/testing/user/cvpaddendum/index
+   ../submodules/dovetail/docs/testing/user/reviewerguide/index
+   ../submodules/dovetail/docs/testing/user/systempreparation/index
+   ../submodules/dovetail/docs/testing/user/testspecificiation/index
+   ../submodules/dovetail/docs/testing/user/userguide/index
+
 Functest
 ---------
 .. toctree::
