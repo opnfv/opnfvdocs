@@ -15,6 +15,14 @@ Bottlenecks
    ../submodules/bottlenecks/docs/testing/developer/devguide/index
 
 
+Dovetail
+--------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/dovetail/docs/testing/developer/testcaserequirements/index
+   ../submodules/dovetail/docs/testing/developer/testscope/index
+
 Functest
 ---------
 .. toctree::
