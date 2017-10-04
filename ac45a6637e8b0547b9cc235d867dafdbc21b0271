@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_8c4faf33",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2017-10-04T20:46:55Z",
+      "side": 1,
+      "message": "This document is very old and has not been up to date. We should ask the question if it is replaced by other docs already and therefore obsolete.",
+      "range": {
+        "startLine": 23,
+        "startChar": 49,
+        "endLine": 23,
+        "endChar": 62
+      },
+      "revId": "ac45a6637e8b0547b9cc235d867dafdbc21b0271",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
