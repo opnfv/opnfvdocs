@@ -222,3 +222,8 @@
 	url = ../releng-xci
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/ovno"]
+	path = docs/submodules/ovno
+	url = https://gerrit.opnfv.org/gerrit/ovno
+	branch = .
+	ignore = dirty
