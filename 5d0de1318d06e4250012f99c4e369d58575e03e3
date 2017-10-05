@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_fd63873f",
+        "filename": "docs/testing/testing-user.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 5807
+      },
+      "writtenOn": "2017-10-05T23:11:06Z",
+      "side": 1,
+      "message": "please use NFVbench",
+      "revId": "5d0de1318d06e4250012f99c4e369d58575e03e3",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
