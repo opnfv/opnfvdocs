@@ -22,6 +22,30 @@
       "revId": "ac45a6637e8b0547b9cc235d867dafdbc21b0271",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2f7c9571",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2017-10-05T07:17:48Z",
+      "side": 1,
+      "message": "True, it is quite old. This document consists of multiple sub-documents of which some can be abandoned while the CLI guide or the Template syntax section can be valuable for test developers. So, some clean-up is indeed needed.",
+      "parentUuid": "da33351e_8c4faf33",
+      "range": {
+        "startLine": 23,
+        "startChar": 49,
+        "endLine": 23,
+        "endChar": 62
+      },
+      "revId": "ac45a6637e8b0547b9cc235d867dafdbc21b0271",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
