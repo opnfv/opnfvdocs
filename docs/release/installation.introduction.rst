@@ -11,7 +11,7 @@ Installation
 Abstract
 ========
 
-This document provides an overview of the installation of the Euphrates release of OPNFV.
+This an overview document for the installation of the Euphrates release of OPNFV.
 
 The Euphrates release can be installed making use of any of the installer projects in OPNFV:
 Apex, Compass4Nfv, Daisy4NFV, Fuel or JOID. Each installer provides the ability to install a common OPNFV
@@ -105,9 +105,9 @@ The instructions for each toolchain can be found in these links:
 OPNFV Test Frameworks
 =====================
 
-If you have elected to install the OPNFV platform using the deployment toolchain provided by OPNFV
+If you have elected to install the OPNFV platform using the deployment toolchain provided by OPNFV,
 your system will have been validated once the installation is completed.
-The basic deployment validation only addresses a small part of capabilities provided in
+The basic deployment validation only addresses a small part of capabilities in
 the platform and you may want to execute more exhaustive tests. Some investigation will be required to
 select the right test suites to run on your platform.
 

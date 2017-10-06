@@ -7,8 +7,8 @@
 Release Notes
 =============
 
-Release notes as provided by the OPNFV participating projects are captured in this section.
-These include details of software versions used, known limitations and outstanding trouble
+Release notes as provided by participating projects in OPNFV are captured in this section.
+These include details of software versions used, known limitations, and outstanding trouble
 reports.
 
 Project release notes:
