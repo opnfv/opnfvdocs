@@ -1,0 +1,9 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Morgan Richomme <morgan.richomme@orange.com>
+Code-Review+1: Jose Lausuch <jalausuch@suse.com>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Sun, 08 Oct 2017 10:54:03 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/44503
+Project: opnfvdocs
+Branch: refs/heads/master
