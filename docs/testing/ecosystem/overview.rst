@@ -74,6 +74,21 @@ The major testing projects are described in the table below:
 |                | project to launch feature test suites in CI/CD.         |
 |                | The project is used for scenario validation.            |
 +----------------+---------------------------------------------------------+
+| NFVbench       | NFVbench is a compact and self contained data plane     |
+|                | performance measurement tool for OpensStack based NFVi  |
+|                | platforms. It is agnostic of the NFVi distribution,     |
+|                | Neutron networking implementation and hardware.         |
+|                | It runs on any Linux server with a DPDK compliant       |
+|                | NIC connected to the NFVi platform data plane and       |
+|                | bundles a highly efficient software traffic generator.  |
+|                | Provides a fully automated measurement of most common   |
+|                | packet paths at any level of scale and load using       |
+|                | RFC-2544. Available as a Docker container with simple   |
+|                | command line and REST interfaces.                       |
+|                | Easy to use as it takes care of most of the guesswork   |
+                 | generally associated to data plane benchmarking.        |
+|                | Can run in any lab or in production environments.       |
++----------------+---------------------------------------------------------+
 | Qtip           | QTIP as the project for "Platform Performance           |
 |                | Benchmarking" in OPNFV aims to provide user a simple    |
 |                | indicator for performance, supported by comprehensive   |
@@ -333,6 +348,8 @@ Reference Documentation
 | Dovetail       | https://wiki.opnfv.org/display/dovetail                 |
 +----------------+---------------------------------------------------------+
 | Functest       | https://wiki.opnfv.org/display/functest/                |
++----------------+---------------------------------------------------------+
+| NFVbench       | https://wiki.opnfv.org/display/nfvbench/                |
 +----------------+---------------------------------------------------------+
 | Qtip           | https://wiki.opnfv.org/display/qtip                     |
 +----------------+---------------------------------------------------------+
