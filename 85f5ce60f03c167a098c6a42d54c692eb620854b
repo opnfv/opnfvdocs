@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_a835fa47",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "makes sense to me",
+      "parentUuid": "9a3d3df0_7f58cffa",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_5f5d0be9",
         "filename": "docs/release/overview.rst",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2017-10-09T06:17:16Z",
       "side": 1,
       "message": "MANO and application are part of the software platform...\nno objection to highlight them ..but would it make sense then to add a bullet\n* tooling \u0026 testing: Testing working group and test projects",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_e83ee228",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "agreed",
+      "parentUuid": "9a3d3df0_5f5d0be9",
       "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_2849ead0",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "Makes sense to me.  We already mentioned Kubernetes above so we can remove it here.  This sentence can simply say \"OPNFV now also has initial support for containerized VNFs.\"",
+      "parentUuid": "9a3d3df0_bf71b779",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_9f6e7395",
         "filename": "docs/release/overview.rst",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2017-10-09T06:17:16Z",
       "side": 1,
       "message": "no ONOS scenario for Euphrates as far as I know",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_0846a6bf",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "yes, we can remove this.  no ONOS for Euphrates.",
+      "parentUuid": "9a3d3df0_9f6e7395",
       "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_6812d2b5",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "I think we can leave it here for now.  Hopefully it\u0027ll be fixed at least for the dot release.....",
+      "parentUuid": "9a3d3df0_ff6b3f83",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_df68fb89",
         "filename": "docs/release/overview.rst",
         "patchSetId": 4
@@ -98,6 +188,24 @@
       "writtenOn": "2017-10-09T06:17:16Z",
       "side": 1,
       "message": "idem OpenContrail",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_48170ea4",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "same as above...",
+      "parentUuid": "9a3d3df0_df68fb89",
       "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_c822fe00",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "Cool.  So imply add this sentence at the end of the bullet....",
+      "parentUuid": "9a3d3df0_1f0a63d2",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_3f05a7c2",
         "filename": "docs/release/overview.rst",
         "patchSetId": 4
@@ -138,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_2820caf6",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "Cloudify isn\u0027t an OPNFV project, so it\u0027d look out of place here.  My suggestion is to leave it out....",
+      "parentUuid": "9a3d3df0_3f05a7c2",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_7f0f2fe2",
         "filename": "docs/release/overview.rst",
         "patchSetId": 4
@@ -149,6 +293,24 @@
       "writtenOn": "2017-10-09T06:17:16Z",
       "side": 1,
       "message": "no multisite testing anymore (end of multisite project after PoC in Beijing)\nI would have removed this statement, we do not deal with multiple datacenters for testing AFAIK",
+      "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_e825420b",
+        "filename": "docs/release/overview.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2017-10-11T13:16:41Z",
+      "side": 1,
+      "message": "this is true.  I think we can remove this sentence and the previous one (\"It\u0027s not only in the validation of the scenarios....\")",
+      "parentUuid": "9a3d3df0_7f0f2fe2",
       "revId": "85f5ce60f03c167a098c6a42d54c692eb620854b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
