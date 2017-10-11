@@ -227,3 +227,8 @@
 	url = https://gerrit.opnfv.org/gerrit/ovno
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/moon"]
+	path = docs/submodules/moon
+	url = ../moon
+	branch = .
+	ignore = dirty
