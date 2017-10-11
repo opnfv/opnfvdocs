@@ -49,7 +49,6 @@ To learn more about the scenarios supported in the Euphrates release refer to th
 description documents provided:
 
 - :ref:`os-nosdn-kvm-ha <kvmfornfv-os-nosdn-kvm-ha>`
-- :ref:`os-nosdn-kvm_ovs_dpdk-noha <kvmfornfv-os-nosdn-kvm_nfv_ovs_dpdk-noha>`
 - :ref:`os-odl-fdio-ha <os-odl-fdio-ha>`
 - :ref:`os-odl-fdio-noha <os-odl-fdio-noha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
@@ -70,10 +69,7 @@ description documents provided:
 - :ref:`os-odl-ovs_dpdk-noha <os-odl-ovs_dpdk-noha>`
 - :ref:`os-odl-fdio-dvr-noha <os-odl-fdio-dvr-noha>`
 - :ref:`os-odl-fdio-dvr-ha <os-odl-fdio-dvr-ha>`
-- :ref:`os-odl-fdio-ipv6-noha <os-odl-fdio-ipv6-noha>`
-- :ref:`os-odl-fdio-ipv6-ha <os-odl-fdio-ipv6-ha>`
 - :ref:`os-nosdn-fdio-ha <os-nosdn-fdio-ha>`
-- :ref:`os-k8s-fdio <os-k8s-fdio>`
 - :ref:`os-odl-k8s_coe-noha <os-odl-k8s_coe-noha>`
 - :ref:`os-odl-k8s_coe-ha <os-odl-k8s_coe-ha>`
 - :ref:`os-nosdn-kvm_ovs_dpdk-ha <os-nosdn-kvm_ovs_dpdk-ha>`
