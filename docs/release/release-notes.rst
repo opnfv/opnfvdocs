@@ -40,6 +40,10 @@ Project release notes:
 
 :ref:`KVMforNFV Release Notes <kvmfornfv-releasenotes>`
 
+:ref:`Moon Release Notes <moon-releasenotes>`
+
+:ref:`Netready Release Notes <netready-releasenotes>`
+
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
 :ref:`Orchestra Release Notes <orchestra-releasenotes>`
