@@ -63,6 +63,9 @@ Feature Configuration Guides
 - :ref:`Domino Configuration Guide <domino-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
+- :ref:`Moon Configuration Guide <moon-configguide>`
+- :ref:`Netready Configuration Guide <netready-configguide>`
+- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
 - :ref:`Orchestra Configuration Guide <orchestra-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise-configguide>`
