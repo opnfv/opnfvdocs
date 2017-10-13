@@ -4,8 +4,11 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-======================
-Continuous Integration
-======================
+===========================
+Continuous Integration - CI
+===========================
 
-TBD
+Please see the details of CI from the chapters below.
+
+- :ref:`CI Overview <ci-overview>`
+- :ref:`CI User Guide <ci-user-guide>`

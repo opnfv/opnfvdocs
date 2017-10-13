@@ -36,14 +36,15 @@ The details of what is provided as part of the infrastructure can be seen in fol
 Hardware Infrastructure
 -----------------------
 
-TBD
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/pharos/docs/index
 
 Software Infrastructure
 -----------------------
 
-TBD
-
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/releng/docs/sofware-infrastructure-index
+   ../submodules/releng/docs/infra/index
