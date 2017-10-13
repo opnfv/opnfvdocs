@@ -48,13 +48,6 @@ The major testing projects are described in the table below:
 |                | forms a staging framework to find bottlenecks and to do |
 |                | analysis of the OPNFV infrastructure.                   |
 +----------------+---------------------------------------------------------+
-| CPerf          | SDN Controller benchmarks and performance testing,      |
-|                | applicable to controllers in general. Collaboration of  |
-|                | upstream controller testing experts, external test tool |
-|                | developers and the standards community. Primarily       |
-|                | contribute to upstream/external tooling, then add jobs  |
-|                | to run those tools on OPNFV's infrastructure.           |
-+----------------+---------------------------------------------------------+
 | Dovetail       | This project intends to define and provide a set of     |
 |                | OPNFV related validation criteria/tests that will       |
 |                | provide input for the OPNFV Complaince Verification     |
@@ -343,8 +336,6 @@ Reference Documentation
 +================+=========================================================+
 |  Bottlenecks   | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
 +----------------+---------------------------------------------------------+
-| CPerf          | https://wiki.opnfv.org/display/cperf                    |
-+----------------+---------------------------------------------------------+
 | Dovetail       | https://wiki.opnfv.org/display/dovetail                 |
 +----------------+---------------------------------------------------------+
 | Functest       | https://wiki.opnfv.org/display/functest/                |
@@ -355,7 +346,7 @@ Reference Documentation
 +----------------+---------------------------------------------------------+
 | Storperf       | https://wiki.opnfv.org/display/storperf/Storperf        |
 +----------------+---------------------------------------------------------+
-| VSperf         | https://wiki.opnfv.org/display/vsperf                   |
+| VSPERF         | https://wiki.opnfv.org/display/vsperf                   |
 +----------------+---------------------------------------------------------+
 | Yardstick      | https://wiki.opnfv.org/display/yardstick/Yardstick      |
 +----------------+---------------------------------------------------------+
