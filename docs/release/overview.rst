@@ -122,13 +122,12 @@ Operating Systems
 OPNFV currently uses Linux on all target machines, this can include Ubuntu, Centos or SUSE Linux. The
 specific version of Linux used for any deployment is documented in the installation guide.
 
------------------------
 Networking Technologies
------------------------
+=======================
 
+---------------
 SDN Controllers
 ---------------
-
 OPNFV, as an NFV focused project, has a significant investment on networking technologies
 and provides a broad variety of integrated open source reference solutions.  The diversity
 of controllers able to be used in OPNFV is supported by a similarly diverse set of
@@ -147,10 +146,9 @@ being worked on by the community during this release of OPNFV include:
 * OVN: A virtual networking solution developed by the same team that created OVS. OVN stands for
   Open Virtual Networking and is dissimilar from the above projects in that it focuses only on overlay networks.
 
-
+----------
 Data Plane
 ----------
-
 OPNFV extends Linux virtual networking capabilities by using virtual switching
 and routing components. The OPNFV community proactively engages with the following open source
 communities to address performance, scale and resiliency needs apparent in carrier
@@ -164,9 +162,9 @@ networks.
 * DPDK:  a set of libraries that bypass the kernel and provide polling mechanisms, instead of interrupt based operations,
   to speed up packet processing. DPDK works with both OVS and FD.io.
 
+----
 MANO
 ----
-
 OPNFV integrates open source MANO projects for NFV orchestration and VNF management.
 New MANO projects are constantly being added, currently OPNFV integrates:
 * OpenBaton: Open Baton is a ETSI NFV compliant Management and Orchestration (MANO) Framework.
@@ -227,7 +225,6 @@ the infrastructure iteratively in order to fulfill the release criteria.
 --------
 Functest
 --------
-
 Functest provides a functional testing framework incorporating a number of test suites
 and test cases that test and verify OPNFV platform functionality.
 The scope of Functest and relevant test cases can be found in the :ref:`Functest User Guide <functest-userguide>`
@@ -239,7 +236,6 @@ platform are running successfully.
 ---------
 Yardstick
 ---------
-
 Yardstick is a testing project for verifying the infrastructure compliance when running VNF applications.
 Yardstick benchmarks a number of characteristics and performance vectors on the infrastructure making it
 a valuable pre-deployment NFVI testing tools.
@@ -282,22 +278,23 @@ Some of the projects focused on these testing areas include:
 -----------
 Bottlenecks
 -----------
-
 Bottlenecks provides a framework to find system limitations and bottlenecks, providing
 root cause isolation capabilities to facilitate system evaluation.
 
+--------
 NFVBench
 --------
-
 NFVbench is a lightweight end-to-end dataplane benchmarking framework project.
 It includes traffic generator(s) and measures a number of packet performance related metrics.
 
+----
 QTIP
 ----
 QTIP boils down NFVI compute and storage performance into one single metric for easy comparison.
 QTIP crunches these numbers based on five different categories of compute metrics and relies on
 Storperf for storage metrics.
 
+--------
 Storperf
 --------
 Storperf measures the performance of external block storage. The goal of this project is
@@ -306,7 +303,6 @@ to provide a report based on SNIA’s (Storage Networking Industry Association) 
 ------
 VSPERF
 ------
-
 VSPERF provides an automated test-framework and comprehensive test suite for measuring data-plane
 performance of the NFVI including switching technology, physical and virtual network interfaces.
 The provided test cases with network topologies can be customized while also allowing individual
