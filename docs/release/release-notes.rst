@@ -16,8 +16,6 @@ Project release notes:
 
 :ref:`Apex Release Notes <apex-releasenotes>`
 
-:ref:`Armband Release Notes <armband-release-notes-label>`
-
 :ref:`Barometer Release Notes <barometer-releasenotes>`
 
 :ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
