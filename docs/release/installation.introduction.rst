@@ -66,7 +66,6 @@ description documents provided:
 - :ref:`os-nosdn-ovs_dpdk-ha <os-nosdn-ovs_dpdk-ha>`
 - :ref:`os-nosdn-ovs_dpdk-noha <os-nosdn-ovs_dpdk-noha>`
 - :ref:`os-odl-fdio-dvr-noha <os-odl-fdio-dvr-noha>`
-- :ref:`os-odl-fdio-dvr-ha <os-odl-fdio-dvr-ha>`
 - :ref:`os-nosdn-fdio-ha <os-nosdn-fdio-ha>`
 - :ref:`os-nosdn-kvm_ovs_dpdk-ha <os-nosdn-kvm_ovs_dpdk-ha>`
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
