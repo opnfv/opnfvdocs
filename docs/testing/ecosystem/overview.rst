@@ -38,7 +38,7 @@ The major testing projects are described in the table below:
 +----------------+---------------------------------------------------------+
 |  Project       |   Description                                           |
 +================+=========================================================+
-|  Bottlenecks   | This project aims to find system bottlenecks by testing |
+| Bottlenecks    | This project aims to find system bottlenecks by testing |
 |                | and verifying OPNFV infrastructure in a staging         |
 |                | environment before committing it to a production        |
 |                | environment. Instead of debugging a deployment in       |
@@ -89,7 +89,7 @@ The major testing projects are described in the table below:
                  | generally associated to data plane benchmarking.        |
 |                | Can run in any lab or in production environments.       |
 +----------------+---------------------------------------------------------+
-| Qtip           | QTIP as the project for "Platform Performance           |
+| QTIP           | QTIP as the project for "Platform Performance           |
 |                | Benchmarking" in OPNFV aims to provide user a simple    |
 |                | indicator for performance, supported by comprehensive   |
 |                | testing data and transparent calculation formula.       |
@@ -97,7 +97,7 @@ The major testing projects are described in the table below:
 |                | performance benchmarking which helps users to build     |
 |                | indicators by themselves with ease.                     |
 +----------------+---------------------------------------------------------+
-| Storperf       | The purpose of this project is to provide a tool to     |
+| StorPerf       | The purpose of this project is to provide a tool to     |
 |                | measure block and object storage performance in an NFVI.|
 |                | When complemented with a characterization of typical VF |
 |                | storage performance requirements, it can provide        |
@@ -341,7 +341,7 @@ Reference Documentation
 +----------------+---------------------------------------------------------+
 |  Project       |   Documentation links                                   |
 +================+=========================================================+
-|  Bottlenecks   | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
+| Bottlenecks    | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
 +----------------+---------------------------------------------------------+
 | CPerf          | https://wiki.opnfv.org/display/cperf                    |
 +----------------+---------------------------------------------------------+
@@ -351,11 +351,11 @@ Reference Documentation
 +----------------+---------------------------------------------------------+
 | NFVbench       | https://wiki.opnfv.org/display/nfvbench/                |
 +----------------+---------------------------------------------------------+
-| Qtip           | https://wiki.opnfv.org/display/qtip                     |
+| QTIP           | https://wiki.opnfv.org/display/qtip                     |
 +----------------+---------------------------------------------------------+
-| Storperf       | https://wiki.opnfv.org/display/storperf/Storperf        |
+| StorPerf       | https://wiki.opnfv.org/display/storperf/Storperf        |
 +----------------+---------------------------------------------------------+
-| VSperf         | https://wiki.opnfv.org/display/vsperf                   |
+| VSPERF         | https://wiki.opnfv.org/display/vsperf                   |
 +----------------+---------------------------------------------------------+
 | Yardstick      | https://wiki.opnfv.org/display/yardstick/Yardstick      |
 +----------------+---------------------------------------------------------+
