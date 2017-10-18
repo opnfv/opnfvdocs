@@ -38,7 +38,7 @@ The major testing projects are described in the table below:
 +----------------+---------------------------------------------------------+
 |  Project       |   Description                                           |
 +================+=========================================================+
-|  Bottlenecks   | This project aims to find system bottlenecks by testing |
+| Bottlenecks    | This project aims to find system bottlenecks by testing |
 |                | and verifying OPNFV infrastructure in a staging         |
 |                | environment before committing it to a production        |
 |                | environment. Instead of debugging a deployment in       |
@@ -58,7 +58,7 @@ The major testing projects are described in the table below:
 | Dovetail       | This project intends to define and provide a set of     |
 |                | OPNFV related validation criteria/tests that will       |
 |                | provide input for the OPNFV Complaince Verification     |
-|		 | Program.  The Dovetail project is executed with the     |
+|		             | Program.  The Dovetail project is executed with the     |
 |                | guidance and oversight of the Complaince and            |
 |                | Certification (C&C) committee and work to secure the    |
 |                | goals of the C&C committee for each release. The        |
@@ -89,7 +89,7 @@ The major testing projects are described in the table below:
                  | generally associated to data plane benchmarking.        |
 |                | Can run in any lab or in production environments.       |
 +----------------+---------------------------------------------------------+
-| Qtip           | QTIP as the project for "Platform Performance           |
+| QTIP           | QTIP as the project for "Platform Performance           |
 |                | Benchmarking" in OPNFV aims to provide user a simple    |
 |                | indicator for performance, supported by comprehensive   |
 |                | testing data and transparent calculation formula.       |
@@ -97,7 +97,7 @@ The major testing projects are described in the table below:
 |                | performance benchmarking which helps users to build     |
 |                | indicators by themselves with ease.                     |
 +----------------+---------------------------------------------------------+
-| Storperf       | The purpose of this project is to provide a tool to     |
+| StorPerf       | The purpose of this project is to provide a tool to     |
 |                | measure block and object storage performance in an NFVI.|
 |                | When complemented with a characterization of typical VF |
 |                | storage performance requirements, it can provide        |
@@ -239,6 +239,7 @@ PUT/DELETE/POST operations of the TestAPI now require token based authorization.
 to be added in the request using a header 'X-Auth-Token' for access to the database.
 
 e.g::
+
     headers['X-Auth-Token']
 
 The value of the header i.e the token can be accessed in the jenkins environment variable
@@ -317,6 +318,9 @@ use Bitergia for creating highly flexible dashboards `[TST5]`_.
    :alt: Testing group testcase catalog
 
 
+.. include:: ./energy-monitoring.rst
+
+
 OPNFV Test Group Information
 ============================
 
@@ -341,7 +345,7 @@ Reference Documentation
 +----------------+---------------------------------------------------------+
 |  Project       |   Documentation links                                   |
 +================+=========================================================+
-|  Bottlenecks   | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
+| Bottlenecks    | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
 +----------------+---------------------------------------------------------+
 | CPerf          | https://wiki.opnfv.org/display/cperf                    |
 +----------------+---------------------------------------------------------+
@@ -351,11 +355,11 @@ Reference Documentation
 +----------------+---------------------------------------------------------+
 | NFVbench       | https://wiki.opnfv.org/display/nfvbench/                |
 +----------------+---------------------------------------------------------+
-| Qtip           | https://wiki.opnfv.org/display/qtip                     |
+| QTIP           | https://wiki.opnfv.org/display/qtip                     |
 +----------------+---------------------------------------------------------+
-| Storperf       | https://wiki.opnfv.org/display/storperf/Storperf        |
+| StorPerf       | https://wiki.opnfv.org/display/storperf/Storperf        |
 +----------------+---------------------------------------------------------+
-| VSperf         | https://wiki.opnfv.org/display/vsperf                   |
+| VSPERF         | https://wiki.opnfv.org/display/vsperf                   |
 +----------------+---------------------------------------------------------+
 | Yardstick      | https://wiki.opnfv.org/display/yardstick/Yardstick      |
 +----------------+---------------------------------------------------------+
