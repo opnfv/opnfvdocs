@@ -47,12 +47,9 @@ API in charge of data storing.
 The collector use different connector to read the power consumption on remote
 servers:
 
-  * IPMI: this is the basic method and is manufacturer dependent.
-  Depending on manufacturer, refreshing delay may vary (generally for 10 to 30 sec.)
-  * RedFish: redfish is an industry RESTFUL API for hardware managment.
-  Unfortunatly it is not yet supported by many suppliers.
-  * ILO: HP RESTFULL API:
-  This connector support as well 2.1 as 2.4 version of HP-ILO
+  * IPMI: this is the basic method and is manufacturer dependent. Depending on manufacturer, refreshing delay may vary (generally for 10 to 30 sec.)
+  * RedFish: redfish is an industry RESTFUL API for hardware managment. Unfortunatly it is not yet supported by many suppliers.
+  * ILO: HP RESTFULL API: This connector support as well 2.1 as 2.4 version of HP-ILO
 
 IPMI is supported by at least:
 
@@ -83,8 +80,7 @@ docker container locally on your infrastructure.
 
 This container requires:
 
-  * Connectivy on the LAN where server administration services (ILO, eDrac,
-  IPMI,...) are configured and IP access to the POD's servers
+  * Connectivy on the LAN where server administration services (ILO, eDrac, IPMI,...) are configured and IP access to the POD's servers
   * Outgoing HTTP access to the Event API (internet)
 
 Build the image by typing::
@@ -223,15 +219,18 @@ Notify that you want power recording in your testcase::
       self.do_some_stuff2()
 
 If you want to register additional steps during the scenarios you can to it in
-2 diffferent way:
+2 different ways.
 
-  * notify step on method defintion::
+Notify step on method definition::
+
     @energy.set_step("step1")
     def do_some_stuff1(self):
     ...
     @energy.set_step("step2")
     def do_some_stuff2(self):
-  * directly from code::
+
+Notify directly from code::
+
     @energy.enable_recording
     def run(self):
       Energy.set_step("step1")
