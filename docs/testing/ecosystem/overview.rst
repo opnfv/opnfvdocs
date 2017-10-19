@@ -58,7 +58,7 @@ The major testing projects are described in the table below:
 | Dovetail       | This project intends to define and provide a set of     |
 |                | OPNFV related validation criteria/tests that will       |
 |                | provide input for the OPNFV Complaince Verification     |
-|	         | Program.  The Dovetail project is executed with the     |
+|                | Program.  The Dovetail project is executed with the     |
 |                | guidance and oversight of the Complaince and            |
 |                | Certification (C&C) committee and work to secure the    |
 |                | goals of the C&C committee for each release. The        |
