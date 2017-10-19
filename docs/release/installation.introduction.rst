@@ -60,8 +60,8 @@ description documents provided:
 - :ref:`os-nosdn-lxd-noha <os-nosdn-lxd-noha>`
 - :ref:`k8-nosdn-nofeature-noha <k8-nosdn-nofeature-noha>`
 - :ref:`k8-nosdn-lb-noha <k8-nosdn-lb-noha>`
-- `os-nosdn-ovs-ha <http://docs.opnfv.org/en/stable-danube/submodules/ovsnfv/docs/release/scenarios/os-nosdn-ovs-ha/index.html>`_
-- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
+- :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha1>`
+- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha1>`
 - :ref:`os-nosdn-calipso-noha <os-nosdn-calipso-noha>`
 - :ref:`os-nosdn-ovs_dpdk-ha <os-nosdn-ovs_dpdk-ha>`
 - :ref:`os-nosdn-ovs_dpdk-noha <os-nosdn-ovs_dpdk-noha>`
