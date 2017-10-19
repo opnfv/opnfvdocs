@@ -232,3 +232,8 @@
 	url = ../moon
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/calipso"]
+	path = docs/submodules/calipso
+	url = https://gerrit.opnfv.org/gerrit/calipso
+	branch = .
+	ignore = dirty
