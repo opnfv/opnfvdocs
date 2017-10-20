@@ -52,7 +52,7 @@ Project release notes:
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
 
-:ref:`SampleVNF Release Notes <samplenvf-releasenotes>`
+:ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
 
 :ref:`SDNVPN Release Notes <sdnvpn-releasenotes>`
 
