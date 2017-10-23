@@ -68,8 +68,6 @@ description documents provided:
 - :ref:`os-odl-fdio-dvr-noha <os-odl-fdio-dvr-noha>`
 - :ref:`os-nosdn-fdio-ha <os-nosdn-fdio-ha>`
 - :ref:`os-nosdn-kvm_ovs_dpdk-ha <os-nosdn-kvm_ovs_dpdk-ha>`
-- :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
-- :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 - :ref:`os-odl_l2-moon-ha <os-odl_l2-moon-ha>`
 - :ref:`k8-nosdn-lb-noha <k8-nosdn-lb-noha>`
 - :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
