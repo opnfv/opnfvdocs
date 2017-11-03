@@ -152,3 +152,8 @@
 	url = ../barometer
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/dovetail"]
+	path = docs/submodules/dovetail
+	url = ../dovetail
+	branch = master
+	ignore = dirty
