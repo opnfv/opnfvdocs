@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a3d3df0_4a2b3e94",
+        "filename": "docs/infrastructure/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2017-11-15T09:05:47Z",
+      "side": 1,
+      "message": "Trevor,\n\nCan you remove this and just leave TBD until Jack has time to look at it and decide.\n\nOnce you do that, we can submit the patch and continue with the actual documentation for releng.",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 34
+      },
+      "revId": "5a2efd5bc145eb6c5d0a9d58656c5bff5d1d588a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_aa192a8a",
+        "filename": "docs/infrastructure/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2017-11-15T09:05:47Z",
+      "side": 1,
+      "message": "I pinged Luke for this.",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 43
+      },
+      "revId": "5a2efd5bc145eb6c5d0a9d58656c5bff5d1d588a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
