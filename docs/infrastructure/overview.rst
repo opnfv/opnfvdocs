@@ -41,9 +41,15 @@ TBD
 Software Infrastructure
 -----------------------
 
-TBD
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/releng/docs/infra/index
+
+Security
+--------
 
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/releng/docs/sofware-infrastructure-index
+   ../submodules/releng-anteater/docs/index
