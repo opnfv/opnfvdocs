@@ -12,9 +12,6 @@ and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
 about network transformation.
 
-Release
--------
-
 .. toctree::
    :maxdepth: 1
 
@@ -22,10 +19,12 @@ Release
    release/installation.introduction
    release/userguide.introduction
    release/release-notes
+   how-to-use-docs/index
+   featureprojects
 
 
-Test Frameworks
----------------
+Testing Frameworks
+------------------
 
 .. toctree::
    :maxdepth: 1
@@ -33,16 +32,6 @@ Test Frameworks
    testing/ecosystem/index
    testing/testing-user
    testing/testing-dev
-
-
-Developer
----------
-
-.. toctree::
-   :maxdepth: 1
-
-   how-to-use-docs/index
-   featureprojects
 
 
 Infrastructure
@@ -54,3 +43,8 @@ Infrastructure
    infrastructure/overview
    infrastructure/ci
    infrastructure/xci
+
+Found a typo or want to update the docs? Email users@opnfv.org or talk
+to us on `IRC_`.
+
+.. _IRC: https://webchat.freenode.net/?channels=%23opnfv
