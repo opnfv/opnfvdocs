@@ -223,6 +223,17 @@ Parser
    ../submodules/parser/docs/development/manuals/index
 
 
+Pharos
+------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/pharos/docs/release/information/index.rst
+   ../submodules/pharos/docs/release/release-notes/specification/index.rst
+   ../submodules/pharos/docs/release/release-notes/lab-description/index.rst
+   ../submodules/pharos/docs/release/configguide/index.rst
+   ../submodules/pharos/docs/release/release-notes/labs/index.rst
+
 Promise
 -------
 .. toctree::
