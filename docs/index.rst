@@ -51,6 +51,6 @@ Infrastructure
    infrastructure/xci
 
 Found a typo or any other feedback? Send an email to users@opnfv.org or
-talk to us on `IRC_`.
+talk to us on IRC_.
 
 .. _IRC: https://webchat.freenode.net/?channels=%23opnfv
