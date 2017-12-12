@@ -75,6 +75,8 @@ description documents provided:
 - :ref:`os-nosdn-ovs_dpdk-ha <os-nosdn-ovs_dpdk-ha>`
 - :ref:`os-nosdn-openbaton-ha <os-nosdn-openbaton-ha>`
 - :ref:`k8-ovn-lb-noha <k8-ovn-lb-noha>`
+- :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
+- :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 
 Installation Procedure
 ======================
