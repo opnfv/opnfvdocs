@@ -22,6 +22,30 @@
       "revId": "258e2b9733f03009efa3a11596993e0ed8462c50",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_d20cf23d",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-12-13T20:30:04Z",
+      "side": 1,
+      "message": "It could be, but the back-ticks are only necessary when your link text spans multiple words: http://docutils.sourceforge.net/docs/user/rst/quickref.html#hyperlink-targets",
+      "parentUuid": "9a3d3df0_1f0b0d26",
+      "range": {
+        "startLine": 54,
+        "startChar": 14,
+        "endLine": 54,
+        "endChar": 18
+      },
+      "revId": "258e2b9733f03009efa3a11596993e0ed8462c50",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
