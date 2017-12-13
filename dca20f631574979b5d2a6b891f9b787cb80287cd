@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a3d3df0_3842623e",
+        "filename": "docker/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2017-12-13T00:24:35Z",
+      "side": 1,
+      "message": "container",
+      "range": {
+        "startLine": 4,
+        "startChar": 50,
+        "endLine": 4,
+        "endChar": 60
+      },
+      "revId": "dca20f631574979b5d2a6b891f9b787cb80287cd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_f80aba1f",
         "filename": "docker/Dockerfile",
         "patchSetId": 1
@@ -59,6 +82,30 @@
       "writtenOn": "2017-12-13T00:08:21Z",
       "side": 1,
       "message": "I\u0027m not sure cloning the repo should be part of the script, as that would not allow you to easily build documentation without first having it merged in the repository.\n\nMy initial thought when you mentioned this idea was the container would have an entrypoint of sphinx-build defaulting to \u0027html\u0027, and the docker run would happen from inside project repos.\n\n  docker run -v ./some-opnfv-repo:/docs -v /tmp/output/:/output opnfv/opnfvdocs\n\nThen if you wanted to build PDF, epub, etc you could pass it as an arg: \n\n  docker run -v ./some-opnfv-repo:/docs -v /tmp/output/:/output -e build\u003dpdf opnfv/opnfvdocs",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 61
+      },
+      "revId": "dca20f631574979b5d2a6b891f9b787cb80287cd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_183ddebb",
+        "filename": "docker/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 254
+      },
+      "writtenOn": "2017-12-13T00:24:35Z",
+      "side": 1,
+      "message": "+1 to this. We need to support local doc generation so people can see the docs even before they send the patch to Gerrit.",
+      "parentUuid": "9a3d3df0_781eaa64",
       "range": {
         "startLine": 10,
         "startChar": 0,
