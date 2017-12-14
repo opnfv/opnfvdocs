@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a3d3df0_83e33ea3",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2017-12-14T19:05:33Z",
+      "side": 1,
+      "message": "There is no \u0027calipso\u0027 directory in opnfvdocs/docs, and \u0027release\u0027 is not an rst file in calipso. So this should be \u0027submodules/calipso/docs/release\u0027 and calipso needs to add an index.rst under their release docs directory.",
+      "range": {
+        "startLine": 59,
+        "startChar": 3,
+        "endLine": 59,
+        "endChar": 18
+      },
+      "revId": "7d6d083311b969182394ef604814bd4a6d6a8bd1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
