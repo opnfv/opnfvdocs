@@ -49,11 +49,7 @@ To learn more about the scenarios supported in the Euphrates release refer to th
 description documents provided:
 
 - :ref:`os-nosdn-kvm-ha <kvmfornfv-os-nosdn-kvm-ha>`
-- :ref:`os-odl-fdio-ha <os-odl-fdio-ha>`
-- :ref:`os-odl-fdio-noha <os-odl-fdio-noha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
-- :ref:`os-odl-bgpvpn-noha <sdnvpn-os-odl-bgpvpn-noha>`
-- :ref:`os-odl-bgpvpn-ha <sdnvpn-os-odl-bgpvpn-ha>`
 - `os-odl_l2-sfc-ha <http://docs.opnfv.org/en/stable-danube/submodules/sfc/docs/release/scenarios/os-odl_l2-sfc-ha/index.html>`_
 - `os-odl_l2-sfc-noha <http://docs.opnfv.org/en/stable-danube/submodules/sfc/docs/release/scenarios/os-odl_l2-sfc-noha/index.html>`_
 - :ref:`os-nosdn-lxd-ha <os-nosdn-lxd-ha>`
