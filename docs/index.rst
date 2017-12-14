@@ -50,6 +50,15 @@ Infrastructure
    infrastructure/ci
    infrastructure/xci
 
+Operations Supporting Tools
+---------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   calipso/release
+
+
 Found a typo or any other feedback? Send an email to users@opnfv.org or
 talk to us on IRC_.
 
