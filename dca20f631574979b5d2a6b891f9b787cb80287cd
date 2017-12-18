@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_def6b9f8",
+        "filename": "docker/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2017-12-18T03:29:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_3842623e",
+      "range": {
+        "startLine": 4,
+        "startChar": 50,
+        "endLine": 4,
+        "endChar": 60
+      },
+      "revId": "dca20f631574979b5d2a6b891f9b787cb80287cd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_f80aba1f",
         "filename": "docker/Dockerfile",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_3edfe56a",
+        "filename": "docker/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2017-12-18T03:29:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_f80aba1f",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 28
+      },
+      "revId": "dca20f631574979b5d2a6b891f9b787cb80287cd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_180f9e2f",
         "filename": "docker/Dockerfile",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2017-12-13T00:08:21Z",
       "side": 1,
       "message": "pip install -r https://gerrit.opnfv.org/gerrit/gitweb?p\u003dopnfvdocs.git;a\u003dblob_plain;f\u003detc/requirements.txt;hb\u003drefs/heads/master\n\nOR\n\npip install -r https://git.opnfv.org/opnfvdocs/plain/etc/requirements.txt\n\nShould work?",
+      "range": {
+        "startLine": 19,
+        "startChar": 4,
+        "endLine": 19,
+        "endChar": 40
+      },
+      "revId": "dca20f631574979b5d2a6b891f9b787cb80287cd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_1edca172",
+        "filename": "docker/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2017-12-18T03:29:46Z",
+      "side": 1,
+      "message": "it\u0027s a better choice, and it took me too much time to think how get a single file from the repo.",
+      "parentUuid": "9a3d3df0_180f9e2f",
       "range": {
         "startLine": 19,
         "startChar": 4,
@@ -105,6 +177,30 @@
       "writtenOn": "2017-12-13T00:24:35Z",
       "side": 1,
       "message": "+1 to this. We need to support local doc generation so people can see the docs even before they send the patch to Gerrit.",
+      "parentUuid": "9a3d3df0_781eaa64",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 61
+      },
+      "revId": "dca20f631574979b5d2a6b891f9b787cb80287cd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_7ee5ed36",
+        "filename": "docker/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2017-12-18T03:29:46Z",
+      "side": 1,
+      "message": "OK, understood.\n\nThe initial is from my internal usage. We can build any project\u0027s documents without git clone it. It is not useful for feature projects.\n\nIt\u0027s a good suggestion to add the build parameter.\n\nYet for pdf, I don\u0027t plan to support it. It will make the image size form 600MB to 2200MB. The output format is not good enough either for now.",
       "parentUuid": "9a3d3df0_781eaa64",
       "range": {
         "startLine": 10,
