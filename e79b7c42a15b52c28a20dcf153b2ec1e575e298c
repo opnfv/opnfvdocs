@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a3d3df0_8b0cba3c",
+        "filename": "docker/entrypoint.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 6
+      },
+      "writtenOn": "2018-01-18T16:51:24Z",
+      "side": 1,
+      "message": "I would prefer if the container did the same thing as the verify job. eg:\n\n        - shell: |\n            sudo pip install virtualenv\n            virtualenv $WORKSPACE/venv\n            . $WORKSPACE/venv/bin/activate\n            pip install --upgrade pip\n            pip freeze\n            pip install tox\n            tox -edocs",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 66
+      },
+      "revId": "e79b7c42a15b52c28a20dcf153b2ec1e575e298c",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
