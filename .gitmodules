@@ -212,11 +212,6 @@
 	url = ../barometer
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/infra"]
-	path = docs/submodules/infra
-	url = ../infra
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/releng-xci"]
 	path = docs/submodules/releng-xci
 	url = ../releng-xci
