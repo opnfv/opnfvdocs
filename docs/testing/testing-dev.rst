@@ -15,8 +15,8 @@ Bottlenecks
    ../submodules/bottlenecks/docs/testing/developer/devguide/index
 
 
-Dovetail
---------
+Dovetail / OPNFV Verified Program
+---------------------------------
 .. toctree::
    :maxdepth: 1
 

@@ -16,13 +16,13 @@ Bottlenecks
    ../submodules/bottlenecks/docs/testing/user/userguide/index
 
 
-Dovetail
---------
+Dovetail / OPNFV Verified Program
+---------------------------------
 .. toctree::
    :maxdepth: 1
 
    ../submodules/dovetail/docs/testing/user/certificationworkflow/index
-   ../submodules/dovetail/docs/testing/user/cvpaddendum/index
+   ../submodules/dovetail/docs/testing/user/ovpaddendum/index
    ../submodules/dovetail/docs/testing/user/reviewerguide/index
    ../submodules/dovetail/docs/testing/user/systempreparation/index
    ../submodules/dovetail/docs/testing/user/testspecification/index
