@@ -1,0 +1,12 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Lincoln Lavoie <lylavoie@iol.unh.edu>
+Code-Review+1: Eddie Arrage <eddie.arrage@huawei.com>
+Code-Review+1: Eddy Raineri <eddy.raineri@windriver.com>
+Code-Review+1: Dan Xu <xudan16@huawei.com>
+Code-Review+1: zenghui shi <zshi@redhat.com>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Mon, 29 Jan 2018 09:27:19 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/51043
+Project: opnfvdocs
+Branch: refs/heads/stable/danube
