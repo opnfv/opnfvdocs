@@ -8,45 +8,58 @@
 Installation
 ============
 
-Abstract
-========
+This an overview document for the installation of the Euphrates release
+of OPNFV.
 
-This an overview document for the installation of the Euphrates release of OPNFV.
+Prerequisites
+=============
 
-The Euphrates release can be installed making use of any of the installer projects in OPNFV:
-Apex, Compass4Nfv, Daisy4NFV, Fuel or JOID. Each installer provides the ability to install a common OPNFV
-platform as well as integrating additional features delivered through a variety of scenarios by
-the OPNFV community.
+An OPNFV installation requires either a physical infrastructure
+environment as defined in the `Pharos specification
+<https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_, or a
+virtual one. When configuring a physical infrastructure it is strongly
+advised to follow the Pharos configuration guidelines.
 
+Installers
+==========
 
-Introduction
-============
+The Euphrates release of the OPNFV reference platform can be installed
+using any of the OPNFV installers: Apex, Compass4Nfv, Daisy4NFV, Fuel or
+JOID. Each installer provides the ability to install a common OPNFV
+platform.
 
-The OPNFV platform is comprised of a variety of upstream components that may be deployed on your
-infrastructure. A composition of components, tools and configurations is identified in OPNFV as a
+Detailed step by step instructions for working with an installation
+toolchain and installing the required scenario are provided by the
+installer projects. In the OPNFV Euphrates release the available
+installers are: Apex, Compass4nfv, Daisy4NFV, Fuel and JOID.
+
+The instructions for each toolchain can be found in the following links:
+
+- :ref:`Apex installation instruction <apex-installation>`
+- :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
+- :ref:`Daisy installation instruction <daisy-installation>`
+- :ref:`Fuel installation instruction <fuel-installation>`
+- :ref:`JOID installation instruction <joid-installation>`
+
+OPNFV deployment scenarios
+==========================
+
+The OPNFV platform is comprised of a variety of upstream components that
+may be deployed on your hardware infrastructure. A composition of
+components, tools and configurations is identified in OPNFV as a
 deployment scenario.
 
-The various OPNFV scenarios provide unique features and capabilities that you may want to leverage, and
-it is important to understand your required target platform capabilities before installing and
-configuring your scenarios.
-
-An OPNFV installation requires either a physical infrastructure environment as defined
-in the `Pharos specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_, or a virtual one.
-When configuring a physical infrastructure it is strongly advised to follow the Pharos configuration guidelines.
-
-
-Scenarios
-=========
-
-OPNFV scenarios are designed to host virtualised network functions (VNF’s) in a variety of deployment
-architectures and locations. Each scenario provides specific capabilities and/or components aimed at
+OPNFV scenarios are designed to host virtualised network functions
+(VNF’s) in a variety of deployment architectures and locations. Each
+scenario provides specific capabilities and/or components aimed at
 solving specific problems for the deployment of VNF’s.
 
-A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
-where each scenario will include different source components or configurations.
+A scenario may, for instance, include components such as OpenStack,
+OpenDaylight, OVS, KVM etc., where each scenario will include different
+source components or configurations.
 
-To learn more about the scenarios supported in the Euphrates release refer to the scenario
-description documents provided:
+To learn more about the scenarios supported in the Euphrates release
+refer to the scenario description documents provided:
 
 - :ref:`os-nosdn-kvm-ha <kvmfornfv-os-nosdn-kvm-ha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
@@ -74,28 +87,15 @@ description documents provided:
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
 - :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 
-Installation Procedure
-======================
+Platform validation and testing
+===============================
 
-Detailed step by step instructions for working with an installation toolchain and installing
-the required scenario are provided by the installation projects. The projects providing installation
-support for the OPNFV Euphrates release are: Apex, Compass4nfv, Daisy4NFV, Fuel and JOID.
-
-The instructions for each toolchain can be found in these links:
-
-- :ref:`Apex installation instruction <apex-installation>`
-- :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
-- :ref:`Daisy installation instruction <daisy-installation>`
-- :ref:`Fuel installation instruction <fuel-installation>`
-- :ref:`JOID installation instruction <joid-installation>`
-
-OPNFV Test Frameworks
-=====================
-
-If you have elected to install the OPNFV platform using the deployment toolchain provided by OPNFV,
-your system will have been validated once the installation is completed.
-The basic deployment validation only addresses a small part of capabilities in
-the platform and you may want to execute more exhaustive tests. Some investigation will be required to
+If you have elected to install the OPNFV platform using the deployment
+toolchain provided by OPNFV, your system will have been validated once
+the installation is completed. The basic deployment validation only
+addresses a small part of capabilities in the platform and you may want
+to execute more exhaustive tests. Some investigation will be required to
 select the right test suites to run on your platform.
 
-Many of the OPNFV test project provide user-guide documentation and installation instructions in :ref:`this document <testing-userguide>`
+Many of the OPNFV test project provide user-guide documentation and
+installation instructions in :ref:`this document <testing-userguide>`
