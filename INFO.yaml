@@ -1,0 +1,52 @@
+---
+project: 'OPNFV documentation project (opnfvdocs)'
+project_creation_date: 'March 31, 2015'
+project_category: 'Documentation'
+lifecycle_state: 'Incubation'
+project_lead: &opnfv_opnfvdocs_ptl
+    name: 'Sofia Wallin'
+    email: 'sofia.wallin@ericsson.com'
+    id: 'sofiawallin'
+    company: 'ericsson.com'
+    timezone: 'Unknown'
+primary_contact: *opnfv_opnfvdocs_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opnfv.org/projects/DOCS'
+    key: 'DOCS'
+mailing_list:
+    type: 'mailman2'
+    url: 'opnfv-tech-discuss@lists.opnfv.org'
+    tag: '[opnfvdocs]'
+realtime_discussion:
+    type: irc
+    server: 'freenode.net'
+    channel: '#opnfv-opnfvdocs'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda:  # eg: 'https://wiki.opnfv.org/display/'
+      url:  # eg: 'https://global.gotomeeting.com/join/819733085'
+      server: 'freenode.net'
+      channel: '#opnfv-meeting'
+      repeats: 'weekly'
+      time:  # eg: '16:00 UTC'
+repositories:
+    - 'opnfvdocs'
+committers:
+    - <<: *opnfv_opnfvdocs_ptl
+    - name: 'Christopher Price'
+      email: 'christopher.price@est.tech'
+      company: 'est.tech'
+      id: 'ChristopherPrice'
+    - name: 'Fatih Degirmenci'
+      email: 'fdegir@gmail.com'
+      company: 'gmail.com'
+      id: 'fdegir'
+    - name: 'Ryota Mibu'
+      email: 'r-mibu@cq.jp.nec.com'
+      company: 'cq.jp.nec.com'
+      id: 'r-mibu'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'http//ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-03-31-13.56.html'
+    # yamllint enable rule:line-length
