@@ -154,6 +154,30 @@
       "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_a35c267e",
+        "filename": "docker/entrypoint.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6
+      },
+      "writtenOn": "2018-02-05T20:27:40Z",
+      "side": 1,
+      "message": "Remove this line. We don\u0027t want to generate single page. I only did it for the verify job so that I could provide a link in the review.",
+      "parentUuid": "9a3d3df0_235c9618",
+      "range": {
+        "startLine": 22,
+        "startChar": 7,
+        "endLine": 22,
+        "endChar": 36
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
