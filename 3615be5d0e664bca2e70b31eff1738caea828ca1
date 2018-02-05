@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a3d3df0_474e073c",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-02-05T10:25:52Z",
+      "side": 1,
+      "message": "not needed to have OPNFV twice on the same sentence",
+      "range": {
+        "startLine": 27,
+        "startChar": 16,
+        "endLine": 27,
+        "endChar": 22
+      },
+      "revId": "3615be5d0e664bca2e70b31eff1738caea828ca1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_27494331",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-02-05T10:25:52Z",
+      "side": 1,
+      "message": "already mentioned above",
+      "range": {
+        "startLine": 33,
+        "startChar": 20,
+        "endLine": 34,
+        "endChar": 60
+      },
+      "revId": "3615be5d0e664bca2e70b31eff1738caea828ca1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_87548fca",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-02-05T10:25:52Z",
+      "side": 1,
+      "message": "\u0027using the provided deployment toolchain\u0027? no need to have OPNFV twice in the same sentence.",
+      "range": {
+        "startLine": 93,
+        "startChar": 56,
+        "endLine": 94,
+        "endChar": 27
+      },
+      "revId": "3615be5d0e664bca2e70b31eff1738caea828ca1",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
