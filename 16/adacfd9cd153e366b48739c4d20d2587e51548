@@ -1,0 +1,9 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Juha Kosonen <juha.kosonen@nokia.com>
+Code-Review+1: Serena Feng <feng.xiaowei@zte.com.cn>
+Code-Review+2: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-by: Sofia Wallin <sofia.wallin@ericsson.com>
+Submitted-at: Mon, 05 Feb 2018 10:14:36 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/51485
+Project: opnfvdocs
+Branch: refs/heads/master
