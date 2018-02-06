@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_a92245a0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_63533e17",
+      "range": {
+        "startLine": 7,
+        "startChar": 20,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_c3568a05",
         "filename": "/COMMIT_MSG",
         "patchSetId": 4
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_093d31c4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_c3568a05",
+      "range": {
+        "startLine": 9,
+        "startChar": 20,
+        "endLine": 9,
+        "endChar": 41
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_a359c636",
         "filename": "/COMMIT_MSG",
         "patchSetId": 4
@@ -59,6 +107,30 @@
       "writtenOn": "2018-02-05T16:27:13Z",
       "side": 1,
       "message": "submitting",
+      "range": {
+        "startLine": 10,
+        "startChar": 57,
+        "endLine": 10,
+        "endChar": 63
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_e9372de1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_a359c636",
       "range": {
         "startLine": 10,
         "startChar": 57,
@@ -117,6 +189,54 @@
     },
     {
       "key": {
+        "uuid": "9a3d3df0_4933b9f5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_0344f247",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 5
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_292e358c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_e33e2eb7",
+      "range": {
+        "startLine": 11,
+        "startChar": 36,
+        "endLine": 11,
+        "endChar": 44
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a3d3df0_434a7a55",
         "filename": "docker/Dockerfile",
         "patchSetId": 4
@@ -128,6 +248,24 @@
       "writtenOn": "2018-02-05T16:27:13Z",
       "side": 1,
       "message": "space?",
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_8950210c",
+        "filename": "docker/Dockerfile",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "OK, I will add a spare line here.",
+      "parentUuid": "9a3d3df0_434a7a55",
       "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
@@ -169,6 +307,30 @@
       "side": 1,
       "message": "Remove this line. We don\u0027t want to generate single page. I only did it for the verify job so that I could provide a link in the review.",
       "parentUuid": "9a3d3df0_235c9618",
+      "range": {
+        "startLine": 22,
+        "startChar": 7,
+        "endLine": 22,
+        "endChar": 36
+      },
+      "revId": "59e6262387ef3ec592c415cabcfb99da0adddc13",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_c956a905",
+        "filename": "docker/entrypoint.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 483
+      },
+      "writtenOn": "2018-02-06T11:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3d3df0_a35c267e",
       "range": {
         "startLine": 22,
         "startChar": 7,
