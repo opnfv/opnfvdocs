@@ -1,0 +1,7 @@
+include *.txt
+include *.rst
+
+recursive-include sphinx_opnfv_theme *
+recursive-include sphinx_opnfv_theme/opnfv *
+
+global-exclude *.pyc
