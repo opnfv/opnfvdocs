@@ -237,6 +237,3 @@
 	url = https://gerrit.opnfv.org/gerrit/calipso
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/auto"]
-	path = docs/submodules/auto
-	url = https://gerrit.opnfv.org/gerrit/auto
