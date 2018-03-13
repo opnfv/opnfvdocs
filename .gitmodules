@@ -167,6 +167,11 @@
 	url = ../storperf
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/stor4nfv"]
+	path = docs/submodules/stor4nfv
+	url = ../stor4nfv
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ves"]
 	path = docs/submodules/ves
 	url = ../ves
