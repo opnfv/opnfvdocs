@@ -76,6 +76,7 @@ Feature Configuration Guides
 Feature User Guides
 ===================
 
+- :ref:`Auto User Guide <auto-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
 - :ref:`Doctor User Guide <doctor-userguide>`
 - :ref:`Domino User Guide <domino-userguide>`

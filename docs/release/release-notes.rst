@@ -16,6 +16,8 @@ Project release notes:
 
 :ref:`Apex Release Notes <apex-releasenotes>`
 
+:ref:`Auto Release Notes <auto-releasenotes>`
+
 :ref:`Barometer Release Notes <barometer-releasenotes>`
 
 :ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
