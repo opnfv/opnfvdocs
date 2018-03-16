@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3f45e8_0d64b4e3",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-03-16T08:53:29Z",
+      "side": 1,
+      "message": "please make sure that you add all lines,\nbranch \u003d .\nignore \u003d dirty",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 250,
+        "endChar": 45
+      },
+      "revId": "6dd7adc84cb6919f161f5495bc10f288c065f259",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
