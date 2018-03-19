@@ -245,3 +245,8 @@
 [submodule "docs/submodules/stor4nfv"]
 	path = docs/submodules/stor4nfv
 	url = https://gerrit.opnfv.org/gerrit/stor4nfv
+[submodule "docs/submodules/clover"]
+	path = docs/submodules/clover
+	url = https://gerrit.opnfv.org/gerrit/clover
+	branch = .
+	ignore = dirty
