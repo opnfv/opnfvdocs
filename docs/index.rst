@@ -37,6 +37,7 @@ Developer
 .. toctree::
    :maxdepth: 1
 
+   developer/index
    how-to-use-docs/index
    featureprojects
 
