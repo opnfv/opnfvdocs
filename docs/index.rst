@@ -39,7 +39,7 @@ Developer
    :maxdepth: 1
 
    how-to-use-docs/index
-   `Developer On-boarding <https://wiki.opnfv.org/display/DEV/Developer+On-boarding>`_
+   Developer On-boarding <http://docs.releng.linuxfoundation.org/en/latest/`_
    featureprojects
 
 Infrastructure
