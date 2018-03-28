@@ -12,21 +12,23 @@ Here's how to install the theme from PyPI_
 
 To install and configure the theme do the following.
 
-#. Install the theme from pypi::
+#. Install the theme from pypi:
 
-   $ pip install sphinx_opnfv_theme
+   .. code-block:: bash
+
+      $ pip install sphinx_opnfv_theme
 
 #. Configure Sphinx to use the theme:
 
-.. code-block:: python
+   .. code-block:: python
 
-   # conf.py
-   import sphinx_opnfv_theme
+      # conf.py
+      import sphinx_opnfv_theme
 
-   # ...
+      # ...
 
-   html_theme = 'opnfv'
-   html_theme_path = sphinx_opnfv_theme.get_html_theme_path()
+      html_theme = 'opnfv'
+      html_theme_path = sphinx_opnfv_theme.get_html_theme_path()
 
 Customization
 -------------
@@ -39,7 +41,7 @@ following options for the bootstrap theme::
 
   html_theme_options = {
     'bootswatch_theme': 'journal',
-    'navbar_sidebarrel': false,
+    'navbar_sidebarrel': False,
     'navbar_title': '',
   }
 
