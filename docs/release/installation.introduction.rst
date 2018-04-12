@@ -14,8 +14,8 @@ Abstract
 This an overview document for the installation of the Euphrates release of OPNFV.
 
 The Euphrates release can be installed making use of any of the installer projects in OPNFV:
-Apex, Compass4Nfv, Daisy4NFV, Fuel or JOID. Each installer provides the ability to install a common OPNFV
-platform as well as integrating additional features delivered through a variety of scenarios by
+Apex, Compass4nfv, Daisy4NFV, Fuel or JOID. Each installer provides the ability to install a common OPNFV
+platform as well as integrating additional features delivered through a variety of scenarios from
 the OPNFV community.
 
 
@@ -26,7 +26,7 @@ The OPNFV platform is comprised of a variety of upstream components that may be 
 infrastructure. A composition of components, tools and configurations is identified in OPNFV as a
 deployment scenario.
 
-The various OPNFV scenarios provide unique features and capabilities that you may want to leverage, and
+Various OPNFV scenarios provide unique features and capabilities that you may want to leverage, and
 it is important to understand your required target platform capabilities before installing and
 configuring your scenarios.
 
