@@ -58,6 +58,7 @@ OPNFV wiki page at http://wiki.opnfv.org for more details.
 Feature Configuration Guides
 ============================
 
+- :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`Domino Configuration Guide <domino-configguide>`
