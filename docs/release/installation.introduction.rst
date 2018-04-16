@@ -11,9 +11,9 @@ Installation
 Abstract
 ========
 
-This an overview document for the installation of the Euphrates release of OPNFV.
+This an overview document for the installation of the Fraser release of OPNFV.
 
-The Euphrates release can be installed making use of any of the installer projects in OPNFV:
+The Fraser release can be installed making use of any of the installer projects in OPNFV:
 Apex, Compass4Nfv, Daisy4NFV, Fuel or JOID. Each installer provides the ability to install a common OPNFV
 platform as well as integrating additional features delivered through a variety of scenarios by
 the OPNFV community.
@@ -45,7 +45,7 @@ solving specific problems for the deployment of VNF’s.
 A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
 where each scenario will include different source components or configurations.
 
-To learn more about the scenarios supported in the Euphrates release refer to the scenario
+To learn more about the scenarios supported in the Fraser release refer to the scenario
 description documents provided:
 
 - :ref:`os-nosdn-kvm-ha <kvmfornfv-os-nosdn-kvm-ha>`
