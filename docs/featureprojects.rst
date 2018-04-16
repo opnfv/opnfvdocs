@@ -228,20 +228,6 @@ Parser
    ../submodules/parser/docs/development/manuals/index
 
 
-Promise
--------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/promise/docs/development/overview/index
-   ../submodules/promise/docs/development/requirements/index
-   ../submodules/promise/docs/release/installation/index
-   ../submodules/promise/docs/release/configguide/index
-   ../submodules/promise/docs/release/userguide/index
-   ../submodules/promise/docs/development/design/index
-   ../submodules/promise/docs/development/manuals/index
-
-
 SDNVPN
 --------
 .. toctree::
