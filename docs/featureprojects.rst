@@ -58,6 +58,11 @@ Barometer
    ../submodules/barometer/docs/development/design/index
    ../submodules/barometer/docs/development/manuals/index
 
+Clover
+------
+.. toctree::
+   :maxdepth: 1
+   ../submodules/clover/docs/development/design/index
 
 Compass4Nfv
 -----------
