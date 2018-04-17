@@ -78,20 +78,6 @@ Compass4Nfv
    ../submodules/compass4nfv/docs/development/manuals/index
 
 
-Copper
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/copper/docs/development/overview/index
-   ../submodules/copper/docs/development/requirements/index
-   ../submodules/copper/docs/release/installation/index
-   ../submodules/copper/docs/release/configguide/index
-   ../submodules/copper/docs/release/userguide/index
-   ../submodules/copper/docs/development/design/index
-   ../submodules/copper/docs/development/manuals/index
-
-
 Daisy4NFV
 ---------
 .. toctree::
@@ -114,20 +100,6 @@ Doctor
    ../submodules/doctor/docs/release/userguide/index
    ../submodules/doctor/docs/development/design/index
    ../submodules/doctor/docs/development/manuals/index
-
-
-Domino
-------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/domino/docs/development/overview/index
-   ../submodules/domino/docs/development/requirements/index
-   ../submodules/domino/docs/release/installation/index
-   ../submodules/domino/docs/release/configguide/index
-   ../submodules/domino/docs/release/userguide/index
-   ../submodules/domino/docs/development/design/index
-   ../submodules/domino/docs/development/manuals/index
 
 
 IPV6
@@ -156,48 +128,6 @@ Joid
    ../submodules/joid/docs/release/userguide/index
    ../submodules/joid/docs/development/design/index
    ../submodules/joid/docs/development/manuals/index
-
-
-Kvmfornfv
----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/kvmfornfv/docs/development/overview/index
-   ../submodules/kvmfornfv/docs/development/requirements/index
-   ../submodules/kvmfornfv/docs/release/installation/index
-   ../submodules/kvmfornfv/docs/release/configguide/index
-   ../submodules/kvmfornfv/docs/release/userguide/index
-   ../submodules/kvmfornfv/docs/development/design/index
-   ../submodules/kvmfornfv/docs/development/manuals/index
-
-
-Multisite
----------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/multisite/docs/development/overview/index
-   ../submodules/multisite/docs/development/requirements/index
-   ../submodules/multisite/docs/release/installation/index
-   ../submodules/multisite/docs/release/configguide/index
-   ../submodules/multisite/docs/release/userguide/index
-   ../submodules/multisite/docs/development/design/index
-   ../submodules/multisite/docs/development/manuals/index
-
-
-Netready
---------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/netready/docs/development/overview/index
-   ../submodules/netready/docs/development/requirements/index
-   ../submodules/netready/docs/release/installation/index
-   ../submodules/netready/docs/release/configguide/index
-   ../submodules/netready/docs/release/userguide/index
-   ../submodules/netready/docs/development/design/index
-   ../submodules/netready/docs/development/manuals/index
 
 
 Opera
