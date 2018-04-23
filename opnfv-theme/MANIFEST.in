@@ -2,6 +2,6 @@ include *.txt
 include *.rst
 
 recursive-include sphinx_opnfv_theme *
-recursive-include sphinx_opnfv_theme/opnfv *
+recursive-include sphinx_opnfv_theme/static *
 
 global-exclude *.pyc
