@@ -61,15 +61,10 @@ Feature Configuration Guides
 - :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
-- :ref:`Domino Configuration Guide <domino-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
-- :ref:`KVMforNFV Configuration Guide <kvmfornfv-configguide>`
-- :ref:`Moon Configuration Guide <moon-configguide>`
 - :ref:`Netready Configuration Guide <netready-configguide>`
-- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
 - :ref:`Orchestra Configuration Guide <orchestra-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
-- :ref:`Promise Configuration Guide <promise-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 
@@ -80,13 +75,10 @@ Feature User Guides
 - :ref:`Auto User Guide <auto-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
 - :ref:`Doctor User Guide <doctor-userguide>`
-- :ref:`Domino User Guide <domino-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
-- :ref:`KVMforNFV User Guide <kvmfornfv-userguide>`
 - :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
 - :ref:`Orchestra User Guide <orchestra-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
-- :ref:`Promise User Guide <promise-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 

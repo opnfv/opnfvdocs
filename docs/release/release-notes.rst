@@ -38,19 +38,11 @@ Project release notes:
 
 :ref:`Joid Release Notes <joid-releasenotes>`
 
-:ref:`KVMforNFV Release Notes <kvmfornfv-releasenotes>`
-
-:ref:`Moon Release Notes <moon-releasenotes>`
-
-:ref:`Netready Release Notes <netready-releasenotes>`
-
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
 :ref:`Orchestra Release Notes <orchestra-releasenotes>`
 
 :ref:`Parser Release Notes <parser-releasenotes>`
-
-:ref:`Promise Release Notes <promise-releasenotes>`
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
 
