@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3f45e8_f152b433",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1593
+      },
+      "writtenOn": "2018-04-25T07:17:16Z",
+      "side": 1,
+      "message": "os-ovn-nofeature-noha\tApex\n\nos-ovn-nofeature-ha\tFuel@x86/MCP  Fuel@aarch64/MCP",
+      "revId": "b7b65d1a917921b63c174d4f44d18b681395264d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
