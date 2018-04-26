@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3f45e8_a6fc6873",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-04-26T14:57:21Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 52,
+        "startChar": 2,
+        "endLine": 53,
+        "endChar": 56
+      },
+      "revId": "f392174caef343c940e676d949435f2b71990162",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_86016c6c",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-04-26T14:57:21Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 42
+      },
+      "revId": "f392174caef343c940e676d949435f2b71990162",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_e6f95081",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-04-26T14:57:21Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 54
+      },
+      "revId": "f392174caef343c940e676d949435f2b71990162",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_26f05890",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-04-26T14:57:21Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 56
+      },
+      "revId": "f392174caef343c940e676d949435f2b71990162",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_c6f6d48e",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-04-26T14:57:21Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 44
+      },
+      "revId": "f392174caef343c940e676d949435f2b71990162",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}

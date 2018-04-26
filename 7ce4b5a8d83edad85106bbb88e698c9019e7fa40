@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3f45e8_06ed5cb7",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-04-26T14:57:21Z",
+      "side": 0,
+      "message": "My error.  This should be restored.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 52
+      },
+      "revId": "7ce4b5a8d83edad85106bbb88e698c9019e7fa40",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
