@@ -49,23 +49,17 @@ To learn more about the scenarios supported in the Fraser release refer to the s
 description documents provided:
 
 
-- :ref:`os-nosdn-ovs_dpdk-ha <os-nosdn-ovs_dpdk-ha>`
-- :ref:`os-nosdn-ovs_dpdk-noha <os-nosdn-ovs_dpdk-noha>`
 - :ref:`k8-nosdn-lb-noha <k8-nosdn-lb-noha>`
 - :ref:`k8-ovn-lb-noha <k8-ovn-lb-noha>`
 - :ref:`k8-nosdn-lb_ceph-noha <k8-nosdn-lb_ceph-noha>`
 - :ref:`k8-canal-lb-noha <k8-canal-lb-noha>`
-- :ref:`os-nosdn-lxd-ha <os-nosdn-lxd-ha>`
-- :ref:`os-nosdn-openbaton-ha <os-nosdn-openbaton-ha>`
 - :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha1>`
 - :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha1>`
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
 - :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
-- :ref:`os-nosdn-ovs_dpdk-noha <os-nosdn-ovs_dpdk-noha>`
+- :ref:`k8-nosdn-stor4nfv-ha <k8-nosdn-stor4nfv-ha>`
 - :ref:`os-nosdn-bar-ha <kvmfornfv-os-nosdn-bar-ha>`
 - :ref:`os-nosdn-bar-noha <kvmfornfv-os-nosdn-bar-noha>`
-- :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
-- :ref:`os-nosdn-fdio-ha <os-nosdn-fdio-ha>`
 - :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
 - :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha>`
 - :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
