@@ -58,10 +58,8 @@ description documents provided:
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
 - :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 - :ref:`k8-nosdn-stor4nfv-ha <k8-nosdn-stor4nfv-ha>`
-- :ref:`os-nosdn-bar-ha <kvmfornfv-os-nosdn-bar-ha>`
-- :ref:`os-nosdn-bar-noha <kvmfornfv-os-nosdn-bar-noha>`
-- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
-- :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha>`
+- :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
+- :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 - :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
 - :ref:`os-odl-sfc-noha <os-odl-sfc-noha>`
 - :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
