@@ -55,7 +55,7 @@ platform including common hardware requirements, software architecture, MANO and
 
 OPNFV Platform Overview Diagram
 
-.. image:: ../images/diagram_euphrates.png
+.. image:: ../images/diagram_fraser.png
    :alt: Overview infographic of the opnfv platform and projects.
 
 
