@@ -29,12 +29,12 @@ and learnings from its work directly to those communities in the form of bluepri
 and new code.
 
 OPNFV focuses on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
-Management (VIM) by integrating components from upstream projects such as OpenDaylight, ONOS, OpenContrail,
+Management (VIM) by integrating components from upstream projects such as OpenDaylight, ONOS, Tungsen Fabric,
 OVN, OpenStack, Kubernetes, Ceph Storage, KVM, Open vSwitch, and Linux.
 More recently, OPNFV has extended its portfolio of forwarding solutions to include DPDK, fd.io and ODP,
 is able to run on both Intel and ARM commercial and white-box hardware, support VM, Container and
 BareMetal workloads, and includes Management and Network Orchestration MANO components primarily
-for application composition and management in the Danube release.
+for application composition and management in the Fraser release.
 
 These capabilities, along with application programmable interfaces (APIs) to other NFV
 elements, form the basic infrastructure required for Virtualized Network Functions (VNF)
@@ -88,9 +88,10 @@ performance characteristics.
 Community labs are hosted by OPNFV member companies on a voluntary basis.
 The Linux Foundation also hosts an OPNFV lab that provides centralized CI
 and other production resources which are linked to community labs.
-Future lab capabilities will include the ability easily automate deploy and test of any
-OPNFV install scenario in any lab environment as well as on a nested "lab as a service"
-virtual infrastructure.
+
+The Lab-as-a-service (LaaS) offering provides developers to readily access NFV infrastructure on demand. 
+Ongoing lab capabilities will include the ability easily automate deploy and test of any OPNFV install 
+scenario in any lab environment using a concept called “Dynamic CI”.
 
 OPNFV Software Platform Architecture
 ====================================
@@ -141,7 +142,7 @@ being worked on by the community during this release of OPNFV include:
   interface devices (e.g., vNICs) managed by other OpenStack services (e.g. Nova).
 * OpenDaylight: addresses multivendor, traditional and greenfield networks, establishing the
   industry’s de facto SDN platform and providing the foundation for networks of the future.
-* OpenContrail: An open source SDN controller designed for cloud and NFV use cases. It has an
+* Tungsen Fabric: An open source SDN controller designed for cloud and NFV use cases. It has an
   analytics engine, well defined northbound REST APIs to configure and gather ops/analytics data.
 * OVN: A virtual networking solution developed by the same team that created OVS. OVN stands for
   Open Virtual Networking and is dissimilar from the above projects in that it focuses only on overlay networks.
@@ -165,12 +166,7 @@ networks.
 ----
 MANO
 ----
-OPNFV integrates open source MANO projects for NFV orchestration and VNF management.
-New MANO projects are constantly being added, currently OPNFV integrates:
-* OpenBaton: Open Baton is a ETSI NFV compliant Management and Orchestration (MANO) Framework.
-  It enables virtual Network Services deployments on top of heterogeneous NFV Infrastructures.
-  OpenBaton is also used to deploy vIMS (clearwater and openIMS).
-
+OPNFV integrates open source MANO projects for NFV orchestration and VNF management. New MANO projects are constantly being added.
 
 Deployment Architecture
 =======================
@@ -260,7 +256,7 @@ OPNFV ecosystem.
 The Dovetail project will provide a test framework and methodology able to be used on any NFV platform,
 including an agreed set of test cases establishing an evaluation criteria for exercising
 an OPNFV compatible system. The Dovetail project has begun establishing the test framework
-and will provide a preliminary methodology for the Danube release. Work will continue to
+and will provide a preliminary methodology for the Fraser release. Work will continue to
 develop these test cases to establish a stand alone compliance evaluation solution
 in future releases.
 
