@@ -63,6 +63,8 @@ Clover
 .. toctree::
    :maxdepth: 1
    ../submodules/clover/docs/development/design/index
+   ../submodules/clover/docs/release/configguide/index
+   ../submodules/clover/docs/release/userguide/index
 
 Compass4Nfv
 -----------
