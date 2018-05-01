@@ -57,3 +57,5 @@ Project release notes:
 :ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
 
 :ref:`Yardstick Release Notes <yardstick-releasenotes>`
+
+:ref:`Clover Release Notes <clover-releasenotes>`
