@@ -24,6 +24,8 @@ Project release notes:
 
 :ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
 
+:ref:`Clover Release Notes <clover-releasenotes>`
+
 :ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
 
 :ref:`Daisy Release Notes <daisy-releasenotes>`
