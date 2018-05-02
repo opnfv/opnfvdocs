@@ -16,6 +16,24 @@
       "revId": "2012aa106b01ce986f7b96bcc4f4595329d3852b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_858038c1",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 7047
+      },
+      "writtenOn": "2018-05-02T23:35:48Z",
+      "side": 1,
+      "message": "Thanks Yujun, I made the change.",
+      "parentUuid": "5a3f45e8_1f8bd9c3",
+      "revId": "2012aa106b01ce986f7b96bcc4f4595329d3852b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
