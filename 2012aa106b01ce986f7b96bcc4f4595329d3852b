@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3f45e8_1f8bd9c3",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 4469
+      },
+      "writtenOn": "2018-05-02T08:29:47Z",
+      "side": 1,
+      "message": "Should it be sorted alphabetically ?",
+      "revId": "2012aa106b01ce986f7b96bcc4f4595329d3852b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
