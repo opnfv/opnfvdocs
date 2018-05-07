@@ -44,6 +44,8 @@ Project release notes:
 
 :ref:`Orchestra Release Notes <orchestra-releasenotes>`
 
+:ref:`OVN4NFV Release Notes <ovn4nfv-releasenotes>`
+
 :ref:`Parser Release Notes <parser-releasenotes>`
 
 :ref:`QTIP Release Notes <qtip-releasenotes>`
