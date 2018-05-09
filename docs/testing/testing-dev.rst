@@ -30,6 +30,14 @@ Functest
    ../submodules/functest/docs/testing/developer/devguide/index
 
 
+StorPerf
+--------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/storperf/docs/testing/developer/devguide/index
+
+
 QTIP
 -----
 .. toctree::
