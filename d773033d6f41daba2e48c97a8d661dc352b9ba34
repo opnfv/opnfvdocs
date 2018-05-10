@@ -34,6 +34,24 @@
       "revId": "d773033d6f41daba2e48c97a8d661dc352b9ba34",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a3f45e8_8d7052dd",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 2034
+      },
+      "writtenOn": "2018-05-10T20:00:41Z",
+      "side": 1,
+      "message": "No, I changed my structure to match and will submit shortly.  Please go ahead with submitting this change, thanks!",
+      "parentUuid": "5a3f45e8_17f7355a",
+      "revId": "d773033d6f41daba2e48c97a8d661dc352b9ba34",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
