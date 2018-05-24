@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a494da4_d609f82d",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 334
+      },
+      "writtenOn": "2018-05-24T18:55:53Z",
+      "side": 1,
+      "message": "I think these 2 cannot be included as we still have not fixed those yet.",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 44
+      },
+      "revId": "d38bc7b745562caf6bed94f6f66d6dd132f182bd",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
