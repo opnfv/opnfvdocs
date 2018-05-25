@@ -66,7 +66,6 @@ description documents provided:
 - :ref:`os-nosdn-lxd-ha <os-nosdn-lxd-ha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
 - :ref:`os-nosdn-fdio-ha <os-nosdn-fdio-ha>`
-- :ref:`os-nosdn-calipso-noha <os-nosdn-calipso-noha>`
 - :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
 - :ref:`os-odl-sfc-noha <os-odl-sfc-noha>`
 
@@ -75,7 +74,7 @@ Installation Procedure
 
 Detailed step by step instructions for working with an installation toolchain and installing
 the required scenario are provided by the installation projects. The projects providing installation
-support for the OPNFV Euphrates release are: Apex, Compass4nfv, Daisy4NFV, Fuel and JOID.
+support for the OPNFV Fraser release are: Apex, Compass4nfv, Daisy4NFV, Fuel and JOID.
 
 The instructions for each toolchain can be found in these links:
 
