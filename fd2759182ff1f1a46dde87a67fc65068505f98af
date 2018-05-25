@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a494da4_81056cc4",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4007
+      },
+      "writtenOn": "2018-05-25T14:36:53Z",
+      "side": 1,
+      "message": "k8-multus-nofeature-noha\nk8-sriov-cni-nofeature-noha",
+      "revId": "fd2759182ff1f1a46dde87a67fc65068505f98af",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
