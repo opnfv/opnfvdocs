@@ -64,7 +64,6 @@ Feature Configuration Guides
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`Netready Configuration Guide <netready-configguide>`
 - :ref:`Orchestra Configuration Guide <orchestra-configguide>`
-- :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 
@@ -78,7 +77,6 @@ Feature User Guides
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
 - :ref:`Orchestra User Guide <orchestra-userguide>`
-- :ref:`Parser User Guide <parser-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 
