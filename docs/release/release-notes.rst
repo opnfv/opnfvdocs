@@ -28,8 +28,6 @@ Project release notes:
 
 :ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
 
-:ref:`Daisy Release Notes <daisy-releasenotes>`
-
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
 :ref:`FDS Release Notes <fds-releasenotes>`
@@ -47,10 +45,6 @@ Project release notes:
 :ref:`Orchestra Release Notes <orchestra-releasenotes>`
 
 :ref:`OVN4NFV Release Notes <ovn4nfv-releasenotes>`
-
-:ref:`Parser Release Notes <parser-releasenotes>`
-
-:ref:`QTIP Release Notes <qtip-releasenotes>`
 
 :ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
 

@@ -38,14 +38,6 @@ StorPerf
    ../submodules/storperf/docs/testing/developer/devguide/index
 
 
-QTIP
------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/qtip/docs/testing/developer/devguide/index
-
-
 VSPERF
 -------
 .. toctree::

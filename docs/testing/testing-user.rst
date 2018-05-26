@@ -35,15 +35,6 @@ NFVbench
    ../submodules/nfvbench/docs/testing/user/userguide/index
 
 
-QTIP
------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/qtip/docs/testing/user/configguide/index
-   ../submodules/qtip/docs/testing/user/userguide/index
-
-
 Storperf
 --------
 
