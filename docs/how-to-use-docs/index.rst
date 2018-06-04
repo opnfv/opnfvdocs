@@ -9,4 +9,5 @@ Documentation Guide
 
    documentation-guide
    include-documentation
+   local-build-transition
    addendum
