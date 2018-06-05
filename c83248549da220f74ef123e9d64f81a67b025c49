@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da5c1566_3f792ffd",
+        "filename": "docs/how-to-use-docs/local-build-transition.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-06-05T14:46:55Z",
+      "side": 1,
+      "message": "please remove trailing whitespaces",
+      "revId": "c83248549da220f74ef123e9d64f81a67b025c49",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_df1c73c4",
+        "filename": "docs/how-to-use-docs/local-build-transition.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-06-05T14:46:55Z",
+      "side": 1,
+      "message": "I guess that this goes for all projects and not just opnfvdocs so should be more general?",
+      "revId": "c83248549da220f74ef123e9d64f81a67b025c49",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_bf6c1f38",
+        "filename": "docs/how-to-use-docs/local-build-transition.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2018-06-05T14:46:55Z",
+      "side": 1,
+      "message": "maybe it could be good to say something like \u0027Remove your submodule from the opnfvdocs repo as sign off\" to push a bit harder this needs to be done?",
+      "revId": "c83248549da220f74ef123e9d64f81a67b025c49",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
