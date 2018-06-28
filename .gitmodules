@@ -250,3 +250,6 @@
 	url = https://gerrit.opnfv.org/gerrit/clover
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/edgecloud"]
+	path = docs/submodules/edgecloud
+	url = https://gerrit.opnfv.org/gerrit/edgecloud
