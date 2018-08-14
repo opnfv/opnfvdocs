@@ -103,6 +103,12 @@ Doctor
    ../submodules/doctor/docs/development/design/index
    ../submodules/doctor/docs/development/manuals/index
 
+Edgecloud
+---------
+.. toctree::
+   :maxdepth: 1
+
+   ../submodules/edgecloud/docs/development/requirements/index
 
 IPV6
 ----
