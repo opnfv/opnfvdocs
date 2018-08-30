@@ -40,11 +40,14 @@ In OPNFVDocs Composite Documentation
 In toctree
 +++++++++++
 
-To import project documents from project repositories, we use submodules.
- Each project is stored in :code:`opnfvdocs/docs/submodule/` as follows:
+To import project documents from project repositories, we use
+intersphinx linking.
 
-.. image:: Submodules.jpg
-   :scale: 50 %
+Each project's documentation is stored in their own repository, built and stored on ReadTheDocs.
+
+.. note:
+  Previously our documentation was linked as submodules under
+  this repository.
 
 To include your project specific documentation in the composite documentation,
 first identify where your project documentation should be included.
@@ -65,10 +68,10 @@ it, example:
    .. toctree::
        :maxdepth: 1
 
-    submodules/functest/docs/userguide/index
-    submodules/bottlenecks/docs/userguide/index
-    submodules/yardstick/docs/userguide/index
-    <submodules/path-to-your-file>
+    :ref:`functest <functest:docs/userguide>`
+    :ref:`bottlenecks <bottlenecks:docs/userguide>`
+    :ref:`yardstick <yardstick:docs/userguide>`
+    :ref:`project <project:path/to/docs>`
 
 As Hyperlink
 ++++++++++++
@@ -150,36 +153,26 @@ Composite OPNFVDOCS documentation
 +++++++++++++++++++++++++++++++++
 To build whole documentation under opnfvdocs/, follow these steps:
 
-Install virtual environment.
-
-.. code-block:: bash
-
-   sudo pip install virtualenv
-   cd /local/repo/path/to/project
-
 Download the OPNFVDOCS repository.
 
 .. code-block:: bash
 
    git clone https://gerrit.opnfv.org/gerrit/opnfvdocs
 
-Change directory to opnfvdocs & install requirements.
+Change directory to opnfvdocs & run tox
 
 .. code-block:: bash
 
    cd opnfvdocs
-   sudo pip install -r etc/requirements.txt
+   tox -e docs
 
-Update submodules, build documentation using tox & then open using any browser.
+.. note:: Make sure to run `tox -e docs` and not just `tox`.
+
+Then open using any browser.
 
 .. code-block:: bash
 
-   cd opnfvdocs
-   git submodule update --init
-   tox -edocs
    firefox docs/_build/html/index.html
-
-.. note:: Make sure to run `tox -edocs` and not just `tox`.
 
 Individual project documentation
 ++++++++++++++++++++++++++++++++
@@ -192,67 +185,24 @@ Install virtual environment.
    sudo pip install virtualenv
    cd /local/repo/path/to/project
 
-Download the opnfvdocs repository.
+Download the project's repository.
 
 .. code-block:: bash
 
-   git clone https://gerrit.opnfv.org/gerrit/opnfvdocs
+   git clone https://gerrit.opnfv.org/gerrit/exampleproject
 
-Change directory to opnfvdocs & install requirements.
-
-.. code-block:: bash
-
-   cd opnfvdocs
-   sudo pip install -r etc/requirements.txt
-
-Move the conf.py file to your project folder where RST files have been kept:
+Change directory to the project & run tox
 
 .. code-block:: bash
 
-   mv opnfvdocs/docs/conf.py <path-to-your-folder>/
+   cd exampleproject
+   tox -e docs
 
-Move the static files to your project folder:
+Adding your project repository as an intersphinx mapping
+--------------------------------------------------------
 
-.. code-block:: bash
-
-   mv opnfvdocs/_static/ <path-to-your-folder>/
-
-Build the documentation from within your project folder:
+Clone the opnfvdocs repository and your project to the conf.py file
 
 .. code-block:: bash
 
-   sphinx-build -b html <path-to-your-folder> <path-to-output-folder>
-
-Your documentation shall be built as HTML inside the
-specified output folder directory.
-
-.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
-
-
-Adding your project repository as a submodule
----------------------------------------------
-
-Clone the opnfvdocs repository and your submodule to .gitmodules following the convention of the file
-
-.. code-block:: bash
-
-  cd docs/submodules/
-  git submodule add https://gerrit.opnfv.org/gerrit/$reponame
-  git submodule init $reponame/
-  git submodule update $reponame/
-  git add .
-  git commit -sv
-  git review
-
-Removing a project repository as a submodule
---------------------------------------------
-
-.. code-block:: bash
-
-  git rm docs/submodules/$reponame
-  rm -rf .git/modules/$reponame
-  git config -f .git/config --remove-section submodule.$reponame 2> /dev/null
-  git add .
-  git commit -sv
-  git review
-
+  intersphinx_mapping['myproject'] = ('http://opnfv-myproject.readthedocs.io/', None)

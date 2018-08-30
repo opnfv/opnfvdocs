@@ -14,8 +14,8 @@ Getting Started with Documentation for Your Project
 ---------------------------------------------------
 OPNFV documentation is automated and integrated into our git & gerrit toolchains.
 
-We use RST document templates in our repositories and automatically render to HTML and PDF versions of the documents in our artifact
-store, our Wiki is also able to integrate these rendered documents directly allowing projects to use the revision controlled documentation
+We use RST document templates in our repositories and automatically render the documentation on docs.opnfv.org.
+Our Wiki is also able to integrate these rendered documents directly allowing projects to use the revision controlled documentation
 process for project information, content and deliverables.
 Read :ref:`this page <include-documentation>` which elaborates on how documentation is to be included within opnfvdocs.
 

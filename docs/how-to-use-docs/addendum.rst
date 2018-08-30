@@ -61,20 +61,20 @@ use since this may make different views.
 Verify Job
 ----------
 
-The verify job name is **docs-verify-rtd-{branch}**.
+The verify job name is **{project}-rtd-verify-{branch}**.
 
-When you send document changes to gerrit, jenkins will create your documents
-in HTML formats (normal and single-page) to verify that new document can be
-built successfully. Please check the jenkins log and artifact carefully.
-You can improve your document even though if the build job succeeded.
+When you send document changes to Gerrit, Jenkins will build the project
+documentation to make sure no syntax errors were introduced. There is no
+hosted version of the docs until they are merged, so visual changes will
+need to be checked by locally building the docs with **tox -e docs**.
 
 Merge Job
 ----------
 
-The merge job name is **docs-merge-rtd-{branch}**.
+The merge job name is **{project}-rtd-merge-{branch}**
 
 Once the patch is merged, jenkins will automatically trigger building of
-the new documentation. This might take about 15 minutes while readthedocs
-builds the documentatation. The newly built documentation shall show up
-as appropriate placed in docs.opnfv.org/{branch}/path-to-file.
+the new documentation. This might take about 15 minutes while ReadTheDocs
+builds the documentatation. The newly built documentation will show up
+at opnfv-{project}.opnfv.org and under the project listing on docs.opnfv.org.
 
