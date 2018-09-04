@@ -13,7 +13,8 @@ needs_sphinx = '1.3'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinxcontrib.httpdomain', 'sphinx.ext.autodoc',
-              'sphinx.ext.viewcode', 'sphinx.ext.napoleon']
+              'sphinx.ext.viewcode', 'sphinx.ext.napoleon',
+              'sphinx.ext.intersphinx']
 # Disable javasphinx generation until we have a solution to long build
 # times. readthedocs timesout after 902 seconds.
 
@@ -278,5 +279,5 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 # texinfo_no_detailmenu = False
 
-# intersphinx_mapping =
-# {'RTD':('http://opnfvdocsdemo.readthedocs.io/projects/', None)}
+intersphinx_mapping = {}
+intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)
