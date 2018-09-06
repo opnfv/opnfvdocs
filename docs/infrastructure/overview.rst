@@ -41,10 +41,7 @@ TBD
 Software Infrastructure
 -----------------------
 
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/releng/docs/infra/index
+- :ref:`releng:software-infrastructure`
 
 Security
 --------

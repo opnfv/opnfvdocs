@@ -10,5 +10,5 @@ Continuous Integration - CI
 
 Please see the details of CI from the chapters below.
 
-- :ref:`CI Overview <ci-overview>`
-- :ref:`CI User Guide <ci-user-guide>`
+- :ref:`CI Overview <releng:ci-overview>`
+- :ref:`CI User Guide <releng:ci-user-guide>`

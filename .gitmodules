@@ -148,10 +148,6 @@
 	url = ../qtip
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/releng"]
-	path = docs/submodules/releng
-	url = ../releng
-	branch = master
 [submodule "docs/submodules/sdnvpn"]
 	path = docs/submodules/sdnvpn
 	url = ../sdnvpn
