@@ -60,7 +60,7 @@ Feature Configuration Guides
 
 - :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
-- :ref:`Doctor Configuration Guide <doctor-configguide>`
+- :ref:`Doctor Configuration Guide <doctor:doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`Netready Configuration Guide <netready-configguide>`
 - :ref:`Orchestra Configuration Guide <orchestra-configguide>`
@@ -73,7 +73,7 @@ Feature User Guides
 
 - :ref:`Auto User Guide <auto-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
-- :ref:`Doctor User Guide <doctor-userguide>`
+- :ref:`Doctor User Guide <doctor:doctor-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
 - :ref:`Orchestra User Guide <orchestra-userguide>`

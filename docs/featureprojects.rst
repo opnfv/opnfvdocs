@@ -92,16 +92,13 @@ Daisy4NFV
 
 Doctor
 ------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/doctor/docs/development/overview/index
-   ../submodules/doctor/docs/development/requirements/index
-   ../submodules/doctor/docs/release/installation/index
-   ../submodules/doctor/docs/release/configguide/index
-   ../submodules/doctor/docs/release/userguide/index
-   ../submodules/doctor/docs/development/design/index
-   ../submodules/doctor/docs/development/manuals/index
+* :ref:`Doctor Development Guide <doctor:doctor-overview>`
+* :ref:`Doctor Requirement Specification <doctor:doctor-requirements>`
+* :ref:`Doctor Installation Guide  <doctor:doctor-configguide>`
+* :ref:`Doctor User Guide <doctor:doctor-userguide>`
+* :ref:`Doctor Design Documents <doctor:doctor-design>`
+* :ref:`Doctor Manuals <doctor:doctor-manuals>`
 
 Edgecloud
 ---------
