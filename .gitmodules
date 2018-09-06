@@ -173,11 +173,6 @@
 	url = ../yardstick
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/doctor"]
-	path = docs/submodules/doctor
-	url = ../doctor
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/availability"]
 	path = docs/submodules/availability
 	url = ../availability
