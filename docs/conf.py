@@ -287,6 +287,7 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 intersphinx_mapping = {}
 intersphinx_mapping['armband'] = ('https://opnfv-armband.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['copper'] = ('https://opnfv-copper.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['doctor'] = ('https://opnfv-doctor.readthedocs.io/en/latest', None)
 intersphinx_mapping['moon'] = ('https://opnfv-moon.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['netready'] = ('https://opnfv-netready.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)

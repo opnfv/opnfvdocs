@@ -62,7 +62,7 @@ Feature Configuration Guides
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`Clover Configuration Guide <clover-configguide>`
 - :ref:`Container4NFV Configuration Guide <xyz-configguide>`
-- :ref:`Doctor Configuration Guide <doctor-configguide>`
+- :ref:`Doctor Configuration Guide <doctor:doctor-configguide>`
 - :ref:`Edge Cloud Configuration Guide <xyz-configguide>`
 - :ref:`FDS Configuration Guide <fds-configguide>`
 - :ref:`High Availability Configuration Guide <xyz-configguide>`
@@ -85,7 +85,7 @@ Feature User Guides
 - :ref:`Clover User Guide <clover-userguide>`
 - :ref:`Container4NFV User Guide <xyz-userguide>`
 - :ref:`Edge Cloud User Guide <xyz-userguide>`
-- :ref:`Doctor User Guide <doctor-userguide>`
+- :ref:`Doctor User Guide <doctor:doctor-userguide>`
 - :ref:`FDS User Guide <fds-userguide>`
 - :ref:`High Availability User Guide <xyz-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
