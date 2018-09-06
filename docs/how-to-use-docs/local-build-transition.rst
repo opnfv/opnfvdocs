@@ -16,8 +16,15 @@ the transition provides projects:
 Steps
 -----
 
-To make the transition the following steps need to be taken across the
-project repository, releng repository and opnfvdocs repository.
+To make the transition the following steps need to be taken across three
+repositories:
+
+* Your project repository (Ex. Fuel)
+* The `Releng`_ repository
+* The `OPNFV Docs`_ repository
+
+.. _Releng: https://git.opnfv.org/releng/
+.. _`OPNFV Docs`: https://git.opnfv.org/opnfvdocs/
 
 In your project repo:
 
@@ -39,10 +46,10 @@ In your project repo:
 
    .. literalinclude:: files/tox.ini
 
-   *.gitignore*
+   *.gitignore*::
 
-   .tox/
-   docs/_build/*
+      .tox/
+      docs/_build/*
 
    *docs/index.rst*
 
@@ -52,13 +59,15 @@ In your project repo:
 In the releng repository:
 
 #. Follow the steps in `this guide`_ from the Linux Foundation Releng team on
-   bootstrapping a new ReadTheDocs (RTD) project.
+   bootstrapping a new ReadTheDocs (RTD) project, starting with step 4
+   "Adding the RTD Jobs to your Project"
 
    This will ensure RTD will update each time docs patches are merged to
    the repository.
 
-.. note: In step 4 of the guide, the file this job should be added to is:
-         **jjb/project/project-jobs.yaml**, where project is the OPNFV project.
+.. note:: In step 4 of the guide, the file this job should be added to
+          is: **jjb/<project>/<project>-jobs.yaml**, where <project> is
+          the OPNFV project.
 
 .. _`this guide`: https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html#bootstrap-a-new-project
 
