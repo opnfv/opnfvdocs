@@ -39,10 +39,10 @@ In your project repo:
 
    .. literalinclude:: files/tox.ini
 
-   *.gitignore*
+   *.gitignore*::
 
-   .tox/
-   docs/_build/*
+      .tox/
+      docs/_build/*
 
    *docs/index.rst*
 
