@@ -26,6 +26,9 @@ repositories:
 .. _Releng: https://git.opnfv.org/releng/
 .. _`OPNFV Docs`: https://git.opnfv.org/opnfvdocs/
 
+Adding a Local Build
+~~~~~~~~~~~~~~~~~~~~
+
 In your project repo:
 
 #. Add the following files:
@@ -59,6 +62,13 @@ In your project repo:
 
    .. literalinclude:: files/index.rst
 
+You can verify the build works by running::
+
+  tox -e docs
+
+Creating a CI Job
+~~~~~~~~~~~~~~~~~
+
 In the releng repository:
 
 #. Update your project's job file
@@ -74,29 +84,47 @@ patch as a reviewer and they will pass along the token and build URL.
 .. _email: mailto:helpdesk@opnfv.org
 .. _`this guide`: https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html#bootstrap-a-new-project
 
+Removing the Submodule
+~~~~~~~~~~~~~~~~~~~~~~
+
 In the opnfvdocs repository:
 
-#. Add a intersphinx link to the opnfvdocs repo:
+#. Add an intersphinx link to the opnfvdocs repo configuration:
 
-   Here 'example' should be replaced with the name of your project.
+   *docs/conf.py*
 
    .. code-block:: python
-       :name: docs/conf.py
 
-       intersphinx_mapping['example'] = ('http://opnfv-example.readthedocs.io', None)
+      intersphinx_mapping['<project>'] = ('http://opnfv-<project>.readthedocs.io', None)
 
-#. Ensure all references in opnfvdocs are using `:ref:` and not
-   directly specifying submodule files (No `:doc:` or 'submodules/...'
-   in `.. toctree:`)
+   If the project exists on ReadTheDocs, and the previous build was
+   merged in and ran, you can verify the linking is working currectly by
+   finding the following line in the output of **tox -e docs**::
 
-#. Remove the submodule from opnfvdocs::
+     loading intersphinx inventory from https://opnfv-<project>.readthedocs.io/en/latest/objects.inv...
 
-    diff --git a/.gitmodules b/.gitmodules
-    index 846ab245..aab01642 100644
-    --- a/.gitmodules
-    +++ b/.gitmodules
-    @@ -151,4 +150,0 @@
-    -[submodule "docs/submodules/releng"]
-    -       path = docs/submodules/releng
-    -       url = ../releng
-    -       branch = master
+#. Ensure all references in opnfvdocs are using **:ref:** or **:doc:** and
+   not directly specifying submodule files with *../submodules/<project>*.
+
+   For example::
+
+     .. toctree::
+
+        ../submodules/releng/docs/overview.rst
+
+   Would become::
+
+     .. toctree::
+
+        :ref:`Releng Overview <releng:overview>`
+
+   Some more examples can be seen `here`_.
+
+   .. _here: https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html#cross-reference-external-docs
+
+#. Remove the submodule from opnfvdocs, replacing *<project>* with your
+   project and commit the change::
+
+     git rm docs/submodules/<project>
+     git commit -s
+     git review
