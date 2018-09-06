@@ -16,8 +16,15 @@ the transition provides projects:
 Steps
 -----
 
-To make the transition the following steps need to be taken across the
-project repository, releng repository and opnfvdocs repository.
+To make the transition the following steps need to be taken across three
+repositories:
+
+* Your project repository (Ex. Fuel)
+* The `Releng`_ repository
+* The `OPNFV Docs`_ repository
+
+.. _Releng: https://git.opnfv.org/releng/
+.. _`OPNFV Docs`: https://git.opnfv.org/opnfvdocs/
 
 In your project repo:
 
@@ -39,10 +46,10 @@ In your project repo:
 
    .. literalinclude:: files/tox.ini
 
-   *.gitignore*
+   *.gitignore*::
 
-   .tox/
-   docs/_build/*
+      .tox/
+      docs/_build/*
 
    *docs/index.rst*
 
@@ -51,17 +58,33 @@ In your project repo:
 
 In the releng repository:
 
-#. Follow the steps in `this guide`_ from the Linux Foundation Releng team on
-   bootstrapping a new ReadTheDocs (RTD) project.
+#. Update your project's job file
+   **jjb/<project>/<projects-jobs.yaml** with the following (taken from `this guide`)::
 
-   This will ensure RTD will update each time docs patches are merged to
-   the repository.
+    ---
+    - project:
+        name: PROJECT
+        project-name: '{name}'
 
-.. note: In step 4 of the guide, the file this job should be added to is:
-         **jjb/project/project-jobs.yaml**, where project is the OPNFV project.
+        build-timeout: 60
+        build-node: 'opnfv-build'
+        gerrit-server-name: 'gerrit.opnfv.org'
+        jenkins-ssh-credential: 'd42411ac011ad6f3dd2e1fa34eaa5d87f910eb2e'
 
+        project-pattern: '{name}'
+        rtd-build-url: RTD_BUILD_URL
+        rtd-token: RTD_TOKEN
+
+        jobs:
+          - '{project-name}-rtd-jobs'
+
+You can either send an email_ to helpdesk in order to get a copy of
+**RTD_BUILD_URL** and **RTD_TOKEN**, ping *aricg* or *bramwelt* in
+*#opnfv-docs* on Freenode, or add *Aric Gardner* or *Trevor Bramwell* to your
+patch as a reviewer and they will pass along the token and build URL.
+
+.. _email: mailto:helpdesk@opnfv.org
 .. _`this guide`: https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html#bootstrap-a-new-project
-
 
 In the opnfvdocs repository:
 
