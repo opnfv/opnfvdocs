@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a682502_b82435c7",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2018-09-06T21:21:21Z",
+      "side": 1,
+      "message": "This is good, though I think there are two changes needed.\n1) No space between :ref: and `\n2) The dashes should be : (ex: \u003cdoctor-overview\u003e -\u003e \u003cdoctor:overview\u003e)\n\nIf the documentation is already up on RTD, you should be able to run \u0027tox -e docs | grep doctor\u0027 and not see errors related to linking to these references.",
+      "range": {
+        "startLine": 98,
+        "startChar": 1,
+        "endLine": 103,
+        "endChar": 42
+      },
+      "revId": "86cac8b0c7011fa32f7b574b3140f366e7fb2c15",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
