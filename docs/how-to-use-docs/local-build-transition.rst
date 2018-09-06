@@ -62,7 +62,7 @@ In your project repo:
 In the releng repository:
 
 #. Update your project's job file
-   **jjb/<project>/<projects-jobs.yaml** with the following (taken from `this guide`):
+   **jjb/<project>/<projects-jobs.yaml** with the following (taken from `this guide`_):
 
    .. literalinclude:: files/build.yaml
 
