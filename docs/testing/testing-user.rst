@@ -71,5 +71,4 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/user/configguide/index
-   ../submodules/yardstick/docs/testing/user/userguide/index
+   :ref:`Yardstick User Guide <yardstick:userguide>

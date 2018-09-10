@@ -58,4 +58,4 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/developer/devguide/index
+   :ref:`Yardstick Developer Guide <yardstick:devguide>`
