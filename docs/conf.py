@@ -281,3 +281,4 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 
 intersphinx_mapping = {}
 intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)
+intersphinx_mapping['yardstick'] = ('http://opnfv-yardstick.readthedocs.io', None)
