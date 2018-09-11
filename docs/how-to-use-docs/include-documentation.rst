@@ -39,13 +39,7 @@ In OPNFVDocs Composite Documentation
 In toctree
 +++++++++++
 
-To import project documents from project repositories, we use submodules.
- Each project is stored in :code:`opnfvdocs/docs/submodule/` as follows:
-
-.. image:: Submodules.jpg
-   :scale: 50 %
-
-To include your project specific documentation in the composite documentation,
+To include your project specific documentation in opnfv documentation,
 first identify where your project documentation should be included.
 Say your project userguide should figure in the ‘OPNFV Userguide’, then:
 
@@ -64,10 +58,10 @@ it, example:
    .. toctree::
        :maxdepth: 1
 
-    submodules/functest/docs/userguide/index
-    submodules/bottlenecks/docs/userguide/index
-    submodules/yardstick/docs/userguide/index
-    <submodules/path-to-your-file>
+    :ref:`<functest:userguide/index>`
+    :ref:`<bottlenecks:userguide/index>`
+    :ref:`<yardstick:userguide/index>`
+    :ref:`<path-to-your-file>:>`
 
 As Hyperlink
 ++++++++++++
@@ -145,41 +139,6 @@ doc8 can now be used to check the rst files. Execute as,
 Testing: Build Documentation Locally
 ------------------------------------
 
-Composite OPNFVDOCS documentation
-+++++++++++++++++++++++++++++++++
-To build whole documentation under opnfvdocs/, follow these steps:
-
-Install virtual environment.
-
-.. code-block:: bash
-
-   sudo pip install virtualenv
-   cd /local/repo/path/to/project
-
-Download the OPNFVDOCS repository.
-
-.. code-block:: bash
-
-   git clone https://gerrit.opnfv.org/gerrit/opnfvdocs
-
-Change directory to opnfvdocs & install requirements.
-
-.. code-block:: bash
-
-   cd opnfvdocs
-   sudo pip install -r etc/requirements.txt
-
-Update submodules, build documentation using tox & then open using any browser.
-
-.. code-block:: bash
-
-   cd opnfvdocs
-   git submodule update --init
-   tox -edocs
-   firefox docs/_build/html/index.html
-
-.. note:: Make sure to run `tox -edocs` and not just `tox`.
-
 Individual project documentation
 ++++++++++++++++++++++++++++++++
 To test how the documentation renders in HTML, follow these steps:
@@ -227,28 +186,4 @@ specified output folder directory.
 
 .. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
 
-
-Adding your project repository as a submodule
---------------------------
-
-Clone the opnfvdocs repository and your submodule to .gitmodules following the convention of the file
-
-.. code-block:: bash
-
-  cd docs/submodules/
-  git submodule add https://gerrit.opnfv.org/gerrit/$reponame
-  git submodule init $reponame/
-  git submodule update $reponame/
-  git add .
-  git commit -sv
-  git review
-
-Removing a project repository as a submodule
---------------------------
-  git rm docs/submodules/$reponame
-  rm -rf .git/modules/$reponame
-  git config -f .git/config --remove-section submodule.$reponame 2> /dev/null
-  git add .
-  git commit -sv
-  git review
 

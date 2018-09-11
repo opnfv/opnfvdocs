@@ -8,13 +8,13 @@ Apex
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/apex/docs/development/overview/index
-   ../submodules/apex/docs/development/requirements/index
-   ../submodules/apex/docs/release/installation/index
-   ../submodules/apex/docs/release/configguide/index
-   ../submodules/apex/docs/release/userguide/index
-   ../submodules/apex/docs/development/design/index
-   ../submodules/apex/docs/development/manuals/index
+   :ref:`<apex:development/overview/index>`
+   :ref:`<apex:development/requirements/index>`
+   :ref:`<apex:release/installation/index>`
+   :ref:`<apex:release/configguide/index>`
+   :ref:`<apex:release/userguide/index>`
+   :ref:`<apex:development/design/index>`
+   :ref:`<apex:development/manuals/index>`
 
 
 Armband
@@ -22,13 +22,13 @@ Armband
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/armband/docs/development/overview/index
-   ../submodules/armband/docs/development/requirements/index
-   ../submodules/armband/docs/release/installation/index
-   ../submodules/armband/docs/release/configguide/index
-   ../submodules/armband/docs/release/userguide/index
-   ../submodules/armband/docs/development/design/index
-   ../submodules/armband/docs/development/manuals/index
+   :ref:`<armband:development/overview/index>`
+   :ref:`<armband:development/requirements/index>`
+   :ref:`<armband:release/installation/index>`
+   :ref:`<armband:release/configguide/index>`
+   :ref:`<armband:release/userguide/index>`
+   :ref:`<armband:development/design/index>`
+   :ref:`<armband:development/manuals/index>`
 
 
 Availability
@@ -36,13 +36,13 @@ Availability
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/availability/docs/development/overview/index
-   ../submodules/availability/docs/development/requirements/index
-   ../submodules/availability/docs/release/installation/index
-   ../submodules/availability/docs/release/configguide/index
-   ../submodules/availability/docs/release/userguide/index
-   ../submodules/availability/docs/development/design/index
-   ../submodules/availability/docs/development/manuals/index
+   :ref:`<availability:development/overview/index>`
+   :ref:`<availability:development/requirements/index>`
+   :ref:`<availability:release/installation/index>`
+   :ref:`<availability:release/configguide/index>`
+   :ref:`<availability:release/userguide/index>`
+   :ref:`<availability:development/design/index>`
+   :ref:`<availability:development/manuals/index>`
 
 
 Barometer
@@ -50,34 +50,34 @@ Barometer
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/barometer/docs/development/overview/index
-   ../submodules/barometer/docs/development/requirements/index
-   ../submodules/barometer/docs/release/installation/index
-   ../submodules/barometer/docs/release/configguide/index
-   ../submodules/barometer/docs/release/userguide/index
-   ../submodules/barometer/docs/development/design/index
-   ../submodules/barometer/docs/development/manuals/index
+   :ref:`<barometer:development/overview/index>`
+   :ref:`<barometer:development/requirements/index>`
+   :ref:`<barometer:release/installation/index>`
+   :ref:`<barometer:release/configguide/index>`
+   :ref:`<barometer:release/userguide/index>`
+   :ref:`<barometer:development/design/index>`
+   :ref:`<barometer:development/manuals/index>`
 
 Clover
 ------
 .. toctree::
    :maxdepth: 1
-   ../submodules/clover/docs/development/design/index
-   ../submodules/clover/docs/release/configguide/index
-   ../submodules/clover/docs/release/userguide/index
+   :ref:`<clover:development/design/index>`
+   :ref:`<clover:release/configguide/index>`
+   :ref:`<clover:release/userguide/index>`
 
 Compass4Nfv
 -----------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/compass4nfv/docs/development/overview/index
-   ../submodules/compass4nfv/docs/development/requirements/index
-   ../submodules/compass4nfv/docs/release/installation/index
-   ../submodules/compass4nfv/docs/release/configguide/index
-   ../submodules/compass4nfv/docs/release/userguide/index
-   ../submodules/compass4nfv/docs/development/design/index
-   ../submodules/compass4nfv/docs/development/manuals/index
+   :ref:`<compass4nfv:development/overview/index>`
+   :ref:`<compass4nfv:development/requirements/index>`
+   :ref:`<compass4nfv:release/installation/index>`
+   :ref:`<compass4nfv:release/configguide/index>`
+   :ref:`<compass4nfv:release/userguide/index>`
+   :ref:`<compass4nfv:development/design/index>`
+   :ref:`<compass4nfv:development/manuals/index>`
 
 
 Daisy4NFV
@@ -85,9 +85,9 @@ Daisy4NFV
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/daisy/docs/development/design/index
-   ../submodules/daisy/docs/release/configguide/index
-   ../submodules/daisy/docs/release/installation/index
+   :ref:`<daisy:development/design/index>`
+   :ref:`<daisy:release/configguide/index>`
+   :ref:`<daisy:release/installation/index>`
 
 
 Doctor
@@ -95,33 +95,33 @@ Doctor
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/doctor/docs/development/overview/index
-   ../submodules/doctor/docs/development/requirements/index
-   ../submodules/doctor/docs/release/installation/index
-   ../submodules/doctor/docs/release/configguide/index
-   ../submodules/doctor/docs/release/userguide/index
-   ../submodules/doctor/docs/development/design/index
-   ../submodules/doctor/docs/development/manuals/index
+   :ref:`<doctor:development/overview/index>`
+   :ref:`<doctor:development/requirements/index>`
+   :ref:`<doctor:release/installation/index>`
+   :ref:`<doctor:release/configguide/index>`
+   :ref:`<doctor:release/userguide/index>`
+   :ref:`<doctor:development/design/index>`
+   :ref:`<doctor:development/manuals/index>`
 
 Edgecloud
 ---------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/edgecloud/docs/development/requirements/index
+   :ref:`<edgecloud:development/requirements/index>`
 
 IPV6
 ----
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/ipv6/docs/development/overview/index
-   ../submodules/ipv6/docs/development/requirements/index
-   ../submodules/ipv6/docs/release/installation/index
-   ../submodules/ipv6/docs/release/configguide/index
-   ../submodules/ipv6/docs/release/userguide/index
-   ../submodules/ipv6/docs/development/design/index
-   ../submodules/ipv6/docs/development/manuals/index
+   :ref:`<ipv6:development/overview/index>`
+   :ref:`<ipv6:development/requirements/index>`
+   :ref:`<ipv6:release/installation/index>`
+   :ref:`<ipv6:release/configguide/index>`
+   :ref:`<ipv6:release/userguide/index>`
+   :ref:`<ipv6:development/design/index>`
+   :ref:`<ipv6:development/manuals/index>`
 
 
 Joid
@@ -129,13 +129,13 @@ Joid
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/joid/docs/development/overview/index
-   ../submodules/joid/docs/development/requirements/index
-   ../submodules/joid/docs/release/installation/index
-   ../submodules/joid/docs/release/configguide/index
-   ../submodules/joid/docs/release/userguide/index
-   ../submodules/joid/docs/development/design/index
-   ../submodules/joid/docs/development/manuals/index
+   :ref:`<joid:development/overview/index>`
+   :ref:`<joid:development/requirements/index>`
+   :ref:`<joid:release/installation/index>`
+   :ref:`<joid:release/configguide/index>`
+   :ref:`<joid:release/userguide/index>`
+   :ref:`<joid:development/design/index>`
+   :ref:`<joid:development/manuals/index>`
 
 
 Opera
@@ -143,13 +143,13 @@ Opera
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/opera/docs/development/overview/index
-   ../submodules/opera/docs/development/requirements/index
-   ../submodules/opera/docs/release/installation/index
-   ../submodules/opera/docs/release/configguide/index
-   ../submodules/opera/docs/release/userguide/index
-   ../submodules/opera/docs/development/design/index
-   ../submodules/opera/docs/development/manuals/index
+   :ref:`<opera:development/overview/index>`
+   :ref:`<opera:development/requirements/index>`
+   :ref:`<opera:release/installation/index>`
+   :ref:`<opera:release/configguide/index>`
+   :ref:`<opera:release/userguide/index>`
+   :ref:`<opera:development/design/index>`
+   :ref:`<opera:development/manuals/index>`
 
 
 Parser
@@ -157,13 +157,13 @@ Parser
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/parser/docs/development/overview/index
-   ../submodules/parser/docs/development/requirements/index
-   ../submodules/parser/docs/release/installation/index
-   ../submodules/parser/docs/release/configguide/index
-   ../submodules/parser/docs/release/userguide/index
-   ../submodules/parser/docs/development/design/index
-   ../submodules/parser/docs/development/manuals/index
+   :ref:`<parser:development/overview/index>`
+   :ref:`<parser:development/requirements/index>`
+   :ref:`<parser:release/installation/index>`
+   :ref:`<parser:release/configguide/index>`
+   :ref:`<parser:release/userguide/index>`
+   :ref:`<parser:development/design/index>`
+   :ref:`<parser:development/manuals/index>`
 
 
 SDNVPN
@@ -171,12 +171,12 @@ SDNVPN
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/sdnvpn/docs/development/overview/index
-   ../submodules/sdnvpn/docs/development/requirements/index
-   ../submodules/sdnvpn/docs/release/installation/index
-   ../submodules/sdnvpn/docs/release/configguide/index
-   ../submodules/sdnvpn/docs/release/userguide/index
-   ../submodules/sdnvpn/docs/development/design/index
+   :ref:`<sdnvpn:development/overview/index>`
+   :ref:`<sdnvpn:development/requirements/index>`
+   :ref:`<sdnvpn:release/installation/index>`
+   :ref:`<sdnvpn:release/configguide/index>`
+   :ref:`<sdnvpn:release/userguide/index>`
+   :ref:`<sdnvpn:development/design/index>`
 
 
 SFC
@@ -184,11 +184,11 @@ SFC
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/sfc/docs/development/overview/index
-   ../submodules/sfc/docs/development/requirements/index
-   ../submodules/sfc/docs/release/installation/index
-   ../submodules/sfc/docs/release/configguide/index
-   ../submodules/sfc/docs/release/userguide/index
-   ../submodules/sfc/docs/development/design/index
-   ../submodules/sfc/docs/development/manuals/index
+   :ref:`<sfc:development/overview/index>`
+   :ref:`<sfc:development/requirements/index>`
+   :ref:`<sfc:release/installation/index>`
+   :ref:`<sfc:release/configguide/index>`
+   :ref:`<sfc:release/userguide/index>`
+   :ref:`<sfc:development/design/index>`
+   :ref:`<sfc:development/manuals/index>`
 

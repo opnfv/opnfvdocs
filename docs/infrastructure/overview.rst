@@ -49,4 +49,4 @@ Security
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/releng-anteater/docs/index
+   :ref:`<releng-anteater:index>`

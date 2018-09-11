@@ -19,7 +19,7 @@ Bottlenecks
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/bottlenecks/docs/testing/developer/devguide/index
+   :ref:`<bottlenecks:testing/developer/devguide/index>`
 
 
 Dovetail / OPNFV Verified Program
@@ -27,14 +27,14 @@ Dovetail / OPNFV Verified Program
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/dovetail/docs/testing/developer/testcaserequirements/index
+   :ref:`<dovetail:testing/developer/testcaserequirements/index>`
 
 Functest
 ---------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/functest/docs/testing/developer/devguide/index
+   :ref:`<functest:testing/developer/devguide/index>`
 
 
 StorPerf
@@ -42,7 +42,7 @@ StorPerf
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/storperf/docs/testing/developer/devguide/index
+   :ref:`<storperf:testing/developer/devguide/index>`
 
 
 VSPERF
@@ -50,7 +50,7 @@ VSPERF
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/vswitchperf/docs/testing/developer/devguide/index
+   :ref:`<vswitchperf:testing/developer/devguide/index>`
 
 
 Yardstick
@@ -58,4 +58,4 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/developer/devguide/index
+   :ref:`<yardstick:testing/developer/devguide/index>`

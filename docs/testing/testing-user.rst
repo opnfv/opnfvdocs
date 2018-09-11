@@ -15,8 +15,8 @@ Bottlenecks
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/bottlenecks/docs/testing/user/configguide/index
-   ../submodules/bottlenecks/docs/testing/user/userguide/index
+   :ref:`<bottlenecks:testing/user/configguide/index>`
+   :ref:`<bottlenecks:testing/user/userguide/index>`
 
 
 Dovetail / OPNFV Verified Program
@@ -24,27 +24,27 @@ Dovetail / OPNFV Verified Program
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/dovetail/docs/testing/user/certificationworkflow/index
-   ../submodules/dovetail/docs/testing/user/ovpaddendum/index
-   ../submodules/dovetail/docs/testing/user/reviewerguide/index
-   ../submodules/dovetail/docs/testing/user/systempreparation/index
-   ../submodules/dovetail/docs/testing/user/testspecification/index
-   ../submodules/dovetail/docs/testing/user/userguide/index
+   :ref:`<dovetail:testing/user/certificationworkflow/index>`
+   :ref:`<dovetail:testing/user/ovpaddendum/index>`
+   :ref:`<dovetail:testing/user/reviewerguide/index>`
+   :ref:`<dovetail:testing/user/systempreparation/index>`
+   :ref:`<dovetail:testing/user/testspecification/index>`
+   :ref:`<dovetail:testing/user/userguide/index>`
 
 Functest
 ---------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/functest/docs/testing/user/configguide/index
-   ../submodules/functest/docs/testing/user/userguide/index
+   :ref:`<functest:testing/user/configguide/index>`
+   :ref:`<functest:testing/user/userguide/index>`
 
 NFVbench
 -----
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/nfvbench/docs/testing/user/userguide/index
+   :ref:`<nfvbench:testing/user/userguide/index>`
 
 
 Storperf
@@ -53,7 +53,7 @@ Storperf
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/storperf/docs/testing/user/index
+   :ref:`<storperf:testing/user/index>`
 
 
 VSPERF
@@ -62,8 +62,8 @@ VSPERF
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/vswitchperf/docs/testing/user/configguide/index
-   ../submodules/vswitchperf/docs/testing/user/userguide/index
+   :ref:`<vswitchperf:testing/user/configguide/index>`
+   :ref:`<vswitchperf:testing/user/userguide/index>`
 
 
 Yardstick
@@ -71,5 +71,5 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/user/configguide/index
-   ../submodules/yardstick/docs/testing/user/userguide/index
+   :ref:`<yardstick:testing/user/configguide/index>`
+   :ref:`<yardstick:testing/user/userguide/index>`
