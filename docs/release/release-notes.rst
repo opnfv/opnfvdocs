@@ -14,7 +14,7 @@ reports.
 Project release notes:
 ----------------------
 
-:ref:`Apex Release Notes <apex-releasenotes>`
+:ref:`Apex Release Notes <apex:apex-releasenotes>`
 
 :ref:`Armband Release Notes <armband-releasenotes>`
 
