@@ -8,13 +8,13 @@ Apex
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/apex/docs/development/overview/index
-   ../submodules/apex/docs/development/requirements/index
-   ../submodules/apex/docs/release/installation/index
-   ../submodules/apex/docs/release/configguide/index
-   ../submodules/apex/docs/release/userguide/index
-   ../submodules/apex/docs/development/design/index
-   ../submodules/apex/docs/development/manuals/index
+   :doc:`<apex:development/overview/index>`
+   :doc:`<apex:development/requirements/index>`
+   :doc:`<apex:release/installation/index>`
+   :doc:`<apex:release/configguide/index>`
+   :doc:`<apex:release/userguide/index>`
+   :doc:`<apex:development/design/index>`
+   :doc:`<apex:development/manuals/index>`
 
 
 Armband
