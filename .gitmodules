@@ -1,8 +1,3 @@
-[submodule "docs/submodules/apex"]
-	path = docs/submodules/apex
-	url = ../apex
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/armband"]
 	path = docs/submodules/armband
 	url = ../armband

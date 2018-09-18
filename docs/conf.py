@@ -280,4 +280,5 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 # texinfo_no_detailmenu = False
 
 intersphinx_mapping = {}
+intersphinx_mapping['apex'] = ('https://opnfv-apex.readthedocs.io/en/latest', None)
 intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)

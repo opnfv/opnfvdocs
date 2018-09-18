@@ -7,8 +7,8 @@ Apex
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/apex/docs/releasenotes/index
-   ../submodules/apex/docs/installationprocedure/index
+   :doc:`<apex:releasenotes/index>`
+   :doc:`<apex:installationprocedure/index>`
 
 Compass
 --------

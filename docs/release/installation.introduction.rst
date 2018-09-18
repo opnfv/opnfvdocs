@@ -80,7 +80,7 @@ support for the OPNFV Fraser release are: Apex, Compass4nfv, Fuel and JOID.
 
 The instructions for each toolchain can be found in these links:
 
-- :ref:`Apex installation instruction <apex-installation>`
+- :ref:`Apex installation instruction <apex:apex-installation>`
 - :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
 - :ref:`JOID installation instruction <joid-installation>`
