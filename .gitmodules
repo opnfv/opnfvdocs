@@ -128,11 +128,6 @@
 	url = ../parser
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/pharos"]
-	path = docs/submodules/pharos
-	url = ../pharos
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/promise"]
 	path = docs/submodules/promise
 	url = ../promise
