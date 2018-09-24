@@ -22,13 +22,8 @@ Armband
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/armband/docs/development/overview/index
-   ../submodules/armband/docs/development/requirements/index
-   ../submodules/armband/docs/release/installation/index
-   ../submodules/armband/docs/release/configguide/index
-   ../submodules/armband/docs/release/userguide/index
-   ../submodules/armband/docs/development/design/index
-   ../submodules/armband/docs/development/manuals/index
+   :ref:`Armband Installation Instructions <armband:release:installation:index>`
+   :ref:`Armband User Guide <armband:release:userguide:index>`
 
 
 Availability
