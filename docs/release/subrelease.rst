@@ -31,8 +31,8 @@ Fuel
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/fuel/docs/releasenotes/index
-   ../submodules/fuel/docs/installationprocedure/index
+   :ref:`Fuel Release Notes <fuel:releasenotes:index>`
+   :ref:`Fuel Installation Instructions <fuel:installationprocedure:index>`
 
 Joid
 -----
