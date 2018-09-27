@@ -1,9 +1,10 @@
 ---
 - project:
     name: PROJECT
-    project-name: '{name}'
+    project: PROJECT
+    project-name: 'PROJECT'
 
-    project-pattern: '{name}'
+    project-pattern: 'PROJECT'
     rtd-build-url: RTD_BUILD_URL
     rtd-token: RTD_TOKEN
 
