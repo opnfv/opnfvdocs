@@ -63,11 +63,6 @@
 	url = ../fds
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/fuel"]
-	path = docs/submodules/fuel
-	url = ../fuel
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/functest"]
 	path = docs/submodules/functest
 	url = ../functest
