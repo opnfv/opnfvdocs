@@ -28,11 +28,9 @@ Daisy
 
 Fuel
 -----
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/fuel/docs/release/release-notes/index
-   ../submodules/fuel/docs/release/installation/index
+* :ref:`Release Notes <fuel:fuel-release-notes-label>`
+* :ref:`Installation <fuel:fuel-installation>`
 
 Joid
 -----

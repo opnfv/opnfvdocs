@@ -16,7 +16,7 @@ Project release notes:
 
 :ref:`Apex Release Notes <apex-releasenotes>`
 
-:ref:`Armband Release Notes <armband-releasenotes>`
+:ref:`Armband Release Notes <armband:armband-releasenotes>`
 
 :ref:`Auto Release Notes <auto-releasenotes>`
 
