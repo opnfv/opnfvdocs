@@ -3,11 +3,6 @@
 	url = ../apex
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/armband"]
-	path = docs/submodules/armband
-	url = ../armband
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/auto"]
 	path = docs/submodules/auto
 	url = ../auto
@@ -61,11 +56,6 @@
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
 	url = ../fds
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/fuel"]
-	path = docs/submodules/fuel
-	url = ../fuel
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/functest"]

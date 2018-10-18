@@ -280,5 +280,7 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 # texinfo_no_detailmenu = False
 
 intersphinx_mapping = {}
+intersphinx_mapping['armband'] = ('https://opnfv-armband.readthedocs.io/en/latest', None)
+intersphinx_mapping['fuel'] = ('https://opnfv-fuel.readthedocs.io/en/latest', None)
 intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)
 intersphinx_mapping['ovn4nfv'] = ('https://opnfv-ovn4nfv.readthedocs.io/en/latest', None)
