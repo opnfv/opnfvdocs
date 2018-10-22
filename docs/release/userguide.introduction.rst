@@ -75,7 +75,7 @@ Feature Configuration Guides
 - :ref:`Promise Configuration Guide <promise-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
-- :ref:`Stor4NFV Configuration Guide <stor4nfv-configguide>`
+- :ref:`Stor4NFV Configuration Guide <stor4nfv:stor4nfv-configguide>`
 
 Feature User Guides
 ===================
@@ -97,4 +97,4 @@ Feature User Guides
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
-- :ref:`Stor4NFV User Guide <stor4nfv-userguide>`
+- :ref:`Stor4NFV User Guide <stor4nfv:stor4nfv-userguide>`

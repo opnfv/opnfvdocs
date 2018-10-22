@@ -293,3 +293,4 @@ intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest'
 intersphinx_mapping['ovn4nfv'] = ('https://opnfv-ovn4nfv.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['fuel'] = ('https://opnfv-fuel.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['auto'] = ('https://opnfv-auto.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['stor4nfv'] = ('https://opnfv-stor4nfv.readthedocs.io/en/%s' % branch, None)
