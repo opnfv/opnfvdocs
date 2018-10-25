@@ -123,11 +123,6 @@
 	url = ../pharos
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/promise"]
-	path = docs/submodules/promise
-	url = ../promise
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/qtip"]
 	path = docs/submodules/qtip
 	url = ../qtip
