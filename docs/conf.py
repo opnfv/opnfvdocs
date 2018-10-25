@@ -289,6 +289,7 @@ intersphinx_mapping['armband'] = ('https://opnfv-armband.readthedocs.io/en/%s' %
 intersphinx_mapping['copper'] = ('https://opnfv-copper.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['moon'] = ('https://opnfv-moon.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['netready'] = ('https://opnfv-netready.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['promise'] = ('https://opnfv-promise.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)
 intersphinx_mapping['ovn4nfv'] = ('https://opnfv-ovn4nfv.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['fuel'] = ('https://opnfv-fuel.readthedocs.io/en/%s' % branch, None)
