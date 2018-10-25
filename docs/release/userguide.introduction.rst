@@ -72,7 +72,7 @@ Feature Configuration Guides
 - :ref:`OVN4NFV Configuration Guide <xyz-configguide>`
 - :ref:`OVNO Configuration Guide <ovno-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
-- :ref:`Promise Configuration Guide <promise-configguide>`
+- :ref:`Promise Configuration Guide <promise:promise-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 - :ref:`Stor4NFV Configuration Guide <stor4nfv-configguide>`
@@ -95,7 +95,7 @@ Feature User Guides
 - :ref:`OVN4NFV User Guide <xyz-userguide>`
 - :ref:`OVNO User Guide <ovno-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
-- :ref:`Promise User Guide <promise-userguide>`
+- :ref:`Promise User Guide <promise:promise-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 - :ref:`Stor4NFV User Guide <stor4nfv-userguide>`
