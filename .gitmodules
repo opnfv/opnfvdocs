@@ -68,11 +68,6 @@
 	url = ../joid
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/kvmfornfv"]
-	path = docs/submodules/kvmfornfv
-	url = ../kvmfornfv
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/multisite"]
 	path = docs/submodules/multisite
 	url = ../multisite
