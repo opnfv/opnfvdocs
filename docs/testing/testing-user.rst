@@ -33,11 +33,9 @@ Dovetail / OPNFV Verified Program
 
 Functest
 ---------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/functest/docs/testing/user/configguide/index
-   ../submodules/functest/docs/testing/user/userguide/index
+* :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
+* :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
 NFVbench
 -----

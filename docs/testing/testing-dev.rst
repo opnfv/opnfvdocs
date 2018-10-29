@@ -31,10 +31,8 @@ Dovetail / OPNFV Verified Program
 
 Functest
 ---------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/functest/docs/testing/developer/devguide/index
+* :doc:`Developer Guide <functest:testing/developer/devguide/index>`
 
 
 StorPerf

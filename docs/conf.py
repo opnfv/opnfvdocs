@@ -284,4 +284,5 @@ intersphinx_mapping['armband'] = ('https://opnfv-armband.readthedocs.io/en/lates
 intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)
 intersphinx_mapping['ovn4nfv'] = ('https://opnfv-ovn4nfv.readthedocs.io/en/latest', None)
 intersphinx_mapping['fuel'] = ('https://opnfv-fuel.readthedocs.io/en/latest', None)
+intersphinx_mapping['functest'] = ('https://functest.readthedocs.io/en/latest/', None)
 intersphinx_mapping['auto'] = ('https://opnfv-auto.readthedocs.io/en/latest', None)
