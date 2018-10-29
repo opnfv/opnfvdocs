@@ -223,7 +223,7 @@ Functest
 --------
 Functest provides a functional testing framework incorporating a number of test suites
 and test cases that test and verify OPNFV platform functionality.
-The scope of Functest and relevant test cases can be found in the :ref:`Functest User Guide <functest-userguide>`
+The scope of Functest and relevant test cases can be found in the :ref:`Functest User Guide <functest:functest-userguide>`
 
 Functest provides both feature project and component test suite integration, leveraging
 OpenStack and SDN controllers testing frameworks to verify the key components of the OPNFV

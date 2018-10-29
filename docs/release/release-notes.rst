@@ -34,7 +34,7 @@ Project release notes:
 
 :ref:`Fuel Release Notes <fuel-releasenotes>`
 
-:ref:`Functest Release Notes <functest-releasenotes>`
+:ref:`Functest Release Notes <functest:functest-releasenotes>`
 
 :ref:`IPV6 Release Notes <ipv6-releasenotes>`
 
