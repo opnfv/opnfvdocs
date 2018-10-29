@@ -18,29 +18,14 @@
 	url = https://gerrit.opnfv.org/gerrit/container4nfv
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/copper"]
-	path = docs/submodules/copper
-	url = ../copper
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/daisy"]
 	path = docs/submodules/daisy
 	url = ../daisy
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/domino"]
-	path = docs/submodules/domino
-	url = ../domino
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/dovetail"]
 	path = docs/submodules/dovetail
 	url = ../dovetail
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/escalator"]
-	path = docs/submodules/escalator
-	url = ../escalator
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/fastpathmetrics"]
@@ -76,11 +61,6 @@
 [submodule "docs/submodules/multisite"]
 	path = docs/submodules/multisite
 	url = ../multisite
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/netready"]
-	path = docs/submodules/netready
-	url = ../netready
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/nfvbench"]
@@ -206,11 +186,6 @@
 [submodule "docs/submodules/ovno"]
 	path = docs/submodules/ovno
 	url = https://gerrit.opnfv.org/gerrit/ovno
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/moon"]
-	path = docs/submodules/moon
-	url = ../moon
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/calipso"]
