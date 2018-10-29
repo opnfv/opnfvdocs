@@ -11,10 +11,10 @@ Installation
 Abstract
 ========
 
-This an overview document for the installation of the Fraser release of OPNFV.
+This an overview document for the installation of the Gambia release of OPNFV.
 
-The Fraser release can be installed making use of any of the installer projects in OPNFV:
-Apex, Compass4Nfv, Fuel or JOID. Each installer provides the ability to install a common OPNFV
+The Gambia release can be installed making use of any of the installer projects in OPNFV:
+Apex, Compass4Nfv or Fuel. Each installer provides the ability to install a common OPNFV
 platform as well as integrating additional features delivered through a variety of scenarios by
 the OPNFV community.
 
@@ -76,14 +76,13 @@ Installation Procedure
 
 Detailed step by step instructions for working with an installation toolchain and installing
 the required scenario are provided by the installation projects. The projects providing installation
-support for the OPNFV Fraser release are: Apex, Compass4nfv, Fuel and JOID.
+support for the OPNFV Gambia release are: Apex, Compass4nfv and Fuel.
 
 The instructions for each toolchain can be found in these links:
 
 - :ref:`Apex installation instruction <apex-installation>`
 - :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
-- :ref:`JOID installation instruction <joid-installation>`
 
 OPNFV Test Frameworks
 =====================
