@@ -33,11 +33,6 @@
 	url = ../dovetail
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/fastpathmetrics"]
-	path = docs/submodules/fastpathmetrics
-	url = ../fastpathmetrics
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
 	url = ../fds
@@ -58,19 +53,9 @@
 	url = ../joid
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/multisite"]
-	path = docs/submodules/multisite
-	url = ../multisite
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/nfvbench"]
 	path = docs/submodules/nfvbench
 	url = https://gerrit.opnfv.org/gerrit/nfvbench
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/octopus"]
-	path = docs/submodules/octopus
-	url = ../octopus
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/onosfw"]
