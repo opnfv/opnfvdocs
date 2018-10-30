@@ -45,31 +45,32 @@ solving specific problems for the deployment of VNF’s.
 A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
 where each scenario will include different source components or configurations.
 
-To learn more about the scenarios supported in the Fraser release refer to the scenario
+To learn more about the scenarios supported in the Gambia release refer to the scenario
 description documents provided:
 
-- :ref:`k8-nosdn-lb-noha <k8-nosdn-lb-noha>`
-- :ref:`k8-ovn-lb-noha <k8-ovn-lb-noha>`
-- :ref:`k8-nosdn-lb_ceph-noha <k8-nosdn-lb_ceph-noha>`
-- :ref:`k8-canal-lb-noha <k8-canal-lb-noha>`
-- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha1>`
-- :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha1>`
-- :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
-- :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 - :ref:`k8-nosdn-stor4nfv-ha <k8-nosdn-stor4nfv-ha>`
-- :ref:`os-nosdn-bar-ha <kvmfornfv-os-nosdn-bar-ha>`
-- :ref:`os-nosdn-bar-noha <kvmfornfv-os-nosdn-bar-noha>`
+- :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
+- :ref:`os-nosdn-stor4nfv-ha <os-nosdn-stor4nfv-ha>`
+- :ref:`os-nosdn-calipso-noha <os-nosdn-calipso-noha>`
 - :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
 - :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha>`
-- :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
-- :ref:`os-odl-sfc-noha <os-odl-sfc-noha>`
+- :ref:`os-nosdn-vpp-noha <os-nosdn-vpp-noha>`
+- :ref:`os-nosdn-vpp-ha <os-nosdn-vpp-ha>`
+- :ref:`os-odl-ovs-noha <os-odl-ovs-noha>`
+- :ref:`os-odl-sfc-noha-xci <os-odl-sfc-noha>`
+- :ref:`os-odl-sfc-noha-apex <os-odl-sfc-noha2>`
+- :ref:`os-odl-sfc-noha-compass <os-odl-sfc-noha3>`
+- :ref:`os-odl-sfc-ha-apex <os-odl-sfc-ha>`
+- :ref:`os-odl-sfc-ha-compass <os-odl-sfc-ha2>`
 - :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
 - :ref:`os-odl-bgpvpn-ha <os-odl-bgpvpn-ha>`
-- :ref:`os-nosdn-lxd-ha <os-nosdn-lxd-ha>`
-- :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
-- :ref:`os-nosdn-fdio-ha <os-nosdn-fdio-ha>`
-- :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
-- :ref:`os-odl-sfc-noha <os-odl-sfc-noha>`
+- :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
+- :ref:`os-odl-bgpvpn-ha-xci <os-odl-bgpvpn-ha2>`
+- :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
+- :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
+- :ref:`k8-nosdn-virtlet-noha <k8-nosdn-virtlet-noha>`
+- :ref:`k8-ovn-kata-noha <k8-ovn-kata-noha>`
+
 
 Installation Procedure
 ======================
