@@ -95,7 +95,6 @@ Feature User Guides
 - :ref:`OVN4NFV User Guide <xyz-userguide>`
 - :ref:`OVNO User Guide <ovno-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
-- :ref:`Promise User Guide <promise-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 - :ref:`Stor4NFV User Guide <stor4nfv-userguide>`
