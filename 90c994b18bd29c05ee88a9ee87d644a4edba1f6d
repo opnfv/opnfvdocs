@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a682502_b596b3ee",
+        "filename": "docs/conf.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2018-10-30T15:29:21Z",
+      "side": 1,
+      "message": "This should be `\u0027%s\u0027 % branch` so when the change is cherry picked to stable branch it will be linked against stor4nfv\u0027s stable branch docs.",
+      "range": {
+        "startLine": 296,
+        "startChar": 77,
+        "endLine": 296,
+        "endChar": 83
+      },
+      "revId": "90c994b18bd29c05ee88a9ee87d644a4edba1f6d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
