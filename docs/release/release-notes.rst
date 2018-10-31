@@ -46,6 +46,8 @@ Project release notes:
 
 :ref:`OVN4NFV Release Notes <ovn4nfv-releasenotes>`
 
+:ref:`Promise Release Notes <promise-releasenotes>`
+
 :ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
 
 :ref:`SDNVPN Release Notes <sdnvpn-releasenotes>`
