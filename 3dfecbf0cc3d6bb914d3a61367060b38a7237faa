@@ -46,6 +46,30 @@
       "revId": "3dfecbf0cc3d6bb914d3a61367060b38a7237faa",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a682502_9c7ac4ef",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2018-11-01T22:48:52Z",
+      "side": 1,
+      "message": "That\u0027s up to Sofia, but for me removing it should be fine.",
+      "parentUuid": "5a682502_1c97d491",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 55
+      },
+      "revId": "3dfecbf0cc3d6bb914d3a61367060b38a7237faa",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
