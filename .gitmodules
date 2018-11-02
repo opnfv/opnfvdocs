@@ -8,19 +8,9 @@
 	url = ../bottlenecks
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/compass4nfv"]
-	path = docs/submodules/compass4nfv
-	url = ../compass4nfv
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/container4nfv"]
 	path = docs/submodules/container4nfv
 	url = https://gerrit.opnfv.org/gerrit/container4nfv
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/daisy"]
-	path = docs/submodules/daisy
-	url = ../daisy
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dovetail"]
@@ -36,16 +26,6 @@
 [submodule "docs/submodules/fds"]
 	path = docs/submodules/fds
 	url = ../fds
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/functest"]
-	path = docs/submodules/functest
-	url = ../functest
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ipv6"]
-	path = docs/submodules/ipv6
-	url = ../ipv6
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/joid"]
@@ -83,21 +63,6 @@
 	url = ../ovsnfv
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/parser"]
-	path = docs/submodules/parser
-	url = ../parser
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/pharos"]
-	path = docs/submodules/pharos
-	url = ../pharos
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/qtip"]
-	path = docs/submodules/qtip
-	url = ../qtip
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/sdnvpn"]
 	path = docs/submodules/sdnvpn
 	url = ../sdnvpn
@@ -121,21 +86,6 @@
 [submodule "docs/submodules/vnf_forwarding_graph"]
 	path = docs/submodules/vnf_forwarding_graph
 	url = ../vnf_forwarding_graph
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vswitchperf"]
-	path = docs/submodules/vswitchperf
-	url = ../vswitchperf
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/yardstick"]
-	path = docs/submodules/yardstick
-	url = ../yardstick
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/doctor"]
-	path = docs/submodules/doctor
-	url = ../doctor
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/availability"]
