@@ -295,3 +295,6 @@ intersphinx_mapping['ovn4nfv'] = ('https://opnfv-ovn4nfv.readthedocs.io/en/%s' %
 intersphinx_mapping['fuel'] = ('https://opnfv-fuel.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['auto'] = ('https://opnfv-auto.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['stor4nfv'] = ('https://opnfv-stor4nfv.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['daisy'] = ('https://opnfv-daisy.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['parser'] = ('https://opnfv-parser.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['qtip'] = ('https://opnfv-qtip.readthedocs.io/en/%s' % branch, None)

@@ -18,11 +18,6 @@
 	url = https://gerrit.opnfv.org/gerrit/container4nfv
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/daisy"]
-	path = docs/submodules/daisy
-	url = ../daisy
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/dovetail"]
 	path = docs/submodules/dovetail
 	url = ../dovetail
@@ -83,19 +78,9 @@
 	url = ../ovsnfv
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/parser"]
-	path = docs/submodules/parser
-	url = ../parser
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/pharos"]
 	path = docs/submodules/pharos
 	url = ../pharos
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/qtip"]
-	path = docs/submodules/qtip
-	url = ../qtip
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdnvpn"]
