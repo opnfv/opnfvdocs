@@ -16,7 +16,7 @@ about network transformation.
    :maxdepth: 1
 
    release/overview
-   how-to-use-docs/getting.started
+   how-to-use-docs/documentation-guide
    release/installation.introduction
    release/userguide.introduction
    release/release-notes

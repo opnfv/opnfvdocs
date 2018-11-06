@@ -138,11 +138,11 @@ Code quality
 
 It is recommended to control the quality of the code of the testing projects,
 and more precisely to implement some verifications before any merge:
-  * pep8
-  * pylint
-  * unit tests (python 2.7)
-  * unit tests (python 3.5)
 
+* pep8
+* pylint
+* unit tests (python 2.7)
+* unit tests (python 3.5)
 
 The code of the test project must be covered by unit tests. The coverage
 shall be reasonable and not decrease when adding new features to the framework.
@@ -295,16 +295,17 @@ each test iteration):
 
   * VNF scale out/up tests (also plan to measure storage usage simultaneously): https://wiki.opnfv.org/pages/viewpage.action?pageId=12390101
   * Life-cycle event with throughputs (measure NFVI to support concurrent
-  network usage from different VM pairs):
-  https://wiki.opnfv.org/display/DEV/Intern+Project%3A+Baseline+Stress+Test+Case+for+Bottlenecks+E+Release
+    network usage from different VM pairs):
+    https://wiki.opnfv.org/display/DEV/Intern+Project%3A+Baseline+Stress+Test+Case+for+Bottlenecks+E+Release
 
 In OPNFV E release, we also plan to do **long duration testing** over OS Ocata.
 A separate CI pipe testing OPNFV XCI (OSA) is proposed to accomplish the job.
 We have applied specific pod for the testing.
 Proposals and details are listed below:
-  * https://wiki.opnfv.org/display/testing/Euphrates+Testing+needs
-  * https://wiki.opnfv.org/download/attachments/2926539/testing%20evolution%20v1_4.pptx?version=1&modificationDate=1503937629000&api=v2
-  * https://wiki.opnfv.org/download/attachments/2926539/Testing%20over%20Long%20Duration%20POD.pptx?version=2&modificationDate=1502943821000&api=v2
+
+* https://wiki.opnfv.org/display/testing/Euphrates+Testing+needs
+* https://wiki.opnfv.org/download/attachments/2926539/testing%20evolution%20v1_4.pptx?version=1&modificationDate=1503937629000&api=v2
+* https://wiki.opnfv.org/download/attachments/2926539/Testing%20over%20Long%20Duration%20POD.pptx?version=2&modificationDate=1502943821000&api=v2
 
 The long duration testing is supposed to be started when OPNFV E release is
 published.
@@ -317,7 +318,7 @@ How TOs
 =======
 
 Where can I find information on the different test projects?
-===========================================================
+============================================================
 On http://docs.opnfv.org! A section is dedicated to the testing projects. You
 will find the overview of the ecosystem and the links to the project documents.
 
@@ -376,8 +377,9 @@ Click on *Spec*, the list of available methods must be displayed.
    :alt: Testing Group Test API swagger
 
 For the declaration of a new project use the POST /api/v1/projects method.
+
 For the declaration of new test cases in an existing project, use the POST
- /api/v1/projects/{project_name}/cases method
+/api/v1/projects/{project_name}/cases method
 
  .. figure:: ../../../images/CreateCase.png
     :align: center

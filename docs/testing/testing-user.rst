@@ -40,7 +40,7 @@ Functest
    ../submodules/functest/docs/testing/user/userguide/index
 
 NFVbench
------
+--------
 .. toctree::
    :maxdepth: 1
 

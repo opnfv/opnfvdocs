@@ -22,7 +22,7 @@ Read :ref:`this page <include-documentation>` which elaborates on how documentat
 Licencing your documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 All contributions to the OPNFV project are done in accordance with the OPNFV licensing requirements. Documentation in OPNFV is contributed
-in accordance with the `Creative Commons 4.0 <https://creativecommons.org/licenses/by/4.0/>`_  and the `SPDX https://spdx.org/>`_ licence.
+in accordance with the `Creative Commons 4.0 <https://creativecommons.org/licenses/by/4.0/>`_  and the `SPDX <https://spdx.org/>`_ licence.
 All documentation files need to be licensed using the text below. The license may be applied in the first lines of
 all contributed RST files:
 

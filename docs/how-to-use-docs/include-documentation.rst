@@ -1,4 +1,5 @@
 .. _include-documentation:
+
 ============================
 Including your Documentation
 ============================
@@ -229,7 +230,7 @@ specified output folder directory.
 
 
 Adding your project repository as a submodule
---------------------------
+---------------------------------------------
 
 Clone the opnfvdocs repository and your submodule to .gitmodules following the convention of the file
 
@@ -244,7 +245,10 @@ Clone the opnfvdocs repository and your submodule to .gitmodules following the c
   git review
 
 Removing a project repository as a submodule
---------------------------
+--------------------------------------------
+
+.. code-block:: bash
+
   git rm docs/submodules/$reponame
   rm -rf .git/modules/$reponame
   git config -f .git/config --remove-section submodule.$reponame 2> /dev/null

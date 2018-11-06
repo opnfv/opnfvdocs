@@ -35,10 +35,10 @@ The energy monitoring system in based on 3 software components:
 
    * Power info collector: poll server to collect instantaneous power consumption information
    * Energy recording API + influxdb: On one leg receive servers consumption and
-   on the other, scenarios notfication. It then able to establish te correlation
-   between consumption and scenario and stores it into a time-series database (influxdb)
+     on the other, scenarios notfication. It then able to establish te correlation
+     between consumption and scenario and stores it into a time-series database (influxdb)
    * Python SDK: A Python SDK using decorator to send notification to Energy
-   recording API from testcases scenarios
+     recording API from testcases scenarios
 
 Power Info Collector
 --------------------
@@ -66,7 +66,7 @@ Redfish API has been successfully tested on:
   * HP
   * Dell
   * Huawei (E9000 class servers used in OPNFV Community Labs are  IPMI 2.0
-  compliant and use Redfish login Interface through Browsers supporting JRE1.7/1.8)
+    compliant and use Redfish login Interface through Browsers supporting JRE1.7/1.8)
 
 Several test campaigns done with physical Wattmeter showed that IPMI results
 were notvery accurate but RedFish were. So if Redfish is available, it is
@@ -184,11 +184,11 @@ with
 | Parameter name            | Description                                |
 +===========================+============================================+
 | admin-influx-user-name    | Influx user with admin grants to create    |
-|---------------------------+--------------------------------------------+
++---------------------------+--------------------------------------------+
 | admin-password            | Influx password to set to admin user       |
-|---------------------------+--------------------------------------------+
++---------------------------+--------------------------------------------+
 | readonly-influx-user-name | Influx user with readonly grants to create |
-|---------------------------+--------------------------------------------+
++---------------------------+--------------------------------------------+
 | user-password             | Influx password to set to readonly user    |
 +---------------------------+--------------------------------------------+
 
