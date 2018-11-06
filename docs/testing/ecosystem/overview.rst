@@ -188,11 +188,12 @@ The Test Database
 -----------------
 A Mongo DB Database was introduced for the Brahmaputra release.
 The following collections are declared in this database:
- * pods: the list of pods used for production CI
- * projects: the list of projects providing test cases
- * test cases: the test cases related to a given project
- * results: the results of the test cases
- * scenarios: the OPNFV scenarios tested in CI
+
+* pods: the list of pods used for production CI
+* projects: the list of projects providing test cases
+* test cases: the test cases related to a given project
+* results: the results of the test cases
+* scenarios: the OPNFV scenarios tested in CI
 
 This database can be used by any project through the Test API.
 Please note that projects may also use additional databases. The Test
@@ -275,7 +276,7 @@ per scenario and show:
 
  * the status of the deployment
  * the score from each test suite. There is no overall score, it is determined
- by each test project.
+   by each test project.
  * a trust indicator
 
 
