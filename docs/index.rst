@@ -57,7 +57,7 @@ Operations Supporting Tools
 .. toctree::
    :maxdepth: 1
 
-   submodules/calipso/docs/release/index
+   :ref:`<calipso-release-guide>`
 
 Found a typo or any other feedback? Send an email to users@opnfv.org or
 talk to us on IRC_.
