@@ -42,11 +42,3 @@ Software Infrastructure
 -----------------------
 
 - :ref:`releng:software-infrastructure`
-
-Security
---------
-
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/releng-anteater/docs/index
