@@ -1,10 +1,3 @@
-.. _testing-userguide:
-
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
-
-===================
-Testing User Guides
 ===================
 
 This page provides the links to the installation, configuration and user guides
@@ -15,8 +8,8 @@ Bottlenecks
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/bottlenecks/docs/testing/user/configguide/index
-   ../submodules/bottlenecks/docs/testing/user/userguide/index
+*  :doc:`Bottlenecks Config Guide <bottlenecks:testing/user/configguide/index>`
+*  :doc:`Bottlenecks User Guide <bottlenecks:testing/user/userguide/index>`
 
 
 Dovetail / OPNFV Verified Program
@@ -24,27 +17,27 @@ Dovetail / OPNFV Verified Program
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/dovetail/docs/testing/user/certificationworkflow/index
-   ../submodules/dovetail/docs/testing/user/ovpaddendum/index
-   ../submodules/dovetail/docs/testing/user/reviewerguide/index
-   ../submodules/dovetail/docs/testing/user/systempreparation/index
-   ../submodules/dovetail/docs/testing/user/testspecification/index
-   ../submodules/dovetail/docs/testing/user/userguide/index
+*   :doc:`OVP Workflow <dovetail:testing/user/certificationworkflow/index>`
+*   :doc:`Guidelines Addendum for 2018.09 release <dovetail:testing/user/ovpaddendum/index>`
+*   :doc:`OVP Reviewer Guide <dovetail:testing/user/reviewerguide/index>`
+*   :doc:`OVP System Preparation Guide <dovetail:testing/user/systempreparation/index>`
+*   :doc:`OVP Testing Specification <dovetail:testing/user/testspecification/index>`
+*   :doc:`OVP Testing User Guide <dovetail:testing/user/userguide/index>`
 
 Functest
 ---------
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/functest/docs/testing/user/configguide/index
-   ../submodules/functest/docs/testing/user/userguide/index
+*   :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
+*   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
 NFVbench
 -----
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/nfvbench/docs/testing/user/userguide/index
+*   :doc:`NFVbench User Guide <nfvbench:testing/user/userguide/index>`
 
 
 Storperf
@@ -53,7 +46,7 @@ Storperf
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/storperf/docs/testing/user/index
+*   :doc:`StorPerf User Guide <storperf:testing/user/index>`
 
 
 VSPERF
@@ -62,8 +55,8 @@ VSPERF
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/vswitchperf/docs/testing/user/configguide/index
-   ../submodules/vswitchperf/docs/testing/user/userguide/index
+*   :doc:`VSPERF Configuration and User Guide <vswitchperf:testing/user/configguide/index>`
+*   :doc:`VSPERF Test Guide <vswitchperf:testing/user/userguide/index>`
 
 
 Yardstick
@@ -71,5 +64,7 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/user/configguide/index
-   ../submodules/yardstick/docs/testing/user/userguide/index
+*   :doc:`Yardstick Configuration Guide <yardstick:testing/user/configguide/index>`
+*   :doc:`Yardstick User Guide <yardstick:testing/user/userguide/index>`
+
+
