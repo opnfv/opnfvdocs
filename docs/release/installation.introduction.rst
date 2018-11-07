@@ -57,11 +57,8 @@ description documents provided:
 - :ref:`os-nosdn-vpp-noha <os-nosdn-vpp-noha>`
 - :ref:`os-nosdn-vpp-ha <os-nosdn-vpp-ha>`
 - :ref:`os-odl-ovs-noha <os-odl-ovs-noha>`
-- :ref:`os-odl-sfc-noha-xci <os-odl-sfc-noha>`
-- :ref:`os-odl-sfc-noha-apex <os-odl-sfc-noha2>`
-- :ref:`os-odl-sfc-noha-compass <os-odl-sfc-noha3>`
-- :ref:`os-odl-sfc-ha-apex <os-odl-sfc-ha>`
-- :ref:`os-odl-sfc-ha-compass <os-odl-sfc-ha2>`
+- :ref:`os-odl-sfc-noha <os-odl-sfc-noha>`
+- :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
 - :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
 - :ref:`os-odl-bgpvpn-ha <os-odl-bgpvpn-ha>`
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
