@@ -26,8 +26,6 @@ Project release notes:
 
 :ref:`Clover Release Notes <clover-releasenotes>`
 
-:ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
-
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
 :ref:`FDS Release Notes <fds-releasenotes>`

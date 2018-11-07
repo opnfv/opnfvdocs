@@ -59,9 +59,7 @@ description documents provided:
 - :ref:`os-odl-ovs-noha <os-odl-ovs-noha>`
 - :ref:`os-odl-sfc-noha-xci <os-odl-sfc-noha>`
 - :ref:`os-odl-sfc-noha-apex <os-odl-sfc-noha2>`
-- :ref:`os-odl-sfc-noha-compass <os-odl-sfc-noha3>`
 - :ref:`os-odl-sfc-ha-apex <os-odl-sfc-ha>`
-- :ref:`os-odl-sfc-ha-compass <os-odl-sfc-ha2>`
 - :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
 - :ref:`os-odl-bgpvpn-ha <os-odl-bgpvpn-ha>`
 - :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
@@ -76,12 +74,11 @@ Installation Procedure
 
 Detailed step by step instructions for working with an installation toolchain and installing
 the required scenario are provided by the installation projects. The projects providing installation
-support for the OPNFV Gambia release are: Apex, Compass4nfv and Fuel.
+support for the OPNFV Gambia release are: Apex, and Fuel.
 
 The instructions for each toolchain can be found in these links:
 
 - :ref:`Apex installation instruction <apex-installation>`
-- :ref:`Compass4nfv installation instruction <compass4nfv-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
 
 OPNFV Test Frameworks
