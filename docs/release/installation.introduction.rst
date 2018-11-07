@@ -64,8 +64,6 @@ description documents provided:
 - :ref:`os-odl-sfc-ha-compass <os-odl-sfc-ha2>`
 - :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
 - :ref:`os-odl-bgpvpn-ha <os-odl-bgpvpn-ha>`
-- :ref:`os-odl-bgpvpn-noha <os-odl-bgpvpn-noha>`
-- :ref:`os-odl-bgpvpn-ha-xci <os-odl-bgpvpn-ha2>`
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
 - :ref:`os-nosdn-bar-noha <os-nosdn-bar-noha>`
 - :ref:`k8-nosdn-virtlet-noha <k8-nosdn-virtlet-noha>`
