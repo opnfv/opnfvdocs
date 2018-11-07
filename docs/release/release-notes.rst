@@ -28,6 +28,8 @@ Project release notes:
 
 :ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
 
+:ref:`Daisy4nfv Release Notes <daisy4nfv-releasenotes>`
+
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
 :ref:`FDS Release Notes <fds-releasenotes>`
@@ -38,11 +40,11 @@ Project release notes:
 
 :ref:`IPV6 Release Notes <ipv6-releasenotes>`
 
-:ref:`Joid Release Notes <joid-releasenotes>`
-
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
 :ref:`Orchestra Release Notes <orchestra-releasenotes>`
+
+:ref:`ONOSFW Release Notes <onosfw-releasenotes>`
 
 :ref:`OVN4NFV Release Notes <ovn4nfv-releasenotes>`
 
