@@ -63,19 +63,13 @@ Feature Configuration Guides
 - :ref:`Clover Configuration Guide <clover-configguide>`
 - :ref:`Container4NFV Configuration Guide <xyz-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
-- :ref:`Edge Cloud Configuration Guide <xyz-configguide>`
-- :ref:`FDS Configuration Guide <fds-configguide>`
-- :ref:`High Availability Configuration Guide <xyz-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
 - :ref:`Orchestra Configuration Guide <orchestra-configguide>`
-- :ref:`OVN4NFV Configuration Guide <xyz-configguide>`
-- :ref:`OVNO Configuration Guide <ovno-configguide>`
 - :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise:promise-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
-- :ref:`Stor4NFV Configuration Guide <stor4nfv:stor4nfv-configguide>`
 
 Feature User Guides
 ===================
@@ -84,15 +78,11 @@ Feature User Guides
 - :ref:`Barometer User Guide <barometer-userguide>`
 - :ref:`Clover User Guide <clover-userguide>`
 - :ref:`Container4NFV User Guide <xyz-userguide>`
-- :ref:`Edge Cloud User Guide <xyz-userguide>`
 - :ref:`Doctor User Guide <doctor-userguide>`
-- :ref:`FDS User Guide <fds-userguide>`
-- :ref:`High Availability User Guide <xyz-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
 - :ref:`ONOSFW User Guide <onosfw-userguide>`
 - :ref:`Orchestra User Guide <orchestra-userguide>`
-- :ref:`OVN4NFV User Guide <xyz-userguide>`
 - :ref:`OVNO User Guide <ovno-userguide>`
 - :ref:`Parser User Guide <parser-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
