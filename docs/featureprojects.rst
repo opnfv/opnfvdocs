@@ -47,8 +47,6 @@ Compass4Nfv
 
 Daisy4NFV
 ---------
-.. toctree::
-   :maxdepth: 1
 
 * :doc:`Daisy overview <daisy:index>`
 
