@@ -4,38 +4,18 @@ Subrelease Guides
 
 Apex
 -----
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/apex/docs/releasenotes/index
-   ../submodules/apex/docs/installationprocedure/index
+* :ref:`Release Notes <apex:apex-releasenotes>`
+* :ref:`Installation <apex:apex-installation>`
 
 Compass
 --------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/compass4nfv/docs/releasenotes/index
-   ../submodules/compass4nfv/docs/installationprocedure/index
-
-Daisy
--------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/daisy/docs/release/release-notes/index
-   ../submodules/daisy/docs/release/installation/index
+* :ref:`Release Notes <compass4nfv:compass4nfv-releasenotes>`
+* :ref:`Installation <compass4nfv:compass4nfv-installation>`
 
 Fuel
 -----
 
-* :ref:`Release Notes <fuel:fuel-release-notes-label>`
+* :ref:`Release Notes <fuel:fuel-releasenotes>`
 * :ref:`Installation <fuel:fuel-installation>`
-
-Joid
------
-.. toctree::
-   :maxdepth: 1
-
-   ../submodules/joid/docs/releasenotes/index
-   ../submodules/joid/docs/installationprocedure/index
