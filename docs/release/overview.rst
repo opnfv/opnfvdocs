@@ -28,13 +28,10 @@ NFV use cases. OPNFV also works upstream with other open source communities to b
 and learnings from its work directly to those communities in the form of blueprints, patches, bugs,
 and new code.
 
-OPNFV focuses on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
-Management (VIM) by integrating components from upstream projects such as OpenDaylight, ONOS, Tungsen Fabric,
-OVN, OpenStack, Kubernetes, Ceph Storage, KVM, Open vSwitch, and Linux.
-More recently, OPNFV has extended its portfolio of forwarding solutions to include DPDK, fd.io and ODP,
-is able to run on both Intel and ARM commercial and white-box hardware, support VM, Container and
-BareMetal workloads, and includes Management and Network Orchestration MANO components primarily
-for application composition and management in the Fraser release.
+OPNFV focuses on building NFV Infrastructure (NFVI) and Virtualized Infrastructure Management (VIM) by
+integrating components from upstream projects such as OpenDaylight, OVN, OpenStack, Kubernetes,
+Ceph Storage, KVM, Open vSwitch, Linux, DPDK, FD.io and ODP. OPNFV- is able to run on both Intel and
+ARM commercial and white-box hardware, support VM, Container and BareMetal workloads.
 
 These capabilities, along with application programmable interfaces (APIs) to other NFV
 elements, form the basic infrastructure required for Virtualized Network Functions (VNF)
@@ -55,7 +52,7 @@ platform including common hardware requirements, software architecture, MANO and
 
 OPNFV Platform Overview Diagram
 
-.. image:: ../images/diagram_fraser.png
+.. image:: ../images/gambia.png
    :alt: Overview infographic of the opnfv platform and projects.
 
 
@@ -105,16 +102,15 @@ components in conjunction with our upstream communities.
 Virtual Infrastructure Management
 ---------------------------------
 
-OPNFV derives it's virtual infrastructure management from one of our largest upstream ecosystems
-OpenStack.  OpenStack provides a complete reference cloud management system and associated technologies.
-While the OpenStack community sustains a broad set of projects, not all technologies are relevant in
-the NFV domain, the OPNFV community consumes a sub-set of OpenStack projects and the usage and
-composition may vary depending on the installer and scenario.
+OPNFV derives its Virtual Infrastructure Management from OpenStack and Kubernetes. OpenStack provides a
+complete reference cloud management system and associated technologies. While the OpenStack community
+sustains a broad set of projects, not all technologies are relevant in the NFV domain, the OPNFV community
+consumes a sub-set of OpenStack projects and the usage and composition may vary depending on the installer and scenario.
+Additionally, OPNFV also uses Kubernetes, the popular Container Orchestration Engine. Kubernetes is intended to be a VIM for
+Cloud Native Network Functions (CNFs).
 
 For details on the scenarios available in OPNFV and the specific composition of components
 refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`.
-
-OPNFV now also has initial support for containerized VNFs.
 
 -----------------
 Operating Systems
@@ -142,8 +138,6 @@ being worked on by the community during this release of OPNFV include:
   interface devices (e.g., vNICs) managed by other OpenStack services (e.g. Nova).
 * OpenDaylight: addresses multivendor, traditional and greenfield networks, establishing the
   industry’s de facto SDN platform and providing the foundation for networks of the future.
-* Tungsen Fabric: An open source SDN controller designed for cloud and NFV use cases. It has an
-  analytics engine, well defined northbound REST APIs to configure and gather ops/analytics data.
 * OVN: A virtual networking solution developed by the same team that created OVS. OVN stands for
   Open Virtual Networking and is dissimilar from the above projects in that it focuses only on overlay networks.
 
@@ -245,6 +239,9 @@ There are two types of test cases in Yardstick:
 * OPNFV feature test cases include basic telecom feature testing from OPNFV projects;
   for example nfv-kvm, sfc, ipv6, Parser, Availability and SDN VPN
 
+With the addition of the Network Service Benchmarking (NSB) initiative, it is possible to use Yardstick NSB
+for benchmarking the performance of VNFs and Network Services.
+
 System Evaluation and compliance testing
 ========================================
 
@@ -253,12 +250,9 @@ behaviors and capabilities for NFV systems developed externally from the OPNFV e
 evaluate and measure their ability to provide the features and capabilities developed in the
 OPNFV ecosystem.
 
-The Dovetail project will provide a test framework and methodology able to be used on any NFV platform,
+The Dovetail project provides a test framework and methodology able to be used on any NFV platform,
 including an agreed set of test cases establishing an evaluation criteria for exercising
-an OPNFV compatible system. The Dovetail project has begun establishing the test framework
-and will provide a preliminary methodology for the Fraser release. Work will continue to
-develop these test cases to establish a stand alone compliance evaluation solution
-in future releases.
+an OPNFV compatible system.
 
 Additional Testing
 ==================
