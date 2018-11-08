@@ -48,7 +48,7 @@ where each scenario will include different source components or configurations.
 To learn more about the scenarios supported in the Fraser release refer to the scenario
 description documents provided:
 
-- :ref:`k8-nosdn-stor4nfv-ha <k8-nosdn-stor4nfv-ha>`
+- :ref:`k8-nosdn-stor4nfv-ha <stor4nfv:k8-nosdn-stor4nfv-ha>`
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
 - :ref:`os-nosdn-stor4nfv-ha <os-nosdn-stor4nfv-ha>`
 - :ref:`os-nosdn-calipso-noha <os-nosdn-calipso-noha>`
