@@ -61,7 +61,6 @@ Feature Configuration Guides
 - :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`Clover Configuration Guide <clover:clover_configguide>`
-- :ref:`Container4NFV Configuration Guide <xyz-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`Promise Configuration Guide <promise:promise-configguide>`
