@@ -16,46 +16,30 @@ Testing group
 
 Bottlenecks
 ------------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/bottlenecks/docs/testing/developer/devguide/index
-
+* :doc:`Bottlenecks <bottlenecks:index>`
 
 Dovetail / OPNFV Verified Program
 ---------------------------------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/dovetail/docs/testing/developer/testcaserequirements/index
+* :doc:`Dovetail <dovetail:index>`
 
 Functest
 ---------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/functest/docs/testing/developer/devguide/index
-
+* :doc:`Functest <functest:index>`
 
 StorPerf
 --------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/storperf/docs/testing/developer/devguide/index
-
+* :doc:`StorPerf <storperf:index>`
 
 VSPERF
 -------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/vswitchperf/docs/testing/developer/devguide/index
-
+* :doc:`VSPERF <vswitchperf:index>`
 
 Yardstick
 ---------
-.. toctree::
-   :maxdepth: 1
 
-   ../submodules/yardstick/docs/testing/developer/devguide/index
+* :doc:`Yardstick <yardstick:index>`
