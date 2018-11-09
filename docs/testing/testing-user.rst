@@ -15,7 +15,6 @@ Bottlenecks
 .. toctree::
    :maxdepth: 1
 
-*  :doc:`Bottlenecks Config Guide <bottlenecks:testing/user/configguide/index>`
 *  :doc:`Bottlenecks User Guide <bottlenecks:testing/user/userguide/index>`
 
 
@@ -71,7 +70,6 @@ Yardstick
 .. toctree::
    :maxdepth: 1
 
-*   :doc:`Yardstick Configuration Guide <yardstick:testing/user/configguide/index>`
 *   :doc:`Yardstick User Guide <yardstick:testing/user/userguide/index>`
 
 
