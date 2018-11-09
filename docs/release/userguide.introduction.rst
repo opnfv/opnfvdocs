@@ -76,7 +76,7 @@ Feature User Guides
 - :ref:`Auto User Guide <auto-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
 - :ref:`Clover User Guide <clover:clover_userguide>`
-- :ref:`Container4NFV User Guide <container4nfv-userguide>`
+- :doc:`Container4NFV User Guide <container4nfv:release/userguide/index>`
 - :ref:`Doctor User Guide <doctor-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`

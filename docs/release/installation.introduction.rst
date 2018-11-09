@@ -51,7 +51,7 @@ description documents provided:
 - :ref:`k8-nosdn-stor4nfv-ha <stor4nfv:k8-nosdn-stor4nfv-ha>`
 - :ref:`os-nosdn-bar-ha <os-nosdn-bar-ha>`
 - :ref:`os-nosdn-stor4nfv-ha <os-nosdn-stor4nfv-ha>`
-- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
+- :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha1>`
 - :ref:`os-nosdn-vpp-noha <os-nosdn-vpp-noha>`
 - :ref:`os-nosdn-vpp-ha <os-nosdn-vpp-ha>`
 - :ref:`os-odl-ovs-noha <os-odl-ovs-noha>`

@@ -30,8 +30,6 @@ Project release notes:
 
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
-:ref:`FDS Release Notes <fds-releasenotes>`
-
 :ref:`Fuel Release Notes <fuel-releasenotes>`
 
 :ref:`Functest Release Notes <functest-releasenotes>`
@@ -54,7 +52,7 @@ Project release notes:
 
 :ref:`SFC Release Notes <sfc-releasenotes>`
 
-:ref:`StorPerf Release Notes <storperf-releasenotes>`
+:doc:`StorPerf Release Notes <storperf:release/release-notes/index>`
 
 :ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
 
