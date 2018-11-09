@@ -33,7 +33,7 @@ Functest
 *   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
 NFVbench
------
+--------
 .. toctree::
    :maxdepth: 1
 
