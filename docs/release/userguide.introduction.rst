@@ -60,7 +60,7 @@ Feature Configuration Guides
 
 - :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
-- :ref:`Clover Configuration Guide <clover-configguide>`
+- :ref:`Clover Configuration Guide <clover:clover_configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
@@ -75,7 +75,7 @@ Feature User Guides
 
 - :ref:`Auto User Guide <auto-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
-- :ref:`Clover User Guide <clover-userguide>`
+- :ref:`Clover User Guide <clover:clover_userguide>`
 - :ref:`Container4NFV User Guide <container4nfv-userguide>`
 - :ref:`Doctor User Guide <doctor-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
