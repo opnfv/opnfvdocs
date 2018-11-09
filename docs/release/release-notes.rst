@@ -28,8 +28,6 @@ Project release notes:
 
 :ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
 
-:ref:`Daisy4nfv Release Notes <daisy4nfv-releasenotes>`
-
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
 :ref:`FDS Release Notes <fds-releasenotes>`
