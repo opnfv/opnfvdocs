@@ -1,3 +1,10 @@
+.. _testing-userguide:
+
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+
+===================
+Testing User Guides
 ===================
 
 This page provides the links to the installation, configuration and user guides
