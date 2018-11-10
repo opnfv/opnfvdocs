@@ -54,10 +54,7 @@ Infrastructure
 Operations Supporting Tools
 ---------------------------
 
-.. toctree::
-   :maxdepth: 1
-
-   :ref:`<calipso-release-guide>`
+* :ref:`Calipso <calipso-release-guide>`
 
 Found a typo or any other feedback? Send an email to users@opnfv.org or
 talk to us on IRC_.
