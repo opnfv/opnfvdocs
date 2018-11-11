@@ -45,7 +45,7 @@ solving specific problems for the deployment of VNF’s.
 A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
 where each scenario will include different source components or configurations.
 
-To learn more about the scenarios supported in the Gabmia release refer to the scenario
+To learn more about the scenarios supported in the Gambia release refer to the scenario
 description documents provided:
 
 - :ref:`k8-nosdn-stor4nfv-ha <stor4nfv:k8-nosdn-stor4nfv-ha>`
