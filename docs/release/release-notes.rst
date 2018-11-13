@@ -38,10 +38,6 @@ Project release notes:
 
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
-:ref:`Orchestra Release Notes <orchestra-releasenotes>`
-
-:ref:`ONOSFW Release Notes <onosfw-releasenotes>`
-
 :ref:`OVN4NFV Release Notes <ovn4nfv-releasenotes>`
 
 :ref:`Promise Release Notes <promise-releasenotes>`

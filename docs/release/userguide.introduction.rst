@@ -60,13 +60,10 @@ Feature Configuration Guides
 
 - :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
-- :ref:`Clover Configuration Guide <clover-configguide>`
+- :ref:`Clover Configuration Guide <clover:clover_configguide>`
 - :ref:`Container4NFV Configuration Guide <xyz-configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
-- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
-- :ref:`Orchestra Configuration Guide <orchestra-configguide>`
-- :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise:promise-configguide>`
 - :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
@@ -80,11 +77,6 @@ Feature User Guides
 - :doc:`Container4NFV User Guide <container4nfv:release/userguide/index>`
 - :ref:`Doctor User Guide <doctor-userguide>`
 - :ref:`IPv6 User Guide <ipv6-userguide>`
-- :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
-- :ref:`ONOSFW User Guide <onosfw-userguide>`
-- :ref:`Orchestra User Guide <orchestra-userguide>`
-- :ref:`OVNO User Guide <ovno-userguide>`
-- :ref:`Parser User Guide <parser-userguide>`
 - :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 - :ref:`Stor4NFV User Guide <stor4nfv:stor4nfv-userguide>`
