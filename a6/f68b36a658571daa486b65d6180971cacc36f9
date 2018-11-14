@@ -1,0 +1,9 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+2: Sofia Wallin <sofia.wallin@est.tech>
+Code-Review+1: Panagiotis Karalis <pkaralis@intracom-telecom.com>
+Code-Review+1: Mika Rautakumpu <mika.rautakumpu@nokia.com>
+Submitted-by: Sofia Wallin <sofia.wallin@est.tech>
+Submitted-at: Wed, 14 Nov 2018 14:24:09 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/65113
+Project: opnfvdocs
+Branch: refs/heads/master
