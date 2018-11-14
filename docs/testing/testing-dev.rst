@@ -23,7 +23,9 @@ Bottlenecks
 Dovetail / OPNFV Verified Program
 ---------------------------------
 
-* :doc:`OVP Test Case Requirements <dovetail:testing/developer/testcaserequirements/index>`
+*  The latest release of Dovetail and the OPNFV Verified Program is based on
+   the Fraser release. Please refer to the `Fraser documentation
+   <https://docs.opnfv.org/en/stable-fraser/testing/testing-dev.html>`_.
 
 Functest
 ---------

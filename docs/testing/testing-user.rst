@@ -23,12 +23,10 @@ Dovetail / OPNFV Verified Program
 .. toctree::
    :maxdepth: 1
 
-*   :doc:`OVP Workflow <dovetail:testing/user/certificationworkflow/index>`
-*   :doc:`Guidelines Addendum for 2018.09 release <dovetail:testing/user/ovpaddendum/index>`
-*   :doc:`OVP Reviewer Guide <dovetail:testing/user/reviewerguide/index>`
-*   :doc:`OVP System Preparation Guide <dovetail:testing/user/systempreparation/index>`
-*   :doc:`OVP Testing Specification <dovetail:testing/user/testspecification/index>`
-*   :doc:`OVP Testing User Guide <dovetail:testing/user/userguide/index>`
+*  The latest release of Dovetail and the OPNFV Verified Program is based on
+   the Fraser release. Please refer to the `Fraser documentation
+   <https://docs.opnfv.org/en/stable-fraser/testing/testing-user.html>`_.
+
 
 Functest
 ---------
