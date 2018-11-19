@@ -23,9 +23,9 @@ Dovetail / OPNFV Verified Program
 .. toctree::
    :maxdepth: 1
 
-*  The latest release of Dovetail and the OPNFV Verified Program is based on
-   the Fraser release. Please refer to the `Fraser documentation
-   <https://docs.opnfv.org/en/stable-fraser/testing/testing-user.html>`_.
+* OVP releases on a separate schedule from the rest of OPNFV.  You may find
+  the current status and latest documentation for OVP at
+  `<http://verified.opnfv.org>`_.
 
 
 Functest
