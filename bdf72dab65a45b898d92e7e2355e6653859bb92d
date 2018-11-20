@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "1a622d24_5c606c35",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1451
+      },
+      "writtenOn": "2018-11-20T16:43:52Z",
+      "side": 1,
+      "message": "Ah the good ol\u0027 double-space vs single-space debate. :)\n\nI think it\u0027s fine and would opt for getting this merged in over nitpicking non-trailing whitespace.\n\n(Though for the record I\u0027m in the single-space camp)",
+      "parentUuid": "1a622d24_dcc91c5c",
+      "range": {
+        "startLine": 26,
+        "startChar": 61,
+        "endLine": 26,
+        "endChar": 63
+      },
+      "revId": "bdf72dab65a45b898d92e7e2355e6653859bb92d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a622d24_48ba6be2",
         "filename": "docs/testing/testing-user.rst",
         "patchSetId": 1
