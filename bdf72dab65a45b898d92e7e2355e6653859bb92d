@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a622d24_dcc91c5c",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2018-11-20T14:56:34Z",
+      "side": 1,
+      "message": "thanks for pointing this out. I believe my auto-line-break feature of VIM add these double spaces after a fullstop to ease reading the rst. Do you have a strong opinion about removing those?",
+      "parentUuid": "1a622d24_28bf2fd2",
+      "range": {
+        "startLine": 26,
+        "startChar": 61,
+        "endLine": 26,
+        "endChar": 63
+      },
+      "revId": "bdf72dab65a45b898d92e7e2355e6653859bb92d",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a622d24_48ba6be2",
         "filename": "docs/testing/testing-user.rst",
         "patchSetId": 1
