@@ -54,6 +54,8 @@ Project release notes:
 
 :doc:`StorPerf Release Notes <storperf:release/release-notes/index>`
 
+:ref:`Stor4NFV Release notes <stor4nfv:stor4nfv-releasenotes>`
+
 :ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
 
 :ref:`Yardstick Release Notes <yardstick-releasenotes>`
