@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a622d24_14d229d2",
+        "filename": "docs/how-to-use-docs/addendum.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2019-01-09T13:20:30Z",
+      "side": 1,
+      "message": "reference?",
+      "range": {
+        "startLine": 8,
+        "startChar": 31,
+        "endLine": 8,
+        "endChar": 38
+      },
+      "revId": "ec60534239d68d2eb97465318d5ee3a5636d1ada",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a622d24_b4cc1537",
+        "filename": "docs/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2019-01-09T13:20:30Z",
+      "side": 1,
+      "message": "there is really no difference between how to build  the \"composite docs\" and project documentation right?",
+      "revId": "ec60534239d68d2eb97465318d5ee3a5636d1ada",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
