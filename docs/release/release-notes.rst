@@ -16,8 +16,6 @@ Project release notes:
 
 :ref:`Apex Release Notes <apex-releasenotes>`
 
-:ref:`Armband Release Notes <armband:armband-releasenotes>`
-
 :ref:`Auto Release Notes <auto-releasenotes>`
 
 :ref:`Barometer Release Notes <barometer-releasenotes>`
@@ -25,8 +23,6 @@ Project release notes:
 :ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
 
 :ref:`Clover Release Notes <clover-releasenotes>`
-
-:ref:`Compass4nfv Release Notes <compass4nfv-releasenotes>`
 
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
@@ -47,8 +43,6 @@ Project release notes:
 :ref:`Promise Release Notes <promise-releasenotes>`
 
 :ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
-
-:ref:`SDNVPN Release Notes <sdnvpn-releasenotes>`
 
 :ref:`SFC Release Notes <sfc-releasenotes>`
 
