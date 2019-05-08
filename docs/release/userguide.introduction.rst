@@ -15,7 +15,7 @@ OPNFV is a collaborative project aimed at providing a variety of virtualisation
 deployments intended to host applications serving the networking and carrier
 industries. This document provides guidance and instructions for using platform
 features designed to support these applications that are made available in the OPNFV
-Gambia release.
+Hunter release.
 
 This document is not intended to replace or replicate documentation from other
 upstream open source projects such as KVM, OpenDaylight, OpenStack, etc., but to highlight the
@@ -64,10 +64,7 @@ Feature Configuration Guides
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
 - :ref:`IPv6 Configuration Guide <ipv6-configguide>`
 - :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
-- :ref:`Orchestra Configuration Guide <orchestra-configguide>`
-- :ref:`Parser Configuration Guide <parser-configguide>`
 - :ref:`Promise Configuration Guide <promise:promise-configguide>`
-- :ref:`SDNVPN Configuration Guide <sdnvpn-configguide>`
 - :ref:`SFC Configuration Guide <sfc-configguide>`
 
 Feature User Guides
@@ -81,9 +78,5 @@ Feature User Guides
 - :ref:`IPv6 User Guide <ipv6-userguide>`
 - :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
 - :ref:`ONOSFW User Guide <onosfw-userguide>`
-- :ref:`Orchestra User Guide <orchestra-userguide>`
-- :ref:`OVNO User Guide <ovno-userguide>`
-- :ref:`Parser User Guide <parser-userguide>`
-- :ref:`SDNVPN User Guide <sdnvpn-userguide>`
 - :ref:`SFC User Guide <sfc-userguide>`
 - :ref:`Stor4NFV User Guide <stor4nfv:stor4nfv-userguide>`
