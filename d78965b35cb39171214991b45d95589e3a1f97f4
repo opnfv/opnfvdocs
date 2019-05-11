@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0d5c8e95_b1cd5c87",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3405
+      },
+      "writtenOn": "2019-05-11T09:37:55Z",
+      "side": 1,
+      "message": "stable/hunter or the variable is incorrectly named?",
+      "revId": "d78965b35cb39171214991b45d95589e3a1f97f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
