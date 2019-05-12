@@ -30,15 +30,14 @@ and new code.
 
 OPNFV focuses on building NFV Infrastructure (NFVI) and Virtualized Infrastructure Management (VIM) by
 integrating components from upstream projects such as OpenDaylight, OVN, OpenStack, Kubernetes,
-Ceph Storage, KVM, Open vSwitch, Linux, DPDK, FD.io and ODP. OPNFV- is able to run on both Intel and
+Ceph Storage, KVM, Open vSwitch, Linux, DPDK and FD.io. OPNFV- is able to run on both Intel and
 ARM commercial and white-box hardware, support VM, Container and BareMetal workloads.
 
 These capabilities, along with application programmable interfaces (APIs) to other NFV
 elements, form the basic infrastructure required for Virtualized Network Functions (VNF)
 and MANO components.
 
-Concentrating on these components while also considering proposed projects on additional
-topics (such as the MANO components and applications themselves), OPNFV aims to enhance
+Concentrating on these components, OPNFV aims to enhance
 NFV services by increasing performance and power efficiency improving reliability,
 availability and serviceability, and delivering comprehensive platform instrumentation.
 
@@ -52,7 +51,7 @@ platform including common hardware requirements, software architecture, MANO and
 
 OPNFV Platform Overview Diagram
 
-.. image:: ../images/gambia.png
+.. image:: ../images/hunter.png
    :alt: Overview infographic of the opnfv platform and projects.
 
 
@@ -61,7 +60,6 @@ into the following basic building blocks:
 
 * Hardware: Infrastructure working group, Pharos project and associated activities
 * Software Platform: Platform integration and deployment projects
-* MANO: MANO working group and associated projects
 * Tooling and testing: Testing working group and test projects
 * Applications: All other areas and drive requirements for OPNFV
 
@@ -87,7 +85,7 @@ The Linux Foundation also hosts an OPNFV lab that provides centralized CI
 and other production resources which are linked to community labs.
 
 The Lab-as-a-service (LaaS) offering provides developers to readily access NFV infrastructure on demand.
-Ongoing lab capabilities will include the ability easily automate deploy and test of any OPNFV install
+Ongoing lab capabilities will include the ability to easily automate deployment and test of any OPNFV install
 scenario in any lab environment using a concept called “Dynamic CI”.
 
 OPNFV Software Platform Architecture
@@ -138,8 +136,8 @@ being worked on by the community during this release of OPNFV include:
   interface devices (e.g., vNICs) managed by other OpenStack services (e.g. Nova).
 * OpenDaylight: addresses multivendor, traditional and greenfield networks, establishing the
   industry’s de facto SDN platform and providing the foundation for networks of the future.
-* OVN: A virtual networking solution developed by the same team that created OVS. OVN stands for
-  Open Virtual Networking and is dissimilar from the above projects in that it focuses only on overlay networks.
+* Tungsten Fabric: An SDN solution that includes both the data plane element called a vRouter and the controller. The combination of these two
+  components offers network connectivity and security across VMs, containers, and bare metal servers, across public and private cloud environments.
 
 ----------
 Data Plane
@@ -156,11 +154,6 @@ networks.
   a time thus significantly improving packet throughput.
 * DPDK:  a set of libraries that bypass the kernel and provide polling mechanisms, instead of interrupt based operations,
   to speed up packet processing. DPDK works with both OVS and FD.io.
-
-----
-MANO
-----
-OPNFV integrates open source MANO projects for NFV orchestration and VNF management. New MANO projects are constantly being added.
 
 Deployment Architecture
 =======================
