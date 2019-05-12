@@ -48,14 +48,9 @@ where each scenario will include different source components or configurations.
 To learn more about the scenarios supported in the Hunter release refer to the scenario
 description documents provided:
 
-- :ref:`os-nosdn-calipso-noha <os-nosdn-calipso-noha>`
-- :ref:`os-odl-sfc-noha <os-odl-sfc-noha>`
-- :ref:`os-odl-sfc-ha <os-odl-sfc-ha>`
-- :ref:`k8-multus-kata-virtlet-noha <k8-multus-kata-virtlet-noha>`
 - :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
 - :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
-- :ref:`os-odl-ovs-noha <os-odl-ovs-noha>`
 
 Installation Procedure
 ======================
