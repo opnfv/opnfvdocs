@@ -9,13 +9,6 @@ Apex
 * :doc:`Apex Overview <apex:index>`
 * :doc:`Apex Installation instructions <apex:release/installation/index>`
 
-Armband
--------
-
-* :doc:`Armband Overview <armband:index>`
-* :doc:`Armband Installation <armband:release/installation/index>`
-* :doc:`Fuel User Guide <armband:release/userguide/index>`
-
 
 Availability
 ------------
@@ -37,21 +30,6 @@ Clover
 ------
 
 * :doc:`Clover Overview <clover:index>`
-
-Compass4Nfv
------------
-
-* :doc:`Compass4nfv Overview <compass4nfv:index>`
-* :doc:`Compass4nfv Installation <compass4nfv:release/installation/index>`
-* :doc:`Compass4nfv Design Guide <compass4nfv:development/design/index>`
-
-Daisy4NFV
----------
-
-* :doc:`Daisy overview <daisy:index>`
-* :doc:`Daisy Design Guide <daisy:development/design/index>`
-* :doc:`Daisy Config Guide <daisy:release/configguide/index>`
-* :doc:`Daisy Installation Guide <daisy:release/installation/index>`
 
 Doctor
 ------
@@ -76,25 +54,6 @@ IPV6
 * :doc:`IPV6 Installation Guide <ipv6:release/installation/index>`
 * :doc:`IPV6 Config Guide <ipv6:release/configguide/index>`
 * :doc:`IPV6 User Guide <ipv6:release/userguide/index>`
-
-
-Parser
-------
-
-* :doc:`Parser overview <parser:index>`
-* :doc:`Parser Installation Guide <parser:release/installation/index>`
-* :doc:`Parser Config Guide <parser:release/configguide/index>`
-* :doc:`Parser User Guide  <parser:release/userguide/index>`
-
-SDNVPN
---------
-
-* :doc:`Sdnvpn Overview <sdnvpn:index>`
-* :doc:`Sdnvpn Requirements <sdnvpn:development/requirements/index>`
-* :doc:`Sdnvpn Installation Guide <sdnvpn:release/installation/index>`
-* :doc:`Sdnvpn Config Guide <sdnvpn:release/configguide/index>`
-* :doc:`Sdnvpn User Guide <sdnvpn:release/userguide/index>`
-* :doc:`Sdnvpn Feature and API usage guidelines <sdnvpn:development/design/index>`
 
 SFC
 ---
