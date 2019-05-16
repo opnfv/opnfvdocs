@@ -336,8 +336,6 @@ IRC channel: #opnfv-testperf
 
 weekly meeting (https://wiki.opnfv.org/display/meetings/TestPerf):
  * Usual time: Every Thursday 15:00-16:00 UTC / 7:00-8:00 PST
- * APAC time: 2nd Wednesday of the month 8:00-9:00 UTC
-
 
 =======================
 Reference Documentation

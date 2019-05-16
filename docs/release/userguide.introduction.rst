@@ -58,7 +58,6 @@ OPNFV wiki page at http://wiki.opnfv.org for more details.
 Feature Configuration Guides
 ============================
 
-- :ref:`Auto Configuration Guide <auto-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`Clover Configuration Guide <clover:clover_configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
@@ -70,7 +69,6 @@ Feature Configuration Guides
 Feature User Guides
 ===================
 
-- :ref:`Auto User Guide <auto-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
 - :ref:`Clover User Guide <clover:clover_userguide>`
 - :doc:`Container4NFV User Guide <container4nfv:release/userguide/index>`
