@@ -11,10 +11,10 @@ Installation
 Abstract
 ========
 
-This an overview document for the installation of the Hunter release of OPNFV.
+This an overview document for the installation of the Iruya release of OPNFV.
 
-The Hunter release can be installed making use of one of the installer projects in OPNFV:
-Apex or Fuel. Each installer provides the ability to install a common OPNFV
+The Iruya release can be installed making use of one of the installer projects in OPNFV:
+Airship or Fuel. Each installer provides the ability to install a common OPNFV
 platform as well as integrating additional features delivered through a variety of scenarios by
 the OPNFV community.
 
@@ -45,7 +45,7 @@ solving specific problems for the deployment of VNF’s.
 A scenario may, for instance, include components such as OpenStack, OpenDaylight, OVS, KVM etc.,
 where each scenario will include different source components or configurations.
 
-To learn more about the scenarios supported in the Hunter release refer to the scenario
+To learn more about the scenarios supported in the Iruya release refer to the scenario
 description documents provided:
 
 - :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
@@ -57,11 +57,11 @@ Installation Procedure
 
 Detailed step by step instructions for working with an installation toolchain and installing
 the required scenario is provided by the installation projects. The projects providing installation
-support for the OPNFV Hunter release are: Apex and Fuel.
+support for the OPNFV Iruya release are: Airship and Fuel.
 
 The instructions for each toolchain can be found in these links:
 
-- :ref:`Apex installation instruction <apex-installation>`
+- :ref:`Airship installation instruction <airship-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
 
 OPNFV Test Frameworks

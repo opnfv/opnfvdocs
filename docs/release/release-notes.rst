@@ -14,38 +14,28 @@ reports.
 Project release notes:
 ----------------------
 
-:ref:`Apex Release Notes <apex-releasenotes>`
-
-:ref:`Auto Release Notes <auto-releasenotes>`
+:ref:`Airship Release Notes <airship-releasenotes>`
 
 :ref:`Barometer Release Notes <barometer-releasenotes>`
 
-:ref:`Bottlenecks Release Notes <bottlenecks-releasenotes>`
-
-:ref:`Clover Release Notes <clover-releasenotes>`
-
 :ref:`Doctor Release Notes <doctor-releasenotes>`
+
+:ref:`Edge Release Notes <edge-releasenotes>`
+
+:ref:`FDS Release Notes <fds-releasenotes>`
 
 :ref:`Fuel Release Notes <fuel-releasenotes>`
 
 :ref:`Functest Release Notes <functest-releasenotes>`
 
-:ref:`IPV6 Release Notes <ipv6-releasenotes>`
-
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
-:ref:`OVN4NFV Release Notes <ovn4nfv-releasenotes>`
+:ref:`Rocket Release notes <rocket-releasenotes>`
 
-:ref:`Promise Release Notes <promise-releasenotes>`
+:ref:`Stor4NFV Release notes <stor4nfv-releasenotes>`
 
-:ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
+:ref:`StorPerf Release notes <storperf-releasenotes>`
 
-:ref:`SFC Release Notes <sfc-releasenotes>`
+:ref:`VSPerf Release notes <vsperf-releasenotes>`
 
-:doc:`StorPerf Release Notes <storperf:release/release-notes/index>`
-
-:ref:`Stor4NFV Release notes <stor4nfv:stor4nfv-releasenotes>`
-
-:ref:`VSPERF Release Notes <vswitchperf-releasenotes>`
-
-:ref:`Yardstick Release Notes <yardstick-releasenotes>`
+:ref:`Yardstick Release notes <yardstick-releasenotes>`
