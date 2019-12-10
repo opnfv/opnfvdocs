@@ -15,7 +15,7 @@ OPNFV is a collaborative project aimed at providing a variety of virtualisation
 deployments intended to host applications serving the networking and carrier
 industries. This document provides guidance and instructions for using platform
 features designed to support these applications that are made available in the OPNFV
-Hunter release.
+Iruya release.
 
 This document is not intended to replace or replicate documentation from other
 upstream open source projects such as KVM, OpenDaylight, OpenStack, etc., but to highlight the
@@ -42,7 +42,7 @@ Feature Overview
 ================
 
 The following links outline the feature deliverables from participating OPNFV
-projects in the Gambia release. Each of the participating projects provides
+projects in the Iruya release. Each of the participating projects provides
 detailed descriptions about the delivered features including use cases,
 implementation, and configuration specifics.
 
@@ -59,22 +59,11 @@ Feature Configuration Guides
 ============================
 
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
-- :ref:`Clover Configuration Guide <clover:clover_configguide>`
 - :ref:`Doctor Configuration Guide <doctor-configguide>`
-- :ref:`IPv6 Configuration Guide <ipv6-configguide>`
-- :ref:`ONOSFW Configuration Guide <onosfw-configguide>`
-- :ref:`Promise Configuration Guide <promise:promise-configguide>`
-- :ref:`SFC Configuration Guide <sfc-configguide>`
 
 Feature User Guides
 ===================
 
 - :ref:`Barometer User Guide <barometer-userguide>`
-- :ref:`Clover User Guide <clover:clover_userguide>`
-- :doc:`Container4NFV User Guide <container4nfv:release/userguide/index>`
 - :ref:`Doctor User Guide <doctor-userguide>`
-- :ref:`IPv6 User Guide <ipv6-userguide>`
-- :ref:`OpenContrail Virtual Networking User Guide <ovno-userguide>`
-- :ref:`ONOSFW User Guide <onosfw-userguide>`
-- :ref:`SFC User Guide <sfc-userguide>`
 - :ref:`Stor4NFV User Guide <stor4nfv:stor4nfv-userguide>`
