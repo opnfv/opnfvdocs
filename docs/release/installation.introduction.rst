@@ -57,10 +57,12 @@ Installation Procedure
 
 Detailed step by step instructions for working with an installation toolchain and installing
 the required scenario is provided by the installation projects. The projects providing installation
-support for the OPNFV Hunter release are: Apex and Fuel.
+support for the OPNFV Hunter release are: Apex and Fuel. The Airship Installer is added in the Iruya
+release.
 
 The instructions for each toolchain can be found in these links:
 
+- :ref:`Airship installation instruction <airship-installation>`
 - :ref:`Apex installation instruction <apex-installation>`
 - :ref:`Fuel installation instruction <fuel-installation>`
 
