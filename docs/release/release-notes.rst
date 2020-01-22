@@ -14,6 +14,8 @@ reports.
 Project release notes:
 ----------------------
 
+:ref:`Airship Release Notes <airship-releasenotes>`
+
 :ref:`Apex Release Notes <apex-releasenotes>`
 
 :ref:`Auto Release Notes <auto-releasenotes>`

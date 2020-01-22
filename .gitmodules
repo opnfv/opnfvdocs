@@ -23,3 +23,6 @@
 	url = ../opera
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/airship"]
+	path = docs/submodules/airship
+	url = https://gerrit.opnfv.org/gerrit/airship
