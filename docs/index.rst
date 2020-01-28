@@ -38,7 +38,6 @@ Developer
    :maxdepth: 1
 
    how-to-use-docs/index
-   featureprojects
 
 Infrastructure
 --------------
@@ -49,11 +48,6 @@ Infrastructure
    infrastructure/overview
    infrastructure/ci
    infrastructure/xci
-
-Operations Supporting Tools
----------------------------
-
-* :ref:`Calipso <calipso-release-guide>`
 
 Found a typo or any other feedback? Send an email to users@opnfv.org or
 talk to us on IRC_.
