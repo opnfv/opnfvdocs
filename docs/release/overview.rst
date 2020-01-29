@@ -114,7 +114,7 @@ refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`.
 Operating Systems
 -----------------
 
-OPNFV currently uses Linux on all target machines, this can include Ubuntu, Centos or SUSE Linux. The
+OPNFV currently uses Linux on all target machines. The
 specific version of Linux used for any deployment is documented in the installation guide.
 
 Networking Technologies
@@ -136,8 +136,8 @@ being worked on by the community during this release of OPNFV include:
   interface devices (e.g., vNICs) managed by other OpenStack services (e.g. Nova).
 * OpenDaylight: addresses multivendor, traditional and greenfield networks, establishing the
   industry’s de facto SDN platform and providing the foundation for networks of the future.
-* Tungsten Fabric: An SDN solution that includes both the data plane element called a vRouter and the controller. The combination of these two
-  components offers network connectivity and security across VMs, containers, and bare metal servers, across public and private cloud environments.
+* OVN: a distributed control-plane on top of the popular Open vSwitch (OVS) offers network virtualization
+  services. 
 
 ----------
 Data Plane
@@ -269,13 +269,6 @@ NFVBench
 --------
 NFVbench is a lightweight end-to-end dataplane benchmarking framework project.
 It includes traffic generator(s) and measures a number of packet performance related metrics.
-
-----
-QTIP
-----
-QTIP boils down NFVI compute and storage performance into one single metric for easy comparison.
-QTIP crunches these numbers based on five different categories of compute metrics and relies on
-Storperf for storage metrics.
 
 --------
 Storperf
