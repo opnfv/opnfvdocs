@@ -42,9 +42,9 @@ author = 'Open Platform for NFV'
 # built documents.
 #
 # The short X.Y version.
-version = 'Latest'
+version = 'Iruya'
 # The full version, including alpha/beta/rc tags.
-release = 'Latest'
+release = 'Iruya'
 # The branch this project should link against for projects
 # following the stable-branch process. On the opnfvdocs stable branch
 # this should be set to 'stable/<release>' where '<release>' is the
