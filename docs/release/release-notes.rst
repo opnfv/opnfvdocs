@@ -20,22 +20,14 @@ Project release notes:
 
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
-:ref:`Edge Release Notes <edge-releasenotes>`
-
-:ref:`FDS Release Notes <fds-releasenotes>`
-
 :ref:`Fuel Release Notes <fuel-releasenotes>`
 
 :ref:`Functest Release Notes <functest-releasenotes>`
 
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
-:ref:`Rocket Release notes <rocket-releasenotes>`
-
 :ref:`Stor4NFV Release notes <stor4nfv-releasenotes>`
 
 :ref:`StorPerf Release notes <storperf-releasenotes>`
-
-:ref:`VSPerf Release notes <vsperf-releasenotes>`
 
 :ref:`Yardstick Release notes <yardstick-releasenotes>`
