@@ -49,7 +49,6 @@ To learn more about the scenarios supported in the Iruya release refer to the sc
 description documents provided:
 
 - :ref:`os-nosdn-ovs-noha <os-nosdn-ovs-noha>`
-- :ref:`os-nosdn-ovs-ha <os-nosdn-ovs-ha>`
 - :ref:`os-nosdn-fdio-noha <os-nosdn-fdio-noha>`
 
 Installation Procedure
