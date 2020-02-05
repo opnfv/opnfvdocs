@@ -285,6 +285,7 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 # texinfo_no_detailmenu = False
 
 intersphinx_mapping = {}
+intersphinx_mapping['airship'] = ('https://opnfv-airship.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['apex'] = ('https://opnfv-apex.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['armband'] = ('https://opnfv-armband.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['auto'] = ('https://opnfv-auto.readthedocs.io/en/%s' % branch, None)
