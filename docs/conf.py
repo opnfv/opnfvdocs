@@ -34,7 +34,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = ''
-copyright = '2019, OPNFV. Licensed under CC BY 4.0'
+copyright = '2020, OPNFV. Licensed under CC BY 4.0'
 author = 'Open Platform for NFV'
 
 # The version info for the project you're documenting, acts as replacement for
