@@ -37,15 +37,6 @@ the documentation to the project repository.
 In OPNFVDocs Composite Documentation
 ------------------------------------
 
-In toctree
-+++++++++++
-
-To import project documents from project repositories, we use submodules.
- Each project is stored in :code:`opnfvdocs/docs/submodule/` as follows:
-
-.. image:: Submodules.jpg
-   :scale: 50 %
-
 To include your project specific documentation in the composite documentation,
 first identify where your project documentation should be included.
 Say your project userguide should figure in the ‘OPNFV Userguide’, then:
@@ -227,32 +218,3 @@ Your documentation shall be built as HTML inside the
 specified output folder directory.
 
 .. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
-
-
-Adding your project repository as a submodule
----------------------------------------------
-
-Clone the opnfvdocs repository and your submodule to .gitmodules following the convention of the file
-
-.. code-block:: bash
-
-  cd docs/submodules/
-  git submodule add https://gerrit.opnfv.org/gerrit/$reponame
-  git submodule init $reponame/
-  git submodule update $reponame/
-  git add .
-  git commit -sv
-  git review
-
-Removing a project repository as a submodule
---------------------------------------------
-
-.. code-block:: bash
-
-  git rm docs/submodules/$reponame
-  rm -rf .git/modules/$reponame
-  git config -f .git/config --remove-section submodule.$reponame 2> /dev/null
-  git add .
-  git commit -sv
-  git review
-

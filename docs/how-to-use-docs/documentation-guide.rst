@@ -15,14 +15,18 @@ Getting Started with Documentation for Your Project
 OPNFV documentation is automated and integrated into our git & gerrit toolchains.
 
 We use RST document templates in our repositories and automatically render to HTML and PDF versions of the documents in our artifact
-store, our Wiki is also able to integrate these rendered documents directly allowing projects to use the revision controlled documentation
+store, our Wiki is also able to integrate these rendered documents directly allowing projects to use the revision controlled
+documentation
 process for project information, content and deliverables.
-Read :ref:`this page <include-documentation>` which elaborates on how documentation is to be included within opnfvdocs.
+The `LFN documenatation guide <https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html>` explains how to enable
+your documenation build.
 
 Licencing your documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-All contributions to the OPNFV project are done in accordance with the OPNFV licensing requirements. Documentation in OPNFV is contributed
-in accordance with the `Creative Commons 4.0 <https://creativecommons.org/licenses/by/4.0/>`_  and the `SPDX <https://spdx.org/>`_ licence.
+All contributions to the OPNFV project are done in accordance with the OPNFV licensing requirements. Documentation in OPNFV is
+contributed
+in accordance with the `Creative Commons 4.0 <https://creativecommons.org/licenses/by/4.0/>`_  and the `SPDX <https://spdx.org/>`_
+licence.
 All documentation files need to be licensed using the text below. The license may be applied in the first lines of
 all contributed RST files:
 
