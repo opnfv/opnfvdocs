@@ -18,7 +18,7 @@ We use RST document templates in our repositories and automatically render to HT
 store, our Wiki is also able to integrate these rendered documents directly allowing projects to use the revision controlled
 documentation
 process for project information, content and deliverables.
-The `LFN documenatation guide <https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html>` explains how to enable
+The `LFN documenatation guide <https://docs.releng.linuxfoundation.org/en/latest/project-documentation.html>`_ explains how to enable
 your documenation build.
 
 Licencing your documentation
