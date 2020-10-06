@@ -66,14 +66,9 @@ Following representation shows the expected structure:
         │   ├── scenarios
         │   │   └── scenario.name
         │   └── userguide
-        ├── testing
-        │   ├── developer
-        │   └── user
-        └── infrastructure
-            ├── hardware-infrastructure
-            ├── software-infrastructure
-            ├── continuous-integration
-            └── cross-community-continuous-integration
+        └── testing
+            ├── developer
+            └── user
 
 Release documentation
 ^^^^^^^^^^^^^^^^^^^^^
