@@ -15,7 +15,6 @@ about network transformation.
 .. toctree::
    :maxdepth: 1
 
-   release/overview
    release/installation.introduction
    release/userguide.introduction
    release/release-notes
@@ -27,20 +26,12 @@ Testing Frameworks
 .. toctree::
    :maxdepth: 1
 
-   testing/ecosystem/index
+ 
    testing/testing-user
    testing/testing-dev
 
-Developer
----------
-
-.. toctree::
-   :maxdepth: 1
-
-   how-to-use-docs/index
-
-Infrastructure
---------------
+   Infrastructure
+-----------------
 
 .. toctree::
    :maxdepth: 1
@@ -48,6 +39,14 @@ Infrastructure
    infrastructure/overview
    infrastructure/ci
    infrastructure/xci
+
+Developer Guide
+---------------
+
+.. toctree::
+   :maxdepth: 1
+
+   how-to-use-docs/index
 
 Found a typo or any other feedback? Send an email to users@opnfv.org or
 talk to us on IRC_.
