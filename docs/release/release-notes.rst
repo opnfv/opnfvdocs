@@ -26,8 +26,10 @@ Project release notes:
 
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
-:ref:`Stor4NFV Release notes <stor4nfv-releasenotes>`
+:ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
 
-:ref:`StorPerf Release notes <storperf-releasenotes>`
+:ref:`Stor4NFV Release Notes <stor4nfv-releasenotes>`
 
-:ref:`Yardstick Release notes <yardstick-releasenotes>`
+:ref:`StorPerf Release Notes <storperf-releasenotes>`
+
+:ref:`Yardstick Release Notes <yardstick-releasenotes>`
