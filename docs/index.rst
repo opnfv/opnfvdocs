@@ -29,8 +29,8 @@ Testing Frameworks
    testing/testing-user
    testing/testing-dev
 
-   Infrastructure
------------------
+Infrastructure
+--------------
 
 .. toctree::
    :maxdepth: 1
