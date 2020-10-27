@@ -26,6 +26,8 @@ Project release notes:
 
 :ref:`NFVBench Release Notes <nfvbench-releasenotes>`
 
+:ref:`SampleVNF Release notes <samplevnf-releasenotes>`
+
 :ref:`Stor4NFV Release notes <stor4nfv-releasenotes>`
 
 :ref:`StorPerf Release notes <storperf-releasenotes>`
