@@ -36,6 +36,14 @@ Functest
 *   :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
 *   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
+SampleVNF
+--------
+.. toctree::
+   :maxdepth: 1
+
+*   :doc:`SampleVNF User Guide <samplevnf:testing/user/userguide/index>
+
+
 NFVbench
 --------
 .. toctree::

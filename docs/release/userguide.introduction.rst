@@ -66,5 +66,4 @@ Feature User Guides
 
 - :ref:`Barometer User Guide <barometer-userguide>`
 - :ref:`Doctor User Guide <doctor-userguide>`
-- :ref:`SampleVNF User Guide <samplevnf-userguide>`
 - :ref:`Stor4NFV User Guide <stor4nfv:stor4nfv-userguide>`
