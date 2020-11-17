@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a24719d1_2e8b3902",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-11-17T13:39:10Z",
+      "side": 1,
+      "message": "Each of the test Frameworks and other projects will (likely?) have separate installations procedures.",
+      "revId": "ea0214912b5d938c9bf9f9eeff28e1cfc3a74211",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
