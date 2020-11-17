@@ -18,18 +18,20 @@ Project release notes:
 
 :ref:`Barometer Release Notes <barometer-releasenotes>`
 
+:ref:`CIRV Release Notes <cirv-releasenotes>`
+
 :ref:`Doctor Release Notes <doctor-releasenotes>`
 
-:ref:`Fuel Release Notes <fuel-releasenotes>`
+:ref:`Dovetail Release Notes <dovetail-releasenotes>`
 
 :ref:`Functest Release Notes <functest-releasenotes>`
 
-:ref:`NFVBench Release Notes <nfvbench-releasenotes>`
+:ref:`Kuberef Release Notes <kuberef-releasenotes>`
 
 :ref:`SampleVNF Release Notes <samplevnf-releasenotes>`
 
 :ref:`Stor4NFV Release Notes <stor4nfv-releasenotes>`
 
-:ref:`StorPerf Release Notes <storperf-releasenotes>`
+:ref:`VSPerf Release Notes <vsperf-releasenotes>`
 
 :ref:`Yardstick Release Notes <yardstick-releasenotes>`
