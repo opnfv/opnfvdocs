@@ -16,6 +16,23 @@
       "revId": "ea0214912b5d938c9bf9f9eeff28e1cfc3a74211",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7884f9c3_dc9f7f44",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-11-18T19:05:58Z",
+      "side": 1,
+      "message": "Just to be clear, AIRSHIP is not providing installation support for other projects, AFAIK.",
+      "revId": "ea0214912b5d938c9bf9f9eeff28e1cfc3a74211",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
     }
   ]
 }
