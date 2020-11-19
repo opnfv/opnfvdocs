@@ -41,7 +41,7 @@ SampleVNF
 .. toctree::
    :maxdepth: 1
 
-*   :doc:`SampleVNF User Guide <samplevnf:testing/user/userguide/index>
+*   :doc:`SampleVNF User Guide <samplevnf:testing/user/userguide/index>`
 
 
 NFVbench
