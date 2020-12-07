@@ -14,12 +14,6 @@ Testing group
 
    ./developer/devguide/index
 
-Bottlenecks
-------------
-
-* :doc:`Bottlenecks Developer Guide <bottlenecks:testing/developer/devguide/index>`
-
-
 Dovetail / OPNFV Verified Program
 ---------------------------------
 
@@ -32,20 +26,7 @@ Functest
 
 * :doc:`Functest Developer Guide <functest:testing/developer/devguide/index>`
 
-
-StorPerf
---------
-
-* :doc:`StorPerf Developer Guide <storperf:testing/developer/devguide/index>`
-
-
 VSPERF
 -------
 
 * :doc:`VSPERF Developer Guide <vswitchperf:testing/developer/devguide/index>`
-
-
-Yardstick
----------
-
-* :doc:`Yardstick Developer Guide <yardstick:testing/developer/devguide/index>`
