@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6a4e8785_a737af66",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-09T18:14:17Z",
+      "side": 1,
+      "message": "I suggest to delete this sentence, it\u0027s not in-sync with our discussion today.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 44
+      },
+      "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "684d2175_508152db",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-09T18:14:17Z",
+      "side": 1,
+      "message": "Replace with:\nOne of OPNFV\u0027s project goals is to reduce time to integrate and deploy NFV infrastructure and onboard VNF/CNFs for those who supply components and those who operationalize these platforms. The OPNFV community does this by implementing, testing and deploying tools for conformance and performance of NFV infrastructure, aligned with industry reference architectures.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 11
+      },
+      "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bdc01a5b_ddec3b48",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-09T18:14:17Z",
+      "side": 1,
+      "message": "add: in the project documentation.",
+      "range": {
+        "startLine": 39,
+        "startChar": 16,
+        "endLine": 39,
+        "endChar": 44
+      },
+      "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1e3f4339_e5f488f3",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-09T18:14:17Z",
+      "side": 1,
+      "message": "Need links for the rest of the OPNFV-JERMA releasing projects.",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 19
+      },
+      "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
