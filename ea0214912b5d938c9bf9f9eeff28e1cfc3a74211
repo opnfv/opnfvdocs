@@ -33,6 +33,24 @@
       "revId": "ea0214912b5d938c9bf9f9eeff28e1cfc3a74211",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ca8735a_79ce8888",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-09T17:03:44Z",
+      "side": 1,
+      "message": "Here\u0027s the replacement text I suggest:\nEach of the test Frameworks and other projects will have separate installations procedures: see the individual project documentation.",
+      "parentUuid": "a24719d1_2e8b3902",
+      "revId": "ea0214912b5d938c9bf9f9eeff28e1cfc3a74211",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
     }
   ]
 }
