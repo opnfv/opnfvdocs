@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "c4e92abd_1ebd3750",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2020-12-10T08:07:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "684d2175_508152db",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 11
+      },
+      "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bdc01a5b_ddec3b48",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 2
@@ -68,6 +92,30 @@
       "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "052b8ddb_3f21ad4d",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 2409
+      },
+      "writtenOn": "2020-12-10T08:07:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bdc01a5b_ddec3b48",
+      "range": {
+        "startLine": 39,
+        "startChar": 16,
+        "endLine": 39,
+        "endChar": 44
+      },
+      "revId": "63298f9a13880f6c9d42f3c3fc413961a5c442ca",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     },
     {
       "key": {
