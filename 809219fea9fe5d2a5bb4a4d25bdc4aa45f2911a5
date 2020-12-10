@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "202a16c4_ebebb0bd",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-10T18:16:44Z",
+      "side": 1,
+      "message": "Stor4NFV dropped out of OPNFV-JERMA at M2.",
+      "range": {
+        "startLine": 33,
+        "startChar": 1,
+        "endLine": 33,
+        "endChar": 53
+      },
+      "revId": "809219fea9fe5d2a5bb4a4d25bdc4aa45f2911a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b7b84ae0_70812298",
+        "filename": "docs/release/release-notes.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-10T18:16:44Z",
+      "side": 1,
+      "message": "No Yardstick, they were archived this year, no activity.",
+      "range": {
+        "startLine": 37,
+        "startChar": 1,
+        "endLine": 37,
+        "endChar": 55
+      },
+      "revId": "809219fea9fe5d2a5bb4a4d25bdc4aa45f2911a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "280783be_e53db3f7",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-10T18:16:44Z",
+      "side": 1,
+      "message": "s/these applications/the tools/",
+      "range": {
+        "startLine": 18,
+        "startChar": 29,
+        "endLine": 18,
+        "endChar": 47
+      },
+      "revId": "809219fea9fe5d2a5bb4a4d25bdc4aa45f2911a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2dc69aef_ad65ba3e",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-10T18:16:44Z",
+      "side": 1,
+      "message": "No Stor4NFV in this release.  Need to add: AIRSHIP, SampleVNF, VSPERF, Dovetail, Kuberef in the categories that are appropriate.\n\nFYI - here\u0027s the JERMA \"report card/ status\"\nhttps://wiki.opnfv.org/x/5AZbAw",
+      "range": {
+        "startLine": 64,
+        "startChar": 1,
+        "endLine": 64,
+        "endChar": 58
+      },
+      "revId": "809219fea9fe5d2a5bb4a4d25bdc4aa45f2911a5",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
