@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1dd61529_c41921de",
+        "filename": "docs/release/userguide.introduction.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-11T14:21:11Z",
+      "side": 1,
+      "message": "I don\u0027t understand why the other five projects (AIRSHIP, SampleVNF, VSPerf, etc.) are excluded from this list. Is it because the \"user guide\" documentation is titled something else?\n\nIt seems to me we can include references to all the JERMA project documentation in this section, even if it means changing the title of the section.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 45
+      },
+      "revId": "077519bef1c0e519e490f52ec09a323d3b5deb89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
