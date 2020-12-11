@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "f36c2a6d_4d6b8be4",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 385
+      },
+      "writtenOn": "2020-12-11T14:56:20Z",
+      "side": 1,
+      "message": "I would like to see references to the Installation Guides of all the JERMA release projects listed here (if in their repo).",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 133
+      },
+      "revId": "077519bef1c0e519e490f52ec09a323d3b5deb89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1dd61529_c41921de",
         "filename": "docs/release/userguide.introduction.rst",
         "patchSetId": 6
