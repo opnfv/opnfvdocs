@@ -1,3 +1,12 @@
-# This file is a template, and might need editing before it works on your project.
+# Docs jobs
+#
+# On Merge requests, tags and merges:
+#   - Run tox
+#   - Build documentation
+# On Merges and Pull Requests:
+#   - Run code quality analysis
+---
 include:
-  template: Jobs/Code-Quality.gitlab-ci.yml
+  - template: Jobs/Code-Quality.gitlab-ci.yml
+  - project: anuket-transition/releng
+    file: '/gitlab-templates/RTD.gitlab-ci.yml'
