@@ -1,21 +1,26 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
-.. (c) Christopher Price (Ericsson AB)
+.. SPDX-License-Identifier: CC-BY-4.0
+.. (c) Christopher Price (Ericsson AB), AT&T, Anuket
 
-**************
-OPNFV Glossary
-**************
+*************************************
+OPNFV and Anuket Development Glossary
+*************************************
 
 ========
 Contents
 ========
 
-This glossary provides a common definition of phrases and words commonly used in OPNFV.
+This glossary provides a common definition of phrases and words commonly used in the OPNFV project, and its successor, the Anuket Project.
 
 --------
 
 A
 -
+
+Anuket
+
+  The ancient Egyptian Goddess Anuket was a personification of the Nile as “Nourisher of the Fields”, and the name for the combined OPNFV and CNTT project.
 
 Arno
 
@@ -41,11 +46,19 @@ C
 Colorado
 
   A river in Argentina and the name of the Third OPNFV release.
+  
+CNTT
+
+  Cloud iNfrastructure Telco Task Force
 
 --------
 
 D
 -
+
+Danube
+
+  A river in Europe and the name of the Fourth OPNFV release.
 
 DPDK
 
@@ -61,6 +74,42 @@ DSCP
 
 --------
 
+E
+-
+
+Euphrates
+
+  A river in Southeast Asia and the name of the Fifth OPNFV release.
+
+--------
+
+F
+-
+
+Fraser
+
+  A river in British Columbia, Canada, and the name of the Sixth OPNFV release.
+
+--------
+
+G
+-
+
+Gambia
+
+  A river in Western Africa and the name of the Seventh OPNFV release.
+
+--------
+
+H
+-
+
+Hunter
+
+  A river in New South Wales, Australia and the name of the Eighth OPNFV release.
+
+--------
+
 I
 -
 
@@ -72,7 +121,39 @@ IOPS
 
   Input/Output Operations Per Second
 
+Iruya
+
+  A river in Salta Province, Argentina and the name of the Ninth OPNFV release.  
+
 --------
+
+J
+-
+
+Jerma
+
+  A river in Serbia and the name of the Tenth OPNFV release.
+
+--------
+K
+-
+
+Kali
+
+  A river in Uttara Kannada district of Karnataka state in India and the name of the First Anuket (OPNFV+CNTT) release.
+
+Kubernetes
+
+  An operating system container management system, sometimes abbreviated "K8s" (meaning K, eight letters, and s).
+
+--------
+
+L
+-
+
+Lakelse
+
+  A river in Britsh Columbia, Canada (name derived from the Coast Tsimshian language word "LaxGyels"), and the name of the Second Anuket (OPNFV+CNTT) Release. 
 
 N
 -
