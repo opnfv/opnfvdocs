@@ -1,0 +1,4 @@
+README.md @acmacm
+
+# This line would also match the file README.md
+*.md @acmacm
