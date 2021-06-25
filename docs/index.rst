@@ -7,8 +7,8 @@ Anuket Documentation
 The Anuket project facilitates the development and evolution
 of cloud components across various open source ecosystems. 
 Through preparation of reference specifications,
-system level integration, deployment and testing, Anuket creates a
-reference infrastructure and conformance tests to accelerate the 
+system level integration, testing and deployment, Anuket creates 
+reference implementations and conformance tests to accelerate the 
 transformation of enterprise
 and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
