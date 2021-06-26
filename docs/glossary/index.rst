@@ -135,6 +135,7 @@ Jerma
   A river in Serbia and the name of the Tenth OPNFV release.
 
 --------
+
 K
 -
 
@@ -195,4 +196,7 @@ VM
 VNF
 
   Virtual network function, typically a networking application or function running in a virtual environment.
+
+
+
 
