@@ -4,6 +4,8 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
+NOTE: This Document will be updated for Anuket in the Lakelse Release.
+
 =================
 Platform overview
 =================
