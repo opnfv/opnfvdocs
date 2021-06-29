@@ -8,5 +8,5 @@
 ---
 include:
   - template: Jobs/Code-Quality.gitlab-ci.yml
-  - project: anuket-transition/releng
+  - project: anuket/releng
     file: '/gitlab-templates/RTD.gitlab-ci.yml'
