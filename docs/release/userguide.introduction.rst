@@ -45,21 +45,29 @@ are intended to be used following the installation with an Anuket installer
 to allow users to deploy and implement feature delivered by Anuket.
 
 If you are unsure about the specifics of a given project, please refer to the
-Anuket wiki page at http://wiki.opnfv.org for more details.
+Anuket wiki page at http://wiki.anuket.io for more details.
 
 
 Feature Configuration Guides
 ============================
 
+- :ref:`AIRSHIP Configuration Guide <airship-configguide>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`CIRV Configuration Guide <cirv-configguide>`
+- :ref:`Kuberef Configuration Guide <kuberef-configguide>`
+- :ref:`ViNePERF Configuration Guide <vineperf-configguide>`
+
 
 
 Feature User Guides
 ===================
 
-- :ref:`Barometer User Guide <barometer-userguide>`
-- :ref:`CIRV User Guide <cirv-userguide>`
+- :ref:`AIRSHIP Configuration Guide <airship-userguide>`
+- :ref:`Barometer Configuration Guide <barometer-userguide>`
+- :ref:`CIRV Configuration Guide <cirv-userguide>`
+- :ref:`Kuberef Configuration Guide <kuberef-userguide>`
+- :ref:`ViNePERF Configuration Guide <vineperf-userguide>`
+
 
 *   :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
 
