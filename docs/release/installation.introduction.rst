@@ -19,8 +19,12 @@ Installation Procedure
 Each of the test Frameworks and other projects will have separate installations procedures: see the individual project documentation.
 
 - :ref:`Airship Installation Guide <airship-installation>`
+- :ref:`Barometer Installation Guide <barometer-installation>`
+- :ref:`CIRV Installation Guide <cirv-installation>`
 - :ref:`Kuberef Installation Guide <kuberef-installation>`
+- :ref:`ViNePERF installation Guide <vineperf-installation>`
 
+Note: links in this list need updating
 
 Anuket Test Frameworks
 =====================
