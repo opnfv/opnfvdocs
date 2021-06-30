@@ -69,5 +69,5 @@ Feature User Guides
 - :ref:`ViNePERF Configuration Guide <vineperf-userguide>`
 
 
-*   :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
+* :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
 
