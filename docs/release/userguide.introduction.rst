@@ -27,8 +27,8 @@ Introduction
 ============
 
 Anuket provides a infrastructure deployment options, which
-are able to be installed to host virtualised network functions (VNFs).
-This document intends to help users of the platform leverage the features and
+are able to be installed to host virtualised network functions (VNFs) and cloud network functions (CNFs).
+This document intends to help users leverage the features and
 capabilities delivered by Anuket.
 
 Feature Overview
@@ -36,13 +36,13 @@ Feature Overview
 
 The following links outline the feature deliverables from participating Anuket
 projects in the Kali release. Each of the participating projects provides
-detailed descriptions about the delivered features including use cases,
+detailed descriptions about the features delivered including use cases,
 implementation, and configuration specifics in the project documentation.
 
 The following Configuration Guides and User Guides assume that the reader already has some
-knowledge about a given project's specifics and deliverables. These Guides
-are intended to be used following the installation with an Anuket installer
-to allow users to deploy and implement feature delivered by Anuket.
+knowledge about a given project's specifics and capabilities. These Guides
+are intended to allow users to deploy and implement features that are part of the 
+Anuket Kali release.
 
 If you are unsure about the specifics of a given project, please refer to the
 Anuket wiki page at http://wiki.anuket.io for more details.
