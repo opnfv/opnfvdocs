@@ -62,11 +62,11 @@ Feature Configuration Guides
 Feature User Guides
 ===================
 
-- :ref:`AIRSHIP Configuration Guide <airship-userguide>`
-- :ref:`Barometer Configuration Guide <barometer-userguide>`
-- :ref:`CIRV Configuration Guide <cirv-userguide>`
-- :ref:`Kuberef Configuration Guide <kuberef-userguide>`
-- :ref:`ViNePERF Configuration Guide <vineperf-userguide>`
+- :ref:`AIRSHIP User Guide <airship-userguide>`
+- :ref:`Barometer User Guide <barometer-userguide>`
+- :ref:`CIRV User Guide <cirv-userguide>`
+- :ref:`Kuberef User Guide <kuberef-userguide>`
+- :ref:`ViNePERF User Guide <vineperf-userguide>`
 
 
 * :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
