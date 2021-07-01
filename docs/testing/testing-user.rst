@@ -40,7 +40,7 @@ VSPERF
 .. toctree::
    :maxdepth: 1
 
-*   :doc:`VSPERF Configuration and User Guide <vswitchperf:testing/user/configguide/index>`
-*   :doc:`VSPERF Test Guide <vswitchperf:testing/user/userguide/index>`
+*   :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
+*   :doc:`ViNePERF Test Guide <vineperf:testing/user/userguide/index>`
 
 
