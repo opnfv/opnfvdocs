@@ -19,7 +19,7 @@ Project release notes:
 
 :ref:`Barometer Release Notes <barometer-releasenotes>`
 
-:ref:`CIRV Release Notes <cirv-releasenotes>`
+:ref:`CIRV-SDV Release Notes <cirv-sdv-releasenotes>`
 
 :ref:`Functest Release Notes <functest-releasenotes>`
 
