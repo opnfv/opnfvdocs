@@ -19,7 +19,7 @@ Installation Procedure
 Each of the test Frameworks and other projects will have separate installations procedures: see the individual project documentation.
 
 - :ref:`Airship Installation Guide <airship-installation>`
-- :ref:`Barometer Installation Guide <barometer-installation>`
+- :ref:`Barometer Installation Guide <barometer-docker-userguide>`
 - :ref:`CIRV-SDV Installation Guide <cirv-sdv-installation>`
 - :ref:`Kuberef Installation Guide <kuberef-installation>`
 - :ref:`ViNePERF installation Guide <vineperf-installation>`
