@@ -51,13 +51,12 @@ Anuket wiki page at http://wiki.anuket.io for more details.
 Feature Configuration Guides
 ============================
 
-- :ref:`AIRSHIP Configuration Guide <airship-installation>`
-- :ref:`Barometer Configuration Guide <barometer-configguide>`
-- :ref:`CIRV-SDV Configuration Guide <cirv-sdv-configguide>`
-- :ref:`Kuberef Configuration Guide <kuberef-configguide>`
-- :ref:`ViNePERF Configuration Guide <vineperf-configguide>`
-
-*   :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
+* :ref:`AIRSHIP Configuration Guide <airship-installation>`
+* :ref:`Barometer Configuration Guide <barometer-configguide>`
+* :ref:`CIRV-SDV Configuration Guide <cirv-sdv-configguide>`
+* :ref:`Kuberef Configuration Guide <kuberef-configguide>`
+* :doc:`ViNePERF Configuration Guide <vineperf:testing/user/configguide/index>`
+* :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
 
 
 
@@ -65,12 +64,11 @@ Feature Configuration Guides
 Feature User Guides
 ===================
 
-- :ref:`AIRSHIP User Guide <airship-userguide>`
-- :ref:`Barometer User Guide <barometer-userguide>`
-- :ref:`CIRV-SDV User Guide <cirv-sdv-userguide>`
-- :ref:`Kuberef User Guide <kuberef-userguide>`
-- :ref:`ViNePERF User Guide <vineperf-userguide>`
+* :ref:`Barometer User Guide <barometer-userguide>`
+* :ref:`CIRV-SDV User Guide <cirv-sdv-userguide>`
+* :ref:`Kuberef User Guide <kuberef-userguide>`
+* :ref:`ViNePERF User Guide <vineperf-userguide>`
 
-*   :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
+*   :doc:`ViNePERF User Guide <vineperf:testing/user/configguide/index>`
 *   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
