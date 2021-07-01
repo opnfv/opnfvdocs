@@ -67,8 +67,6 @@ Feature User Guides
 * :ref:`Barometer User Guide <barometer-userguide>`
 * :ref:`CIRV-SDV User Guide <cirv-sdv-userguide>`
 * :ref:`Kuberef User Guide <kuberef-userguide>`
-* :ref:`ViNePERF User Guide <vineperf-userguide>`
-
-*   :doc:`ViNePERF User Guide <vineperf:testing/user/configguide/index>`
-*   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
+* :doc:`ViNePERF User Guide <vineperf:testing/user/configguide/index>`
+* :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
