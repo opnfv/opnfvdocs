@@ -11,5 +11,4 @@ Test Framework Overview
 .. toctree::
    :maxdepth: 2
 
-   ./abstract
    ./dev-guide

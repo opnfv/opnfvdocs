@@ -2,7 +2,7 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 
 Anuket Documentation
-===================
+====================
 
 The Anuket project facilitates the development and evolution
 of cloud components across various open source ecosystems. 
@@ -50,6 +50,6 @@ Developer Guide
    how-to-use-docs/index
 
 Found a typo or any other feedback? Send an email to users@opnfv.org or
-talk to us on IRC_.
+talk to us on Slack_.
 
-.. _IRC: https://webchat.freenode.net/?channels=%23opnfv
+.. _Slack: https://anuketworkspace.slack.com/
