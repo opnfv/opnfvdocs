@@ -307,6 +307,7 @@ intersphinx_mapping['functest'] = ('https://opnfv-functest.readthedocs.io/en/%s'
 #intersphinx_mapping['ipv6'] = ('https://opnfv-ipv6.readthedocs.io/en/%s' % branch, None)
 # intersphinx_mapping['moon'] = ('https://opnfv-moon.readthedocs.io/en/%s' % branch, None)
 # intersphinx_mapping['netready'] = ('https://opnfv-netready.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['kuberef'] = ('https://opnfv-kuberef.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['nfvbench'] = ('https://opnfv-nfvbench.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['onosfw'] = ('https://opnfv-onosfw.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['orchestra'] = ('https://opnfv-orchestra.readthedocs.io/en/%s' % branch, None)
