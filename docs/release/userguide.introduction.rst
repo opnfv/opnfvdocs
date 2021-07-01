@@ -51,11 +51,14 @@ Anuket wiki page at http://wiki.anuket.io for more details.
 Feature Configuration Guides
 ============================
 
-- :ref:`AIRSHIP Configuration Guide <airship-configguide>`
+- :ref:`AIRSHIP Configuration Guide <airship-installation>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
 - :ref:`CIRV Configuration Guide <cirv-configguide>`
 - :ref:`Kuberef Configuration Guide <kuberef-configguide>`
 - :ref:`ViNePERF Configuration Guide <vineperf-configguide>`
+
+*   :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
+
 
 
 
@@ -68,6 +71,6 @@ Feature User Guides
 - :ref:`Kuberef User Guide <kuberef-userguide>`
 - :ref:`ViNePERF User Guide <vineperf-userguide>`
 
-
-* :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
+*   :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
+*   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
