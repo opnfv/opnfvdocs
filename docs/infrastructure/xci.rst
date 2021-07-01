@@ -8,9 +8,10 @@
 Cross Community Continuous Integration - XCI
 ============================================
 
-Please see the details of XCI from the chapters below.
+XCI is not an Anuket Infrastructure project.
+
+However, some details about XCI are in the chapters below.
 
 - :ref:`XCI Overview <xci-overview>`
-- :ref:`XCI Way of Working <xci-wow>`
 - :ref:`XCI Sandbox and User Guide <xci-user-guide>`
-- :ref:`XCI Developer Guide <xci-developer-guide>`
+

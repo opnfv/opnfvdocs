@@ -8,6 +8,8 @@
 Continuous Integration - CI
 ===========================
 
+NOTE: This section will be updated following migration to GitLab CI.
+
 Please see the details of CI from the chapters below.
 
 - :ref:`CI Overview <releng:ci-overview>`
