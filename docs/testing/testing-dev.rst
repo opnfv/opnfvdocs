@@ -29,4 +29,4 @@ Functest
 VSPERF
 -------
 
-* :doc:`VSPERF Developer Guide <vswitchperf:testing/developer/devguide/index>`
+* :doc:`ViNePERF Developer Guide <vineperf:testing/developer/devguide/index>`
