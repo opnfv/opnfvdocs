@@ -53,7 +53,7 @@ Feature Configuration Guides
 
 - :ref:`AIRSHIP Configuration Guide <airship-installation>`
 - :ref:`Barometer Configuration Guide <barometer-configguide>`
-- :ref:`CIRV Configuration Guide <cirv-configguide>`
+- :ref:`CIRV-SDV Configuration Guide <cirv-sdv-configguide>`
 - :ref:`Kuberef Configuration Guide <kuberef-configguide>`
 - :ref:`ViNePERF Configuration Guide <vineperf-configguide>`
 
@@ -67,7 +67,7 @@ Feature User Guides
 
 - :ref:`AIRSHIP User Guide <airship-userguide>`
 - :ref:`Barometer User Guide <barometer-userguide>`
-- :ref:`CIRV User Guide <cirv-userguide>`
+- :ref:`CIRV-SDV User Guide <cirv-sdv-userguide>`
 - :ref:`Kuberef User Guide <kuberef-userguide>`
 - :ref:`ViNePERF User Guide <vineperf-userguide>`
 
