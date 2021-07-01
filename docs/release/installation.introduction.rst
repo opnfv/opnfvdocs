@@ -37,3 +37,11 @@ the platform and you may want to execute more exhaustive tests. Some investigati
 select the right test suites to run on your platform.
 
 Many of the Anuket test projects provide user-guide documentation and installation instructions in :ref:`this document <testing-userguide>`
+
+Anuket Reference Specifications
+===============================
+
+There is no need to "install" the Anuket Reference Specifications! You can view them here:
+
+*    :doc:`Anuket Reference Specifications <cntt-cntt:/index>`
+*    `Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
