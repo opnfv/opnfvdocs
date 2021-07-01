@@ -10,14 +10,15 @@ Testing User Guides
 This page provides the links to the installation, configuration and user guides
 of the different test projects.
 
-Dovetail / OPNFV Verified Program
----------------------------------
+OPNFV Verified Program --> Anuket Assured Program
+-------------------------------------------------
 .. toctree::
    :maxdepth: 1
 
-* OVP releases on a separate schedule from the rest of OPNFV.  You may find
+* OVP releases were on a separate schedule from  OPNFV.  You may find
   the current status and latest documentation for OVP at
-  `<http://verified.opnfv.org>`_.
+  `<http://verified.opnfv.org>`_. The next incarnation of OVP will be the 
+  Anuket Assured Program.
 
 Functest
 --------
