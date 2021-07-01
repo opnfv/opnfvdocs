@@ -24,7 +24,6 @@ Each of the test Frameworks and other projects will have separate installations 
 - :ref:`Kuberef Installation Guide <kuberef-installation>`
 - :ref:`ViNePERF installation Guide <vineperf-installation>`
 
-Note: links in this list need updating
 
 Anuket Test Frameworks
 ======================
