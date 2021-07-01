@@ -14,19 +14,20 @@ Testing group
 
    ./developer/devguide/index
 
-Dovetail / OPNFV Verified Program
----------------------------------
+OPNFV Verified Program –> Anuket Assured Program
+------------------------------------------------
 
-* OVP releases on a separate schedule from the rest of OPNFV.  You may find the
-  current status and latest documentation for OVP at
-  `<http://verified.opnfv.org>`_.
+* OVP releases were on a separate schedule from  OPNFV.  You may find
+  the current status and latest documentation for OVP at
+  `<http://verified.opnfv.org>`_. The next incarnation of OVP will be the 
+  Anuket Assured Program.
 
 Functest
----------
+--------
 
 * :doc:`Functest Developer Guide <functest:testing/developer/devguide/index>`
 
-VSPERF
--------
+ViNePERF
+--------
 
 * :doc:`ViNePERF Developer Guide <vineperf:testing/developer/devguide/index>`
