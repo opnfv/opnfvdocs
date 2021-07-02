@@ -16,8 +16,8 @@ about network transformation.
 
 `Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
 
-Installation Guides
--------------------
+Installation Guides and More
+----------------------------
 
 .. toctree::
    :maxdepth: 1
