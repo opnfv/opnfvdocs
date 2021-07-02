@@ -14,6 +14,8 @@ and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
 about network transformation.
 
+`Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
+
 .. toctree::
    :maxdepth: 1
 
@@ -49,7 +51,8 @@ Developer Guide
 
    how-to-use-docs/index
 
-Found a typo or any other feedback? Send an email to users@opnfv.org or
+Found a typo or any other feedback? Send us an email_ or
 talk to us on Slack_.
 
+.. _email: mailto:users@opnfv.org
 .. _Slack: https://anuketworkspace.slack.com/
