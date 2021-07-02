@@ -44,4 +44,5 @@ Anuket Reference Specifications
 There is no need to "install" the Anuket Reference Specifications! You can view them here:
 
 .. *    :doc:`Anuket Reference Specifications <cntt-cntt:/index>`
+
 *    `Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
