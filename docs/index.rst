@@ -54,6 +54,11 @@ Developer Guide
 
    how-to-use-docs/index
 
+Glossary
+--------
+
+:doc:`glossary/index`
+
 Found a typo or any other feedback? Send us an email_ or
 talk to us on Slack_.
 

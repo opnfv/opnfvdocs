@@ -17,186 +17,202 @@ This glossary provides a common definition of phrases and words commonly used in
 
 A
 -
+.. glossary::
 
-Anuket
+  Anuket
 
-  The ancient Egyptian Goddess Anuket was a personification of the Nile as “Nourisher of the Fields”, and the name for the combined OPNFV and CNTT project.
+    The ancient Egyptian Goddess Anuket was a personification of the Nile as “Nourisher of the Fields”, and the name for the combined OPNFV and CNTT project.
 
-Arno
+  Arno
 
-  A river running through Tuscany and the name of the first OPNFV release.
+    A river running through Tuscany and the name of the first OPNFV release.
 
-API
+  API
+
     Application Programming Interface
 
 --------
 
 B
 -
+.. glossary::
 
-Brahmaputra
+  Brahmaputra
 
-  A river running through Asia and the name of the Second OPNFV release.
+    A river running through Asia and the name of the Second OPNFV release.
 
 --------
 
 C
 -
+.. glossary::
 
-Colorado
+  Colorado
 
-  A river in Argentina and the name of the Third OPNFV release.
-  
-CNTT
+    A river in Argentina and the name of the Third OPNFV release.
 
-  Cloud iNfrastructure Telco Task Force
+  CNTT
+
+    Cloud iNfrastructure Telco Task Force
 
 --------
 
 D
 -
+.. glossary::
 
-Danube
+  Danube
 
-  A river in Europe and the name of the Fourth OPNFV release.
+    A river in Europe and the name of the Fourth OPNFV release.
 
-DPDK
+  DPDK
 
-  Data Plane Development Kit
+    Data Plane Development Kit
 
-DPI
+  DPI
 
-  Deep Packet Inspection
+    Deep Packet Inspection
 
-DSCP
+  DSCP
 
-  Differentiated Services Code Point
+    Differentiated Services Code Point
 
 --------
 
 E
 -
+.. glossary::
 
-Euphrates
+  Euphrates
 
-  A river in Southeast Asia and the name of the Fifth OPNFV release.
+    A river in Southeast Asia and the name of the Fifth OPNFV release.
 
 --------
 
 F
 -
+.. glossary::
 
-Fraser
+  Fraser
 
-  A river in British Columbia, Canada, and the name of the Sixth OPNFV release.
+    A river in British Columbia, Canada, and the name of the Sixth OPNFV release.
 
 --------
 
 G
 -
+.. glossary::
 
-Gambia
+  Gambia
 
-  A river in Western Africa and the name of the Seventh OPNFV release.
+    A river in Western Africa and the name of the Seventh OPNFV release.
 
 --------
 
 H
 -
+.. glossary::
 
-Hunter
+  Hunter
 
-  A river in New South Wales, Australia and the name of the Eighth OPNFV release.
+    A river in New South Wales, Australia and the name of the Eighth OPNFV release.
 
 --------
 
 I
 -
+.. glossary::
 
-IGMP
+  IGMP
 
-  Internet Group Management Protocol
+    Internet Group Management Protocol
 
-IOPS
+  IOPS
 
-  Input/Output Operations Per Second
+    Input/Output Operations Per Second
 
-Iruya
+  Iruya
 
-  A river in Salta Province, Argentina and the name of the Ninth OPNFV release.  
+    A river in Salta Province, Argentina and the name of the Ninth OPNFV release.
 
 --------
 
 J
 -
+.. glossary::
 
-Jerma
+  Jerma
 
-  A river in Serbia and the name of the Tenth OPNFV release.
+    A river in Serbia and the name of the Tenth OPNFV release.
 
 --------
 
 K
 -
+.. glossary::
 
-Kali
+  Kali
+    A river in Uttara Kannada district of Karnataka state in India and the name of the First Anuket (OPNFV+CNTT) release.
 
-  A river in Uttara Kannada district of Karnataka state in India and the name of the First Anuket (OPNFV+CNTT) release.
 
-Kubernetes
+  Kubernetes
 
-  An operating system container management system, sometimes abbreviated "K8s" (meaning K, eight letters, and s).
+    An operating system container management system, sometimes abbreviated "K8s" (meaning K, eight letters, and s).
 
 --------
 
 L
 -
+.. glossary::
 
-Lakelse
+  Lakelse
 
-  A river in Britsh Columbia, Canada (name derived from the Coast Tsimshian language word "LaxGyels"), and the name of the Second Anuket (OPNFV+CNTT) Release. 
+    A river in Britsh Columbia, Canada (name derived from the Coast Tsimshian language word "LaxGyels"), and the name of the Second Anuket (OPNFV+CNTT) Release.
+
+--------
 
 N
 -
+.. glossary::
 
-NFV
+  NFV
 
-  Network Functions Virtualisation, an industry initiative to leverage virtualisation technologies in carrier networks.
+    Network Functions Virtualisation, an industry initiative to leverage virtualisation technologies in carrier networks.
 
-NFVI
+  NFVI
 
-  Network Function Virtualization Infrastructure
+    Network Function Virtualization Infrastructure
 
-NIC
+  NIC
 
-  Network Interface Controller
+    Network Interface Controller
 
 --------
 
 O
 -
+.. glossary::
 
-OPNFV
+  OPNFV
 
-  Open Platform for NFV, an open source project developing an NFV reference platform and features.
+    Open Platform for NFV, an open source project developing an NFV reference platform and features.
 
 --------
 
 V
 -
+.. glossary::
 
-VLAN
+  VLAN
 
-  A virtual local area network, typically an isolated ethernet network.
+    A virtual local area network, typically an isolated ethernet network.
 
-VM
+  VM
 
-  Virtual machine, an emulation in software of a computer system.
+    Virtual machine, an emulation in software of a computer system.
 
-VNF
+  VNF
 
-  Virtual network function, typically a networking application or function running in a virtual environment.
-
-
+    Virtual network function, typically a networking application or function running in a virtual environment.
 
 
