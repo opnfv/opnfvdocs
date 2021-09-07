@@ -4,10 +4,10 @@ project_creation_date: 'March 31, 2015'
 project_category: 'Documentation'
 lifecycle_state: 'Incubation'
 project_lead: &opnfv_opnfvdocs_ptl
-    name: 'Sofia Wallin'
-    email: 'sofia.wallin@ericsson.com'
-    id: 'sofiawallin'
-    company: 'ericsson.com'
+    name: 'Beth Cohen'
+    email: 'beth.cohen@verizon.com'
+    id: ''
+    company: 'verizon'
     timezone: 'Unknown'
 primary_contact: *opnfv_opnfvdocs_ptl
 issue_tracking:
@@ -34,19 +34,21 @@ repositories:
     - 'opnfvdocs'
 committers:
     - <<: *opnfv_opnfvdocs_ptl
-    - name: 'Christopher Price'
-      email: 'christopher.price@est.tech'
-      company: 'est.tech'
-      id: 'ChristopherPrice'
-    - name: 'Fatih Degirmenci'
-      email: 'fdegir@gmail.com'
-      company: 'gmail.com'
-      id: 'fdegir'
-    - name: 'Ryota Mibu'
-      email: 'r-mibu@cq.jp.nec.com'
-      company: 'cq.jp.nec.com'
-      id: 'r-mibu'
+    - name: 'Scot Steele'
+      email: 'scotsteele@microsoft.com'
+      company: 'Microsoft'
+      id: ''
 tsc:
     # yamllint disable rule:line-length
     approval: 'http//ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-03-31-13.56.html'
+    changes:
+      - type: 'removal'
+        name: 'Sofia Wallin'
+        link: 'https://lists.anuket.io/g/anuket-tsc/message/118'
+      - type: 'promotion'
+        name: 'Beth Cohen'
+        link: 'https://wiki.anuket.io/display/HOME/2021-05-25+TSC+Agenda+and+Minutes'
+      - type: 'promotion'
+        name: 'Scot Steele'
+        link: 'https://wiki.anuket.io/display/HOME/2021-05-25+TSC+Agenda+and+Minutes'
     # yamllint enable rule:line-length
