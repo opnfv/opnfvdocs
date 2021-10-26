@@ -4,5 +4,5 @@ doc8
 docutils==0.12
 setuptools
 six
-sphinxcontrib-httpdomain
+sphinxcontrib-httpdomain==1.7.0
 sphinx_bootstrap_theme>=0.4.11
