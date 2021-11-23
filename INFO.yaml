@@ -38,6 +38,18 @@ committers:
       email: 'scotsteele@microsoft.com'
       company: 'Microsoft'
       id: ''
+    - name: 'Gergely Csatari'
+      email: 'gergely.csatari@nokia.com'
+      company: 'Nokia'
+      id: 'csatari'
+    - name: 'Al Morton'
+      email: 'acm@research.att.com'
+      company: 'AT&T'
+      id: 'acm'
+    - name: 'Georg Kunz'
+      email: 'georg.kunz@ericsson.com'
+      id: 'georgkunz'
+      company: 'Ericsson'
 tsc:
     # yamllint disable rule:line-length
     approval: 'http//ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-03-31-13.56.html'
