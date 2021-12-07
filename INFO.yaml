@@ -54,13 +54,13 @@ tsc:
     # yamllint disable rule:line-length
     approval: 'http//ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-03-31-13.56.html'
     changes:
-      - type: 'removal'
-        name: 'Sofia Wallin'
-        link: 'https://lists.anuket.io/g/anuket-tsc/message/118'
-      - type: 'promotion'
-        name: 'Beth Cohen'
-        link: 'https://wiki.anuket.io/display/HOME/2021-05-25+TSC+Agenda+and+Minutes'
-      - type: 'promotion'
-        name: 'Scot Steele'
-        link: 'https://wiki.anuket.io/display/HOME/2021-05-25+TSC+Agenda+and+Minutes'
-    # yamllint enable rule:line-length
+        - type: 'removal'
+          name: 'Sofia Wallin'
+          link: 'https://lists.anuket.io/g/anuket-tsc/message/118'
+        - type: 'promotion'
+          name: 'Beth Cohen'
+          link: 'https://wiki.anuket.io/display/HOME/2021-05-25+TSC+Agenda+and+Minutes'
+        - type: 'promotion'
+          name: 'Scot Steele'
+          link: 'https://wiki.anuket.io/display/HOME/2021-05-25+TSC+Agenda+and+Minutes'
+          # yamllint enable rule:line-length
