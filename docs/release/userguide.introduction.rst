@@ -15,8 +15,7 @@ One of Anuket's project goals is to reduce time to integrate and deploy NFV infr
 for those who supply components and those who operationalize these platforms. The Anuket community
 does this by implementing, testing and deploying tools for conformance and performance of NFV infrastructure, aligned
 with industry reference architectures. This document provides guidance and instructions for using platform
-features designed to support the tools that are made available in the Anuket
-Kali release.
+features designed to support the tools that are made available in the Anuket |release| release.
 
 This document is not intended to replace or replicate documentation from other
 upstream open source projects such as KVM, OpenDaylight, OpenStack, etc., but to highlight the
@@ -35,14 +34,14 @@ Feature Overview
 ================
 
 The following links outline the feature deliverables from participating Anuket
-projects in the Kali release. Each of the participating projects provides
+projects in the |release| release. Each of the participating projects provides
 detailed descriptions about the features delivered including use cases,
 implementation, and configuration specifics in the project documentation.
 
 The following Configuration Guides and User Guides assume that the reader already has some
 knowledge about a given project's specifics and capabilities. These Guides
 are intended to allow users to deploy and implement features that are part of the 
-Anuket Kali release.
+Anuket |release| release.
 
 If you are unsure about the specifics of a given project, please refer to the
 Anuket wiki page at http://wiki.anuket.io for more details.

@@ -11,7 +11,7 @@ Installation
 Abstract
 ========
 
-This is the installation document for the Anuket Kali release, please use this document for further reference. 
+This is the installation document for the Anuket |release| release, please use this document for further reference.
 
 Installation Procedure
 ======================
@@ -30,7 +30,7 @@ Each of the test Frameworks and other projects will have separate installations 
 Anuket Test Frameworks
 ======================
 
-If you have elected to install using the Anuket Kali Release toolchain,
+If you have elected to install using the Anuket |release| Release toolchain,
 you can begin to test once the installation is completed.
 The basic deployment validation only addresses some of the capabilities in
 any platform and you may want to execute more exhaustive tests. Some investigation will be required to
@@ -45,4 +45,4 @@ There is no need to "install" the Anuket Reference Specifications! You can view 
 
 .. *    :doc:`Anuket Reference Specifications <cntt-cntt:/index>`
 
-*    `Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
+*    `Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-lakelse/index.html>`_
