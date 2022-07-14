@@ -3,9 +3,9 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Christopher Price (Ericsson AB), AT&T, Anuket
 
-*************************************
-OPNFV and Anuket Development Glossary
-*************************************
+***************************
+Anuket Development Glossary
+***************************
 
 ========
 Contents

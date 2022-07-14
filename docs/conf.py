@@ -56,7 +56,7 @@ branch = 'latest'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -200,7 +200,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OPNFV'
+htmlhelp_basename = 'Anuket'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OPNFV.tex', 'OPNFV Documentation',
-     'OPNFV Project', 'manual'),
+    (master_doc, 'Anuket.tex', 'Anuket Documentation',
+     'Anuket Project', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -252,7 +252,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'OPNFVDocs', 'OPNFV Documentation',
+    (master_doc, 'AnuketDocs', 'Anuket Documentation',
      [author], 1)
 ]
 
@@ -266,9 +266,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OPNFVDocs', 'OPNFV Documentation',
-     author, 'OPNFV', 'One line description of project.',
-     'Miscellaneous'),
+    (master_doc, 'AnuketDocs', 'Anuket Documentation',
+     author, 'Anuket', '',
+     ''),
 ]
 
 html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
@@ -285,31 +285,31 @@ html_sidebars = {'**': ['localtoc.html', 'relations.html'],}
 # texinfo_no_detailmenu = False
 
 intersphinx_mapping = {}
-intersphinx_mapping['airship'] = ('https://opnfv-airship.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['airship'] = ('https://docs.anuket.io/projects/airship/en/%s' % branch, None)
 #intersphinx_mapping['apex'] = ('https://opnfv-apex.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['armband'] = ('https://opnfv-armband.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['auto'] = ('https://opnfv-auto.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['auto'] = ('https://docs.anuket.io/projects/auto/en/%s' % branch, None)
 intersphinx_mapping['availability'] = ('https://opnfv-availability.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['barometer'] = ('https://opnfv-barometer.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['barometer'] = ('https://docs.anuket.io/projects/barometer/en/%s' % branch, None)
 #intersphinx_mapping['bottlenecks'] = ('https://opnfv-bottlenecks.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['calipso'] = ('https://opnfv-calipso.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['cirv-sdv'] = ('https://opnfv-cirv-sdv.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['calipso'] = ('https://docs.anuket.io/projects/calipso/en/%s' % branch, None)
+intersphinx_mapping['cirv-sdv'] = ('https://docs.anuket.io/projects/cirv-sdv/en/%s' % branch, None)
 #intersphinx_mapping['clover'] = ('https://opnfv-clover.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['compass4nfv'] = ('https://opnfv-compass4nfv.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['container4nfv'] = ('https://opnfv-container4nfv.readthedocs.io/en/%s' % branch, None)
 # intersphinx_mapping['copper'] = ('https://opnfv-copper.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['daisy'] = ('https://opnfv-daisy.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['doctor'] = ('https://opnfv-doctor.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['dovetail'] = ('https://opnfv-dovetail.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['dovetail'] = ('https://docs.anuket.io/projects/dovetail/en/%s' % branch, None)
 intersphinx_mapping['edgecloud'] = ('https://opnfv-edgecloud.readthedocs.io/en/%s' % branch, None)
 # intersphinx_mapping['fds'] = ('https://opnfv-fds.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['fuel'] = ('https://opnfv-fuel.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['functest'] = ('https://opnfv-functest.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['functest'] = ('https://docs.anuket.io/projects/functest/en/%s' % branch, None)
 #intersphinx_mapping['ipv6'] = ('https://opnfv-ipv6.readthedocs.io/en/%s' % branch, None)
 # intersphinx_mapping['moon'] = ('https://opnfv-moon.readthedocs.io/en/%s' % branch, None)
 # intersphinx_mapping['netready'] = ('https://opnfv-netready.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['kuberef'] = ('https://opnfv-kuberef.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['nfvbench'] = ('https://opnfv-nfvbench.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['kuberef'] = ('https://docs.anuket.io/projects/kuberef/en/%s' % branch, None)
+intersphinx_mapping['nfvbench'] = ('https://docs.anuket.io/projects/nfvbench/en/%s' % branch, None)
 #intersphinx_mapping['onosfw'] = ('https://opnfv-onosfw.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['orchestra'] = ('https://opnfv-orchestra.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['ovn4nfv'] = ('https://opnfv-ovn4nfv.readthedocs.io/en/%s' % branch, None)
@@ -318,13 +318,13 @@ intersphinx_mapping['parser'] = ('https://opnfv-parser.readthedocs.io/en/%s' % b
 intersphinx_mapping['pharos'] = ('https://opnfv-pharos.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['promise'] = ('https://opnfv-promise.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['qtip'] = ('https://opnfv-qtip.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['releng'] = ('https://opnfv-releng.readthedocs.io/en/latest', None)
+intersphinx_mapping['releng'] = ('https://docs.anuket.io/projects/releng/en/latest', None)
 intersphinx_mapping['releng-xci'] = ('https://opnfv-releng-xci.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['samplevnf'] = ('https://opnfv-samplevnf.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['samplevnf'] = ('https://docs.anuket.io/projects/samplevnf/en/%s' % branch, None)
 intersphinx_mapping['sdnvpn'] = ('https://opnfv-sdnvpn.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['sfc'] = ('https://opnfv-sfc.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['snaps'] = ('https://opnfv-snaps.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['stor4nfv'] = ('https://opnfv-stor4nfv.readthedocs.io/en/%s' % branch, None)
 #intersphinx_mapping['storperf'] = ('https://opnfv-storperf.readthedocs.io/en/%s' % branch, None)
-intersphinx_mapping['vineperf'] = ('https://opnfv-vineperf.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['vineperf'] = ('https://docs.anuket.io/projects/vineperf/en/%s' % branch, None)
 #intersphinx_mapping['yardstick'] = ('https://opnfv-yardstick.readthedocs.io/en/%s' % branch, None)

@@ -14,12 +14,12 @@ Testing group
 
    ./developer/devguide/index
 
-OPNFV Verified Program –> Anuket Assured Program
-------------------------------------------------
+Anuket Assured Program
+----------------------
 
 * OVP releases were on a separate schedule from  OPNFV.  You may find
   the current status and latest documentation for OVP at
-  `<http://verified.opnfv.org>`_. The next incarnation of OVP will be the 
+  `<https://nfvi-verified.lfnetworking.org/>`_. The next incarnation of OVP will be the 
   Anuket Assured Program.
 
 Functest
