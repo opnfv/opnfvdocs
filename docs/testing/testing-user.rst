@@ -12,35 +12,25 @@ of the different test projects.
 
 Anuket Assured Program
 ----------------------
-.. toctree::
-   :maxdepth: 1
 
-* OVP releases were on a separate schedule from OPNFV.  You may find
-  the current status and latest documentation for OVP at
-  `<https://nfvi-verified.lfnetworking.org/>`_. The next incarnation of OVP will be the 
-  Anuket Assured Program.
+Releases of Anuket Assured program are on a separate schedule from Anuket releases. The current status and latest
+documentation for Anuket Assured can be found on the `Anuket Assured pages <https://nfvi-verified.lfnetworking.org/>`_.
 
 Functest
 --------
-.. toctree::
-   :maxdepth: 1
 
-*   :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
-*   :doc:`Functest User Guide <functest:testing/user/userguide/index>`
+* :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
+* :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
 SampleVNF
 ---------
-.. toctree::
-   :maxdepth: 1
 
-*   :doc:`SampleVNF User Guide <samplevnf:testing/user/userguide/index>`
+* :doc:`SampleVNF User Guide <samplevnf:testing/user/userguide/index>`
 
 ViNePERF
 --------
-.. toctree::
-   :maxdepth: 1
 
-*   :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
-*   :doc:`ViNePERF Test Guide <vineperf:testing/user/userguide/index>`
+* :doc:`ViNePERF Configuration and User Guide <vineperf:testing/user/configguide/index>`
+* :doc:`ViNePERF Test Guide <vineperf:testing/user/userguide/index>`
 
 
