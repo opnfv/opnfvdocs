@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0a188583_f88c54a7",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-08-05T12:56:13Z",
+      "side": 1,
+      "message": "I was thinking about \"external\" people who are not familiar with Anuket and hence may not be aware of the fact that there are specs and implementation projects. Some people might even consider specifications as documentation. So, I wanted to make the distinction very clear.\n\nHowever, I don\u0027t intend to fight over this.",
+      "parentUuid": "5c9c58c2_a6064647",
+      "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b309288d_c9f44def",
         "filename": "docs/conf.py",
         "patchSetId": 1
@@ -30,6 +48,40 @@
       "writtenOn": "2022-08-05T12:02:37Z",
       "side": 1,
       "message": "Same as for \u0027project\u0027",
+      "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8736220d_8c4c8bce",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-08-05T12:56:13Z",
+      "side": 1,
+      "message": "I need to clean these up. They carried over from the specs.",
+      "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0bc868cc_0c5c7320",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-08-05T12:56:13Z",
+      "side": 1,
+      "message": "same here, I need to remove those.",
       "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
