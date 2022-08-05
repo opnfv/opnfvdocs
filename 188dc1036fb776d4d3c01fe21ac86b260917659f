@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5c9c58c2_a6064647",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-08-05T12:02:37Z",
+      "side": 1,
+      "message": "I think this should be simply Anuket Documentation as this will be rendered to docs.anuket.io",
+      "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b309288d_c9f44def",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-08-05T12:02:37Z",
+      "side": 1,
+      "message": "Same as for \u0027project\u0027",
+      "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
