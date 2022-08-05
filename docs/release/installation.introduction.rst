@@ -11,7 +11,7 @@ Installation
 Abstract
 ========
 
-This is the installation document for the Anuket Kali release, please use this document for further reference. 
+This is the installation document for the Anuket Kali release, please use this document for further reference.
 
 Installation Procedure
 ======================
@@ -43,6 +43,4 @@ Anuket Reference Specifications
 
 There is no need to "install" the Anuket Reference Specifications! You can view them here:
 
-.. *    :doc:`Anuket Reference Specifications <cntt-cntt:/index>`
-
-*    `Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
+* :doc:`Anuket Specifications <cntt:index>`
