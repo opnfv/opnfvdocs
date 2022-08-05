@@ -1,8 +1,8 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. SPDX-License-Identifier: CC-BY-4.0
 
-Anuket Documentation
-====================
+Anuket Implementation Projects Documentation
+============================================
 
 The Anuket project facilitates the development and evolution
 of cloud components across various open source ecosystems. 
@@ -14,7 +14,7 @@ and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
 about network transformation.
 
-`Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
+`Anuket Reference Specifications <https://cntt.readthedocs.io/>`_
 
 Installation Guides and More
 ----------------------------
