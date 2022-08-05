@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "73409de2_855d3d33",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-08-05T13:50:34Z",
+      "side": 1,
+      "message": "I would like to explain the difference between the implementation and the specification projects in the start page. I plan to submit a change to address that.",
+      "parentUuid": "0a188583_f88c54a7",
+      "revId": "188dc1036fb776d4d3c01fe21ac86b260917659f",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b309288d_c9f44def",
         "filename": "docs/conf.py",
         "patchSetId": 1
