@@ -66,6 +66,8 @@ intersphinx_mapping['stor4nfv'] = ('https://opnfv-stor4nfv.readthedocs.io/en/%s'
 #intersphinx_mapping['storperf'] = ('https://opnfv-storperf.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['vineperf'] = ('https://docs.anuket.io/projects/vineperf/en/%s' % branch, None)
 #intersphinx_mapping['yardstick'] = ('https://opnfv-yardstick.readthedocs.io/en/%s' % branch, None)
+intersphinx_mapping['cntt'] = ('https://cntt.readthedocs.io/en/%s' % branch, None)
+
 
 autosectionlabel_prefix_document = True
 autosectionlabel_maxdepth = 4
