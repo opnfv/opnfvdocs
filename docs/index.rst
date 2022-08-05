@@ -14,7 +14,7 @@ and service provider networks. Participation is open to anyone,
 whether you are an employee of a member company or just passionate
 about network transformation.
 
-`Anuket Reference Specifications <https://cntt.readthedocs.io/en/stable-kali/index.html>`_
+`Anuket Reference Specifications <https://cntt.readthedocs.io/>`_
 
 Installation Guides and More
 ----------------------------
