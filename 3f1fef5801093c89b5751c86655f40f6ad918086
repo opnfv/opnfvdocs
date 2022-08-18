@@ -16,6 +16,24 @@
       "revId": "3f1fef5801093c89b5751c86655f40f6ad918086",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "00770727_7758bf81",
+        "filename": "docs/release/installation.introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-08-18T22:09:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "888dc472_6345c73f",
+      "revId": "3f1fef5801093c89b5751c86655f40f6ad918086",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
