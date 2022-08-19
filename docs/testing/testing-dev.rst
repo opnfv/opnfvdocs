@@ -17,10 +17,8 @@ Testing group
 Anuket Assured Program
 ----------------------
 
-* OVP releases were on a separate schedule from  OPNFV.  You may find
-  the current status and latest documentation for OVP at
-  `<https://nfvi-verified.lfnetworking.org/>`_. The next incarnation of OVP will be the 
-  Anuket Assured Program.
+Releases of Anuket Assured program are on a separate schedule from Anuket releases. The current status and latest
+documentation for Anuket Assured can be found on the `Anuket Assured pages <https://lfnetworking.org/verification/>`_.
 
 Functest
 --------

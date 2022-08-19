@@ -14,7 +14,7 @@ Anuket Assured Program
 ----------------------
 
 Releases of Anuket Assured program are on a separate schedule from Anuket releases. The current status and latest
-documentation for Anuket Assured can be found on the `Anuket Assured pages <https://nfvi-verified.lfnetworking.org/>`_.
+documentation for Anuket Assured can be found on the `Anuket Assured pages <https://lfnetworking.org/verification/>`_.
 
 Functest
 --------
