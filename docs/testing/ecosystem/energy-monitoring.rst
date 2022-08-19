@@ -7,8 +7,8 @@
 Power Consumption Monitoring Framework
 ======================================
 
-Introduction
-------------
+Overview
+--------
 Power consumption is a key driver for NFV.
 As an end user is interested to know which application is good or bad regarding
 power consumption and explains why he/she has to plug his/her smartphone every
@@ -111,8 +111,8 @@ the "NODE_NAME" environment variable by CI when running.
 **IMPORTANT NOTE**: To apply a new configuration, you need to kill the running
 container an start a new one (see below)
 
-Run
-^^^
+Run Collector
+^^^^^^^^^^^^^
 
 To run the container, you have to map folder located on the host to folders in
 the container (config, logs)::
@@ -171,8 +171,8 @@ influx (see run-container.sh bellow). Use here the admin user.
 **IMPORTANT NOTE**: To apply a new configuration, you need to kill the running
 container an start a new one (see bellow)
 
-Run
-^^^
+Run API
+^^^^^^^
 To run the container, you have to map folder located on the host to folders in
 the container (config, logs)::
 

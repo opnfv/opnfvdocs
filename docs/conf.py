@@ -7,6 +7,12 @@ extensions = ['sphinx.ext.intersphinx',
               'sphinx.ext.autosectionlabel'
              ]
 html_theme = "sphinx_material"
+exclude_patterns = [
+    '**/.tox',
+    'templates',                     # suppress warning that these files are not included in any toctree
+    'how-to-use-docs/files',         # suppress warning that these files are not included in any toctree
+    'development/feature.templates'  # suppress warning that these files are not included in any toctree
+]
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -60,7 +60,10 @@ Developer Guide
 Glossary
 --------
 
-:doc:`glossary/index`
+.. toctree::
+   :maxdepth: 1
+
+   glossary/index
 
 Found a typo or any other feedback? Send us an email_ or
 talk to us on Slack_.
