@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e1965f08_e5d4e264",
+        "filename": "docs/testing/testing-dev.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-08-22T06:42:47Z",
+      "side": 1,
+      "message": "Maybe this link could be also changed to https://lfnetworking.org/verification/",
+      "range": {
+        "startLine": 21,
+        "startChar": 76,
+        "endLine": 21,
+        "endChar": 115
+      },
+      "revId": "d9f4a351362ad3c80130a3a6c380cf8e37051646",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
