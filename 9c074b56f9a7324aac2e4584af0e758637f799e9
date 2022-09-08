@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "82b835a0_27810bf5",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-09-08T07:49:26Z",
+      "side": 1,
+      "message": "I think we should remove what we do not use on the long run, but this will be okay for the short time :)",
+      "revId": "9c074b56f9a7324aac2e4584af0e758637f799e9",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
