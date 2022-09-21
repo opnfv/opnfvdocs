@@ -1,0 +1,10 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Verified+1: Beth Cohen <bfcohen@luthcomputer.com>
+Code-Review+2: Gergely Csatari <gergely.csatari@nokia.com>
+Code-Review+2: Beth Cohen <bfcohen@luthcomputer.com>
+Code-Review+2: Scot Steele <scotsteele@microsoft.com>
+Submitted-by: Gergely Csatari <gergely.csatari@nokia.com>
+Submitted-at: Wed, 21 Sep 2022 13:20:01 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/c/opnfvdocs/+/73453
+Project: opnfvdocs
+Branch: refs/heads/master
