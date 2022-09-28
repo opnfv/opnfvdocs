@@ -15,8 +15,6 @@ reports.
 Project release notes:
 ----------------------
 
-:ref:`Airship Release Notes <airship-releasenotes>`
-
 :ref:`Barometer Release Notes <barometer-releasenotes>`
 
 :ref:`CIRV-SDV Release Notes <cirv-sdv-releasenotes>`
