@@ -6,7 +6,7 @@ author = 'Anuket Project of Linux Foundation Networking'
 extensions = ['sphinx.ext.intersphinx',
               'sphinx.ext.autosectionlabel'
              ]
-html_theme = "sphinx_material"
+html_theme = "piccolo_theme"
 exclude_patterns = [
     '**/.tox',
     'templates',                     # suppress warning that these files are not included in any toctree
