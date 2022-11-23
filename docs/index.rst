@@ -4,23 +4,39 @@
 Anuket Documentation
 ====================
 
-The Anuket project facilitates the development and evolution
-of cloud components across various open source ecosystems.
-Through preparation of reference specifications,
-system level integration, testing and deployment, Anuket creates
-reference implementations and conformance tests to accelerate the
-transformation of enterprise
-and service provider networks. Participation is open to anyone,
-whether you are an employee of a member company or just passionate
-about network transformation.
+The mission of the Anuket project is to empower the global communications community by creating and developing reference
+cloud infrastructure models, architectures, tools, and programs to deliver network services faster, more reliably, and
+securely.
+
+Anuket approaches its mission by providing a set of cloud infrastructure reference
+specifications, reference implementations, conformance tests, testing tools, testing frameworks and implementation
+projects.
+
+.. image:: /images/Anuket-structure.png
+   :alt: Project structure of Anuket
+
+
+Participation is open to anyone, whether you are an employee of a member company or just passionate about network
+transformation.
+
+Documentation for Anuket Users
+-----------------------------
 
 Anuket Specifications
-----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 :doc:`Anuket Specifications <cntt:index>`
 
+
+Implementation projects
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Implementation projects address specific problems in the cloud technology relevant for the community and provide a
+reuseable implementation.
+
+
 Installation Guides and More
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 1
@@ -31,7 +47,7 @@ Installation Guides and More
 
 
 Testing Frameworks
-------------------
+~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 1
@@ -40,7 +56,7 @@ Testing Frameworks
    testing/testing-dev
 
 Infrastructure
---------------
+~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 1
@@ -49,8 +65,11 @@ Infrastructure
    infrastructure/ci
 ..   infrastructure/xci
 
+Documentation for Anuket contributors
+-------------------------------------
+
 Developer Guide
----------------
+~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 1
