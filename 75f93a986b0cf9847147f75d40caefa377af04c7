@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d12bd94_024ba0a8",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-11-24T21:33:35Z",
+      "side": 1,
+      "message": "typo: specifications",
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0a550d47_d1086ea6",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-11-24T21:33:35Z",
+      "side": 1,
+      "message": "StorPerf has been archived, if I am not mistaken.",
+      "range": {
+        "startLine": 71,
+        "startChar": 32,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2655004d_48e41aae",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-11-24T21:33:35Z",
+      "side": 1,
+      "message": "cloud",
+      "range": {
+        "startLine": 71,
+        "startChar": 104,
+        "endLine": 71,
+        "endChar": 109
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "63722e06_6c899ac7",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-11-24T21:33:35Z",
+      "side": 1,
+      "message": "an",
+      "range": {
+        "startLine": 72,
+        "startChar": 62,
+        "endLine": 72,
+        "endChar": 65
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
