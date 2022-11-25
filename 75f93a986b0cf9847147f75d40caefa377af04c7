@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "067095f7_fc6e4d1c",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-11-25T09:17:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2d12bd94_024ba0a8",
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0a550d47_d1086ea6",
         "filename": "docs/index.rst",
         "patchSetId": 2
@@ -65,6 +83,54 @@
     },
     {
       "key": {
+        "uuid": "89599d26_8f2e6a9f",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-11-25T09:17:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2655004d_48e41aae",
+      "range": {
+        "startLine": 71,
+        "startChar": 104,
+        "endLine": 71,
+        "endChar": 109
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dc77f068_ab95010c",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-11-25T09:17:37Z",
+      "side": 1,
+      "message": "Humm, okay I remove it from here, but it is really confusing that it is still listed as active project in https://wiki.anuket.io/display/HOME/Projects",
+      "parentUuid": "0a550d47_d1086ea6",
+      "range": {
+        "startLine": 71,
+        "startChar": 32,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "63722e06_6c899ac7",
         "filename": "docs/index.rst",
         "patchSetId": 2
@@ -85,6 +151,30 @@
       "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4de28a45_89987962",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-11-25T09:17:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "63722e06_6c899ac7",
+      "range": {
+        "startLine": 72,
+        "startChar": 62,
+        "endLine": 72,
+        "endChar": 65
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
