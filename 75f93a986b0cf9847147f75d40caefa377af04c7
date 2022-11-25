@@ -131,6 +131,30 @@
     },
     {
       "key": {
+        "uuid": "e0f1f15a_82a5c462",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-11-25T09:33:38Z",
+      "side": 1,
+      "message": "I guess that page is outdated or rather this is a bug. I recall that the TSC archived StorPerf mid of last year: https://wiki.anuket.io/display/HOME/2021-06-22+TSC+Agenda+and+Minutes",
+      "parentUuid": "dc77f068_ab95010c",
+      "range": {
+        "startLine": 71,
+        "startChar": 32,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "63722e06_6c899ac7",
         "filename": "docs/index.rst",
         "patchSetId": 2
