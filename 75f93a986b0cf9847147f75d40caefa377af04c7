@@ -155,6 +155,30 @@
     },
     {
       "key": {
+        "uuid": "9c7dd90e_921c2d94",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-12-09T12:30:01Z",
+      "side": 1,
+      "message": "Yes, indeed the page was outdated. I updated it now. Thanks for the reference.",
+      "parentUuid": "e0f1f15a_82a5c462",
+      "range": {
+        "startLine": 71,
+        "startChar": 32,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "75f93a986b0cf9847147f75d40caefa377af04c7",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "63722e06_6c899ac7",
         "filename": "docs/index.rst",
         "patchSetId": 2
