@@ -1,7 +1,7 @@
 .. _opnfv-featureprojects:
 
-OPNFV Projects
-==============
+Anuket Projects
+===============
 
 Availability
 ------------
@@ -17,9 +17,3 @@ Barometer
 * :doc:`Barometer Config Guide <barometer:release/configguide/index>`
 * :doc:`Barometer User Guide <barometer:release/userguide/index>`
 * :doc:`Barometer Design Guide <barometer:development/design/index>`
-
-Edgecloud
----------
-
-* :doc:`Edgecloud Overview <edgecloud:index>`
-* :doc:`Edgecloud Requirements <edgecloud:development/requirements/index>`

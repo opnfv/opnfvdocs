@@ -114,8 +114,6 @@ To switch between the secure world and the normal world, Intel provides SMX
 Instructions, while ARM uses SMC. Programmatically, they all achieve very
 similar results.
 
-Read more about Trusted Execution Environments `here. <http://www.openvirtualization.org/open-source-arm-trustzone.html>`_
-
 `NIST SP800-147 <http://csrc.nist.gov/publications/nistpubs/800-147/NIST-SP800-147-April2011.pdf>`_
 , is a  guidelines for firmware security, to ensure that the firmware itself is secure.
 
