@@ -4,109 +4,49 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 
 ======================
-OPNFV Testing Overview
+Anuket Testing Overview
 ======================
 
 Introduction
 ============
 
-Testing is one of the key activities in OPNFV and includes unit, feature,
+Testing is one of the key activities in Anuket and includes unit, feature,
 component, system level testing for development, automated deployment,
 performance characterization and stress testing.
 
 Test projects are dedicated to provide frameworks, tooling and test-cases categorized as
 functional, performance or compliance testing. Test projects fulfill different roles such as
 verifying VIM functionality, benchmarking components and platforms or analysis of measured
-KPIs for OPNFV release scenarios.
+KPIs for Anuket release scenarios.
 
 Feature projects also provide their own test suites that either run independently or within a
 test project.
 
-This document details the OPNFV testing ecosystem, describes common test components used
-by individual OPNFV projects and provides links to project specific documentation.
+This document details the Anuket testing ecosystem, describes common test components used
+by individual Anuket projects and provides links to project specific documentation.
 
 
-The OPNFV Testing Ecosystem
+The Anuket Testing Ecosystem
 ===========================
 
-The OPNFV testing projects are represented in the following diagram:
+The Anuket testing projects are represented in the following diagram:
 
 .. figure:: ../../images/OPNFV_testing_working_group.png
    :align: center
-   :alt: Overview of OPNFV Testing projects
+   :alt: Overview of Anuket Testing projects
 
 The major testing projects are described in the table below:
 
 +----------------+---------------------------------------------------------+
 |  Project       |   Description                                           |
 +================+=========================================================+
-| Bottlenecks    | This project aims to find system bottlenecks by testing |
-|                | and verifying OPNFV infrastructure in a staging         |
-|                | environment before committing it to a production        |
-|                | environment. Instead of debugging a deployment in       |
-|                | production environment, an automatic method for         |
-|                | executing benchmarks which plans to validate the        |
-|                | deployment during staging is adopted. This project      |
-|                | forms a staging framework to find bottlenecks and to do |
-|                | analysis of the OPNFV infrastructure.                   |
-+----------------+---------------------------------------------------------+
-| CPerf          | SDN Controller benchmarks and performance testing,      |
-|                | applicable to controllers in general. Collaboration of  |
-|                | upstream controller testing experts, external test tool |
-|                | developers and the standards community. Primarily       |
-|                | contribute to upstream/external tooling, then add jobs  |
-|                | to run those tools on OPNFV's infrastructure.           |
-+----------------+---------------------------------------------------------+
-| Dovetail       | This project intends to define and provide a set of     |
-|                | OPNFV related validation criteria/tests that will       |
-|                | provide input for the OPNFV Complaince Verification     |
-|                | Program.  The Dovetail project is executed with the     |
-|                | guidance and oversight of the Complaince and            |
-|                | Certification (C&C) committee and work to secure the    |
-|                | goals of the C&C committee for each release. The        |
-|                | project intends to incrementally define qualification   |
-|                | criteria that establish the foundations of how one is   |
-|                | able to measure the ability to utilize the OPNFV        |
-|                | platform, how the platform itself should behave, and    |
-|                | how applications may be deployed on the platform.       |
-+----------------+---------------------------------------------------------+
 | Functest       | This project deals with the functional testing of the   |
 |                | VIM and NFVI. It leverages several upstream test suites |
 |                | (OpenStack, ODL, ONOS, etc.) and can be used by feature |
 |                | project to launch feature test suites in CI/CD.         |
 |                | The project is used for scenario validation.            |
 +----------------+---------------------------------------------------------+
-| NFVbench       | NFVbench is a compact and self contained data plane     |
-|                | performance measurement tool for OpensStack based NFVi  |
-|                | platforms. It is agnostic of the NFVi distribution,     |
-|                | Neutron networking implementation and hardware.         |
-|                | It runs on any Linux server with a DPDK compliant       |
-|                | NIC connected to the NFVi platform data plane and       |
-|                | bundles a highly efficient software traffic generator.  |
-|                | Provides a fully automated measurement of most common   |
-|                | packet paths at any level of scale and load using       |
-|                | RFC-2544. Available as a Docker container with simple   |
-|                | command line and REST interfaces.                       |
-|                | Easy to use as it takes care of most of the guesswork   |
-|                | generally associated to data plane benchmarking.        |
-|                | Can run in any lab or in production environments.       |
-+----------------+---------------------------------------------------------+
-| QTIP           | QTIP as the project for "Platform Performance           |
-|                | Benchmarking" in OPNFV aims to provide user a simple    |
-|                | indicator for performance, supported by comprehensive   |
-|                | testing data and transparent calculation formula.       |
-|                | It provides a platform with common services for         |
-|                | performance benchmarking which helps users to build     |
-|                | indicators by themselves with ease.                     |
-+----------------+---------------------------------------------------------+
-| StorPerf       | The purpose of this project is to provide a tool to     |
-|                | measure block and object storage performance in an NFVI.|
-|                | When complemented with a characterization of typical VF |
-|                | storage performance requirements, it can provide        |
-|                | pass/fail thresholds for test, staging, and production  |
-|                | NFVI environments.                                      |
-+----------------+---------------------------------------------------------+
-| VSPERF         | VSPERF is an OPNFV project that provides an automated   |
+| VSPERF         | VSPERF is an Anuket project that provides an automated   |
 |                | test-framework and comprehensive test suite based on    |
 |                | Industry Test Specifications for measuring NFVI         |
 |                | data-plane performance. The data-path includes switching|
@@ -121,16 +61,6 @@ The major testing projects are described in the table below:
 |                | packet processing components and for pre-deployment     |
 |                | evaluation of the NFV platform data-path.               |
 +----------------+---------------------------------------------------------+
-| Yardstick      | The goal of the Project is to verify the infrastructure |
-|                | compliance when running VNF applications. NFV Use Cases |
-|                | described in ETSI GS NFV 001 show a large variety of    |
-|                | applications, each defining specific requirements and   |
-|                | complex configuration on the underlying infrastructure  |
-|                | and test tools.The Yardstick concept decomposes typical |
-|                | VNF work-load performance metrics into a number of      |
-|                | characteristics/performance vectors, which each of them |
-|                | can be represented by distinct test-cases.              |
-+----------------+---------------------------------------------------------+
 
 
 ===============================
@@ -140,8 +70,8 @@ Testing Working Group Resources
 Test Results Collection Framework
 =================================
 
-Any test project running in the global OPNFV lab infrastructure and is
-integrated with OPNFV CI can push test results to the community Test Database
+Any test project running in the global Anuket lab infrastructure and is
+integrated with Anuket CI can push test results to the community Test Database
 using a common Test API. This database can be used to track the evolution of
 testing and analyse test runs to compare results across installers, scenarios
 and between technically and geographically diverse hardware environments.
@@ -195,12 +125,12 @@ The following collections are declared in this database:
 * projects: the list of projects providing test cases
 * test cases: the test cases related to a given project
 * results: the results of the test cases
-* scenarios: the OPNFV scenarios tested in CI
+* scenarios: the Anuket scenarios tested in CI
 
 This database can be used by any project through the Test API.
 Please note that projects may also use additional databases. The Test
 Database is mainly use to collect CI test results and generate scenario
-trust indicators. The Test Database is also cloned for OPNFV Plugfests in
+trust indicators. The Test Database is also cloned for Anuket Plugfests in
 order to provide a private datastore only accessible to Plugfest participants.
 
 
@@ -265,7 +195,7 @@ The reporting page for the test projects is http://testresults.opnfv.org/reporti
    :align: center
    :alt: Testing group reporting page
 
-This page provides reporting per OPNFV release and per testing project.
+This page provides reporting per Anuket release and per testing project.
 
 .. figure:: ../../images/reportingMaster.png
    :align: center
@@ -310,63 +240,13 @@ contains raw results.
 The dashboard can be used in addition to the reporting page (high level view) to allow
 the creation of specific graphs according to what the test owner wants to show.
 
-In Brahmaputra, a basic dashboard was created in Functest.
-In Colorado, Yardstick used Grafana (time based graphs) and ELK (complex
-graphs).
-Since Danube, the OPNFV testing community decided to adopt the ELK framework and to
-use Bitergia for creating highly flexible dashboards `[TST5]`_.
-
-.. figure:: ../../images/DashboardBitergia.png
-   :align: center
-   :alt: Testing group testcase catalog
-
-
-.. include:: ./energy-monitoring.rst
-
-
-OPNFV Test Group Information
-============================
-
-For more information or to participate in the OPNFV test community please see the
-following:
-
-wiki: https://wiki.opnfv.org/testing
-
-mailing list: test-wg@lists.opnfv.org
-
-IRC channel: #opnfv-testperf
-
-weekly meeting (https://wiki.opnfv.org/display/meetings/TestPerf):
- * Usual time: Every Thursday 15:00-16:00 UTC / 7:00-8:00 PST
 
 =======================
 Reference Documentation
 =======================
 
-+----------------+---------------------------------------------------------+
-|  Project       |   Documentation links                                   |
-+================+=========================================================+
-| Bottlenecks    | https://wiki.opnfv.org/display/bottlenecks/Bottlenecks  |
-+----------------+---------------------------------------------------------+
-| CPerf          | https://wiki.opnfv.org/display/cperf                    |
-+----------------+---------------------------------------------------------+
-| Dovetail       | https://wiki.opnfv.org/display/dovetail                 |
-+----------------+---------------------------------------------------------+
-| Functest       | https://wiki.opnfv.org/display/functest/                |
-+----------------+---------------------------------------------------------+
-| NFVbench       | https://wiki.opnfv.org/display/nfvbench/                |
-+----------------+---------------------------------------------------------+
-| QTIP           | https://wiki.opnfv.org/display/qtip                     |
-+----------------+---------------------------------------------------------+
-| StorPerf       | https://wiki.opnfv.org/display/storperf/Storperf        |
-+----------------+---------------------------------------------------------+
-| VSPERF         | https://wiki.opnfv.org/display/vsperf                   |
-+----------------+---------------------------------------------------------+
-| Yardstick      | https://wiki.opnfv.org/display/yardstick/Yardstick      |
-+----------------+---------------------------------------------------------+
 
-
-`[TST1]`_: OPNFV web site
+`[TST1]`_: Anuket web site
 
 `[TST2]`_: TestAPI code repository link in releng-testresults
 
@@ -374,10 +254,7 @@ Reference Documentation
 
 `[TST4]`_: Testcase catalog
 
-`[TST5]`_: Testing group dashboard
-
-.. _`[TST1]`: http://www.opnfv.org
+.. _`[TST1]`: http://www.anuket.org
 .. _`[TST2]`: https://git.opnfv.org/releng-testresults
 .. _`[TST3]`: http://artifacts.opnfv.org/releng/docs/testapi.html
 .. _`[TST4]`: http://testresults.opnfv.org/testing/index.html#!/select/visual
-.. _`[TST5]`: https://opnfv.biterg.io:443/goto/283dba93ca18e95964f852c63af1d1ba

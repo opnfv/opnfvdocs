@@ -47,7 +47,6 @@ Infrastructure
 
    infrastructure/overview
    infrastructure/ci
-..   infrastructure/xci
 
 Developer Guide
 ---------------
