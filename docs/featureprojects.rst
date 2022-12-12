@@ -1,7 +1,7 @@
 .. _opnfv-featureprojects:
 
-OPNFV Projects
-==============
+Anuket Projects
+===============
 
 Availability
 ------------
