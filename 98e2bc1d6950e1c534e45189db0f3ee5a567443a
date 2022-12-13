@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "27c084e8_67396fc0",
+        "filename": "docs/infrastructure/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-12-13T08:28:15Z",
+      "side": 1,
+      "message": "We do not have an Infra WG either. I think we should replace it with \"Anuket\" or \"the community\" or something like that.",
+      "revId": "98e2bc1d6950e1c534e45189db0f3ee5a567443a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}

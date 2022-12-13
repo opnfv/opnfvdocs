@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4de993e7_c14ba285",
+        "filename": "docs/featureprojects.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-12-13T08:28:15Z",
+      "side": 0,
+      "message": "Shouldn\u0027t we remove this?",
+      "revId": "336083df2e5ed55b32d204d9e797c5e6684e238b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18f9ce82_2d06bcd2",
+        "filename": "docs/testing/ecosystem/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2022-12-13T08:28:15Z",
+      "side": 0,
+      "message": "How about ViNePERF? With the intro text from their wiki \"ViNePerf provides an automated test-framework and comprehensive test suite based on industry standards for measuring the data-plane performance in different cloud environments. Dataplane in a cloud includes different switching technologies with physical and virtual network interfaces, and carries traffic to and from workloads running as virtual-machines and containers. The architecture of ViNePerf is agnostic of cloud-type, switching-technology, and traffic-generator. ViNePerf allows user to customize the test-cases, network-topology, workload-deployment, hardware-configuration, and the versions of the software components such vswitch, vnf, cnf, cni, etc. ViNePerf can be used both pre-deployment and post-deployment of the cloud. Though ViNePerf architecture is designed for evaluation of dataplane of clouds in Lab environments, it can also be in production clouds.  ViNePerf methods follows standards developed by the IETF and ETSI NFV, and contribute to the development of new standards.\"",
+      "revId": "336083df2e5ed55b32d204d9e797c5e6684e238b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
