@@ -16,6 +16,24 @@
       "revId": "98e2bc1d6950e1c534e45189db0f3ee5a567443a",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69bdc4c2_160e0c43",
+        "filename": "docs/infrastructure/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 585
+      },
+      "writtenOn": "2022-12-13T14:14:12Z",
+      "side": 1,
+      "message": "yes, I agree. I removed some references to the Infra WG, but I missed a few here. Included in next patchset.",
+      "parentUuid": "27c084e8_67396fc0",
+      "revId": "98e2bc1d6950e1c534e45189db0f3ee5a567443a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
