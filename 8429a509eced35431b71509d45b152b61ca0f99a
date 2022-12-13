@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "860a3769_6fdac3b4",
+        "filename": "docs/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 3543
+      },
+      "writtenOn": "2022-12-13T20:35:47Z",
+      "side": 1,
+      "message": "Recommend the following text: \n\n* Reference Architecture (RA1) for OpenStack based cloud infrastructure - a specification of an OpenStack cloud \n  infrastructure based on the requirements of the Reference Model\n* Reference Conformance (RC1) for RA1 based Implementations - an automatic conformance testing framework to test RC1 \n  conformance of OpenStack cloud infrastrucutres and their workloads\n* Reference Implementation based on RA1 specifications (RI1) - a blueprint to build an OpenStack cloud based on the\n  requirements of the RA1 specifications\n* Reference Architecture (RA2) for Kubernetes based cloud infrastructure - a specification of a Kubernetes container\n  orchestration platform based on the requirements of the Reference Model\n* Reference Conformance (RC2) for RA2 based Implementations - an automatic conformance testing framework to test RC2\n  conformance of Kubernetes container orchestration platforms and their workloads",
+      "revId": "8429a509eced35431b71509d45b152b61ca0f99a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "30e8c959_2dab4041",
+        "filename": "docs/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3543
+      },
+      "writtenOn": "2022-12-13T20:35:47Z",
+      "side": 1,
+      "message": "change \"problems\" to \"needs\"",
+      "revId": "8429a509eced35431b71509d45b152b61ca0f99a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "28dd768b_72086222",
+        "filename": "docs/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 3543
+      },
+      "writtenOn": "2022-12-13T20:35:47Z",
+      "side": 1,
+      "message": "add space to \"test suite\"",
+      "revId": "8429a509eced35431b71509d45b152b61ca0f99a",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
