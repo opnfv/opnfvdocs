@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d77a9cc6_9bcb981b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3405
+      },
+      "writtenOn": "2022-12-21T08:57:14Z",
+      "side": 1,
+      "message": "The main issue is the powerpoint document added in tree with concerns. Not the count policy.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 6
+      },
+      "revId": "f391a35bbed0cc50641bc75629fd8b7311e3be04",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": true
+    }
+  ]
+}
