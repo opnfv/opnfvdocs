@@ -1,0 +1,9 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Scot Steele <scotsteele@microsoft.com>
+Code-Review+2: Georg Kunz <georg.kunz@ericsson.com>
+Code-Review+2: Gergely Csatari <gergely.csatari@nokia.com>
+Submitted-by: Gergely Csatari <gergely.csatari@nokia.com>
+Submitted-at: Mon, 09 Jan 2023 14:44:28 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/c/opnfvdocs/+/73644
+Project: opnfvdocs
+Branch: refs/heads/master
