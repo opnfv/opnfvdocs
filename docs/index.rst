@@ -31,13 +31,13 @@ projects.
 Participation is open to anyone, whether you are an employee of a member company or just passionate about network
 transformation.
 
-Documentation for Anuket Users
+Documentation for Anuket users
 ------------------------------
 
 These documents are targeted to the users of the different Anuket sub-projects and here they are organized by
 sub-project categories.
 
-Anuket Specifications
+Anuket specifications
 ~~~~~~~~~~~~~~~~~~~~~
 
 :doc:`Anuket Specifications <cntt:index>` provide reference specifications for cloud infrastructures and their
@@ -57,6 +57,13 @@ workloads. The specifications are organized to the following documents:
 * Reference Implementation based on RA2 specifications (RI2) - a blueprint to build a Kubernetes container orchestration
   platform based on the RA2 specificcations.
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   release/installation.introduction
+   release/userguide.introduction
+   release/release-notes
 
 Implementation projects
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,27 +72,20 @@ Implementation projects address specific needs in the cloud technology relevant 
 reuseable implementation. The implementation projects have their release notes, installation and user guides in the
 aggregated documentation set referred here:
 
-.. toctree::
-   :maxdepth: 1
+- :doc:`Installation Introduction<release/installation.introduction>`
+- :doc:`User Guide and Configuration Guide<release/userguide.introduction>`
+- :doc:`Release Notes<release/release-notes>`
 
-   release/installation.introduction
-   release/userguide.introduction
-   release/release-notes
-
-
-Testing Projects and Frameworks
+Testing projects and frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Testing projects, like ViNePERF provide testing tools to assess certain characteristics of cloud infrastructures while
 the Functest testing framework provides an automatic test suite to test the cloud infrastructures. The testing projects
 and frameworks have their release notes, installation and user guides in the aggregated documentation set referred here:
 
-.. toctree::
-   :maxdepth: 1
-
-   release/installation.introduction
-   release/userguide.introduction
-   release/release-notes
+- :doc:`Installation Introduction<release/installation.introduction>`
+- :doc:`User Guide and Configuration Guide<release/userguide.introduction>`
+- :doc:`Release Notes<release/release-notes>`
 
 Integration projects
 ~~~~~~~~~~~~~~~~~~~~
@@ -94,12 +94,9 @@ The integration projects integrate OpenStack and Kubernetes based cloud infrastr
 and RI2. The integration projects have their release notes, installation and user guides in the aggregated documentation
 set referred here:
 
-.. toctree::
-   :maxdepth: 1
-
-   release/installation.introduction
-   release/userguide.introduction
-   release/release-notes
+- :doc:`Installation Introduction<release/installation.introduction>`
+- :doc:`User Guide and Configuration Guide<release/userguide.introduction>`
+- :doc:`Release Notes<release/release-notes>`
 
 Documentation for Anuket contributors
 -------------------------------------
