@@ -5,7 +5,7 @@
 .. (c) Anuket CCC, AT&T, and other contributors
 
 ================================
-User Guide & Configuration Guide
+User Guide and Configuration Guide
 ================================
 
 Abstract
@@ -27,7 +27,7 @@ Anuket provides infrastructure deployment options, which are able to be installe
 (VNFs) and cloud native network functions (CNFs). This document intends to help users leverage the features and
 capabilities delivered by Anuket.
 
-Feature Overview
+Feature overview
 ================
 
 The following links outline the feature deliverables from Anuket sub-projects. Each of the sub-projects provide detailed
@@ -40,7 +40,7 @@ are part of the Anuket release.
 
 The `Anuket developer wiki  <http://wiki.anuket.io>`_ might contain more details about the specific projects.
 
-Configuration Guides
+Configuration guides
 ====================
 
 * :ref:`Barometer Configuration Guide <barometer-configguide>`
@@ -49,7 +49,7 @@ Configuration Guides
 * :doc:`ViNePERF Configuration Guide <vineperf:testing/user/configguide/index>`
 * :doc:`Functest Configuration Guide <functest:testing/user/configguide/index>`
 
-User Guides
+User guides
 ===========
 
 * :ref:`Barometer User Guide <barometer-userguide>`

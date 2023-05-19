@@ -4,40 +4,35 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Anuket CCC, AT&T, and other contributors
 
-============
-Installation
-============
+=========================
+Installation Introduction
+=========================
 
-Abstract
-========
+This is the collection of installation documents for Anuket. Use this document for further reference.
 
-This is the collection of installation documents for Anuket, please use this document for further reference.
+Anuket specifications
+=====================
 
-Installation procedures
+It is recommended to use the online version of the :doc:`Anuket Specifications <cntt:index>`.
+
+Implementation projects
 =======================
 
-Each of the sub-projects and test frameworks have their separate installations procedures in their individual
-documentation.
-
 - :ref:`Barometer Installation Guide <barometer-docker-userguide>`
-- :ref:`CIRV-SDV Installation Guide <cirv-sdv-installation>`
-- :ref:`Kuberef Installation Guide <kuberef-installation>`
+
+Testing projects and frameworks
+===============================
+
 - :ref:`ViNePERF installation Guide <vineperf-installation>`
 - :doc:`Functest Installation Guide <functest:testing/user/configguide/index>`
 
-Anuket Test Frameworks
-======================
-
-Testing can be started after the installation of the test frameworks. The basic deployment validation only addresses
-some of the generic capabilities of cloud infrastructures. To run more exhaustive tests some investigation will be
+Testing can be started after the installation of the test frameworks. The basic deployment validation only addresses 
+some of the generic capabilities of cloud infrastructures. To run more exhaustive tests, some investigation is 
 required to select the right test suites to run.
 
-Many of the Anuket test projects provide user-guide documentation and installation instructions in
-:ref:`this document <testing-userguide>`
+For more instructions on using the Anuket testing projects after installation, see :ref:`this document <testing-userguide>`.
 
-Anuket Specifications
-=====================
+Integration projects
+====================
 
-There is no need to "install" the Anuket Reference Specifications! You can view them here:
-
-* :doc:`Anuket Specifications <cntt:index>`
+- :ref:`Kuberef Installation Guide <kuberef-installation>`
