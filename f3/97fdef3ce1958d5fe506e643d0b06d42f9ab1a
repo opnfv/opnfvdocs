@@ -1,0 +1,10 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+1: Georg Kunz <georg.kunz@ericsson.com>
+Code-Review+1: Ildiko Vancsa <ildiko@openstack.org>
+Code-Review+2: Gergely Csatari <gergely.csatari@nokia.com>
+Code-Review+1: Fabio Palumbo <fpalumbo@contractor.linuxfoundation.org>
+Submitted-by: Gergely Csatari <gergely.csatari@nokia.com>
+Submitted-at: Tue, 30 May 2023 14:09:15 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/c/opnfvdocs/+/73861
+Project: opnfvdocs
+Branch: refs/heads/master
