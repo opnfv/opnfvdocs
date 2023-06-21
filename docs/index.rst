@@ -4,6 +4,18 @@
 Anuket Documentation
 ====================
 
+Remembrance of the late Al Morton
+---------------------------------
+
+The Orinoco Anuket Release is dedicated in remembrance of the late Al Morton who was instrumental for the establishment
+of the OPNFV project and in the formation of Anuket from the merger of CNTT and OPNFV.  As  a co-chair of the TSC and
+PTL on the ViNePERF project, he contributed so much to the success of the project.  Al was a tireless believer in Open
+Source and standards, who spent his entire career at Bell Labs and AT&T Laboratories as a researcher and engineer
+extraordinaire.  He will be missed.
+
+Mission and intro
+-----------------
+
 The mission of the Anuket project is to empower the global communications community by creating and developing reference
 cloud infrastructure models, architectures, tools, and programs to deliver network services faster, more reliably, and
 securely.
