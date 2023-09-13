@@ -14,6 +14,7 @@ exclude_patterns = [
     'development/feature.templates'  # suppress warning that these files are not included in any toctree
 ]
 
+# test
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
