@@ -72,7 +72,7 @@ The infrastructure working group oversees such topics as lab management, workflo
 definitions, metrics and tools for OPNFV infrastructure.
 
 Fundamental to the WG is the
-`Pharos Specification <https://wiki.opnfv.org/display/pharos/Pharos+Specification>`_
+`Pharos Specification <http://artifacts.opnfv.org/pharos/docs/pharos-spec.html>`_
 which provides a set of defined lab infrastructures over a geographically and technically
 diverse federated global OPNFV lab.
 
