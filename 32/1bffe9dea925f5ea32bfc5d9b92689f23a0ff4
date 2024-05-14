@@ -1,0 +1,8 @@
+Code-Review+2: Gergely Csatari <gergely.csatari@nokia.com>
+Verified+1: Functest Bot <ced.ollivier@gmail.com>
+Verified+1: Anuket Required GHA Bot <releng+anuket-required-gha@linuxfoundation.org>
+Submitted-by: Gergely Csatari <gergely.csatari@nokia.com>
+Submitted-at: Tue, 14 May 2024 13:32:36 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/c/opnfvdocs/+/74553
+Project: opnfvdocs
+Branch: refs/heads/master
